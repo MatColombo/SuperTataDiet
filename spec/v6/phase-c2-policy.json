@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-c2.1",
+  "name": "TataDiet V6 Phase C.2 - dairy minimum and avocado rotation",
+  "intent": "Guarantee three counted dairy portions and two avocado portions in every rolling 7-day window, while preserving C1 diversity, seasonality and purchase-reuse quality gates.",
+  "counted_dairy": {
+    "included_codes": [
+      "feta",
+      "fiocchi_latte",
+      "grana",
+      "mozzarella",
+      "primosale",
+      "ricotta",
+      "robiola"
+    ],
+    "excluded_codes": [
+      "latte_ps",
+      "yogurt_bianco",
+      "kefir"
+    ],
+    "min_meals_per_rolling_7d": 3,
+    "max_meals_per_rolling_7d": 3,
+    "max_meals_per_day": 1,
+    "min_distinct_dairy_types_per_rolling_7d": 2,
+    "weekly_pattern_positions": [
+      1,
+      4,
+      6
+    ],
+    "fresh_pair_positions": [
+      1,
+      4
+    ],
+    "storage_flexible_position": 6,
+    "fresh_pair_rotation": [
+      "ricotta",
+      "robiola",
+      "mozzarella",
+      "feta",
+      "fiocchi_latte",
+      "primosale"
+    ],
+    "storage_flexible_rotation": [
+      "grana"
+    ]
+  },
+  "avocado": {
+    "ingredient_code": "avocado",
+    "portion_g": 75,
+    "min_portions_per_rolling_7d": 2,
+    "max_portions_per_rolling_7d": 2,
+    "weekly_pattern_positions": [
+      2,
+      5
+    ],
+    "purchase_pair_total_g": 150,
+    "reuse_horizon_days": 4
+  },
+  "purchase_reuse": {
+    "fresh_dairy_pair_quantities_g": {
+      "ricotta": 125,
+      "robiola": 50,
+      "mozzarella": 62.5,
+      "feta": 75,
+      "fiocchi_latte": 100,
+      "primosale": 80
+    },
+    "fresh_dairy_reuse_horizon_days": 4,
+    "fresh_dairy_codes": [
+      "ricotta",
+      "robiola",
+      "mozzarella",
+      "feta",
+      "fiocchi_latte",
+      "primosale"
+    ],
+    "storage_flexible_dairy_codes": [
+      "grana"
+    ],
+    "note": "Fresh dairy portions are paired within 4 days; Grana is storage-flexible. Avocado is paired as 75 g + 75 g within 4 days."
+  },
+  "preserve_c1_gates": true,
+  "explicit_exclusions": [
+    "tofu",
+    "tempeh",
+    "seitan"
+  ]
+}

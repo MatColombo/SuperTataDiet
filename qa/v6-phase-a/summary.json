@@ -1,0 +1,83 @@
+{
+  "counts": {
+    "days": 180,
+    "ingredients_total": 130,
+    "meals": 864,
+    "recipe_families_used": 306,
+    "recipe_versions_total": 631,
+    "recipe_versions_used": 547,
+    "windows_7d": 174
+  },
+  "hard_constraints": {
+    "all_windows_compliant": false,
+    "cheese_dairy": {
+      "day_limit": 1,
+      "days_failed": 117,
+      "max_meals_in_single_day": 5,
+      "max_meals_per_7d": 23,
+      "mean_meals_per_7d": 14.75,
+      "median_meals_per_7d": 15.0,
+      "min_meals_per_7d": 7,
+      "window_limit": 4,
+      "windows_failed": 174
+    },
+    "egg_equivalent": {
+      "limit": 6.0,
+      "max_in_single_day": 9.6,
+      "max_per_7d": 34.2,
+      "mean_per_7d": 17.62,
+      "median_per_7d": 18.0,
+      "min_per_7d": 2.6,
+      "windows_failed": 167
+    },
+    "failure_counts": {
+      "cheese_dairy_day": 117,
+      "cheese_dairy_window": 174,
+      "egg_equivalent": 167,
+      "pasta_rice": 49,
+      "plant_protein_main": 174
+    },
+    "pasta_rice": {
+      "max_meals_per_7d": 10,
+      "mean_meals_per_7d": 5.47,
+      "median_meals_per_7d": 5.0,
+      "min_meals_per_7d": 2,
+      "minimum": 5,
+      "windows_failed": 49
+    },
+    "plant_protein_main": {
+      "max_meals_per_7d": 1,
+      "mean_meals_per_7d": 0.12,
+      "median_meals_per_7d": 0.0,
+      "min_meals_per_7d": 0,
+      "minimum": 3,
+      "windows_failed": 174
+    }
+  },
+  "occurrence_counts": {
+    "dairy_meals": 379,
+    "egg_meals": 198,
+    "pasta_rice_primary_meals": 138,
+    "plant_protein_main_meals": 3
+  },
+  "phase": "V6-A",
+  "policy_version": "6.0.0-phase-a.1",
+  "semantic_classification": {
+    "used_recipe_versions_pasta_rice_primary": 130,
+    "used_recipe_versions_plant_protein_main": 3,
+    "used_recipe_versions_with_dairy": 231,
+    "used_recipe_versions_with_egg": 162
+  },
+  "soft_constraints": {
+    "off_season_occurrences": 39,
+    "recipe_repeats_within_2d": 18,
+    "recipe_repeats_within_7d": 216,
+    "warning_counts": {
+      "egg_daily_spread": 73,
+      "ingredient_concentration": 750,
+      "pasta_rice_balance": 158,
+      "primary_protein_concentration": 90
+    }
+  },
+  "source_dataset_version": "tatadiet-base-v1"
+}

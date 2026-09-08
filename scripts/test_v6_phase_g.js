@@ -1,0 +1,21 @@
+const assert=require('assert');
+const core=require('../static/assets/js/v6-diary-core.js');
+function event(id,time,title,kcal=300){return {id,actualDate:'2026-09-08',sourceDate:'2026-09-08',time,mealType:'Pasto',recipeId:`r:${id}`,recipeVersionId:`v:${id}`,title,nutrition:{energyKcal:kcal,proteinG:20,carbohydrateG:30,fatG:10,fiberG:5}};}
+const events=[event('m1','08:00','Colazione'),event('m2','13:00','Pranzo'),event('m3','20:00','Cena')];
+let entries=core.mergePlannedEvents(events,null);
+assert.strictEqual(entries.length,3);
+assert.strictEqual(core.dayStats(entries).signal,'gray');
+entries[0].status='followed'; entries[1].status='partial';
+let stats=core.dayStats(entries);
+assert.strictEqual(stats.signal,'yellow');
+assert.strictEqual(stats.loggedCount,2); assert.strictEqual(stats.plannedCount,3); assert.strictEqual(stats.adherencePct,75); assert.strictEqual(stats.completionPct,67);
+entries[2].status='followed'; stats=core.dayStats(entries); assert.strictEqual(stats.signal,'yellow'); assert.strictEqual(stats.adherencePct,83);
+entries.forEach(e=>e.status='followed'); stats=core.dayStats(entries); assert.strictEqual(stats.signal,'green'); assert.strictEqual(stats.adherencePct,100);
+entries.forEach(e=>e.status='not-followed'); stats=core.dayStats(entries); assert.strictEqual(stats.signal,'red'); assert.strictEqual(stats.adherencePct,0);
+const manual=core.createManualEntry('2026-09-08',{title:'Pizza',energyKcal:750},'x'); entries.push(manual); stats=core.dayStats(entries); assert.strictEqual(stats.manualCount,1); assert.strictEqual(stats.plannedCount,3); assert.strictEqual(stats.adherencePct,0);
+const stored={entries:[{...core.createPlannedEntry(events[0],{}),status:'followed'},{...core.createPlannedEntry(event('old','10:00','Vecchio'),{}),status:'partial'}]};
+const merged=core.mergePlannedEvents(events,stored); assert(merged.some(e=>e.sourceMealId==='old'&&e.orphaned)); assert(merged.some(e=>e.sourceMealId==='m1'&&e.status==='followed'));
+const summary=core.summaryForViews([{entries,stats:core.dayStats(entries)},{entries:core.mergePlannedEvents(events,null),stats:core.dayStats(core.mergePlannedEvents(events,null))}]);
+assert.strictEqual(summary.days,2); assert.strictEqual(summary.loggedDays,1); assert.strictEqual(summary.manualMeals,1);
+assert.strictEqual(core.compactEntries(core.mergePlannedEvents(events,null)).length,0);
+console.log(JSON.stringify({status:'ok',phase:'V6-G',checks:{day_signals:true,completion:true,manual_excluded_from_adherence:true,historical_snapshot:true,rolling_summary_core:true}},null,2));

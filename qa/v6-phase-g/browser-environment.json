@@ -1,0 +1,9 @@
+{
+  "status": "blocked-by-environment",
+  "phase": "V6-G",
+  "browser": "/usr/bin/chromium",
+  "http_navigation": "ERR_BLOCKED_BY_ADMINISTRATOR",
+  "file_navigation": "ERR_BLOCKED_BY_ADMINISTRATOR",
+  "indexeddb_on_about_blank": "SecurityError: access denied for opaque origin",
+  "impact": "No reliable browser E2E can be executed locally. Core/store/static regressions are release gates; browser smoke is deferred to Phase H/deploy."
+}

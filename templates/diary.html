@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="diary-page" data-diary-shell>
+  <header class="page-header diary-page-header">
+    <div>
+      <p class="eyebrow">Storico personale</p>
+      <h1>Diario</h1>
+      <p>Registra in pochi secondi come è andata la giornata, annota sostituzioni o pasti fuori ricettario e rivedi l'aderenza con semafori immediati.</p>
+    </div>
+  </header>
+
+  <div class="status-card" data-diary-loading>
+    <strong>Caricamento diario…</strong>
+    <span>Sto collegando il diario al piano personale effettivo.</span>
+  </div>
+  <div class="status-card is-warning" data-diary-error hidden></div>
+
+  <div data-diary-app hidden>
+    <section class="diary-summary-grid" aria-label="Riepilogo diario">
+      <article><span>Ultimi 7 giorni</span><strong data-diary-summary-7>—</strong><small data-diary-summary-7-note>Aderenza registrata</small></article>
+      <article><span>Ultimi 30 giorni</span><strong data-diary-summary-30>—</strong><small data-diary-summary-30-note>Aderenza registrata</small></article>
+      <article><span>Pasti registrati</span><strong data-diary-summary-meals>0</strong><small data-diary-summary-meals-note>0 pianificati</small></article>
+      <article><span>Giorni completi</span><strong data-diary-summary-days>0</strong><small data-diary-summary-days-note>fino alla data selezionata</small></article>
+    </section>
+
+    <section class="diary-layout">
+      <aside class="diary-calendar-card">
+        <div class="diary-calendar-toolbar">
+          <button class="calendar-nav-button" type="button" data-diary-month-prev aria-label="Mese precedente">←</button>
+          <div><p class="eyebrow">Panoramica</p><h2 data-diary-month-title>Mese</h2></div>
+          <button class="calendar-nav-button" type="button" data-diary-month-next aria-label="Mese successivo">→</button>
+        </div>
+        <div class="diary-weekdays" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>G</span><span>V</span><span>S</span><span>D</span></div>
+        <div class="diary-month-grid" data-diary-calendar></div>
+        <div class="diary-legend" aria-label="Legenda semafori">
+          <span><i class="diary-dot green"></i> Seguita</span>
+          <span><i class="diary-dot yellow"></i> Parziale / incompleta</span>
+          <span><i class="diary-dot red"></i> Fuori piano</span>
+          <span><i class="diary-dot gray"></i> Non compilata</span>
+        </div>
+      </aside>
+
+      <div class="diary-detail-column">
+        <section class="diary-day-card">
+          <header class="diary-day-header">
+            <button class="button ghost compact" type="button" data-diary-prev-day>← Giorno</button>
+            <div>
+              <p class="eyebrow" data-diary-shift>Giornata</p>
+              <h2 data-diary-date>Data</h2>
+              <div class="diary-day-score" data-diary-day-score></div>
+            </div>
+            <button class="button ghost compact" type="button" data-diary-next-day>Giorno →</button>
+          </header>
+          <div class="diary-day-actions">
+            <button class="button secondary compact" type="button" data-diary-mark-all>Segna tutti seguiti</button>
+            <a class="button ghost compact" data-diary-open-plan href="#">Apri giornata pianificata</a>
+          </div>
+          <div class="diary-meal-list" data-diary-meals></div>
+        </section>
+
+        <section class="diary-manual-card">
+          <div class="section-heading">
+            <div><p class="eyebrow">Fuori ricettario</p><h2>Aggiungi un pasto manuale</h2></div>
+          </div>
+          <form class="diary-manual-form" data-diary-manual-form>
+            <label>Ora<input type="time" name="time"></label>
+            <label>Tipo pasto<input type="text" name="mealType" placeholder="Es. Cena fuori"></label>
+            <label class="wide">Cosa hai mangiato<input type="text" name="title" required placeholder="Es. Pizza margherita"></label>
+            <label>kcal<input type="number" min="0" step="1" name="energyKcal" inputmode="decimal"></label>
+            <label>Proteine g<input type="number" min="0" step="0.1" name="proteinG" inputmode="decimal"></label>
+            <label>Carboidrati g<input type="number" min="0" step="0.1" name="carbohydrateG" inputmode="decimal"></label>
+            <label>Grassi g<input type="number" min="0" step="0.1" name="fatG" inputmode="decimal"></label>
+            <label>Fibre g<input type="number" min="0" step="0.1" name="fiberG" inputmode="decimal"></label>
+            <label class="wide">Nota<input type="text" name="note" placeholder="Facoltativa"></label>
+            <div class="wide diary-form-actions"><button class="button primary" type="submit">Aggiungi al diario</button></div>
+          </form>
+        </section>
+
+        <section class="diary-comment-card">
+          <div class="section-heading"><div><p class="eyebrow">Nota del giorno</p><h2>Commento</h2></div></div>
+          <textarea rows="4" data-diary-comment placeholder="Come è andata? Fame, organizzazione, turno, pasti fuori…"></textarea>
+          <div class="diary-form-actions"><button class="button secondary" type="button" data-diary-save-comment>Salva commento</button><span data-diary-feedback aria-live="polite"></span></div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+{% endblock %}

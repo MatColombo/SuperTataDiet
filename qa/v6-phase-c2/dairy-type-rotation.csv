@@ -1,0 +1,8 @@
+﻿ingredient_code,ingredient_name,occurrences,distinct_days,total_quantity_g,isolated_fresh_occurrences,minimum_semester_occurrences,status
+feta,feta,8,8,600.0,0,6,OK
+fiocchi_latte,fiocchi di latte,8,8,800.0,0,6,OK
+grana,Grana Padano o Parmigiano,25,25,625.0,0,,OK
+mozzarella,mozzarella vaccina,8,8,500.0,0,6,OK
+primosale,formaggio primosale,10,10,800.0,0,6,OK
+ricotta,ricotta vaccina,10,10,1250.0,0,6,OK
+robiola,robiola,8,8,400.0,0,6,OK

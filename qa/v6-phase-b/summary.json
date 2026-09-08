@@ -1,0 +1,144 @@
+{
+  "catalog": {
+    "added": {
+      "cheese_free_versions": 84,
+      "egg_and_cheese_free_versions": 84,
+      "egg_free_versions": 84,
+      "families": 84,
+      "pasta_primary_families": 36,
+      "pasta_primary_versions": 36,
+      "plant_protein_main_families": 40,
+      "plant_protein_main_versions": 40,
+      "rice_primary_families": 12,
+      "rice_primary_versions": 12,
+      "versions": 84
+    },
+    "after": {
+      "cheese_free_versions": 400,
+      "egg_and_cheese_free_versions": 290,
+      "egg_free_versions": 469,
+      "families": 390,
+      "pasta_primary_families": 52,
+      "pasta_primary_versions": 52,
+      "plant_protein_main_families": 43,
+      "plant_protein_main_versions": 43,
+      "rice_primary_families": 98,
+      "rice_primary_versions": 126,
+      "versions": 631
+    },
+    "before": {
+      "cheese_free_versions": 316,
+      "egg_and_cheese_free_versions": 206,
+      "egg_free_versions": 385,
+      "families": 306,
+      "pasta_primary_families": 16,
+      "pasta_primary_versions": 16,
+      "plant_protein_main_families": 3,
+      "plant_protein_main_versions": 3,
+      "rice_primary_families": 86,
+      "rice_primary_versions": 114,
+      "versions": 547
+    }
+  },
+  "checks": {
+    "breakfast_snack_all_egg_cheese_free": true,
+    "breakfast_snack_energy_range": true,
+    "breakfast_snack_target": true,
+    "declared_seasonality_valid": true,
+    "main_energy_range": true,
+    "manifest_plan_checksum_current": true,
+    "moderate_fiber_new_mains": true,
+    "monthly_main_coverage": true,
+    "monthly_plant_coverage": true,
+    "new_main_all_cheese_free": true,
+    "new_main_all_egg_free": true,
+    "new_pasta_primary": true,
+    "new_plant_protein_main": true,
+    "new_recipe_families": true,
+    "new_rice_primary": true,
+    "new_safe_main_pool": true,
+    "no_duplicate_new_compositions": true,
+    "no_duplicate_titles": true,
+    "one_fixed_version_per_new_family": true,
+    "plan_template_unchanged_from_phase_a": true,
+    "source_occurrences_empty": true
+  },
+  "duplicate_signature_groups": [],
+  "duplicate_titles": [],
+  "failures": [],
+  "monthly_coverage": [
+    {
+      "month": 9,
+      "month_label": "Settembre",
+      "new_breakfast_snack_candidates": 15,
+      "new_main_candidates": 35,
+      "new_pasta_candidates": 18,
+      "new_plant_main_candidates": 21,
+      "new_rice_candidates": 6
+    },
+    {
+      "month": 10,
+      "month_label": "Ottobre",
+      "new_breakfast_snack_candidates": 15,
+      "new_main_candidates": 62,
+      "new_pasta_candidates": 32,
+      "new_plant_main_candidates": 36,
+      "new_rice_candidates": 11
+    },
+    {
+      "month": 11,
+      "month_label": "Novembre",
+      "new_breakfast_snack_candidates": 16,
+      "new_main_candidates": 65,
+      "new_pasta_candidates": 33,
+      "new_plant_main_candidates": 40,
+      "new_rice_candidates": 12
+    },
+    {
+      "month": 12,
+      "month_label": "Dicembre",
+      "new_breakfast_snack_candidates": 16,
+      "new_main_candidates": 60,
+      "new_pasta_candidates": 31,
+      "new_plant_main_candidates": 37,
+      "new_rice_candidates": 12
+    },
+    {
+      "month": 1,
+      "month_label": "Gennaio",
+      "new_breakfast_snack_candidates": 16,
+      "new_main_candidates": 60,
+      "new_pasta_candidates": 31,
+      "new_plant_main_candidates": 37,
+      "new_rice_candidates": 12
+    },
+    {
+      "month": 2,
+      "month_label": "Febbraio",
+      "new_breakfast_snack_candidates": 16,
+      "new_main_candidates": 60,
+      "new_pasta_candidates": 31,
+      "new_plant_main_candidates": 37,
+      "new_rice_candidates": 12
+    }
+  ],
+  "new_main": {
+    "count": 68,
+    "energy_kcal_max": 502.6,
+    "energy_kcal_median": 435.0,
+    "energy_kcal_min": 332.4,
+    "fiber_g_max": 11.9
+  },
+  "new_roles": {
+    "breakfast_snack": 16,
+    "main_other": 8,
+    "pasta_animal": 20,
+    "plant_other": 12,
+    "plant_pasta": 16,
+    "plant_rice": 12
+  },
+  "phase": "V6-B",
+  "plan_days_modified": 0,
+  "policy_version": "6.0.0-phase-b.1",
+  "status": "pass"
+}

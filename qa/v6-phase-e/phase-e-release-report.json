@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "phase": "V6-E",
+  "policy_version": "6.0.0-phase-e.1",
+  "checks": {
+    "manifest_extension": true,
+    "base_c2_byte_identity": true,
+    "published_policy": true,
+    "published_runtime": true,
+    "safe_script_order": true,
+    "composer_uses_v6_planner": true,
+    "day_manager_uses_v6_planner": true,
+    "legacy_automatic_scaling_disabled": true,
+    "service_worker_assets": true
+  },
+  "performance": {
+    "indexMs": 9.7,
+    "matrixMedianMs": 298,
+    "matrixP95Ms": 543,
+    "matrixMaxMs": 543
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "phase": "V6-E",
+  "operations": 96,
+  "finalDays": 180,
+  "elapsedMs": 2846.7,
+  "checks": {
+    "continuous_dates": true,
+    "unique_ids": true,
+    "structural_shifts": true,
+    "full_undo": true,
+    "full_redo": true,
+    "performance_regression_fixed": true
+  }
+}

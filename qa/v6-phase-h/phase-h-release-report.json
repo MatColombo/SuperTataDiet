@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "phase": "V6-H",
+  "release": "6.0.0",
+  "checks": {
+    "release_version_coherent": true,
+    "baseline_c2_byte_identity": true,
+    "manifest_h_extension": true,
+    "published_h_policy": true,
+    "indexeddb_schema_v2": true,
+    "backup_schema_v2": true,
+    "legacy_db_name_retained": true,
+    "user_facing_branding_v6": true,
+    "offline_core_v6_complete": true,
+    "diary_pwa_shortcut": true,
+    "prior_phase_reports_green": true
+  }
+}

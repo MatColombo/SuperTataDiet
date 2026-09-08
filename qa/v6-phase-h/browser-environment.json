@@ -1,0 +1,11 @@
+{
+  "status": "not-run-no-deploy-url",
+  "phase": "V6-H",
+  "local_browser": "/usr/bin/chromium",
+  "local_navigation": "blocked-by-administrator",
+  "known_error": "ERR_BLOCKED_BY_ADMINISTRATOR",
+  "deploy_test_script": "scripts/test_v6_phase_h_browser.py",
+  "phase_f_browser_script": "scripts/test_v6_phase_f_browser.py",
+  "manual_matrix": "qa/v6-phase-h/manual-review.csv",
+  "release_impact": "Automated/static release gate is complete; visual/browser smoke is an explicit post-deploy verification because no browser-accessible deployment URL was supplied."
+}

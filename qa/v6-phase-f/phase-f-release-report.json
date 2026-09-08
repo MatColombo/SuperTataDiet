@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "phase": "V6-F",
+  "policy_version": "6.0.0-phase-f.1",
+  "checks": {
+    "base_c2_byte_identity": true,
+    "converter_on_all_recipe_pages": true,
+    "read_only_converter": true,
+    "ingredient_and_alias_search": true,
+    "rolling_energy_picker_guard": true,
+    "full_plan_commit_guard": true,
+    "fixed_manual_serving": true,
+    "future_shortcuts": true,
+    "service_worker_assets": true
+  }
+}

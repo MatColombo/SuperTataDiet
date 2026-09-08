@@ -1,0 +1,72 @@
+{
+  "counts": {
+    "days": 180,
+    "ingredients_total": 131,
+    "meals": 864,
+    "recipe_families_used": 299,
+    "recipe_versions_total": 797,
+    "recipe_versions_used": 343,
+    "windows_7d": 174
+  },
+  "hard_constraints": {
+    "all_windows_compliant": true,
+    "cheese_dairy": {
+      "day_limit": 1,
+      "days_failed": 0,
+      "max_meals_in_single_day": 1,
+      "max_meals_per_7d": 3,
+      "mean_meals_per_7d": 3,
+      "median_meals_per_7d": 3.0,
+      "min_meals_per_7d": 3,
+      "window_limit": 4,
+      "windows_failed": 0
+    },
+    "egg_equivalent": {
+      "limit": 6.0,
+      "max_in_single_day": 2.0,
+      "max_per_7d": 5.2,
+      "mean_per_7d": 1.51,
+      "median_per_7d": 1.6,
+      "min_per_7d": 0.0,
+      "windows_failed": 0
+    },
+    "failure_counts": {},
+    "pasta_rice": {
+      "max_meals_per_7d": 7,
+      "mean_meals_per_7d": 6.16,
+      "median_meals_per_7d": 6.0,
+      "min_meals_per_7d": 5,
+      "minimum": 5,
+      "windows_failed": 0
+    },
+    "plant_protein_main": {
+      "max_meals_per_7d": 3,
+      "mean_meals_per_7d": 3,
+      "median_meals_per_7d": 3.0,
+      "min_meals_per_7d": 3,
+      "minimum": 3,
+      "windows_failed": 0
+    }
+  },
+  "occurrence_counts": {
+    "dairy_meals": 77,
+    "egg_meals": 28,
+    "pasta_rice_primary_meals": 159,
+    "plant_protein_main_meals": 78
+  },
+  "phase": "V6-A",
+  "policy_version": "6.0.0-phase-a.1",
+  "semantic_classification": {
+    "used_recipe_versions_pasta_rice_primary": 76,
+    "used_recipe_versions_plant_protein_main": 32,
+    "used_recipe_versions_with_dairy": 41,
+    "used_recipe_versions_with_egg": 20
+  },
+  "soft_constraints": {
+    "off_season_occurrences": 0,
+    "recipe_repeats_within_2d": 0,
+    "recipe_repeats_within_7d": 0,
+    "warning_counts": {}
+  },
+  "source_dataset_version": "tatadiet-base-v2"
+}

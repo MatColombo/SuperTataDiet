@@ -1,0 +1,3342 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-c1.1",
+  "name": "TataDiet V6 Phase C.1 variety and shopping-reuse recipe tranche",
+  "intent": "Expand real ingredient diversity while keeping fixed portions, seasonal fit, moderate fiber and practical purchase reuse. No tofu, tempeh or seitan.",
+  "constraints": {
+    "fixed_serving": 1.0,
+    "forbidden_ingredients": [
+      "tofu",
+      "tempeh",
+      "seitan"
+    ],
+    "prefer_existing_catalog_ingredients": true,
+    "avoid_singleton_specialty_purchase": true
+  },
+  "recipes": [
+    {
+      "title": "Yogurt con melagrana e semi di zucca",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 150
+        },
+        {
+          "code": "melagrana",
+          "quantity": 90
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kefir con kiwi e semi di zucca",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 180
+        },
+        {
+          "code": "kiwi",
+          "quantity": 120
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Latte, avena e melagrana",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "avena",
+          "quantity": 35
+        },
+        {
+          "code": "melagrana",
+          "quantity": 100
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Yogurt, avena e mandarino",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "avena",
+          "quantity": 35
+        },
+        {
+          "code": "mandarino",
+          "quantity": 150
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kefir con castagne e kiwi",
+      "meal_types": [
+        "Colazione",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 170
+        },
+        {
+          "code": "castagna",
+          "quantity": 65
+        },
+        {
+          "code": "kiwi",
+          "quantity": 110
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Yogurt con cachi e fiocchi di avena",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "cachi",
+          "quantity": 130
+        },
+        {
+          "code": "avena",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Latte e semolino con arancia",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "semolino",
+          "quantity": 45
+        },
+        {
+          "code": "arancia",
+          "quantity": 140
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 10,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kefir con melagrana e avena",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 180
+        },
+        {
+          "code": "melagrana",
+          "quantity": 100
+        },
+        {
+          "code": "avena",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kiwi e semi di zucca",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "kiwi",
+          "quantity": 150
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 12
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Arancia e semi di zucca",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "arancia",
+          "quantity": 150
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Melagrana e nocciole",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "melagrana",
+          "quantity": 100
+        },
+        {
+          "code": "nocciole",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Mandarini e pistacchi",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "mandarino",
+          "quantity": 150
+        },
+        {
+          "code": "pistacchi",
+          "quantity": 12
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Castagne in porzione piccola",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "castagna",
+          "quantity": 70
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kefir e melagrana",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 150
+        },
+        {
+          "code": "melagrana",
+          "quantity": 80
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Yogurt e kiwi",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 125
+        },
+        {
+          "code": "kiwi",
+          "quantity": 100
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Latte e cachi",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 150
+        },
+        {
+          "code": "cachi",
+          "quantity": 100
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Crackers con tonno al naturale",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "crackers",
+          "quantity": 25
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pane di segale con tonno e indivia",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "pane_segale",
+          "quantity": 35
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 60
+        },
+        {
+          "code": "indivia",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Mini tortilla con tonno e indivia",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "tortilla",
+          "quantity": 40
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 60
+        },
+        {
+          "code": "indivia",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 8,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Mini tortilla con cannellini e radicchio",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "tortilla",
+          "quantity": 40
+        },
+        {
+          "code": "cannellini",
+          "quantity": 55
+        },
+        {
+          "code": "radicchio",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 8,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Patata dolce e semi di zucca",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "patata_dolce",
+          "quantity": 130
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 15,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Mais e tonno in coppetta",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "mais",
+          "quantity": 80
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Crackers con crema semplice di cannellini",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "crackers",
+          "quantity": 25
+        },
+        {
+          "code": "cannellini",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pane di segale con sardine e radicchio",
+      "meal_types": [
+        "Mini-pasto pre-sonno",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pane_segale",
+          "quantity": 40
+        },
+        {
+          "code": "sardine",
+          "quantity": 80
+        },
+        {
+          "code": "radicchio",
+          "quantity": 70
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 8,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Tortilla con cannellini, mais e indivia",
+      "meal_types": [
+        "Mini-pasto pre-sonno",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "tortilla",
+          "quantity": 50
+        },
+        {
+          "code": "cannellini",
+          "quantity": 70
+        },
+        {
+          "code": "mais",
+          "quantity": 50
+        },
+        {
+          "code": "indivia",
+          "quantity": 80
+        },
+        {
+          "code": "olio",
+          "quantity": 4
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 10,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Patata dolce con yogurt bianco",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "patata_dolce",
+          "quantity": 150
+        },
+        {
+          "code": "yogurt_bianco",
+          "quantity": 125
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 15,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta e borlotti con cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 60
+        },
+        {
+          "code": "borlotti",
+          "quantity": 80
+        },
+        {
+          "code": "cicoria",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_pasta",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso e cannellini con barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 65
+        },
+        {
+          "code": "cannellini",
+          "quantity": 80
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_rice",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta e lenticchie con cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 60
+        },
+        {
+          "code": "lenticchie",
+          "quantity": 70
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 110
+        },
+        {
+          "code": "olio",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_pasta",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso e borlotti con indivia",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_jasmine",
+          "quantity": 65
+        },
+        {
+          "code": "borlotti",
+          "quantity": 80
+        },
+        {
+          "code": "indivia",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_rice",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Gnocchi con cannellini e radicchio",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "gnocchi",
+          "quantity": 180
+        },
+        {
+          "code": "cannellini",
+          "quantity": 80
+        },
+        {
+          "code": "radicchio",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 20,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Polenta con lenticchie e rape",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 65
+        },
+        {
+          "code": "lenticchie",
+          "quantity": 70
+        },
+        {
+          "code": "rapa",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Farro con lupini e barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 60
+        },
+        {
+          "code": "lupini",
+          "quantity": 70
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Couscous con fave e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 65
+        },
+        {
+          "code": "fave",
+          "quantity": 80
+        },
+        {
+          "code": "cicoria",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 20,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Gnocchi con lupini e cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "gnocchi",
+          "quantity": 180
+        },
+        {
+          "code": "lupini",
+          "quantity": 55
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 20,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Tortilla con cannellini, mais e indivia - piatto unico",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "tortilla",
+          "quantity": 55
+        },
+        {
+          "code": "cannellini",
+          "quantity": 80
+        },
+        {
+          "code": "mais",
+          "quantity": 70
+        },
+        {
+          "code": "indivia",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 15,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso e fave con carciofi",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 65
+        },
+        {
+          "code": "fave",
+          "quantity": 80
+        },
+        {
+          "code": "carciofo",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_rice",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta e borlotti con cavolo cappuccio",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 60
+        },
+        {
+          "code": "borlotti",
+          "quantity": 80
+        },
+        {
+          "code": "cavolo_cappuccio",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_pasta",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso e lenticchie con rape",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_integrale",
+          "quantity": 65
+        },
+        {
+          "code": "lenticchie",
+          "quantity": 70
+        },
+        {
+          "code": "rapa",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_rice",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Patata dolce con lupini e bietole",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "patata_dolce",
+          "quantity": 220
+        },
+        {
+          "code": "lupini",
+          "quantity": 55
+        },
+        {
+          "code": "bietola",
+          "quantity": 100
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 35
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta con sardine e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "sardine",
+          "quantity": 90
+        },
+        {
+          "code": "cicoria",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso basmati con polpo e indivia",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 70
+        },
+        {
+          "code": "polpo",
+          "quantity": 160
+        },
+        {
+          "code": "indivia",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Orzo con cozze e cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "orzo",
+          "quantity": 65
+        },
+        {
+          "code": "cozze",
+          "quantity": 180
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 140
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Farro con coniglio e barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 65
+        },
+        {
+          "code": "coniglio",
+          "quantity": 130
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Couscous con maiale e rape",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 65
+        },
+        {
+          "code": "maiale_filetto",
+          "quantity": 130
+        },
+        {
+          "code": "rapa",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso jasmine con trota e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_jasmine",
+          "quantity": 65
+        },
+        {
+          "code": "trota",
+          "quantity": 120
+        },
+        {
+          "code": "cicoria",
+          "quantity": 140
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Gnocchi con merluzzo e cavolo cappuccio",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "gnocchi",
+          "quantity": 200
+        },
+        {
+          "code": "merluzzo",
+          "quantity": 120
+        },
+        {
+          "code": "cavolo_cappuccio",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 20,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Patata dolce con tacchino e cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "patata_dolce",
+          "quantity": 180
+        },
+        {
+          "code": "tacchino",
+          "quantity": 140
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 9
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Polenta con sgombro e indivia",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 60
+        },
+        {
+          "code": "sgombro",
+          "quantity": 100
+        },
+        {
+          "code": "indivia",
+          "quantity": 140
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta integrale con coniglio e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta_integrale",
+          "quantity": 65
+        },
+        {
+          "code": "coniglio",
+          "quantity": 130
+        },
+        {
+          "code": "cicoria",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso con cozze e barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 70
+        },
+        {
+          "code": "cozze",
+          "quantity": 180
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Orzo con maiale e cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "orzo",
+          "quantity": 65
+        },
+        {
+          "code": "maiale_filetto",
+          "quantity": 130
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 140
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con gnocchi, maiale e cavoletti",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "gnocchi",
+          "quantity": 240
+        },
+        {
+          "code": "maiale_filetto",
+          "quantity": 150
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con farro, coniglio e barbabietola",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 100
+        },
+        {
+          "code": "coniglio",
+          "quantity": 150
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con couscous, sardine e indivia",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 95
+        },
+        {
+          "code": "sardine",
+          "quantity": 120
+        },
+        {
+          "code": "indivia",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con polenta, manzo e cicoria",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 100
+        },
+        {
+          "code": "manzo_magro",
+          "quantity": 150
+        },
+        {
+          "code": "cicoria",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con orzo, cozze e barbabietola",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "orzo",
+          "quantity": 85
+        },
+        {
+          "code": "cozze",
+          "quantity": 250
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Brunch con riso, polpo e cavolo cappuccio",
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 100
+        },
+        {
+          "code": "polpo",
+          "quantity": 200
+        },
+        {
+          "code": "cavolo_cappuccio",
+          "quantity": 180
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta con cozze e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "cozze",
+          "quantity": 180
+        },
+        {
+          "code": "cicoria",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta con polpo e cavolo cappuccio",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "polpo",
+          "quantity": 170
+        },
+        {
+          "code": "cavolo_cappuccio",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso jasmine con polpo e barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_jasmine",
+          "quantity": 65
+        },
+        {
+          "code": "polpo",
+          "quantity": 170
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso basmati con cozze e indivia",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 70
+        },
+        {
+          "code": "cozze",
+          "quantity": 180
+        },
+        {
+          "code": "indivia",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Kefir con castagne e melagrana",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 170
+        },
+        {
+          "code": "castagna",
+          "quantity": 70
+        },
+        {
+          "code": "melagrana",
+          "quantity": 70
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Latte, avena, castagne e melagrana",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "avena",
+          "quantity": 45
+        },
+        {
+          "code": "castagna",
+          "quantity": 50
+        },
+        {
+          "code": "melagrana",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 8,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Latte, corn flakes, kiwi e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "cornflakes",
+          "quantity": 45
+        },
+        {
+          "code": "kiwi",
+          "quantity": 120
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Kefir, avena, castagne e mandarino",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 180
+        },
+        {
+          "code": "avena",
+          "quantity": 40
+        },
+        {
+          "code": "castagna",
+          "quantity": 50
+        },
+        {
+          "code": "mandarino",
+          "quantity": 120
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Yogurt, avena, cachi e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "avena",
+          "quantity": 40
+        },
+        {
+          "code": "cachi",
+          "quantity": 120
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Pane di segale, tonno e patata dolce",
+      "meal_types": [
+        "Colazione",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pane_segale",
+          "quantity": 60
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 80
+        },
+        {
+          "code": "patata_dolce",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 15,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Cena completa con polenta, coniglio e barbabietola",
+      "meal_types": [
+        "Cena",
+        "Brunch"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 110
+        },
+        {
+          "code": "coniglio",
+          "quantity": 150
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "curation_brunch",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Latte, corn flakes e melagrana",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "cornflakes",
+          "quantity": 50
+        },
+        {
+          "code": "melagrana",
+          "quantity": 80
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Kefir, avena, uva e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 180
+        },
+        {
+          "code": "avena",
+          "quantity": 40
+        },
+        {
+          "code": "uva",
+          "quantity": 120
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Yogurt, corn flakes, melagrana e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "cornflakes",
+          "quantity": 45
+        },
+        {
+          "code": "melagrana",
+          "quantity": 80
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Latte, semolino, prugne e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "semolino",
+          "quantity": 50
+        },
+        {
+          "code": "prugna",
+          "quantity": 150
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 8,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Kefir, avena, fichi e nocciole",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 180
+        },
+        {
+          "code": "avena",
+          "quantity": 40
+        },
+        {
+          "code": "fico",
+          "quantity": 150
+        },
+        {
+          "code": "nocciole",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Latte, avena, kiwi e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "latte_ps",
+          "quantity": 220
+        },
+        {
+          "code": "avena",
+          "quantity": 45
+        },
+        {
+          "code": "kiwi",
+          "quantity": 120
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Yogurt, avena, kiwi e castagne",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "avena",
+          "quantity": 40
+        },
+        {
+          "code": "kiwi",
+          "quantity": 120
+        },
+        {
+          "code": "castagna",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Semolino con castagne, melagrana e semi di zucca",
+      "meal_types": [
+        "Colazione"
+      ],
+      "ingredients": [
+        {
+          "code": "semolino",
+          "quantity": 60
+        },
+        {
+          "code": "castagna",
+          "quantity": 50
+        },
+        {
+          "code": "melagrana",
+          "quantity": 70
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "role": "breakfast_snack",
+      "method": "breakfast",
+      "cuisine": "Italiana",
+      "prep_minutes": 10,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Crackers con lupini",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "crackers",
+          "quantity": 25
+        },
+        {
+          "code": "lupini",
+          "quantity": 55
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Pane di segale con lupini e radicchio",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "pane_segale",
+          "quantity": 35
+        },
+        {
+          "code": "lupini",
+          "quantity": 60
+        },
+        {
+          "code": "radicchio",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mini tortilla con lupini e indivia",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "tortilla",
+          "quantity": 40
+        },
+        {
+          "code": "lupini",
+          "quantity": 55
+        },
+        {
+          "code": "indivia",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 8,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mais, cannellini e crackers",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "mais",
+          "quantity": 70
+        },
+        {
+          "code": "cannellini",
+          "quantity": 60
+        },
+        {
+          "code": "crackers",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Crackers con borlotti",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "crackers",
+          "quantity": 25
+        },
+        {
+          "code": "borlotti",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Patata dolce e kefir",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "patata_dolce",
+          "quantity": 120
+        },
+        {
+          "code": "kefir",
+          "quantity": 100
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 15,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Pane di segale con sgombro e radicchio",
+      "meal_types": [
+        "Spuntino",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "pane_segale",
+          "quantity": 35
+        },
+        {
+          "code": "sgombro",
+          "quantity": 50
+        },
+        {
+          "code": "radicchio",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Crackers con sardine",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "crackers",
+          "quantity": 20
+        },
+        {
+          "code": "sardine",
+          "quantity": 50
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "savory_snack",
+      "method": "snack",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Yogurt e castagne",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 125
+        },
+        {
+          "code": "castagna",
+          "quantity": 50
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Kefir e corn flakes in porzione piccola",
+      "meal_types": [
+        "Spuntino",
+        "Spuntino notturno"
+      ],
+      "ingredients": [
+        {
+          "code": "kefir",
+          "quantity": 120
+        },
+        {
+          "code": "cornflakes",
+          "quantity": 25
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "breakfast_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 5,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Pasta con maiale e cavolo cappuccio",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "maiale_filetto",
+          "quantity": 130
+        },
+        {
+          "code": "cavolo_cappuccio",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso con coniglio e rape",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_basmati",
+          "quantity": 70
+        },
+        {
+          "code": "coniglio",
+          "quantity": 130
+        },
+        {
+          "code": "rapa",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta con trota e finocchi",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "trota",
+          "quantity": 120
+        },
+        {
+          "code": "finocchio",
+          "quantity": 140
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "pasta_animal",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Riso con sgombro e barbabietola",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "riso_jasmine",
+          "quantity": 65
+        },
+        {
+          "code": "sgombro",
+          "quantity": 90
+        },
+        {
+          "code": "barbabietola",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Polenta con coniglio e cavoletti",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 65
+        },
+        {
+          "code": "coniglio",
+          "quantity": 130
+        },
+        {
+          "code": "cavoletti",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Gnocchi con maiale e cicoria",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "gnocchi",
+          "quantity": 180
+        },
+        {
+          "code": "maiale_filetto",
+          "quantity": 120
+        },
+        {
+          "code": "cicoria",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "main_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Pasta e fave con cavolo nero",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "pasta",
+          "quantity": 65
+        },
+        {
+          "code": "fave",
+          "quantity": 85
+        },
+        {
+          "code": "cavolo_nero",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 7
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_pasta",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 22,
+      "spices": "Minima: erbe aromatiche facoltative"
+    },
+    {
+      "title": "Polenta con fave e bietole",
+      "meal_types": [
+        "Pranzo",
+        "Cena",
+        "Pasto preturno"
+      ],
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 65
+        },
+        {
+          "code": "fave",
+          "quantity": 90
+        },
+        {
+          "code": "bietola",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "plant_other",
+      "method": "main",
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "spices": "Minima: erbe aromatiche facoltative"
+    }
+  ]
+}

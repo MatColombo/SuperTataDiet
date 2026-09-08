@@ -1,0 +1,36 @@
+{
+  "chickpea_plus_hummus_limit": 0.4,
+  "chickpea_plus_hummus_share": 0.25,
+  "fruit_limit": 0.48,
+  "fruit_top3": [
+    [
+      "avocado",
+      52
+    ],
+    [
+      "pera",
+      40
+    ],
+    [
+      "banana",
+      40
+    ]
+  ],
+  "fruit_top3_share": 0.4664,
+  "vegetable_limit": 0.36,
+  "vegetable_top3": [
+    [
+      "spinaci",
+      48
+    ],
+    [
+      "carota",
+      46
+    ],
+    [
+      "zucca",
+      42
+    ]
+  ],
+  "vegetable_top3_share": 0.2996
+}

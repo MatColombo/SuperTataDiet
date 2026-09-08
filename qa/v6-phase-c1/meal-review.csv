@@ -1,0 +1,865 @@
+﻿giorno,mese,turno,pasto,nome_ricetta,kcal,ingredienti_principali,uova_albume,latticini_conteggiati,proteine_g,fibre_g,modificato_vs_phase_c
+1,Settembre,D1,Colazione,"Kefir, avena, uva e semi di zucca",393.3,kefir naturale · uva · fiocchi d'avena,NO,NO,16.9,5.9,SI
+1,Settembre,D1,Spuntino,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+1,Settembre,D1,Pranzo,Pasta e cannellini con spinaci,420.5,spinaci · cannellini cotti e sgocciolati · pasta secca,NO,NO,18.6,9.7,NO
+1,Settembre,D1,Spuntino,Crackers con lupini,172.9,lupini scolati · crackers classici,NO,NO,10.8,2.3,SI
+1,Settembre,D1,Cena,Farro con coniglio e barbabietola,524.2,barbabietola · coniglio disossato · farro secco,NO,NO,39.5,8.8,SI
+2,Settembre,D2,Colazione,"Uova strapazzate, pane bianco e frutta",361.5,mela · uovo · spinaci ben cotti,SI,NO,19.6,6.2,NO
+2,Settembre,D2,Pranzo,Curry bianco molto delicato di pollo e zucca,435.3,zucca · petto di pollo · riso integrale secco,NO,NO,32.7,2.8,NO
+2,Settembre,D2,Pasto preturno,Coniglio con patate e spinaci,449.5,patate · spinaci · coniglio disossato,NO,NO,36.9,8.8,NO
+2,Settembre,D2,Spuntino notturno,Latte e frutta,156.9,latte parzialmente scremato · pera,NO,NO,6.5,4.0,SI
+2,Settembre,D2,Spuntino notturno,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,SI
+2,Settembre,D2,Mini-pasto pre-sonno,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,SI
+3,Settembre,D3,Brunch,Riso basmati con ceci e carote,490.1,carote · ceci cotti e sgocciolati · riso basmati secco,NO,NO,13.8,11.5,NO
+3,Settembre,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+3,Settembre,D3,Cena,"Brunch completo con farro, tonno e fagiolini",692.0,tonno al naturale sgocciolato · fagiolini · farro secco,NO,NO,56.9,11.4,SI
+4,Settembre,D4,Colazione,French toast delicato con frutta,374.3,fichi freschi · latte parzialmente scremato · pane bianco comune,SI,NO,15.0,5.1,SI
+4,Settembre,D4,Spuntino,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+4,Settembre,D4,Pranzo,Pasta con gamberi e zucchine,435.2,zucchine · gamberi · pasta secca,NO,NO,34.7,3.7,NO
+4,Settembre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+4,Settembre,D4,Cena,Manzo magro con polenta e zucchine,434.5,zucchine · manzo magro · farina di mais per polenta,NO,NO,32.2,3.4,NO
+5,Settembre,D5,Colazione,"Kefir, avena, fichi e nocciole",415.8,kefir naturale · fichi freschi · fiocchi d'avena,NO,NO,15.5,9.4,SI
+5,Settembre,D5,Spuntino,Kefir e melagrana,148.9,kefir naturale · chicchi di melagrana,NO,NO,6.6,3.2,SI
+5,Settembre,D5,Pranzo,Orata con patate e bietole,450.2,patate · bietole · orata,NO,NO,40.8,7.7,NO
+5,Settembre,D5,Spuntino,Melagrana e nocciole,145.8,chicchi di melagrana · nocciole,NO,NO,3.2,5.0,SI
+5,Settembre,D5,Cena,Pasta e borlotti con funghi,425.9,funghi · borlotti cotti e sgocciolati · pasta secca,NO,NO,20.0,8.2,SI
+6,Settembre,D1,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+6,Settembre,D1,Spuntino,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+6,Settembre,D1,Pranzo,Riso jasmine con polpo e barbabietola,497.2,polpo · barbabietola · riso jasmine secco,NO,NO,32.8,4.8,SI
+6,Settembre,D1,Spuntino,Yogurt con melagrana e semi di zucca,225.1,yogurt bianco naturale · chicchi di melagrana · semi di zucca,NO,NO,10.5,4.2,SI
+6,Settembre,D1,Cena,Salmone nordico con patate e zucca,428.9,zucca · salmone · patate,NO,NO,29.4,3.3,NO
+7,Settembre,D2,Colazione,"Latte, corn flakes e frutta",347.2,latte parzialmente scremato · mela · fiocchi di mais semplici,NO,NO,12.4,4.9,NO
+7,Settembre,D2,Pranzo,Grano saraceno con manzo e funghi,426.8,funghi · manzo magro · grano saraceno secco,NO,NO,32.2,7.5,NO
+7,Settembre,D2,Pasto preturno,Manzo magro con pane bianco e zucchine,396.1,zucchine · manzo magro · pane bianco comune,NO,NO,33.7,3.4,NO
+7,Settembre,D2,Spuntino notturno,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+7,Settembre,D2,Spuntino notturno,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,NO
+7,Settembre,D2,Mini-pasto pre-sonno,Patata dolce e kefir,158.2,patata dolce · kefir naturale,NO,NO,5.4,3.6,SI
+8,Settembre,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+8,Settembre,D3,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+8,Settembre,D3,Cena,"Brunch con farro, coniglio e barbabietola",696.9,coniglio disossato · barbabietola · farro secco,NO,NO,48.9,11.2,SI
+9,Settembre,D4,Colazione,"Latte, semolino, prugne e semi di zucca",394.9,latte parzialmente scremato · prugne fresche · semolino di frumento,NO,NO,16.7,4.4,SI
+9,Settembre,D4,Spuntino,Patata dolce con yogurt bianco,207.8,patata dolce · yogurt bianco naturale,NO,NO,7.4,4.5,SI
+9,Settembre,D4,Pranzo,"Pranzo leggero con pollo, patate e fagiolini",422.1,fagiolini · patate · petto di pollo,SI,NO,42.0,9.8,SI
+9,Settembre,D4,Spuntino,Frutta in porzione piccola,74.0,fichi freschi,NO,NO,0.8,2.9,SI
+9,Settembre,D4,Cena,Kofte di tacchino delicati con riso e pomodori,450.7,pomodori · petto di tacchino · riso basmati secco,NO,NO,39.7,3.1,NO
+10,Settembre,D5,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+10,Settembre,D5,Spuntino,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+10,Settembre,D5,Pranzo,Riso basmati con borlotti e spinaci,429.4,spinaci · borlotti cotti e sgocciolati · riso basmati secco,NO,NO,16.8,9.1,NO
+10,Settembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+10,Settembre,D5,Cena,"Brunch con orzo, cozze e barbabietola",655.9,"cozze, parte edibile · barbabietola · orzo perlato secco",NO,NO,42.1,11.0,SI
+11,Settembre,D1,Colazione,Budino di riso casalingo e frutta,326.4,latte parzialmente scremato · mela · riso basmati secco,NO,NO,10.9,3.7,NO
+11,Settembre,D1,Spuntino,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,SI
+11,Settembre,D1,Pranzo,Farro con coniglio e barbabietola,524.2,barbabietola · coniglio disossato · farro secco,NO,NO,39.5,8.8,SI
+11,Settembre,D1,Spuntino,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+11,Settembre,D1,Cena,Pasta con calamari e pomodoro,439.0,pomodori · calamaro · pasta secca,NO,NO,27.8,4.0,NO
+12,Settembre,D2,Colazione,"Uova strapazzate, pane bianco e frutta",354.0,mela · uovo · spinaci ben cotti,SI,NO,19.8,8.1,SI
+12,Settembre,D2,Pranzo,Pollo con polenta e zucca,413.7,zucca · petto di pollo · farina di mais per polenta,NO,NO,35.3,2.5,NO
+12,Settembre,D2,Pasto preturno,Pasta e piselli con spinaci,416.7,spinaci · piselli cotti · pasta secca,NO,NO,18.4,11.6,NO
+12,Settembre,D2,Spuntino notturno,Kefir e corn flakes in porzione piccola,155.2,kefir naturale · fiocchi di mais semplici,NO,NO,6.0,0.8,SI
+12,Settembre,D2,Spuntino notturno,Crackers con lupini,172.9,lupini scolati · crackers classici,NO,NO,10.8,2.3,SI
+12,Settembre,D2,Mini-pasto pre-sonno,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+13,Settembre,D3,Brunch,"Brunch completo con farro, tonno e fagiolini",692.0,tonno al naturale sgocciolato · fagiolini · farro secco,NO,NO,56.9,11.4,NO
+13,Settembre,D3,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,SI
+13,Settembre,D3,Cena,Riso con cozze e barbabietola,530.4,"cozze, parte edibile · barbabietola · riso basmati secco",NO,NO,29.6,5.2,SI
+14,Settembre,D4,Colazione,"Pane di segale, tonno e patata dolce",395.6,patata dolce · tonno al naturale sgocciolato · pane di segale,NO,NO,27.8,7.1,SI
+14,Settembre,D4,Spuntino,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+14,Settembre,D4,Pranzo,Orata con patate e bietole,450.2,patate · bietole · orata,NO,NO,40.8,7.7,NO
+14,Settembre,D4,Spuntino,Melagrana e nocciole,145.8,chicchi di melagrana · nocciole,NO,NO,3.2,5.0,SI
+14,Settembre,D4,Cena,Filetto di maiale con polenta e zucchine,440.4,zucchine · filetto di maiale · farina di mais per polenta,NO,NO,34.4,3.4,NO
+15,Settembre,D5,Colazione,"Kefir, avena, uva e semi di zucca",393.3,kefir naturale · uva · fiocchi d'avena,NO,NO,16.9,5.9,SI
+15,Settembre,D5,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+15,Settembre,D5,Pranzo,Couscous marocchino delicato con tacchino e fagiolini,433.0,fagiolini · petto di tacchino · carote,NO,NO,36.6,9.6,NO
+15,Settembre,D5,Spuntino,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+15,Settembre,D5,Cena,Pasta e borlotti con funghi,425.9,funghi · borlotti cotti e sgocciolati · pasta secca,NO,NO,20.0,8.2,SI
+16,Settembre,D1,Colazione,"Yogurt, corn flakes, melagrana e semi di zucca",378.9,yogurt bianco naturale · chicchi di melagrana · fiocchi di mais semplici,NO,NO,13.7,5.0,SI
+16,Settembre,D1,Spuntino,Patata dolce e kefir,158.2,patata dolce · kefir naturale,NO,NO,5.4,3.6,SI
+16,Settembre,D1,Pranzo,Riso teriyaki delicato con tacchino e melanzane,417.3,melanzane · petto di tacchino · bietole,NO,NO,35.5,6.7,NO
+16,Settembre,D1,Spuntino,Latte e frutta,156.9,latte parzialmente scremato · pera,NO,NO,6.5,4.0,NO
+16,Settembre,D1,Cena,Patata dolce con lupini e bietole,428.3,patata dolce · bietole · lupini scolati,NO,NO,16.9,10.7,SI
+17,Settembre,D2,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+17,Settembre,D2,Pranzo,Riso integrale con lenticchie e zucca,412.3,zucca · lenticchie cotte e sgocciolate · riso integrale secco,NO,NO,13.3,9.3,NO
+17,Settembre,D2,Pasto preturno,Grano saraceno con manzo e funghi,426.8,funghi · manzo magro · grano saraceno secco,NO,NO,32.2,7.5,NO
+17,Settembre,D2,Spuntino notturno,Kefir e melagrana,148.9,kefir naturale · chicchi di melagrana,NO,NO,6.6,3.2,SI
+17,Settembre,D2,Spuntino notturno,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,SI
+17,Settembre,D2,Mini-pasto pre-sonno,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+18,Settembre,D3,Brunch,"Brunch completo con couscous, salmone e zucca",721.8,zucca · salmone · couscous di semola secco,NO,NO,38.3,3.5,NO
+18,Settembre,D3,Spuntino,Yogurt con melagrana e semi di zucca,225.1,yogurt bianco naturale · chicchi di melagrana · semi di zucca,NO,NO,10.5,4.2,SI
+18,Settembre,D3,Cena,Pasta al ragù leggero di manzo,501.1,passata di pomodoro · manzo magro · carote,NO,NO,31.1,6.1,NO
+19,Settembre,D4,Colazione,"Latte, semolino, prugne e semi di zucca",394.9,latte parzialmente scremato · prugne fresche · semolino di frumento,NO,NO,16.7,4.4,SI
+19,Settembre,D4,Spuntino,Crackers con tonno al naturale,177.1,tonno al naturale sgocciolato · crackers classici,NO,NO,17.9,0.8,SI
+19,Settembre,D4,Pranzo,Tacchino con pane bianco e zucca,451.7,zucca · petto di tacchino · pane integrale,NO,NO,40.2,6.1,NO
+19,Settembre,D4,Spuntino,Frutta in porzione piccola,74.0,fichi freschi,NO,NO,0.8,2.9,SI
+19,Settembre,D4,Cena,Pasta e lenticchie con passata e spinaci,436.3,passata di pomodoro · spinaci · lenticchie cotte e sgocciolate,NO,NO,19.3,11.7,NO
+20,Settembre,D5,Colazione,"Yogurt bianco, corn flakes e frutta",250.8,yogurt bianco naturale · uva · fiocchi di mais semplici,NO,NO,7.6,1.8,NO
+20,Settembre,D5,Spuntino,Mini tortilla con tonno e indivia,203.8,tonno al naturale sgocciolato · indivia · tortilla di frumento,NO,NO,19.6,3.1,SI
+20,Settembre,D5,Pranzo,Sogliola con riso e lattuga,407.4,sogliola · lattuga · riso basmati secco,NO,NO,38.9,3.1,NO
+20,Settembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+20,Settembre,D5,Cena,"Brunch completo con patate, pollo e spinaci",666.2,patate · petto di pollo · spinaci,NO,NO,52.9,11.4,NO
+21,Settembre,D1,Colazione,"Uova strapazzate, pane bianco e frutta",368.0,pera · uovo · spinaci ben cotti,SI,NO,19.7,7.1,SI
+21,Settembre,D1,Spuntino,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+21,Settembre,D1,Pranzo,Salmone con polenta e funghi,420.9,funghi · salmone · farina di mais per polenta,NO,NO,30.4,3.0,NO
+21,Settembre,D1,Spuntino,Pane di segale con tonno e indivia,170.4,tonno al naturale sgocciolato · indivia · pane di segale,NO,NO,19.4,3.9,SI
+21,Settembre,D1,Cena,Filetto di maiale con patate e spinaci,458.6,patate · spinaci · filetto di maiale,NO,NO,38.2,8.8,NO
+22,Settembre,D2,Colazione,Colazione leggera con latte e fette classiche,274.7,latte parzialmente scremato · prugne fresche · fette biscottate classiche,NO,NO,10.0,2.5,NO
+22,Settembre,D2,Pranzo,Pasta integrale con lupini e zucca,399.4,zucca · lupini scolati · pasta integrale secca,NO,NO,20.4,7.6,NO
+22,Settembre,D2,Pasto preturno,Branzino con polenta e zucchine,410.5,zucchine · branzino · farina di mais per polenta,NO,NO,36.4,3.4,NO
+22,Settembre,D2,Spuntino notturno,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+22,Settembre,D2,Spuntino notturno,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+22,Settembre,D2,Mini-pasto pre-sonno,"Tortilla con cannellini, mais e indivia",335.9,indivia · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,12.8,9.8,SI
+23,Settembre,D3,Brunch,"Brunch completo con couscous, pollo e carote",692.6,petto di pollo · carote · couscous di semola secco,NO,NO,47.9,7.2,NO
+23,Settembre,D3,Spuntino,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,SI
+23,Settembre,D3,Cena,Kofte di tacchino delicati con riso e carote,485.2,carote · petto di tacchino · riso basmati secco,NO,NO,39.7,5.5,NO
+24,Settembre,D4,Colazione,Kefir con melagrana e avena,298.7,kefir naturale · chicchi di melagrana · fiocchi d'avena,NO,NO,13.1,7.2,SI
+24,Settembre,D4,Spuntino,Latte piccolo,69.0,latte parzialmente scremato,NO,NO,5.0,0.0,SI
+24,Settembre,D4,Pranzo,Sgombro con pane bianco e pomodori,533.2,pomodori · sgombro · albume,SI,NO,37.2,4.0,NO
+24,Settembre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+24,Settembre,D4,Cena,Riso e cannellini con barbabietola,459.4,barbabietola · cannellini cotti e sgocciolati · riso basmati secco,NO,NO,14.6,10.3,SI
+25,Settembre,D5,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+25,Settembre,D5,Spuntino,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+25,Settembre,D5,Pranzo,Pasta con branzino e zucchine,424.3,zucchine · branzino · pasta secca,NO,NO,28.7,3.7,NO
+25,Settembre,D5,Spuntino,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,SI
+25,Settembre,D5,Cena,Farro con coniglio e barbabietola,524.2,barbabietola · coniglio disossato · farro secco,NO,NO,39.5,8.8,SI
+26,Settembre,D1,Colazione,"Pane di segale, tonno e patata dolce",395.6,patata dolce · tonno al naturale sgocciolato · pane di segale,NO,NO,27.8,7.1,SI
+26,Settembre,D1,Spuntino,Crackers con lupini,172.9,lupini scolati · crackers classici,NO,NO,10.8,2.3,SI
+26,Settembre,D1,Pranzo,Coniglio con patate e pomodori,440.5,patate · pomodori · coniglio disossato,NO,NO,33.3,7.0,SI
+26,Settembre,D1,Spuntino,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+26,Settembre,D1,Cena,Pasta e borlotti con funghi,425.9,funghi · borlotti cotti e sgocciolati · pasta secca,NO,NO,20.0,8.2,NO
+27,Settembre,D2,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+27,Settembre,D2,Pranzo,Trota con riso e zucchine,451.2,zucchine · trota · riso basmati secco,NO,NO,34.9,2.5,NO
+27,Settembre,D2,Pasto preturno,Grano saraceno con manzo e funghi,426.8,funghi · manzo magro · grano saraceno secco,NO,NO,32.2,7.5,NO
+27,Settembre,D2,Spuntino notturno,Yogurt con melagrana e semi di zucca,225.1,yogurt bianco naturale · chicchi di melagrana · semi di zucca,NO,NO,10.5,4.2,SI
+27,Settembre,D2,Spuntino notturno,Patata dolce e kefir,158.2,patata dolce · kefir naturale,NO,NO,5.4,3.6,SI
+27,Settembre,D2,Mini-pasto pre-sonno,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+28,Settembre,D3,Brunch,"Brunch completo con farro, tonno e spinaci",642.3,spinaci · tonno al naturale sgocciolato · farro secco,NO,NO,56.5,10.7,NO
+28,Settembre,D3,Spuntino,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,SI
+28,Settembre,D3,Cena,"Brunch completo con orzo, tacchino e zucca",671.9,zucca · petto di tacchino · orzo perlato secco,NO,NO,49.8,9.9,NO
+29,Settembre,D4,Colazione,"Latte, corn flakes e frutta",347.2,latte parzialmente scremato · mela · fiocchi di mais semplici,NO,NO,12.4,4.9,NO
+29,Settembre,D4,Spuntino,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+29,Settembre,D4,Pranzo,Manzo magro con pane bianco e carote,527.7,carote · manzo magro · pane bianco comune,NO,NO,34.8,7.2,NO
+29,Settembre,D4,Spuntino,Melagrana e nocciole,145.8,chicchi di melagrana · nocciole,NO,NO,3.2,5.0,SI
+29,Settembre,D4,Cena,Pasta e lenticchie con passata e spinaci,436.3,passata di pomodoro · spinaci · lenticchie cotte e sgocciolate,NO,NO,19.3,11.7,NO
+30,Settembre,D5,Colazione,"Yogurt bianco, corn flakes e frutta",250.8,yogurt bianco naturale · uva · fiocchi di mais semplici,NO,NO,7.6,1.8,NO
+30,Settembre,D5,Spuntino,Kefir e melagrana,148.9,kefir naturale · chicchi di melagrana,NO,NO,6.6,3.2,SI
+30,Settembre,D5,Pranzo,Poke tiepido con salmone e carote,425.9,carote · salmone · cetriolo senza buccia e semi,NO,NO,25.6,5.5,NO
+30,Settembre,D5,Spuntino,Pane di segale con tonno e indivia,170.4,tonno al naturale sgocciolato · indivia · pane di segale,NO,NO,19.4,3.9,SI
+30,Settembre,D5,Cena,"Brunch completo con couscous, tacchino e spinaci",676.6,petto di tacchino · spinaci · couscous di semola secco,NO,NO,54.8,6.3,NO
+31,Ottobre,D1,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+31,Ottobre,D1,Spuntino,Kefir e corn flakes in porzione piccola,155.2,kefir naturale · fiocchi di mais semplici,NO,NO,6.0,0.8,SI
+31,Ottobre,D1,Pranzo,Riso basmati con lenticchie e broccoli,437.1,broccoli · lenticchie cotte e sgocciolate · riso basmati secco,NO,NO,16.6,11.3,NO
+31,Ottobre,D1,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+31,Ottobre,D1,Cena,Gnocchi con merluzzo e cavolo cappuccio,497.8,gnocchi di patate · cavolo cappuccio · merluzzo,NO,NO,30.6,7.8,SI
+32,Ottobre,D2,Colazione,Yogurt con cachi e fiocchi di avena,314.8,yogurt bianco naturale · cachi · fiocchi d'avena,NO,NO,12.7,7.9,SI
+32,Ottobre,D2,Pranzo,Pasta con gamberi e zucchine,435.2,zucchine · gamberi · pasta secca,NO,NO,34.7,3.7,NO
+32,Ottobre,D2,Pasto preturno,Gnocchi con lupini e cavoletti,440.3,gnocchi di patate · cavoletti di Bruxelles · lupini scolati,NO,NO,18.3,8.9,SI
+32,Ottobre,D2,Spuntino notturno,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+32,Ottobre,D2,Spuntino notturno,Latte e cachi,139.0,latte parzialmente scremato · cachi,NO,NO,5.5,3.6,SI
+32,Ottobre,D2,Mini-pasto pre-sonno,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+33,Ottobre,D3,Brunch,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+33,Ottobre,D3,Spuntino,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,SI
+33,Ottobre,D3,Cena,Pasta e ceci con broccoli,473.5,broccoli · ceci cotti e sgocciolati · pasta secca,NO,NO,19.4,11.9,NO
+34,Ottobre,D4,Colazione,French toast delicato con frutta,385.1,chicchi di melagrana · latte parzialmente scremato · pane bianco comune,SI,NO,16.1,6.4,NO
+34,Ottobre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+34,Ottobre,D4,Pranzo,Curry bianco molto delicato di pollo e zucca,433.1,zucca · petto di pollo · riso basmati secco,NO,NO,33.0,1.7,NO
+34,Ottobre,D4,Spuntino,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,NO
+34,Ottobre,D4,Cena,Orzo con cozze e cavoletti,507.0,"cozze, parte edibile · cavoletti di Bruxelles · orzo perlato secco",NO,NO,34.2,11.2,SI
+35,Ottobre,D5,Colazione,Kefir con castagne e melagrana,291.6,kefir naturale · castagne arrostite · chicchi di melagrana,NO,NO,9.2,6.3,SI
+35,Ottobre,D5,Spuntino,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+35,Ottobre,D5,Pranzo,Polenta con sgombro e indivia,506.7,indivia · sgombro · farina di mais per polenta,NO,NO,25.6,6.4,SI
+35,Ottobre,D5,Spuntino,Pane di segale con lupini e radicchio,175.8,lupini scolati · radicchio · pane di segale,NO,NO,13.2,4.2,SI
+35,Ottobre,D5,Cena,Filetto di maiale con patate e spinaci,458.6,patate · spinaci · filetto di maiale,NO,NO,38.2,8.8,NO
+36,Ottobre,D1,Colazione,"Uova strapazzate, pane bianco e frutta",354.0,mela · uovo · spinaci ben cotti,SI,NO,19.8,8.1,NO
+36,Ottobre,D1,Spuntino,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+36,Ottobre,D1,Pranzo,Pasta e ceci con finocchi,451.5,finocchi · ceci cotti e sgocciolati · pasta secca,NO,NO,16.2,11.4,NO
+36,Ottobre,D1,Spuntino,Crackers con lupini,172.9,lupini scolati · crackers classici,NO,NO,10.8,2.3,SI
+36,Ottobre,D1,Cena,Orzo con maiale e cavoletti,538.1,cavoletti di Bruxelles · filetto di maiale · orzo perlato secco,NO,NO,41.2,11.2,SI
+37,Ottobre,D2,Colazione,"Latte, corn flakes e frutta",347.2,latte parzialmente scremato · mela · fiocchi di mais semplici,NO,NO,12.4,4.9,NO
+37,Ottobre,D2,Pranzo,Sogliola con riso e lattuga,407.4,sogliola · lattuga · riso basmati secco,NO,NO,38.9,3.1,NO
+37,Ottobre,D2,Pasto preturno,Manzo magro con pane bianco e zucchine,396.1,zucchine · manzo magro · pane bianco comune,NO,NO,33.7,3.4,NO
+37,Ottobre,D2,Spuntino notturno,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+37,Ottobre,D2,Spuntino notturno,Castagne in porzione piccola,140.0,castagne arrostite,NO,NO,2.1,3.5,SI
+37,Ottobre,D2,Mini-pasto pre-sonno,Pane di segale con sardine e radicchio,286.1,sardine · radicchio · pane di segale,NO,NO,24.4,3.0,SI
+38,Ottobre,D3,Brunch,Riso basmati con ceci e carote,490.1,carote · ceci cotti e sgocciolati · riso basmati secco,NO,NO,13.8,11.5,NO
+38,Ottobre,D3,Spuntino,Patata dolce con yogurt bianco,207.8,patata dolce · yogurt bianco naturale,NO,NO,7.4,4.5,SI
+38,Ottobre,D3,Cena,"Brunch con gnocchi, maiale e cavoletti",727.4,gnocchi di patate · filetto di maiale · cavoletti di Bruxelles,NO,NO,46.5,10.5,SI
+39,Ottobre,D4,Colazione,Budino di riso casalingo e frutta,332.9,latte parzialmente scremato · pera · riso basmati secco,NO,NO,11.0,4.6,NO
+39,Ottobre,D4,Spuntino,Crackers con tonno al naturale,177.1,tonno al naturale sgocciolato · crackers classici,NO,NO,17.9,0.8,SI
+39,Ottobre,D4,Pranzo,Pasta con sgombro e cavolo cappuccio,475.1,cavolo cappuccio · sgombro · pasta secca,NO,NO,25.3,5.7,NO
+39,Ottobre,D4,Spuntino,Yogurt e castagne,178.8,yogurt bianco naturale · castagne arrostite,NO,NO,6.5,2.5,SI
+39,Ottobre,D4,Cena,Gnocchi con merluzzo e cavolo cappuccio,497.8,gnocchi di patate · cavolo cappuccio · merluzzo,NO,NO,30.6,7.8,SI
+40,Ottobre,D5,Colazione,"Yogurt, banana e mandorle",282.9,yogurt bianco naturale · banana · mandorle,NO,NO,11.1,4.5,NO
+40,Ottobre,D5,Spuntino,Mais e tonno in coppetta,138.4,mais dolce sgocciolato · tonno al naturale sgocciolato,NO,NO,18.3,2.2,SI
+40,Ottobre,D5,Pranzo,Pasta e fave con cavolo nero,443.6,cavolo nero · fave cotte · pasta secca,NO,NO,19.7,10.9,SI
+40,Ottobre,D5,Spuntino,Melagrana e nocciole,145.8,chicchi di melagrana · nocciole,NO,NO,3.2,5.0,SI
+40,Ottobre,D5,Cena,"Brunch completo con patate, manzo e cavolfiore",691.6,patate · manzo magro · cavolfiore,NO,NO,46.0,11.8,NO
+41,Ottobre,D1,Colazione,Porridge piccolo con frutta cotta,307.7,latte parzialmente scremato · pera · fiocchi d'avena,NO,NO,12.6,7.3,NO
+41,Ottobre,D1,Spuntino,Frutta e nocciole,134.2,cachi · nocciole,NO,NO,1.9,5.1,SI
+41,Ottobre,D1,Pranzo,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+41,Ottobre,D1,Spuntino,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+41,Ottobre,D1,Cena,Pollo con riso basmati e finocchi,447.2,finocchi · petto di pollo · riso basmati secco,NO,NO,36.1,5.5,NO
+42,Ottobre,D2,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+42,Ottobre,D2,Pranzo,Polenta con merluzzo e cavolo nero,467.8,cavolo nero · merluzzo · farina di mais per polenta,NO,NO,33.2,7.7,NO
+42,Ottobre,D2,Pasto preturno,Pollo con patate e funghi,413.9,patate · funghi · petto di pollo,NO,NO,39.9,6.6,NO
+42,Ottobre,D2,Spuntino notturno,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+42,Ottobre,D2,Spuntino notturno,Patata dolce e kefir,158.2,patata dolce · kefir naturale,NO,NO,5.4,3.6,SI
+42,Ottobre,D2,Mini-pasto pre-sonno,Mini tortilla con tonno e indivia,203.8,tonno al naturale sgocciolato · indivia · tortilla di frumento,NO,NO,19.6,3.1,SI
+43,Ottobre,D3,Brunch,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+43,Ottobre,D3,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+43,Ottobre,D3,Cena,Pasta e ceci con broccoli,473.5,broccoli · ceci cotti e sgocciolati · pasta secca,NO,NO,19.4,11.9,SI
+44,Ottobre,D4,Colazione,"Pane di segale, robiola e pera",326.9,chicchi di melagrana · pane di segale · robiola,NO,SI,8.6,7.1,NO
+44,Ottobre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+44,Ottobre,D4,Pranzo,Coniglio con patate e pomodori,440.5,patate · pomodori · coniglio disossato,NO,NO,33.3,7.0,NO
+44,Ottobre,D4,Spuntino,Kefir con castagne e melagrana,291.6,kefir naturale · castagne arrostite · chicchi di melagrana,NO,NO,9.2,6.3,SI
+44,Ottobre,D4,Cena,Riso teriyaki delicato con tacchino e melanzane,417.3,melanzane · petto di tacchino · bietole,NO,NO,35.5,6.7,NO
+45,Ottobre,D5,Colazione,"Kefir, avena, uva e semi di zucca",393.3,kefir naturale · uva · fiocchi d'avena,NO,NO,16.9,5.9,SI
+45,Ottobre,D5,Spuntino,Uovo sodo e crackers,148.9,uovo · crackers classici,SI,NO,7.9,0.5,NO
+45,Ottobre,D5,Pranzo,Polpette svedesi leggere con zucca,507.5,patate · zucca · petto di tacchino,SI,NO,44.4,6.3,NO
+45,Ottobre,D5,Spuntino,Pane di segale con tonno e indivia,170.4,tonno al naturale sgocciolato · indivia · pane di segale,NO,NO,19.4,3.9,SI
+45,Ottobre,D5,Cena,Riso basmati con lenticchie e broccoli,437.1,broccoli · lenticchie cotte e sgocciolate · riso basmati secco,NO,NO,16.6,11.3,NO
+46,Ottobre,D1,Colazione,Fette biscottate con robiola e miele,433.4,latte parzialmente scremato · mela · fette biscottate classiche,NO,SI,12.5,4.3,NO
+46,Ottobre,D1,Spuntino,Castagne in porzione piccola,140.0,castagne arrostite,NO,NO,2.1,3.5,SI
+46,Ottobre,D1,Pranzo,Nasello con pane bianco e radicchio,424.2,nasello · radicchio · pane integrale,NO,NO,43.0,6.2,NO
+46,Ottobre,D1,Spuntino,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+46,Ottobre,D1,Cena,Pasta al ragù leggero di manzo,501.1,passata di pomodoro · manzo magro · carote,NO,NO,31.1,6.1,NO
+47,Ottobre,D2,Colazione,Kefir con melagrana e avena,298.7,kefir naturale · chicchi di melagrana · fiocchi d'avena,NO,NO,13.1,7.2,SI
+47,Ottobre,D2,Pranzo,Pasta e lenticchie con cavolo nero,427.3,cavolo nero · lenticchie cotte e sgocciolate · pasta secca,NO,NO,19.2,11.6,NO
+47,Ottobre,D2,Pasto preturno,Branzino con polenta e zucchine,410.5,zucchine · branzino · farina di mais per polenta,NO,NO,36.4,3.4,NO
+47,Ottobre,D2,Spuntino notturno,Latte e cachi,139.0,latte parzialmente scremato · cachi,NO,NO,5.5,3.6,SI
+47,Ottobre,D2,Spuntino notturno,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+47,Ottobre,D2,Mini-pasto pre-sonno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+48,Ottobre,D3,Brunch,Brunch: Kofte di tacchino delicati con riso e radicchio,522.6,radicchio · petto di tacchino · mela,NO,NO,40.6,6.6,NO
+48,Ottobre,D3,Spuntino,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+48,Ottobre,D3,Cena,"Brunch con gnocchi, maiale e cavoletti",727.4,gnocchi di patate · filetto di maiale · cavoletti di Bruxelles,NO,NO,46.5,10.5,SI
+49,Ottobre,D4,Colazione,"Latte, corn flakes e melagrana",346.1,latte parzialmente scremato · chicchi di melagrana · fiocchi di mais semplici,NO,NO,12.1,4.7,SI
+49,Ottobre,D4,Spuntino,Yogurt e castagne,178.8,yogurt bianco naturale · castagne arrostite,NO,NO,6.5,2.5,SI
+49,Ottobre,D4,Pranzo,Filetto di maiale con polenta e zucca,438.9,zucca · filetto di maiale · farina di mais per polenta,NO,NO,34.0,2.5,NO
+49,Ottobre,D4,Spuntino,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+49,Ottobre,D4,Cena,Gnocchi con merluzzo e cavolo cappuccio,497.8,gnocchi di patate · cavolo cappuccio · merluzzo,NO,NO,30.6,7.8,SI
+50,Ottobre,D5,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+50,Ottobre,D5,Spuntino,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+50,Ottobre,D5,Pranzo,Pasta e piselli con spinaci,416.7,spinaci · piselli cotti · pasta secca,NO,NO,18.4,11.6,NO
+50,Ottobre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+50,Ottobre,D5,Cena,"Brunch con orzo, cozze e barbabietola",655.9,"cozze, parte edibile · barbabietola · orzo perlato secco",NO,NO,42.1,11.0,SI
+51,Ottobre,D1,Colazione,"Semolino con castagne, melagrana e semi di zucca",418.8,chicchi di melagrana · semolino di frumento · castagne arrostite,NO,NO,12.3,7.9,SI
+51,Ottobre,D1,Spuntino,Latte e frutta,156.9,latte parzialmente scremato · pera,NO,NO,6.5,4.0,NO
+51,Ottobre,D1,Pranzo,Noodles di riso con pollo e finocchi,422.7,finocchi · petto di pollo · zucchine,NO,NO,31.9,6.2,NO
+51,Ottobre,D1,Spuntino,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+51,Ottobre,D1,Cena,Pollo con riso basmati e finocchi,447.2,finocchi · petto di pollo · riso basmati secco,NO,NO,36.1,5.5,NO
+52,Ottobre,D2,Colazione,Yogurt con avena e mela,305.6,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,13.1,6.6,NO
+52,Ottobre,D2,Pranzo,Merluzzo con patate e cavolfiore,399.3,patate · merluzzo · cavolfiore,NO,NO,37.9,7.8,NO
+52,Ottobre,D2,Pasto preturno,Riso e borlotti con indivia,420.4,indivia · borlotti cotti e sgocciolati · riso jasmine secco,NO,NO,14.0,10.1,SI
+52,Ottobre,D2,Spuntino notturno,Kefir e corn flakes in porzione piccola,155.2,kefir naturale · fiocchi di mais semplici,NO,NO,6.0,0.8,SI
+52,Ottobre,D2,Spuntino notturno,Mais e tonno in coppetta,138.4,mais dolce sgocciolato · tonno al naturale sgocciolato,NO,NO,18.3,2.2,SI
+52,Ottobre,D2,Mini-pasto pre-sonno,"Tortilla con cannellini, mais e indivia",335.9,indivia · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,12.8,9.8,SI
+53,Ottobre,D3,Brunch,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+53,Ottobre,D3,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+53,Ottobre,D3,Cena,Pasta con trota e finocchi,512.3,finocchi · trota · pasta secca,NO,NO,34.4,6.3,SI
+54,Ottobre,D4,Colazione,"Kefir, avena, uva e semi di zucca",393.3,kefir naturale · uva · fiocchi d'avena,NO,NO,16.9,5.9,SI
+54,Ottobre,D4,Spuntino,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+54,Ottobre,D4,Pranzo,Pasta e borlotti con verza,433.4,verza · borlotti cotti e sgocciolati · pasta secca,NO,NO,18.3,11.4,NO
+54,Ottobre,D4,Spuntino,Patata dolce con yogurt bianco,207.8,patata dolce · yogurt bianco naturale,NO,NO,7.4,4.5,SI
+54,Ottobre,D4,Cena,Manzo magro con pane bianco e cavolfiore,461.7,cavolfiore · manzo magro · pane integrale,NO,NO,36.5,8.2,NO
+55,Ottobre,D5,Colazione,Budino di riso casalingo e frutta,326.4,latte parzialmente scremato · mela · riso basmati secco,NO,NO,10.9,3.7,NO
+55,Ottobre,D5,Spuntino,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+55,Ottobre,D5,Pranzo,Trota con riso e broccoli,489.2,broccoli · trota · riso basmati secco,NO,NO,36.9,4.7,NO
+55,Ottobre,D5,Spuntino,Melagrana e nocciole,145.8,chicchi di melagrana · nocciole,NO,NO,3.2,5.0,SI
+55,Ottobre,D5,Cena,Couscous con maiale e rape,523.8,rape · filetto di maiale · couscous di semola secco,NO,NO,37.8,4.7,SI
+56,Ottobre,D1,Colazione,"Latte, avena, castagne e melagrana",426.1,latte parzialmente scremato · chicchi di melagrana · castagne arrostite,NO,NO,17.4,9.7,SI
+56,Ottobre,D1,Spuntino,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+56,Ottobre,D1,Pranzo,Patata dolce con tacchino e cavoletti,440.0,patata dolce · petto di tacchino · cavoletti di Bruxelles,NO,NO,40.6,10.0,SI
+56,Ottobre,D1,Spuntino,Uovo sodo e crackers,148.9,uovo · crackers classici,SI,NO,7.9,0.5,NO
+56,Ottobre,D1,Cena,Gnocchi con lupini e cavoletti,440.3,gnocchi di patate · cavoletti di Bruxelles · lupini scolati,NO,NO,18.3,8.9,SI
+57,Ottobre,D2,Colazione,"Latte, avena e melagrana",320.4,latte parzialmente scremato · chicchi di melagrana · fiocchi d'avena,NO,NO,14.9,7.7,SI
+57,Ottobre,D2,Pranzo,Gnocchi con merluzzo e cavolo cappuccio,497.8,gnocchi di patate · cavolo cappuccio · merluzzo,NO,NO,30.6,7.8,SI
+57,Ottobre,D2,Pasto preturno,Pasta e cannellini con spinaci,420.5,spinaci · cannellini cotti e sgocciolati · pasta secca,NO,NO,18.6,9.7,NO
+57,Ottobre,D2,Spuntino notturno,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+57,Ottobre,D2,Spuntino notturno,Frutta e nocciole,134.2,cachi · nocciole,NO,NO,1.9,5.1,NO
+57,Ottobre,D2,Mini-pasto pre-sonno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+58,Ottobre,D3,Brunch,"Brunch completo con couscous, pollo e carote",692.6,petto di pollo · carote · couscous di semola secco,NO,NO,47.9,7.2,NO
+58,Ottobre,D3,Spuntino,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,SI
+58,Ottobre,D3,Cena,Kofte di tacchino delicati con riso e carote,485.2,carote · petto di tacchino · riso basmati secco,NO,NO,39.7,5.5,NO
+59,Ottobre,D4,Colazione,"Semolino con castagne, melagrana e semi di zucca",418.8,chicchi di melagrana · semolino di frumento · castagne arrostite,NO,NO,12.3,7.9,SI
+59,Ottobre,D4,Spuntino,Castagne in porzione piccola,140.0,castagne arrostite,NO,NO,2.1,3.5,SI
+59,Ottobre,D4,Pranzo,Riso e lenticchie con rape,419.1,rape · lenticchie cotte e sgocciolate · riso integrale secco,NO,NO,12.5,10.6,SI
+59,Ottobre,D4,Spuntino,Pane di segale con lupini e radicchio,175.8,lupini scolati · radicchio · pane di segale,NO,NO,13.2,4.2,SI
+59,Ottobre,D4,Cena,Salmone nordico con patate e broccoli,452.4,broccoli · patate · salmone,NO,NO,32.4,6.8,NO
+60,Ottobre,D5,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+60,Ottobre,D5,Spuntino,Frutta in porzione piccola,69.0,uva,NO,NO,0.7,0.9,NO
+60,Ottobre,D5,Pranzo,Pasta con sgombro e cavolo cappuccio,475.1,cavolo cappuccio · sgombro · pasta secca,NO,NO,25.3,5.7,NO
+60,Ottobre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+60,Ottobre,D5,Cena,"Brunch completo con patate, manzo e cavolfiore",691.6,patate · manzo magro · cavolfiore,NO,NO,46.0,11.8,NO
+61,Novembre,D1,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+61,Novembre,D1,Spuntino,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+61,Novembre,D1,Pranzo,Pasta e ceci con finocchi,451.5,finocchi · ceci cotti e sgocciolati · pasta secca,NO,NO,16.2,11.4,NO
+61,Novembre,D1,Spuntino,Mini tortilla con tonno e indivia,203.8,tonno al naturale sgocciolato · indivia · tortilla di frumento,NO,NO,19.6,3.1,SI
+61,Novembre,D1,Cena,Noodles di riso con pollo e bietole,412.7,bietole · petto di pollo · cavolfiore,NO,NO,33.5,5.0,SI
+62,Novembre,D2,Colazione,"Yogurt bianco, corn flakes e frutta",231.6,yogurt bianco naturale · mandarini o clementine · fiocchi di mais semplici,NO,NO,7.7,2.9,NO
+62,Novembre,D2,Pranzo,Riso jasmine con trota e cicoria,503.1,cicoria · trota · riso jasmine secco,NO,NO,31.9,6.2,SI
+62,Novembre,D2,Pasto preturno,Gnocchi con maiale e cicoria,526.5,gnocchi di patate · filetto di maiale · cicoria,NO,NO,34.4,7.6,SI
+62,Novembre,D2,Spuntino notturno,Latte e frutta,143.9,latte parzialmente scremato · arancia,NO,NO,7.1,3.1,NO
+62,Novembre,D2,Spuntino notturno,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+62,Novembre,D2,Mini-pasto pre-sonno,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+63,Novembre,D3,Brunch,Brunch: Noodles di riso con pollo e finocchi,531.1,finocchi · mandarini o clementine · petto di pollo,SI,NO,42.3,9.4,NO
+63,Novembre,D3,Spuntino,Crackers con borlotti,183.7,borlotti cotti e sgocciolati · crackers classici,NO,NO,7.7,4.3,SI
+63,Novembre,D3,Cena,"Brunch con gnocchi, maiale e cavoletti",727.4,gnocchi di patate · filetto di maiale · cavoletti di Bruxelles,NO,NO,46.5,10.5,SI
+64,Novembre,D4,Colazione,Kefir con fette classiche e confettura,359.9,kefir naturale · mandarini o clementine · fette biscottate classiche,NO,NO,11.6,3.5,NO
+64,Novembre,D4,Spuntino,Crackers con tonno al naturale,177.1,tonno al naturale sgocciolato · crackers classici,NO,NO,17.9,0.8,SI
+64,Novembre,D4,Pranzo,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+64,Novembre,D4,Spuntino,Ricotta e frutta,141.4,arancia · ricotta vaccina,NO,SI,6.0,3.1,NO
+64,Novembre,D4,Cena,Pasta e borlotti con verza,433.4,verza · borlotti cotti e sgocciolati · pasta secca,NO,NO,18.3,11.4,NO
+65,Novembre,D5,Colazione,French toast delicato con frutta,354.4,mandarini o clementine · latte parzialmente scremato · pane bianco comune,SI,NO,15.1,4.0,NO
+65,Novembre,D5,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+65,Novembre,D5,Pranzo,Couscous con pollo e carote,471.5,carote · petto di pollo · couscous di semola secco,NO,NO,32.2,6.4,NO
+65,Novembre,D5,Spuntino,Yogurt e kiwi,139.8,yogurt bianco naturale · kiwi,NO,NO,6.1,3.0,SI
+65,Novembre,D5,Cena,Kofte di tacchino delicati con riso e radicchio,460.2,radicchio · petto di tacchino · riso integrale secco,NO,NO,40.2,3.7,NO
+66,Novembre,D1,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+66,Novembre,D1,Spuntino,Crackers e ricotta,151.7,ricotta vaccina · crackers classici,NO,SI,5.8,0.6,NO
+66,Novembre,D1,Pranzo,Salmone con polenta e funghi,420.9,funghi · salmone · farina di mais per polenta,NO,NO,30.4,3.0,NO
+66,Novembre,D1,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+66,Novembre,D1,Cena,Riso basmati con piselli e zucca,430.6,zucca · piselli cotti · riso basmati secco,NO,NO,13.1,8.4,NO
+67,Novembre,D2,Colazione,Colazione leggera con latte e fette classiche,269.9,latte parzialmente scremato · pompelmo · fette biscottate classiche,NO,NO,10.1,2.8,NO
+67,Novembre,D2,Pranzo,Salmone con polenta e carciofi,551.1,carciofi · salmone · albume,SI,NO,39.3,9.7,NO
+67,Novembre,D2,Pasto preturno,Nasello con pane bianco e finocchi,386.8,nasello · finocchi · pane bianco comune,NO,NO,41.1,6.3,SI
+67,Novembre,D2,Spuntino notturno,Frutta e nocciole,111.3,arancia · nocciole,NO,NO,2.4,3.9,NO
+67,Novembre,D2,Spuntino notturno,Kefir e melagrana,148.9,kefir naturale · chicchi di melagrana,NO,NO,6.6,3.2,SI
+67,Novembre,D2,Mini-pasto pre-sonno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+68,Novembre,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+68,Novembre,D3,Spuntino,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,SI
+68,Novembre,D3,Cena,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+69,Novembre,D4,Colazione,"Kefir, avena, castagne e mandarino",418.2,kefir naturale · mandarini o clementine · castagne arrostite,NO,NO,15.5,8.9,SI
+69,Novembre,D4,Spuntino,Latte e cachi,139.0,latte parzialmente scremato · cachi,NO,NO,5.5,3.6,SI
+69,Novembre,D4,Pranzo,Nasello con pane bianco e radicchio,424.2,nasello · radicchio · pane integrale,NO,NO,43.0,6.2,NO
+69,Novembre,D4,Spuntino,Kiwi e semi di zucca,158.6,kiwi · semi di zucca,NO,NO,5.2,5.2,SI
+69,Novembre,D4,Cena,"Bowl coreana delicata con manzo, riso e broccoli",425.2,broccoli · manzo magro · carciofi,NO,NO,35.6,10.1,NO
+70,Novembre,D5,Colazione,"Yogurt bianco, corn flakes e frutta",274.8,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,8.1,3.9,NO
+70,Novembre,D5,Spuntino,Arancia e semi di zucca,126.4,arancia · semi di zucca,NO,NO,4.3,4.2,SI
+70,Novembre,D5,Pranzo,"Pranzo leggero con pollo, patate e bietole",465.3,bietole · patate · petto di pollo,SI,NO,44.0,7.4,SI
+70,Novembre,D5,Spuntino,Frutta in porzione piccola,61.0,kiwi,NO,NO,1.1,3.0,NO
+70,Novembre,D5,Cena,"Brunch completo con patate, manzo e cavolfiore",691.6,patate · manzo magro · cavolfiore,NO,NO,46.0,11.8,NO
+71,Novembre,D1,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+71,Novembre,D1,Spuntino,Mandarini e pistacchi,146.9,mandarini o clementine · pistacchi non salati,NO,NO,3.6,3.9,SI
+71,Novembre,D1,Pranzo,Manzo magro con pane bianco e carote,527.7,carote · manzo magro · pane bianco comune,NO,NO,34.8,7.2,NO
+71,Novembre,D1,Spuntino,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+71,Novembre,D1,Cena,Pasta e piselli con porro,445.5,piselli cotti · porro · pasta secca,NO,NO,15.8,10.3,NO
+72,Novembre,D2,Colazione,Kefir con fette classiche e confettura,390.6,kefir naturale · chicchi di melagrana · fette biscottate classiche,NO,NO,12.6,6.0,NO
+72,Novembre,D2,Pranzo,Noodles di riso con pollo e finocchi,430.7,finocchi · petto di pollo · cavolfiore,NO,NO,32.6,7.2,NO
+72,Novembre,D2,Pasto preturno,Trota con riso e cavolfiore,449.2,cavolfiore · trota · riso basmati secco,NO,NO,35.5,3.8,NO
+72,Novembre,D2,Spuntino notturno,Uovo sodo e crackers,148.9,uovo · crackers classici,SI,NO,7.9,0.5,NO
+72,Novembre,D2,Spuntino notturno,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,NO
+72,Novembre,D2,Mini-pasto pre-sonno,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+73,Novembre,D3,Brunch,Riso basmati con ceci e carote,490.1,carote · ceci cotti e sgocciolati · riso basmati secco,NO,NO,13.8,11.5,NO
+73,Novembre,D3,Spuntino,Mini tortilla con tonno e indivia,203.8,tonno al naturale sgocciolato · indivia · tortilla di frumento,NO,NO,19.6,3.1,SI
+73,Novembre,D3,Cena,"Brunch con couscous, sardine e indivia",705.5,indivia · sardine · couscous di semola secco,NO,NO,43.4,7.5,SI
+74,Novembre,D4,Colazione,"Latte, avena, castagne e melagrana",426.1,latte parzialmente scremato · chicchi di melagrana · castagne arrostite,NO,NO,17.4,9.7,SI
+74,Novembre,D4,Spuntino,Frutta e mandorle,100.9,pompelmo · mandorle,NO,NO,2.7,3.1,NO
+74,Novembre,D4,Pranzo,Pasta con trota e finocchi,512.3,finocchi · trota · pasta secca,NO,NO,34.4,6.3,SI
+74,Novembre,D4,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+74,Novembre,D4,Cena,Filetto di maiale con patate e spinaci,458.6,patate · spinaci · filetto di maiale,NO,NO,38.2,8.8,NO
+75,Novembre,D5,Colazione,"Latte, corn flakes e frutta",347.2,latte parzialmente scremato · mela · fiocchi di mais semplici,NO,NO,12.4,4.9,NO
+75,Novembre,D5,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+75,Novembre,D5,Pranzo,Pasta e ceci con zucca,464.1,zucca · ceci cotti e sgocciolati · pasta secca,NO,NO,16.8,8.8,NO
+75,Novembre,D5,Spuntino,Frutta e nocciole,134.2,cachi · nocciole,NO,NO,1.9,5.1,NO
+75,Novembre,D5,Cena,Gnocchi con merluzzo e cavolo cappuccio,497.8,gnocchi di patate · cavolo cappuccio · merluzzo,NO,NO,30.6,7.8,SI
+76,Novembre,D1,Colazione,Yogurt con avena e mela,305.6,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,13.1,6.6,NO
+76,Novembre,D1,Spuntino,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+76,Novembre,D1,Pranzo,Sogliola con riso e lattuga,407.4,sogliola · lattuga · riso basmati secco,NO,NO,38.9,3.1,NO
+76,Novembre,D1,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+76,Novembre,D1,Cena,Gnocchi con maiale e cicoria,526.5,gnocchi di patate · filetto di maiale · cicoria,NO,NO,34.4,7.6,SI
+77,Novembre,D2,Colazione,Porridge piccolo con frutta cotta,340.4,latte parzialmente scremato · banana · fiocchi d'avena,NO,NO,13.4,6.4,NO
+77,Novembre,D2,Pranzo,Tacchino con pane bianco e zucca,451.7,zucca · petto di tacchino · pane integrale,NO,NO,40.2,6.1,NO
+77,Novembre,D2,Pasto preturno,Pollo con patate e funghi,413.9,patate · funghi · petto di pollo,NO,NO,39.9,6.6,NO
+77,Novembre,D2,Spuntino notturno,Crackers con crema semplice di cannellini,183.7,cannellini cotti e sgocciolati · crackers classici,NO,NO,7.5,4.6,SI
+77,Novembre,D2,Spuntino notturno,Castagne in porzione piccola,140.0,castagne arrostite,NO,NO,2.1,3.5,SI
+77,Novembre,D2,Mini-pasto pre-sonno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+78,Novembre,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+78,Novembre,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+78,Novembre,D3,Cena,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+79,Novembre,D4,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+79,Novembre,D4,Spuntino,Arancia e semi di zucca,126.4,arancia · semi di zucca,NO,NO,4.3,4.2,SI
+79,Novembre,D4,Pranzo,Riso jasmine con polpo e barbabietola,497.2,polpo · barbabietola · riso jasmine secco,NO,NO,32.8,4.8,SI
+79,Novembre,D4,Spuntino,Piadina mini con ricotta,166.6,piadina classica · ricotta vaccina,NO,SI,5.9,0.9,NO
+79,Novembre,D4,Cena,Couscous marocchino delicato con tacchino e bietole,487.7,bietole · petto di tacchino · cavolfiore,NO,NO,39.9,6.7,NO
+80,Novembre,D5,Colazione,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+80,Novembre,D5,Spuntino,Frutta in porzione piccola,61.0,kiwi,NO,NO,1.1,3.0,NO
+80,Novembre,D5,Pranzo,Riso e lenticchie con rape,419.1,rape · lenticchie cotte e sgocciolate · riso integrale secco,NO,NO,12.5,10.6,SI
+80,Novembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+80,Novembre,D5,Cena,Pollo con patate e spinaci,754.9,patate · spinaci · petto di pollo,NO,NO,50.4,12.3,NO
+81,Novembre,D1,Colazione,Kefir con fette classiche e confettura,352.1,kefir naturale · arancia · fette biscottate classiche,NO,NO,11.7,4.3,NO
+81,Novembre,D1,Spuntino,Kiwi e semi di zucca,158.6,kiwi · semi di zucca,NO,NO,5.2,5.2,SI
+81,Novembre,D1,Pranzo,Couscous con maiale e rape,523.8,rape · filetto di maiale · couscous di semola secco,NO,NO,37.8,4.7,SI
+81,Novembre,D1,Spuntino,Kefir e frutta,156.6,kefir naturale · pera,NO,NO,5.8,4.0,NO
+81,Novembre,D1,Cena,Pasta con polpo e cavolo cappuccio,468.2,polpo · cavolo cappuccio · pasta secca,NO,NO,35.6,5.7,SI
+82,Novembre,D2,Colazione,Toast bianco con ricotta e confettura,350.7,pera · pane bianco comune · ricotta vaccina,NO,SI,10.9,5.8,NO
+82,Novembre,D2,Pranzo,Pasta e lenticchie con cavolo nero,427.3,cavolo nero · lenticchie cotte e sgocciolate · pasta secca,NO,NO,19.2,11.6,NO
+82,Novembre,D2,Pasto preturno,Pane integrale con pollo e zucca arrosto,432.2,zucca · petto di pollo · pane integrale,NO,NO,32.8,6.7,NO
+82,Novembre,D2,Spuntino notturno,Mandarini e pistacchi,146.9,mandarini o clementine · pistacchi non salati,NO,NO,3.6,3.9,SI
+82,Novembre,D2,Spuntino notturno,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+82,Novembre,D2,Mini-pasto pre-sonno,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+83,Novembre,D3,Brunch,"Brunch con couscous, sardine e indivia",705.5,indivia · sardine · couscous di semola secco,NO,NO,43.4,7.5,SI
+83,Novembre,D3,Spuntino,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,NO
+83,Novembre,D3,Cena,Riso basmati con polpo e indivia,476.6,polpo · indivia · riso basmati secco,NO,NO,31.6,5.7,SI
+84,Novembre,D4,Colazione,Pancake di farina 00 e ricotta,404.6,pera · latte parzialmente scremato · uovo,SI,SI,17.6,5.2,NO
+84,Novembre,D4,Spuntino,Frutta e nocciole,134.2,cachi · nocciole,NO,NO,1.9,5.1,NO
+84,Novembre,D4,Pranzo,Gnocchi con lupini e cavoletti,440.3,gnocchi di patate · cavoletti di Bruxelles · lupini scolati,NO,NO,18.3,8.9,SI
+84,Novembre,D4,Spuntino,Latte e frutta,143.9,latte parzialmente scremato · arancia,NO,NO,7.1,3.1,NO
+84,Novembre,D4,Cena,Gnocchi con maiale e cicoria,526.5,gnocchi di patate · filetto di maiale · cicoria,NO,NO,34.4,7.6,SI
+85,Novembre,D5,Colazione,"Latte, corn flakes, kiwi e semi di zucca",390.9,latte parzialmente scremato · kiwi · fiocchi di mais semplici,NO,NO,14.7,5.5,SI
+85,Novembre,D5,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+85,Novembre,D5,Pranzo,Pasta e cannellini con carciofi,428.9,carciofi · cannellini cotti e sgocciolati · pasta secca,NO,NO,17.6,11.6,NO
+85,Novembre,D5,Spuntino,Crackers classici con hummus delicato,197.2,arancia · hummus semplice senza spezie piccanti · crackers classici,NO,NO,5.1,5.3,NO
+85,Novembre,D5,Cena,Tacchino con pane bianco e cavolfiore,442.4,cavolfiore · petto di tacchino · pane integrale,NO,NO,41.2,8.2,NO
+86,Novembre,D1,Colazione,"Yogurt, avena, kiwi e castagne",415.9,yogurt bianco naturale · kiwi · fiocchi d'avena,NO,NO,16.1,9.8,SI
+86,Novembre,D1,Spuntino,Mini panino bianco con bresaola,132.8,pane integrale · bresaola,NO,NO,12.8,2.3,NO
+86,Novembre,D1,Pranzo,Merluzzo con patate e cavolfiore,399.3,patate · merluzzo · cavolfiore,NO,NO,37.9,7.8,NO
+86,Novembre,D1,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+86,Novembre,D1,Cena,Tacchino con riso basmati e bietole,434.9,bietole · petto di tacchino · riso basmati secco,NO,NO,38.8,3.7,NO
+87,Novembre,D2,Colazione,"Yogurt, kiwi e noci",258.8,yogurt bianco naturale · kiwi · noci,NO,NO,9.9,4.4,NO
+87,Novembre,D2,Pranzo,Pollo con patate e carciofi,435.9,patate · carciofi · petto di pollo,NO,NO,39.2,12.9,NO
+87,Novembre,D2,Pasto preturno,Riso jasmine con piselli e carciofi,424.0,piselli cotti · carciofi · riso jasmine secco,NO,NO,13.7,11.5,NO
+87,Novembre,D2,Spuntino notturno,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+87,Novembre,D2,Spuntino notturno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+87,Novembre,D2,Mini-pasto pre-sonno,Pane di segale con sardine e radicchio,286.1,sardine · radicchio · pane di segale,NO,NO,24.4,3.0,SI
+88,Novembre,D3,Brunch,"Brunch completo con farro, manzo e radicchio",687.9,manzo magro · radicchio · farro secco,NO,NO,50.1,8.3,NO
+88,Novembre,D3,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+88,Novembre,D3,Cena,Pasta con salmone e porro,502.6,porro · salmone · pasta secca,NO,NO,26.6,3.8,NO
+89,Novembre,D4,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+89,Novembre,D4,Spuntino,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+89,Novembre,D4,Pranzo,Pasta e piselli con porro,445.5,piselli cotti · porro · pasta secca,NO,NO,15.8,10.3,NO
+89,Novembre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+89,Novembre,D4,Cena,Polenta con sgombro e indivia,506.7,indivia · sgombro · farina di mais per polenta,NO,NO,25.6,6.4,SI
+90,Novembre,D5,Colazione,Kefir con fette classiche e confettura,358.6,kefir naturale · mela · fette biscottate classiche,NO,NO,10.9,4.3,NO
+90,Novembre,D5,Spuntino,Frutta in porzione piccola,61.0,kiwi,NO,NO,1.1,3.0,NO
+90,Novembre,D5,Pranzo,Riso jasmine con trota e cicoria,503.1,cicoria · trota · riso jasmine secco,NO,NO,31.9,6.2,SI
+90,Novembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+90,Novembre,D5,Cena,"Brunch con polenta, manzo e cicoria",707.9,manzo magro · cicoria · farina di mais per polenta,NO,NO,43.5,9.5,SI
+91,Dicembre,D1,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+91,Dicembre,D1,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+91,Dicembre,D1,Pranzo,Orzo con cozze e cavoletti,507.0,"cozze, parte edibile · cavoletti di Bruxelles · orzo perlato secco",NO,NO,34.2,11.2,SI
+91,Dicembre,D1,Spuntino,Arancia e semi di zucca,126.4,arancia · semi di zucca,NO,NO,4.3,4.2,SI
+91,Dicembre,D1,Cena,Orzo con maiale e cavoletti,538.1,cavoletti di Bruxelles · filetto di maiale · orzo perlato secco,NO,NO,41.2,11.2,SI
+92,Dicembre,D2,Colazione,Porridge piccolo con frutta cotta,307.7,latte parzialmente scremato · pera · fiocchi d'avena,NO,NO,12.6,7.3,NO
+92,Dicembre,D2,Pranzo,Pasta e cannellini con cavolfiore,432.9,cavolfiore · cannellini cotti e sgocciolati · pasta secca,NO,NO,18.1,10.3,NO
+92,Dicembre,D2,Pasto preturno,Orzo con tacchino e zucca,428.5,zucca · petto di tacchino · orzo perlato secco,NO,NO,32.9,6.2,NO
+92,Dicembre,D2,Spuntino notturno,Kiwi e semi di zucca,158.6,kiwi · semi di zucca,NO,NO,5.2,5.2,SI
+92,Dicembre,D2,Spuntino notturno,Mandarini e pistacchi,146.9,mandarini o clementine · pistacchi non salati,NO,NO,3.6,3.9,SI
+92,Dicembre,D2,Mini-pasto pre-sonno,Patata dolce e semi di zucca,156.5,patata dolce · semi di zucca,NO,NO,4.5,4.4,SI
+93,Dicembre,D3,Brunch,Brunch: Kofte di tacchino delicati con riso e radicchio,522.6,radicchio · petto di tacchino · mela,NO,NO,40.6,6.6,NO
+93,Dicembre,D3,Spuntino,Crackers classici con hummus delicato,235.7,chicchi di melagrana · hummus semplice senza spezie piccanti · crackers classici,NO,NO,6.0,7.0,NO
+93,Dicembre,D3,Cena,"Brunch completo con polenta, merluzzo e cavolo nero",708.5,merluzzo · cavolo nero · farina di mais per polenta,NO,NO,46.4,8.2,NO
+94,Dicembre,D4,Colazione,"Latte, avena, kiwi e semi di zucca",405.4,latte parzialmente scremato · kiwi · fiocchi d'avena,NO,NO,19.2,9.0,SI
+94,Dicembre,D4,Spuntino,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,NO
+94,Dicembre,D4,Pranzo,Riso jasmine con ceci e zucca,468.7,zucca · ceci cotti e sgocciolati · riso jasmine secco,NO,NO,13.7,7.6,NO
+94,Dicembre,D4,Spuntino,Kefir e frutta,155.7,kefir naturale · kiwi,NO,NO,6.6,3.6,NO
+94,Dicembre,D4,Cena,Manzo magro con pane bianco e cavolfiore,461.7,cavolfiore · manzo magro · pane integrale,NO,NO,36.5,8.2,NO
+95,Dicembre,D5,Colazione,"Bowl di yogurt, avena, mela e crema di arachidi",364.4,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,15.6,7.2,NO
+95,Dicembre,D5,Spuntino,Mini panino bianco con bresaola,138.1,pane bianco comune · bresaola,NO,NO,12.6,0.9,NO
+95,Dicembre,D5,Pranzo,Pasta con pollo e radicchio,453.5,radicchio · petto di pollo · pasta secca,NO,NO,33.9,3.5,NO
+95,Dicembre,D5,Spuntino,Mini tortilla con tonno e indivia,203.8,tonno al naturale sgocciolato · indivia · tortilla di frumento,NO,NO,19.6,3.1,SI
+95,Dicembre,D5,Cena,Filetto di maiale con polenta e carote,474.7,carote · filetto di maiale · farina di mais per polenta,NO,NO,33.8,6.6,NO
+96,Dicembre,D1,Colazione,"Yogurt, banana e mandorle",282.9,yogurt bianco naturale · banana · mandorle,NO,NO,11.1,4.5,NO
+96,Dicembre,D1,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+96,Dicembre,D1,Pranzo,Pasta integrale con lupini e zucca,399.4,zucca · lupini scolati · pasta integrale secca,NO,NO,20.4,7.6,NO
+96,Dicembre,D1,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,SI
+96,Dicembre,D1,Cena,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+97,Dicembre,D2,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+97,Dicembre,D2,Pranzo,Branzino con polenta e finocchi,399.9,branzino · finocchi · farina di mais per polenta,NO,NO,36.0,6.2,NO
+97,Dicembre,D2,Pasto preturno,Tacchino con riso basmati e cavolfiore,385.0,cavolfiore · petto di tacchino · riso basmati secco,NO,NO,38.0,3.8,NO
+97,Dicembre,D2,Spuntino notturno,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+97,Dicembre,D2,Spuntino notturno,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,NO
+97,Dicembre,D2,Mini-pasto pre-sonno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+98,Dicembre,D3,Brunch,"Brunch completo con farro, tonno e spinaci",642.3,spinaci · tonno al naturale sgocciolato · farro secco,NO,NO,56.5,10.7,NO
+98,Dicembre,D3,Spuntino,Latte e cachi,139.0,latte parzialmente scremato · cachi,NO,NO,5.5,3.6,SI
+98,Dicembre,D3,Cena,"Brunch completo con orzo, tacchino e zucca",671.9,zucca · petto di tacchino · orzo perlato secco,NO,NO,49.8,9.9,NO
+99,Dicembre,D4,Colazione,Semolino al latte con frutta,336.3,latte parzialmente scremato · mandarini o clementine · semolino di frumento,NO,NO,13.2,4.3,NO
+99,Dicembre,D4,Spuntino,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+99,Dicembre,D4,Pranzo,Pasta e lenticchie con cavoletti,411.0,cavoletti di Bruxelles · lenticchie cotte e sgocciolate · pasta secca,NO,NO,17.5,11.6,SI
+99,Dicembre,D4,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+99,Dicembre,D4,Cena,Orzo con cozze e cavoletti,507.0,"cozze, parte edibile · cavoletti di Bruxelles · orzo perlato secco",NO,NO,34.2,11.2,SI
+100,Dicembre,D5,Colazione,Kefir con avena e mela,278.1,kefir naturale · mela · fiocchi d'avena,NO,NO,11.7,6.1,NO
+100,Dicembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+100,Dicembre,D5,Pranzo,Coniglio con riso basmati e finocchi,481.0,finocchi · coniglio disossato · riso basmati secco,NO,NO,33.5,5.5,NO
+100,Dicembre,D5,Spuntino,Mandarini e pistacchi,146.9,mandarini o clementine · pistacchi non salati,NO,NO,3.6,3.9,SI
+100,Dicembre,D5,Cena,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+101,Dicembre,D1,Colazione,"Uova strapazzate, pane bianco e frutta",362.8,mandarini o clementine · uovo · spinaci ben cotti,SI,NO,20.2,5.5,NO
+101,Dicembre,D1,Spuntino,Latte e frutta,143.9,latte parzialmente scremato · arancia,NO,NO,7.1,3.1,NO
+101,Dicembre,D1,Pranzo,Salmone nordico con patate e cavolfiore,477.4,patate · cavolfiore · salmone,NO,NO,32.0,7.0,NO
+101,Dicembre,D1,Spuntino,Crackers classici con hummus delicato,197.2,arancia · hummus semplice senza spezie piccanti · crackers classici,NO,NO,5.1,5.3,NO
+101,Dicembre,D1,Cena,Riso jasmine con cannellini e cavolfiore,434.9,cavolfiore · cannellini cotti e sgocciolati · riso jasmine secco,NO,NO,14.9,9.0,NO
+102,Dicembre,D2,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+102,Dicembre,D2,Pranzo,Couscous con pollo e carote,471.5,carote · petto di pollo · couscous di semola secco,NO,NO,32.2,6.4,NO
+102,Dicembre,D2,Pasto preturno,Pasta con tacchino e spinaci,453.5,spinaci · petto di tacchino · pasta secca,NO,NO,37.1,5.4,NO
+102,Dicembre,D2,Spuntino notturno,Kiwi e semi di zucca,158.6,kiwi · semi di zucca,NO,NO,5.2,5.2,SI
+102,Dicembre,D2,Spuntino notturno,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+102,Dicembre,D2,Mini-pasto pre-sonno,Frutta e nocciole,134.2,cachi · nocciole,NO,NO,1.9,5.1,NO
+103,Dicembre,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+103,Dicembre,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+103,Dicembre,D3,Cena,"Brunch con gnocchi, maiale e cavoletti",727.4,gnocchi di patate · filetto di maiale · cavoletti di Bruxelles,NO,NO,46.5,10.5,SI
+104,Dicembre,D4,Colazione,Kefir con fette classiche e confettura,365.1,kefir naturale · pera · fette biscottate classiche,NO,NO,11.1,5.2,NO
+104,Dicembre,D4,Spuntino,Mini panino bianco con bresaola,132.8,pane integrale · bresaola,NO,NO,12.8,2.3,NO
+104,Dicembre,D4,Pranzo,Gnocchi con maiale e cicoria,526.5,gnocchi di patate · filetto di maiale · cicoria,NO,NO,34.4,7.6,SI
+104,Dicembre,D4,Spuntino,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+104,Dicembre,D4,Cena,"Bowl coreana delicata con manzo, riso e broccoli",425.2,broccoli · manzo magro · carciofi,NO,NO,35.6,10.1,NO
+105,Dicembre,D5,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+105,Dicembre,D5,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+105,Dicembre,D5,Pranzo,Noodles di riso con pollo e finocchi,430.7,finocchi · petto di pollo · cavolfiore,NO,NO,32.6,7.2,NO
+105,Dicembre,D5,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+105,Dicembre,D5,Cena,Polenta con merluzzo e cavolo nero,467.8,cavolo nero · merluzzo · farina di mais per polenta,NO,NO,33.2,7.7,NO
+106,Dicembre,D1,Colazione,"Semolino con castagne, melagrana e semi di zucca",418.8,chicchi di melagrana · semolino di frumento · castagne arrostite,NO,NO,12.3,7.9,SI
+106,Dicembre,D1,Spuntino,Piccola porzione di lupini e frutta,132.7,kiwi · lupini scolati,NO,NO,9.1,5.0,NO
+106,Dicembre,D1,Pranzo,Farro con tonno e radicchio,404.8,radicchio · tonno al naturale sgocciolato · farro secco,NO,NO,34.5,5.5,NO
+106,Dicembre,D1,Spuntino,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+106,Dicembre,D1,Cena,Pasta e ceci con zucca,464.1,zucca · ceci cotti e sgocciolati · pasta secca,NO,NO,16.8,8.8,NO
+107,Dicembre,D2,Colazione,"Latte, corn flakes e frutta",386.4,latte parzialmente scremato · banana · fiocchi di mais semplici,NO,NO,13.3,4.9,NO
+107,Dicembre,D2,Pranzo,Sogliola con riso e lattuga,407.4,sogliola · lattuga · riso basmati secco,NO,NO,38.9,3.1,NO
+107,Dicembre,D2,Pasto preturno,Orzo con tacchino e zucca,428.5,zucca · petto di tacchino · orzo perlato secco,NO,NO,32.9,6.2,NO
+107,Dicembre,D2,Spuntino notturno,Kefir e frutta,155.7,kefir naturale · kiwi,NO,NO,6.6,3.6,NO
+107,Dicembre,D2,Spuntino notturno,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+107,Dicembre,D2,Mini-pasto pre-sonno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+108,Dicembre,D3,Brunch,Riso basmati con piselli e zucca,430.6,zucca · piselli cotti · riso basmati secco,NO,NO,13.1,8.4,SI
+108,Dicembre,D3,Spuntino,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,NO
+108,Dicembre,D3,Cena,"Brunch completo con farro, manzo e radicchio",687.9,manzo magro · radicchio · farro secco,NO,NO,50.1,8.3,NO
+109,Dicembre,D4,Colazione,"Yogurt, kiwi e noci",258.8,yogurt bianco naturale · kiwi · noci,NO,NO,9.9,4.4,NO
+109,Dicembre,D4,Spuntino,Latte e frutta,151.7,latte parzialmente scremato · mandarini o clementine,NO,NO,7.0,2.3,NO
+109,Dicembre,D4,Pranzo,Couscous con maiale e rape,523.8,rape · filetto di maiale · couscous di semola secco,NO,NO,37.8,4.7,SI
+109,Dicembre,D4,Spuntino,Crackers classici con hummus delicato,197.2,arancia · hummus semplice senza spezie piccanti · crackers classici,NO,NO,5.1,5.3,NO
+109,Dicembre,D4,Cena,Pasta con pollo e broccoli,470.0,broccoli · petto di pollo · pasta secca,NO,NO,36.0,6.0,NO
+110,Dicembre,D5,Colazione,Kefir con avena e mela,278.1,kefir naturale · mela · fiocchi d'avena,NO,NO,11.7,6.1,NO
+110,Dicembre,D5,Spuntino,Frutta e nocciole,117.8,mela · nocciole,NO,NO,1.6,3.9,NO
+110,Dicembre,D5,Pranzo,Pasta integrale con lupini e zucca,399.4,zucca · lupini scolati · pasta integrale secca,NO,NO,20.4,7.6,NO
+110,Dicembre,D5,Spuntino,Gallette di riso e ricotta,90.2,ricotta vaccina · gallette di riso,NO,SI,3.6,0.5,NO
+110,Dicembre,D5,Cena,Pollo con patate e spinaci,754.9,patate · spinaci · petto di pollo,NO,NO,50.4,12.3,NO
+111,Dicembre,D1,Colazione,Budino di riso casalingo e frutta,326.4,latte parzialmente scremato · mela · riso basmati secco,NO,NO,10.9,3.7,NO
+111,Dicembre,D1,Spuntino,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+111,Dicembre,D1,Pranzo,Patate con salmone e finocchi,466.9,patate · finocchi · salmone,NO,NO,24.5,10.0,NO
+111,Dicembre,D1,Spuntino,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+111,Dicembre,D1,Cena,Riso con coniglio e rape,529.9,rape · coniglio disossato · riso basmati secco,NO,NO,34.2,3.8,SI
+112,Dicembre,D2,Colazione,Yogurt con cachi e fiocchi di avena,314.8,yogurt bianco naturale · cachi · fiocchi d'avena,NO,NO,12.7,7.9,SI
+112,Dicembre,D2,Pranzo,Pollo con patate e carciofi,435.9,patate · carciofi · petto di pollo,NO,NO,39.2,12.9,NO
+112,Dicembre,D2,Pasto preturno,Salmone con polenta e spinaci,422.7,spinaci · salmone · farina di mais per polenta,NO,NO,30.0,5.2,NO
+112,Dicembre,D2,Spuntino notturno,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+112,Dicembre,D2,Spuntino notturno,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,NO
+112,Dicembre,D2,Mini-pasto pre-sonno,Mini panino bianco con bresaola,132.8,pane integrale · bresaola,NO,NO,12.8,2.3,NO
+113,Dicembre,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+113,Dicembre,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+113,Dicembre,D3,Cena,"Brunch completo con pane integrale, salmone e radicchio",733.8,salmone · pane integrale · radicchio,NO,NO,44.3,10.2,NO
+114,Dicembre,D4,Colazione,Kefir con fette classiche e confettura,390.6,kefir naturale · chicchi di melagrana · fette biscottate classiche,NO,NO,12.6,6.0,NO
+114,Dicembre,D4,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+114,Dicembre,D4,Pranzo,Pane integrale con pollo e zucca arrosto,432.2,zucca · petto di pollo · pane integrale,NO,NO,32.8,6.7,NO
+114,Dicembre,D4,Spuntino,Crackers e ricotta,151.7,ricotta vaccina · crackers classici,NO,SI,5.8,0.6,NO
+114,Dicembre,D4,Cena,Coniglio con riso basmati e finocchi,481.0,finocchi · coniglio disossato · riso basmati secco,NO,NO,33.5,5.5,NO
+115,Dicembre,D5,Colazione,"Latte, corn flakes e frutta",386.4,latte parzialmente scremato · banana · fiocchi di mais semplici,NO,NO,13.3,4.9,NO
+115,Dicembre,D5,Spuntino,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+115,Dicembre,D5,Pranzo,Riso e fave con carciofi,428.3,carciofi · fave cotte · riso basmati secco,NO,NO,14.6,10.7,SI
+115,Dicembre,D5,Spuntino,Uovo sodo e crackers,148.9,uovo · crackers classici,SI,NO,7.9,0.5,NO
+115,Dicembre,D5,Cena,Manzo magro con polenta e carote,477.7,carote · manzo magro · farina di mais per polenta,NO,NO,31.6,6.6,NO
+116,Dicembre,D1,Colazione,Toast bianco con ricotta e confettura,345.5,mandarini o clementine · pane bianco comune · ricotta vaccina,NO,SI,11.5,4.1,NO
+116,Dicembre,D1,Spuntino,Piccola porzione di lupini e frutta,159.1,chicchi di melagrana · lupini scolati,NO,NO,9.8,6.2,NO
+116,Dicembre,D1,Pranzo,Polenta con merluzzo e cavolo nero,467.8,cavolo nero · merluzzo · farina di mais per polenta,NO,NO,33.2,7.7,NO
+116,Dicembre,D1,Spuntino,Kefir e frutta,156.6,kefir naturale · pera,NO,NO,5.8,4.0,NO
+116,Dicembre,D1,Cena,Pasta con nasello e zucca,447.8,zucca · nasello · pasta secca,NO,NO,31.4,3.0,NO
+117,Dicembre,D2,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+117,Dicembre,D2,Pranzo,Pasta e fave con carciofi,421.6,carciofi · fave cotte · pasta secca,NO,NO,17.2,11.1,NO
+117,Dicembre,D2,Pasto preturno,Orzo con tacchino e zucca,428.5,zucca · petto di tacchino · orzo perlato secco,NO,NO,32.9,6.2,NO
+117,Dicembre,D2,Spuntino notturno,Latte e frutta,151.7,latte parzialmente scremato · mandarini o clementine,NO,NO,7.0,2.3,NO
+117,Dicembre,D2,Spuntino notturno,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+117,Dicembre,D2,Mini-pasto pre-sonno,Mini tortilla con lupini e indivia,199.7,indivia · lupini scolati · tortilla di frumento,NO,NO,12.6,4.6,SI
+118,Dicembre,D3,Brunch,Brunch: Riso teriyaki delicato con tacchino e carciofi,500.7,carciofi · pompelmo · petto di tacchino,NO,NO,39.9,12.2,NO
+118,Dicembre,D3,Spuntino,Mini tortilla con cannellini e radicchio,207.7,radicchio · cannellini cotti e sgocciolati · tortilla di frumento,NO,NO,8.8,5.3,SI
+118,Dicembre,D3,Cena,"Brunch completo con patate, manzo e cavolfiore",691.6,patate · manzo magro · cavolfiore,NO,NO,46.0,11.8,NO
+119,Dicembre,D4,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+119,Dicembre,D4,Spuntino,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+119,Dicembre,D4,Pranzo,"Pranzo leggero con merluzzo, pane e spinaci",428.0,spinaci · merluzzo · pane integrale,NO,NO,41.4,8.2,NO
+119,Dicembre,D4,Spuntino,Crackers classici con hummus delicato,210.2,pera · hummus semplice senza spezie piccanti · crackers classici,NO,NO,4.5,6.2,NO
+119,Dicembre,D4,Cena,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+120,Dicembre,D5,Colazione,"Yogurt bianco, corn flakes e frutta",274.8,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,8.1,3.9,NO
+120,Dicembre,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+120,Dicembre,D5,Pranzo,Pasta e piselli con porro,445.5,piselli cotti · porro · pasta secca,NO,NO,15.8,10.3,NO
+120,Dicembre,D5,Spuntino,Mais e tonno in coppetta,138.4,mais dolce sgocciolato · tonno al naturale sgocciolato,NO,NO,18.3,2.2,SI
+120,Dicembre,D5,Cena,Pollo con patate e spinaci,754.9,patate · spinaci · petto di pollo,NO,NO,50.4,12.3,NO
+121,Gennaio,D1,Colazione,"Kefir, avena, castagne e mandarino",418.2,kefir naturale · mandarini o clementine · castagne arrostite,NO,NO,15.5,8.9,SI
+121,Gennaio,D1,Spuntino,Pane di segale con tonno e indivia,170.4,tonno al naturale sgocciolato · indivia · pane di segale,NO,NO,19.4,3.9,SI
+121,Gennaio,D1,Pranzo,Riso basmati con polpo e indivia,476.6,polpo · indivia · riso basmati secco,NO,NO,31.6,5.7,SI
+121,Gennaio,D1,Spuntino,Mini panino bianco con bresaola,132.8,pane integrale · bresaola,NO,NO,12.8,2.3,NO
+121,Gennaio,D1,Cena,Noodles di riso con pollo e finocchi,430.7,finocchi · petto di pollo · cavolfiore,NO,NO,32.6,7.2,NO
+122,Gennaio,D2,Colazione,Budino di riso casalingo e frutta,326.4,latte parzialmente scremato · mela · riso basmati secco,NO,NO,10.9,3.7,NO
+122,Gennaio,D2,Pranzo,Riso jasmine con ceci e zucca,468.7,zucca · ceci cotti e sgocciolati · riso jasmine secco,NO,NO,13.7,7.6,NO
+122,Gennaio,D2,Pasto preturno,Filetto di maiale con polenta e sedano rapa,472.8,sedano rapa · filetto di maiale · farina di mais per polenta,NO,NO,34.5,4.3,NO
+122,Gennaio,D2,Spuntino notturno,Frutta e nocciole,123.4,kiwi · nocciole,NO,NO,2.5,4.4,NO
+122,Gennaio,D2,Spuntino notturno,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+122,Gennaio,D2,Mini-pasto pre-sonno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+123,Gennaio,D3,Brunch,"Brunch completo con farro, manzo e radicchio",687.9,manzo magro · radicchio · farro secco,NO,NO,50.1,8.3,NO
+123,Gennaio,D3,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+123,Gennaio,D3,Cena,Pasta con polpo e cavolo cappuccio,468.2,polpo · cavolo cappuccio · pasta secca,NO,NO,35.6,5.7,SI
+124,Gennaio,D4,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+124,Gennaio,D4,Spuntino,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+124,Gennaio,D4,Pranzo,Pasta e ceci con finocchi,451.5,finocchi · ceci cotti e sgocciolati · pasta secca,NO,NO,16.2,11.4,NO
+124,Gennaio,D4,Spuntino,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,NO
+124,Gennaio,D4,Cena,Couscous con pollo e carote,471.5,carote · petto di pollo · couscous di semola secco,NO,NO,32.2,6.4,NO
+125,Gennaio,D5,Colazione,Kefir con fette classiche e confettura,390.6,kefir naturale · chicchi di melagrana · fette biscottate classiche,NO,NO,12.6,6.0,NO
+125,Gennaio,D5,Spuntino,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+125,Gennaio,D5,Pranzo,Salmone nordico con patate e cavolfiore,446.6,cavolfiore · patate · salmone,NO,NO,31.2,6.1,NO
+125,Gennaio,D5,Spuntino,Piccola porzione di lupini e frutta,159.1,chicchi di melagrana · lupini scolati,NO,NO,9.8,6.2,NO
+125,Gennaio,D5,Cena,Coniglio con riso basmati e bietole,468.7,bietole · coniglio disossato · riso basmati secco,NO,NO,34.9,3.7,NO
+126,Gennaio,D1,Colazione,"Latte, corn flakes e frutta",347.2,latte parzialmente scremato · mela · fiocchi di mais semplici,NO,NO,12.4,4.9,NO
+126,Gennaio,D1,Spuntino,Latte e frutta,156.9,latte parzialmente scremato · pera,NO,NO,6.5,4.0,NO
+126,Gennaio,D1,Pranzo,Orata con patate e carote,436.4,patate · carote · orata,NO,NO,38.4,9.1,NO
+126,Gennaio,D1,Spuntino,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,NO
+126,Gennaio,D1,Cena,Manzo magro con polenta e carote,477.7,carote · manzo magro · farina di mais per polenta,NO,NO,31.6,6.6,NO
+127,Gennaio,D2,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+127,Gennaio,D2,Pranzo,Pasta e cannellini con cavolfiore,432.9,cavolfiore · cannellini cotti e sgocciolati · pasta secca,NO,NO,18.1,10.3,NO
+127,Gennaio,D2,Pasto preturno,Farro con tonno e radicchio,404.8,radicchio · tonno al naturale sgocciolato · farro secco,NO,NO,34.5,5.5,NO
+127,Gennaio,D2,Spuntino notturno,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+127,Gennaio,D2,Spuntino notturno,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+127,Gennaio,D2,Mini-pasto pre-sonno,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+128,Gennaio,D3,Brunch,Brunch: Riso teriyaki delicato con tacchino e carciofi,500.7,carciofi · pompelmo · petto di tacchino,NO,NO,39.9,12.2,NO
+128,Gennaio,D3,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+128,Gennaio,D3,Cena,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+129,Gennaio,D4,Colazione,"Uova strapazzate, pane bianco e frutta",355.0,arancia · uovo · spinaci ben cotti,SI,NO,20.3,6.2,NO
+129,Gennaio,D4,Spuntino,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+129,Gennaio,D4,Pranzo,Patate con salmone e finocchi,466.9,patate · finocchi · salmone,NO,NO,24.5,10.0,NO
+129,Gennaio,D4,Spuntino,Crackers classici con hummus delicato,197.2,arancia · hummus semplice senza spezie piccanti · crackers classici,NO,NO,5.1,5.3,NO
+129,Gennaio,D4,Cena,Riso basmati con piselli e zucca,430.6,zucca · piselli cotti · riso basmati secco,NO,NO,13.1,8.4,NO
+130,Gennaio,D5,Colazione,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+130,Gennaio,D5,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+130,Gennaio,D5,Pranzo,Pasta con nasello e zucca,447.8,zucca · nasello · pasta secca,NO,NO,31.4,3.0,NO
+130,Gennaio,D5,Spuntino,Latte piccolo,69.0,latte parzialmente scremato,NO,NO,5.0,0.0,NO
+130,Gennaio,D5,Cena,"Brunch completo con couscous, tacchino e spinaci",676.6,petto di tacchino · spinaci · couscous di semola secco,NO,NO,54.8,6.3,NO
+131,Gennaio,D1,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+131,Gennaio,D1,Spuntino,Mais e tonno in coppetta,138.4,mais dolce sgocciolato · tonno al naturale sgocciolato,NO,NO,18.3,2.2,SI
+131,Gennaio,D1,Pranzo,Pasta e borlotti con verza,433.4,verza · borlotti cotti e sgocciolati · pasta secca,NO,NO,18.3,11.4,NO
+131,Gennaio,D1,Spuntino,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+131,Gennaio,D1,Cena,Filetto di maiale con polenta e carote,474.7,carote · filetto di maiale · farina di mais per polenta,NO,NO,33.8,6.6,NO
+132,Gennaio,D2,Colazione,Yogurt con avena e mela,305.6,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,13.1,6.6,NO
+132,Gennaio,D2,Pranzo,Coniglio con riso basmati e finocchi,472.1,finocchi · coniglio disossato · riso basmati secco,NO,NO,33.5,5.5,NO
+132,Gennaio,D2,Pasto preturno,Merluzzo con patate e bietole,449.0,patate · bietole · merluzzo,NO,NO,39.9,8.3,NO
+132,Gennaio,D2,Spuntino notturno,Patata dolce e kefir,158.2,patata dolce · kefir naturale,NO,NO,5.4,3.6,SI
+132,Gennaio,D2,Spuntino notturno,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+132,Gennaio,D2,Mini-pasto pre-sonno,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+133,Gennaio,D3,Brunch,Brunch: Salmone nordico con patate e cavolfiore,610.3,patate · cavolfiore · salmone,SI,NO,42.6,10.7,NO
+133,Gennaio,D3,Spuntino,Kefir e frutta,155.7,kefir naturale · kiwi,NO,NO,6.6,3.6,NO
+133,Gennaio,D3,Cena,Tacchino con riso basmati e bietole,699.9,bietole · petto di tacchino · pane bianco comune,NO,NO,47.3,6.4,NO
+134,Gennaio,D4,Colazione,"Pane di segale, tonno e patata dolce",395.6,patata dolce · tonno al naturale sgocciolato · pane di segale,NO,NO,27.8,7.1,SI
+134,Gennaio,D4,Spuntino,Piccola porzione di lupini e frutta,128.4,mandarini o clementine · lupini scolati,NO,NO,8.8,3.7,NO
+134,Gennaio,D4,Pranzo,Pasta e fave con carciofi,421.6,carciofi · fave cotte · pasta secca,NO,NO,17.2,11.1,NO
+134,Gennaio,D4,Spuntino,Latte e frutta,151.7,latte parzialmente scremato · mandarini o clementine,NO,NO,7.0,2.3,NO
+134,Gennaio,D4,Cena,Polenta con merluzzo e cavolo nero,467.8,cavolo nero · merluzzo · farina di mais per polenta,NO,NO,33.2,7.7,NO
+135,Gennaio,D5,Colazione,Kefir con fette classiche e confettura,358.6,kefir naturale · mela · fette biscottate classiche,NO,NO,10.9,4.3,NO
+135,Gennaio,D5,Spuntino,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,NO
+135,Gennaio,D5,Pranzo,Filetto di maiale con polenta e zucca,438.9,zucca · filetto di maiale · farina di mais per polenta,NO,NO,34.0,2.5,NO
+135,Gennaio,D5,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+135,Gennaio,D5,Cena,Riso teriyaki delicato con tacchino e carciofi,454.3,carciofi · petto di tacchino · radicchio,NO,NO,38.6,9.6,NO
+136,Gennaio,D1,Colazione,Porridge piccolo con frutta cotta,294.7,latte parzialmente scremato · arancia · fiocchi d'avena,NO,NO,13.3,6.4,NO
+136,Gennaio,D1,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+136,Gennaio,D1,Pranzo,Riso jasmine con ceci e zucca,468.7,zucca · ceci cotti e sgocciolati · riso jasmine secco,NO,NO,13.7,7.6,NO
+136,Gennaio,D1,Spuntino,Frutta in porzione piccola,89.0,banana,NO,NO,1.1,2.6,NO
+136,Gennaio,D1,Cena,Salmone nordico con patate e cavolfiore,477.4,patate · cavolfiore · salmone,NO,NO,32.0,7.0,NO
+137,Gennaio,D2,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+137,Gennaio,D2,Pranzo,Branzino con polenta e finocchi,399.9,branzino · finocchi · farina di mais per polenta,NO,NO,36.0,6.2,NO
+137,Gennaio,D2,Pasto preturno,Pasta con pollo e radicchio,453.5,radicchio · petto di pollo · pasta secca,NO,NO,33.9,3.5,NO
+137,Gennaio,D2,Spuntino notturno,Uovo sodo e crackers,148.9,uovo · crackers classici,SI,NO,7.9,0.5,NO
+137,Gennaio,D2,Spuntino notturno,Crackers classici con hummus delicato,235.7,chicchi di melagrana · hummus semplice senza spezie piccanti · crackers classici,NO,NO,6.0,7.0,NO
+137,Gennaio,D2,Mini-pasto pre-sonno,Mini panino bianco con bresaola,132.8,pane integrale · bresaola,NO,NO,12.8,2.3,NO
+138,Gennaio,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+138,Gennaio,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+138,Gennaio,D3,Cena,Pollo con patate e spinaci,754.9,patate · spinaci · petto di pollo,NO,NO,50.4,12.3,NO
+139,Gennaio,D4,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+139,Gennaio,D4,Spuntino,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+139,Gennaio,D4,Pranzo,Pollo con patate e carciofi,435.9,patate · carciofi · petto di pollo,NO,NO,39.2,12.9,NO
+139,Gennaio,D4,Spuntino,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+139,Gennaio,D4,Cena,"Bowl coreana delicata con manzo, riso e broccoli",425.2,broccoli · manzo magro · carciofi,NO,NO,35.6,10.1,NO
+140,Gennaio,D5,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+140,Gennaio,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+140,Gennaio,D5,Pranzo,"Pranzo leggero con tacchino, pane e spinaci",439.0,spinaci · petto di tacchino · pane integrale,NO,NO,39.7,8.4,NO
+140,Gennaio,D5,Spuntino,Frutta e mandorle,100.9,pompelmo · mandorle,NO,NO,2.7,3.1,NO
+140,Gennaio,D5,Cena,"Brunch completo con couscous, salmone e zucca",721.8,zucca · salmone · couscous di semola secco,NO,NO,38.3,3.5,NO
+141,Gennaio,D1,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+141,Gennaio,D1,Spuntino,"Mais, cannellini e crackers",179.4,mais dolce sgocciolato · cannellini cotti e sgocciolati · crackers classici,NO,NO,8.5,6.0,SI
+141,Gennaio,D1,Pranzo,Pasta e ceci con broccoli,473.5,broccoli · ceci cotti e sgocciolati · pasta secca,NO,NO,19.4,11.9,NO
+141,Gennaio,D1,Spuntino,Mais e tonno in coppetta,138.4,mais dolce sgocciolato · tonno al naturale sgocciolato,NO,NO,18.3,2.2,SI
+141,Gennaio,D1,Cena,Manzo magro con pane bianco e cavolfiore,461.7,cavolfiore · manzo magro · pane integrale,NO,NO,36.5,8.2,NO
+142,Gennaio,D2,Colazione,Budino di riso casalingo e frutta,332.9,latte parzialmente scremato · pera · riso basmati secco,NO,NO,11.0,4.6,NO
+142,Gennaio,D2,Pranzo,Sogliola con riso e sedano rapa,443.4,sogliola · sedano rapa · riso basmati secco,NO,NO,38.6,3.5,NO
+142,Gennaio,D2,Pasto preturno,Farro con tonno e radicchio,404.8,radicchio · tonno al naturale sgocciolato · farro secco,NO,NO,34.5,5.5,NO
+142,Gennaio,D2,Spuntino notturno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+142,Gennaio,D2,Spuntino notturno,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+142,Gennaio,D2,Mini-pasto pre-sonno,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+143,Gennaio,D3,Brunch,Riso basmati con piselli e zucca,430.6,zucca · piselli cotti · riso basmati secco,NO,NO,13.1,8.4,SI
+143,Gennaio,D3,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+143,Gennaio,D3,Cena,"Brunch completo con farro, manzo e radicchio",687.9,manzo magro · radicchio · farro secco,NO,NO,50.1,8.3,NO
+144,Gennaio,D4,Colazione,"Pane di segale, tonno e patata dolce",395.6,patata dolce · tonno al naturale sgocciolato · pane di segale,NO,NO,27.8,7.1,SI
+144,Gennaio,D4,Spuntino,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+144,Gennaio,D4,Pranzo,Pasta con tacchino e carciofi,489.5,carciofi · petto di tacchino · pasta secca,NO,NO,37.7,10.2,NO
+144,Gennaio,D4,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+144,Gennaio,D4,Cena,Filetto di maiale con polenta e carote,474.7,carote · filetto di maiale · farina di mais per polenta,NO,NO,33.8,6.6,NO
+145,Gennaio,D5,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+145,Gennaio,D5,Spuntino,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,NO
+145,Gennaio,D5,Pranzo,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+145,Gennaio,D5,Spuntino,Crackers classici con hummus delicato,197.2,arancia · hummus semplice senza spezie piccanti · crackers classici,NO,NO,5.1,5.3,NO
+145,Gennaio,D5,Cena,Pasta e lenticchie con passata e spinaci,436.3,passata di pomodoro · spinaci · lenticchie cotte e sgocciolate,NO,NO,19.3,11.7,NO
+146,Gennaio,D1,Colazione,Kefir con fette classiche e confettura,365.1,kefir naturale · pera · fette biscottate classiche,NO,NO,11.1,5.2,NO
+146,Gennaio,D1,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+146,Gennaio,D1,Pranzo,Coniglio con riso basmati e finocchi,481.0,finocchi · coniglio disossato · riso basmati secco,NO,NO,33.5,5.5,NO
+146,Gennaio,D1,Spuntino,Piccola porzione di lupini e frutta,159.1,chicchi di melagrana · lupini scolati,NO,NO,9.8,6.2,NO
+146,Gennaio,D1,Cena,Couscous marocchino delicato con tacchino e finocchi,452.7,finocchi · petto di tacchino · cavolfiore,NO,NO,37.3,8.4,NO
+147,Gennaio,D2,Colazione,Yogurt con avena e mela,305.6,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,13.1,6.6,NO
+147,Gennaio,D2,Pranzo,Orata con patate e carote,436.4,patate · carote · orata,NO,NO,38.4,9.1,NO
+147,Gennaio,D2,Pasto preturno,Filetto di maiale con polenta e sedano rapa,472.8,sedano rapa · filetto di maiale · farina di mais per polenta,NO,NO,34.5,4.3,NO
+147,Gennaio,D2,Spuntino notturno,Frutta e nocciole,123.4,kiwi · nocciole,NO,NO,2.5,4.4,NO
+147,Gennaio,D2,Spuntino notturno,Latte e frutta,151.7,latte parzialmente scremato · mandarini o clementine,NO,NO,7.0,2.3,NO
+147,Gennaio,D2,Mini-pasto pre-sonno,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+148,Gennaio,D3,Brunch,"Brunch completo con pane integrale, salmone e radicchio",733.8,salmone · pane integrale · radicchio,NO,NO,44.3,10.2,NO
+148,Gennaio,D3,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+148,Gennaio,D3,Cena,Pasta e ceci con finocchi,451.5,finocchi · ceci cotti e sgocciolati · pasta secca,NO,NO,16.2,11.4,NO
+149,Gennaio,D4,Colazione,Pancake di farina 00 e ricotta,385.1,pompelmo · latte parzialmente scremato · uovo,SI,SI,18.1,3.3,NO
+149,Gennaio,D4,Spuntino,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+149,Gennaio,D4,Pranzo,Kofte di tacchino delicati con riso e bietole,452.2,bietole · petto di tacchino · riso basmati secco,NO,NO,41.1,3.8,NO
+149,Gennaio,D4,Spuntino,Mini panino bianco con bresaola,138.1,pane bianco comune · bresaola,NO,NO,12.6,0.9,NO
+149,Gennaio,D4,Cena,Couscous marocchino delicato con tacchino e bietole,487.7,bietole · petto di tacchino · cavolfiore,NO,NO,39.9,6.7,NO
+150,Gennaio,D5,Colazione,"Yogurt bianco, corn flakes e frutta",224.4,yogurt bianco naturale · arancia · fiocchi di mais semplici,NO,NO,7.8,3.6,NO
+150,Gennaio,D5,Spuntino,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,NO
+150,Gennaio,D5,Pranzo,Riso integrale con fave e cavolo cappuccio,408.9,cavolo cappuccio · fave cotte · riso integrale secco,NO,NO,12.9,10.4,SI
+150,Gennaio,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+150,Gennaio,D5,Cena,"Brunch completo con polenta, merluzzo e cavolo nero",708.5,merluzzo · cavolo nero · farina di mais per polenta,NO,NO,46.4,8.2,NO
+151,Febbraio,D1,Colazione,"Latte, corn flakes e frutta",386.4,latte parzialmente scremato · banana · fiocchi di mais semplici,NO,NO,13.3,4.9,NO
+151,Febbraio,D1,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+151,Febbraio,D1,Pranzo,Farro con tonno e radicchio,404.8,radicchio · tonno al naturale sgocciolato · farro secco,NO,NO,34.5,5.5,NO
+151,Febbraio,D1,Spuntino,Ricotta e frutta,149.2,mandarini o clementine · ricotta vaccina,NO,SI,5.9,2.3,NO
+151,Febbraio,D1,Cena,Pasta al ragù leggero di manzo,501.1,passata di pomodoro · manzo magro · carote,NO,NO,31.1,6.1,NO
+152,Febbraio,D2,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+152,Febbraio,D2,Pranzo,Nasello con pane bianco e radicchio,424.2,nasello · radicchio · pane integrale,NO,NO,43.0,6.2,NO
+152,Febbraio,D2,Pasto preturno,Pasta e fave con cavolo nero,443.6,cavolo nero · fave cotte · pasta secca,NO,NO,19.7,10.9,SI
+152,Febbraio,D2,Spuntino notturno,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+152,Febbraio,D2,Spuntino notturno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+152,Febbraio,D2,Mini-pasto pre-sonno,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,NO
+153,Febbraio,D3,Brunch,Brunch: Riso teriyaki delicato con tacchino e carciofi,500.7,carciofi · pompelmo · petto di tacchino,NO,NO,39.9,12.2,NO
+153,Febbraio,D3,Spuntino,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+153,Febbraio,D3,Cena,"Brunch completo con polenta, manzo e broccoli",724.4,manzo magro · broccoli · farina di mais per polenta,NO,NO,45.2,7.4,NO
+154,Febbraio,D4,Colazione,Porridge piccolo con frutta cotta,294.7,latte parzialmente scremato · arancia · fiocchi d'avena,NO,NO,13.3,6.4,NO
+154,Febbraio,D4,Spuntino,Crackers classici con hummus delicato,210.2,pera · hummus semplice senza spezie piccanti · crackers classici,NO,NO,4.5,6.2,NO
+154,Febbraio,D4,Pranzo,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+154,Febbraio,D4,Spuntino,Piccola porzione di lupini e frutta,132.7,kiwi · lupini scolati,NO,NO,9.1,5.0,NO
+154,Febbraio,D4,Cena,Filetto di maiale con patate e spinaci,458.6,patate · spinaci · filetto di maiale,NO,NO,38.2,8.8,NO
+155,Febbraio,D5,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+155,Febbraio,D5,Spuntino,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+155,Febbraio,D5,Pranzo,Tacchino con pane bianco e zucca,451.7,zucca · petto di tacchino · pane integrale,NO,NO,40.2,6.1,NO
+155,Febbraio,D5,Spuntino,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+155,Febbraio,D5,Cena,Pasta e ceci con broccoli,473.5,broccoli · ceci cotti e sgocciolati · pasta secca,NO,NO,19.4,11.9,NO
+156,Febbraio,D1,Colazione,Colazione leggera con latte e fette classiche,269.9,latte parzialmente scremato · pompelmo · fette biscottate classiche,NO,NO,10.1,2.8,NO
+156,Febbraio,D1,Spuntino,Mini panino con bresaola e carote,204.9,carote · pane bianco comune · bresaola,NO,NO,15.7,3.5,NO
+156,Febbraio,D1,Pranzo,Orata con patate e bietole,450.2,patate · bietole · orata,NO,NO,40.8,7.7,NO
+156,Febbraio,D1,Spuntino,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+156,Febbraio,D1,Cena,Riso teriyaki delicato con tacchino e carciofi,454.3,carciofi · petto di tacchino · radicchio,NO,NO,38.6,9.6,NO
+157,Febbraio,D2,Colazione,Kefir con fette classiche e confettura,345.6,kefir naturale · pompelmo · fette biscottate classiche,NO,NO,11.6,3.3,NO
+157,Febbraio,D2,Pranzo,Patate con salmone e finocchi,466.9,patate · finocchi · salmone,NO,NO,24.5,10.0,NO
+157,Febbraio,D2,Pasto preturno,Riso jasmine con piselli e carciofi,424.0,piselli cotti · carciofi · riso jasmine secco,NO,NO,13.7,11.5,NO
+157,Febbraio,D2,Spuntino notturno,Mini panino bianco con bresaola,138.1,pane bianco comune · bresaola,NO,NO,12.6,0.9,NO
+157,Febbraio,D2,Spuntino notturno,Frutta e mandorle,100.9,pompelmo · mandorle,NO,NO,2.7,3.1,NO
+157,Febbraio,D2,Mini-pasto pre-sonno,Crackers e ricotta,151.7,ricotta vaccina · crackers classici,NO,SI,5.8,0.6,NO
+158,Febbraio,D3,Brunch,"Brunch completo con couscous, tacchino e spinaci",676.6,petto di tacchino · spinaci · couscous di semola secco,NO,NO,54.8,6.3,NO
+158,Febbraio,D3,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+158,Febbraio,D3,Cena,Pasta con salmone e porro,502.6,porro · salmone · pasta secca,NO,NO,26.6,3.8,NO
+159,Febbraio,D4,Colazione,Semolino al latte con frutta,341.5,latte parzialmente scremato · pera · semolino di frumento,NO,NO,12.7,6.0,NO
+159,Febbraio,D4,Spuntino,Pane bianco e uovo sodo,151.0,uovo · pane bianco comune,SI,NO,8.8,0.8,NO
+159,Febbraio,D4,Pranzo,Pollo con polenta e zucca,413.7,zucca · petto di pollo · farina di mais per polenta,NO,NO,35.3,2.5,NO
+159,Febbraio,D4,Spuntino,Kefir con kiwi e semi di zucca,228.1,kefir naturale · kiwi · semi di zucca,NO,NO,10.6,4.2,SI
+159,Febbraio,D4,Cena,Pasta e cannellini con cavolfiore,432.9,cavolfiore · cannellini cotti e sgocciolati · pasta secca,NO,NO,18.1,10.3,NO
+160,Febbraio,D5,Colazione,"Yogurt bianco, corn flakes e frutta",231.6,yogurt bianco naturale · mandarini o clementine · fiocchi di mais semplici,NO,NO,7.7,2.9,NO
+160,Febbraio,D5,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+160,Febbraio,D5,Pranzo,Curry bianco molto delicato di pollo e zucca,433.1,zucca · petto di pollo · riso basmati secco,NO,NO,33.0,1.7,NO
+160,Febbraio,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+160,Febbraio,D5,Cena,"Brunch completo con pane integrale, salmone e radicchio",733.8,salmone · pane integrale · radicchio,NO,NO,44.3,10.2,NO
+161,Febbraio,D1,Colazione,"Latte, avena e banana",317.1,latte parzialmente scremato · banana · fiocchi d'avena,NO,NO,13.6,6.3,NO
+161,Febbraio,D1,Spuntino,Piadina mini con ricotta,166.6,piadina classica · ricotta vaccina,NO,SI,5.9,0.9,NO
+161,Febbraio,D1,Pranzo,Polenta con merluzzo e cavolo nero,467.8,cavolo nero · merluzzo · farina di mais per polenta,NO,NO,33.2,7.7,NO
+161,Febbraio,D1,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+161,Febbraio,D1,Cena,Manzo magro con polenta e carote,477.7,carote · manzo magro · farina di mais per polenta,NO,NO,31.6,6.6,NO
+162,Febbraio,D2,Colazione,"Pane integrale, burro di arachidi e banana",323.4,banana · pane integrale · burro di arachidi 100%,NO,NO,10.4,7.0,NO
+162,Febbraio,D2,Pranzo,Pane integrale con pollo e zucca arrosto,432.2,zucca · petto di pollo · pane integrale,NO,NO,32.8,6.7,NO
+162,Febbraio,D2,Pasto preturno,Pasta e lenticchie con passata e spinaci,436.3,passata di pomodoro · spinaci · lenticchie cotte e sgocciolate,NO,NO,19.3,11.7,NO
+162,Febbraio,D2,Spuntino notturno,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,NO
+162,Febbraio,D2,Spuntino notturno,Crackers classici con hummus delicato,210.2,pera · hummus semplice senza spezie piccanti · crackers classici,NO,NO,4.5,6.2,NO
+162,Febbraio,D2,Mini-pasto pre-sonno,Frutta e nocciole,123.4,kiwi · nocciole,NO,NO,2.5,4.4,NO
+163,Febbraio,D3,Brunch,Brunch: Kofte di tacchino delicati con riso e radicchio,522.6,radicchio · petto di tacchino · mela,NO,NO,40.6,6.6,NO
+163,Febbraio,D3,Spuntino,Arancia e semi di zucca,126.4,arancia · semi di zucca,NO,NO,4.3,4.2,SI
+163,Febbraio,D3,Cena,Filetto di maiale con polenta e carote,753.6,carote · filetto di maiale · pane bianco comune,SI,NO,50.0,9.0,NO
+164,Febbraio,D4,Colazione,Yogurt con avena e pera,311.6,yogurt bianco naturale · pera · fiocchi d'avena,NO,NO,13.2,7.4,NO
+164,Febbraio,D4,Spuntino,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+164,Febbraio,D4,Pranzo,Riso basmati con ceci e carote,490.1,carote · ceci cotti e sgocciolati · riso basmati secco,NO,NO,13.8,11.5,NO
+164,Febbraio,D4,Spuntino,Kefir e frutta,155.7,kefir naturale · kiwi,NO,NO,6.6,3.6,NO
+164,Febbraio,D4,Cena,Couscous con gamberi e broccoli,445.9,broccoli · gamberi · couscous di semola secco,NO,NO,36.0,5.8,NO
+165,Febbraio,D5,Colazione,"Pane di segale, tonno e patata dolce",395.6,patata dolce · tonno al naturale sgocciolato · pane di segale,NO,NO,27.8,7.1,SI
+165,Febbraio,D5,Spuntino,Piccola porzione di lupini e frutta,120.6,arancia · lupini scolati,NO,NO,9.0,4.5,NO
+165,Febbraio,D5,Pranzo,Patate con salmone e finocchi,466.9,patate · finocchi · salmone,NO,NO,24.5,10.0,NO
+165,Febbraio,D5,Spuntino,Mini panino bianco con bresaola,138.1,pane bianco comune · bresaola,NO,NO,12.6,0.9,NO
+165,Febbraio,D5,Cena,Pasta al ragù leggero di manzo,501.1,passata di pomodoro · manzo magro · carote,NO,NO,31.1,6.1,NO
+166,Febbraio,D1,Colazione,"Uova strapazzate, pane bianco e frutta",348.5,pompelmo · uovo · spinaci ben cotti,SI,NO,20.2,5.2,NO
+166,Febbraio,D1,Spuntino,Frutta e mandorle,120.4,pera · mandorle,NO,NO,2.2,5.0,NO
+166,Febbraio,D1,Pranzo,Pasta e ceci con finocchi,451.5,finocchi · ceci cotti e sgocciolati · pasta secca,NO,NO,16.2,11.4,NO
+166,Febbraio,D1,Spuntino,Banana e latte,171.8,latte parzialmente scremato · banana,NO,NO,7.0,2.6,NO
+166,Febbraio,D1,Cena,Couscous marocchino delicato con tacchino e finocchi,452.7,finocchi · petto di tacchino · cavolfiore,NO,NO,37.3,8.4,NO
+167,Febbraio,D2,Colazione,"Yogurt, kiwi e noci",258.8,yogurt bianco naturale · kiwi · noci,NO,NO,9.9,4.4,NO
+167,Febbraio,D2,Pranzo,Sogliola con riso e lattuga,407.4,sogliola · lattuga · riso basmati secco,NO,NO,38.9,3.1,NO
+167,Febbraio,D2,Pasto preturno,Farro con tonno e radicchio,404.8,radicchio · tonno al naturale sgocciolato · farro secco,NO,NO,34.5,5.5,NO
+167,Febbraio,D2,Spuntino notturno,Crackers con sardine,190.0,sardine · crackers classici,NO,NO,14.3,0.6,SI
+167,Febbraio,D2,Spuntino notturno,Yogurt con frutti di bosco e nocciole,238.7,"yogurt bianco naturale · frutti di bosco, anche surgelati · nocciole",NO,NO,9.2,6.5,NO
+167,Febbraio,D2,Mini-pasto pre-sonno,Crackers con tonno al naturale,177.1,tonno al naturale sgocciolato · crackers classici,NO,NO,17.9,0.8,SI
+168,Febbraio,D3,Brunch,Brunch: Couscous marocchino delicato con tacchino e finocchi,525.9,finocchi · kiwi · petto di tacchino,NO,NO,38.6,12.1,NO
+168,Febbraio,D3,Spuntino,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+168,Febbraio,D3,Cena,"Brunch completo con couscous, pollo e carote",692.6,petto di pollo · carote · couscous di semola secco,NO,NO,47.9,7.2,NO
+169,Febbraio,D4,Colazione,Kefir con fette classiche e confettura,358.6,kefir naturale · mela · fette biscottate classiche,NO,NO,10.9,4.3,NO
+169,Febbraio,D4,Spuntino,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+169,Febbraio,D4,Pranzo,Pasta e cannellini con carciofi,428.9,carciofi · cannellini cotti e sgocciolati · pasta secca,NO,NO,17.6,11.6,NO
+169,Febbraio,D4,Spuntino,Pane di segale con sgombro e radicchio,206.9,radicchio · sgombro · pane di segale,NO,NO,13.3,2.6,SI
+169,Febbraio,D4,Cena,Manzo magro con pane bianco e cavolfiore,461.7,cavolfiore · manzo magro · pane integrale,NO,NO,36.5,8.2,NO
+170,Febbraio,D5,Colazione,Colazione leggera con latte e fette classiche,275.9,latte parzialmente scremato · arancia · fette biscottate classiche,NO,NO,10.2,3.7,NO
+170,Febbraio,D5,Spuntino,Frutta in porzione piccola,89.0,banana,NO,NO,1.1,2.6,NO
+170,Febbraio,D5,Pranzo,Riso teriyaki delicato con tacchino e carciofi,454.3,carciofi · petto di tacchino · radicchio,NO,NO,38.6,9.6,NO
+170,Febbraio,D5,Spuntino,Kefir piccolo,66.0,kefir naturale,NO,NO,4.2,0.0,NO
+170,Febbraio,D5,Cena,Pollo con patate e spinaci,754.9,patate · spinaci · petto di pollo,NO,NO,50.4,12.3,NO
+171,Febbraio,D1,Colazione,Yogurt con avena e mela,305.6,yogurt bianco naturale · mela · fiocchi d'avena,NO,NO,13.1,6.6,NO
+171,Febbraio,D1,Spuntino,Gallette di riso con burro di arachidi e banana,281.4,banana · gallette di riso · burro di arachidi 100%,NO,NO,7.3,4.2,NO
+171,Febbraio,D1,Pranzo,Orata con patate e bietole,450.2,patate · bietole · orata,NO,NO,40.8,7.7,NO
+171,Febbraio,D1,Spuntino,Mini panino con tacchino a fette,140.0,fesa di tacchino a fette · pane bianco comune,NO,NO,12.0,0.9,NO
+171,Febbraio,D1,Cena,Riso jasmine con lupini e carote,442.2,carote · lupini scolati · riso jasmine secco,NO,NO,17.2,7.1,NO
+172,Febbraio,D2,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+172,Febbraio,D2,Pranzo,Pasta con nasello e zucca,447.8,zucca · nasello · pasta secca,NO,NO,31.4,3.0,NO
+172,Febbraio,D2,Pasto preturno,"Piadina con prosciutto cotto, robiola e carciofi",406.2,carciofi · prosciutto cotto sgrassato · piadina classica,NO,SI,25.1,6.5,NO
+172,Febbraio,D2,Spuntino notturno,Crackers classici con hummus delicato,210.2,pera · hummus semplice senza spezie piccanti · crackers classici,NO,NO,4.5,6.2,NO
+172,Febbraio,D2,Spuntino notturno,Frutta e nocciole,123.4,kiwi · nocciole,NO,NO,2.5,4.4,NO
+172,Febbraio,D2,Mini-pasto pre-sonno,Pane integrale con hummus e spinaci,222.2,spinaci · hummus semplice senza spezie piccanti · pane integrale,NO,NO,10.7,8.0,NO
+173,Febbraio,D3,Brunch,Pasta e lenticchie con carote,427.5,carote · lenticchie cotte e sgocciolate · pasta secca,NO,NO,16.0,11.3,NO
+173,Febbraio,D3,Spuntino,Crackers integrali con hummus e carote,282.8,carote · hummus semplice senza spezie piccanti · crackers integrali,NO,NO,8.7,8.2,NO
+173,Febbraio,D3,Cena,"Brunch completo con pane integrale, salmone e radicchio",733.8,salmone · pane integrale · radicchio,NO,NO,44.3,10.2,NO
+174,Febbraio,D4,Colazione,"Pane di segale, robiola e pera",281.9,pompelmo · pane di segale · robiola,NO,SI,7.6,4.4,NO
+174,Febbraio,D4,Spuntino,Latte e frutta,151.7,latte parzialmente scremato · mandarini o clementine,NO,NO,7.0,2.3,NO
+174,Febbraio,D4,Pranzo,Salmone con polenta e carciofi,551.1,carciofi · salmone · albume,SI,NO,39.3,9.7,NO
+174,Febbraio,D4,Spuntino,Kefir e frutta,150.1,kefir naturale · mela,NO,NO,5.6,3.1,NO
+174,Febbraio,D4,Cena,Riso teriyaki delicato con tacchino e spinaci,420.3,spinaci · petto di tacchino · cavolfiore,NO,NO,38.5,5.8,NO
+175,Febbraio,D5,Colazione,"Yogurt bianco, corn flakes e banana",337.4,yogurt bianco naturale · banana · fiocchi di mais semplici,NO,NO,10.6,4.3,NO
+175,Febbraio,D5,Spuntino,Mandarini e pistacchi,146.9,mandarini o clementine · pistacchi non salati,NO,NO,3.6,3.9,SI
+175,Febbraio,D5,Pranzo,Salmone nordico con patate e cavolfiore,477.4,patate · cavolfiore · salmone,NO,NO,32.0,7.0,NO
+175,Febbraio,D5,Spuntino,Mini panino con tacchino e spinaci,177.3,spinaci · pane bianco comune · fesa di tacchino a fette,NO,NO,13.9,2.8,NO
+175,Febbraio,D5,Cena,Manzo magro con polenta e carote,477.7,carote · manzo magro · farina di mais per polenta,NO,NO,31.6,6.6,NO
+176,Febbraio,D1,Colazione,Fette biscottate con robiola e miele,434.7,latte parzialmente scremato · mandarini o clementine · fette biscottate classiche,NO,SI,13.2,3.5,NO
+176,Febbraio,D1,Spuntino,Piccola porzione di lupini e frutta,120.6,arancia · lupini scolati,NO,NO,9.0,4.5,NO
+176,Febbraio,D1,Pranzo,Couscous marocchino delicato con tacchino e finocchi,429.0,finocchi · petto di tacchino · cavolfiore,NO,NO,37.9,11.4,NO
+176,Febbraio,D1,Spuntino,Kefir e fette classiche,161.8,kefir naturale · fette biscottate classiche,NO,NO,7.4,0.5,NO
+176,Febbraio,D1,Cena,Pasta e ceci con broccoli,473.5,broccoli · ceci cotti e sgocciolati · pasta secca,NO,NO,19.4,11.9,NO
+177,Febbraio,D2,Colazione,Porridge piccolo con frutta cotta,302.5,latte parzialmente scremato · mandarini o clementine · fiocchi d'avena,NO,NO,13.1,5.6,NO
+177,Febbraio,D2,Pranzo,Kofte di tacchino delicati con riso e spinaci,431.5,spinaci · petto di tacchino · riso basmati secco,NO,NO,42.3,4.6,NO
+177,Febbraio,D2,Pasto preturno,Pane integrale con pollo e zucca arrosto,432.2,zucca · petto di pollo · pane integrale,NO,NO,32.8,6.7,NO
+177,Febbraio,D2,Spuntino notturno,Latte e gallette di riso,161.7,latte parzialmente scremato · gallette di riso,NO,NO,8.0,0.7,NO
+177,Febbraio,D2,Spuntino notturno,Mini panino bianco con bresaola,138.1,pane bianco comune · bresaola,NO,NO,12.6,0.9,NO
+177,Febbraio,D2,Mini-pasto pre-sonno,Kefir con banana e pistacchi,243.5,kefir naturale · banana · pistacchi non salati,NO,NO,9.5,3.6,NO
+178,Febbraio,D3,Brunch,Riso basmati con ceci e carote,490.1,carote · ceci cotti e sgocciolati · riso basmati secco,NO,NO,13.8,11.5,NO
+178,Febbraio,D3,Spuntino,Yogurt bianco e banana,158.8,yogurt bianco naturale · banana,NO,NO,6.0,2.3,NO
+178,Febbraio,D3,Cena,"Cena completa con polenta, coniglio e barbabietola",770.6,coniglio disossato · barbabietola · farina di mais per polenta,NO,NO,42.7,8.1,SI
+179,Febbraio,D4,Colazione,Kefir con fette classiche e confettura,365.1,kefir naturale · pera · fette biscottate classiche,NO,NO,11.1,5.2,NO
+179,Febbraio,D4,Spuntino,Fette integrali con burro di arachidi e confettura,284.1,fette biscottate integrali · confettura di frutta · burro di arachidi 100%,NO,NO,7.9,3.6,NO
+179,Febbraio,D4,Pranzo,Filetto di maiale con polenta e zucca,438.9,zucca · filetto di maiale · farina di mais per polenta,NO,NO,34.0,2.5,NO
+179,Febbraio,D4,Spuntino,Frutta in porzione piccola,61.0,kiwi,NO,NO,1.1,3.0,NO
+179,Febbraio,D4,Cena,Pasta con pollo e broccoli,470.0,broccoli · petto di pollo · pasta secca,NO,NO,36.0,6.0,NO
+180,Febbraio,D5,Colazione,"Pane di segale, burro di arachidi e pera",305.3,pera · pane di segale · burro di arachidi 100%,NO,NO,9.6,7.4,NO
+180,Febbraio,D5,Spuntino,Frutta e mandorle,100.9,pompelmo · mandorle,NO,NO,2.7,3.1,SI
+180,Febbraio,D5,Pranzo,Pasta e ceci con zucca,464.1,zucca · ceci cotti e sgocciolati · pasta secca,NO,NO,16.8,8.8,NO
+180,Febbraio,D5,Spuntino,Frutta e nocciole,104.8,pompelmo · nocciole,NO,NO,2.2,2.9,NO
+180,Febbraio,D5,Cena,"Brunch completo con couscous, salmone e zucca",721.8,zucca · salmone · couscous di semola secco,NO,NO,38.3,3.5,NO

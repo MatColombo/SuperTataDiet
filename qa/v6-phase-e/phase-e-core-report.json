@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "phase": "V6-E",
+  "policyVersion": "6.0.0-phase-e.1",
+  "counts": {
+    "days": 180,
+    "meals": 864,
+    "currentRecipeFamilies": 556,
+    "recipeVersions": 797
+  },
+  "checks": {
+    "baseline_c2_clean": true,
+    "fixed_serving_automatic": true,
+    "target_range_800_2600_covered": true,
+    "explicit_infeasible": true,
+    "optional_snack_skip": true,
+    "locked_meal_preserved": true,
+    "scaled_locked_rejected": true,
+    "deterministic": true,
+    "range_planning_clean": true,
+    "no_silent_constraint_override": true
+  },
+  "performance": {
+    "indexMs": 9.7,
+    "matrixMedianMs": 298,
+    "matrixP95Ms": 543,
+    "matrixMaxMs": 543
+  },
+  "infeasibleExample": {
+    "dayIndex": 1,
+    "dayType": "D1",
+    "targetKcal": 800,
+    "bestKcal": 909.3,
+    "hardKinds": [
+      "energy_target"
+    ]
+  },
+  "range": {
+    "targets": [
+      1400,
+      1600,
+      1200
+    ],
+    "resultKcal": [
+      1405.33,
+      1567.74,
+      1199.36
+    ],
+    "hardViolations": 0,
+    "softWarnings": 0
+  }
+}

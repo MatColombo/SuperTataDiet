@@ -1,0 +1,17 @@
+﻿ingredient_code,ingredient_name,observed,minimum,status
+barbabietola,barbabietola,11,6,OK
+castagna,castagne arrostite,16,6,OK
+cavoletti,cavoletti di Bruxelles,14,6,OK
+cicoria,cicoria,7,6,OK
+cozze,"cozze, parte edibile",6,6,OK
+fave,fave cotte,6,6,OK
+gnocchi,gnocchi di patate,16,6,OK
+indivia,indivia,26,6,OK
+mais,mais dolce sgocciolato,15,6,OK
+patata_dolce,patata dolce,22,6,OK
+polpo,polpo,6,6,OK
+rapa,rape,6,6,OK
+sardine,sardine,12,6,OK
+semi_zucca,semi di zucca,31,6,OK
+tortilla,tortilla di frumento,22,6,OK
+trota,trota,7,6,OK

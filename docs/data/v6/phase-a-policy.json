@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-a.1",
+  "name": "TataDiet V6 standard - Phase A audit policy",
+  "scope": "Base 180-day plan, September through February",
+  "window_days": 7,
+  "hard_constraints": {
+    "egg_equivalent": {
+      "max_per_window": 6.0,
+      "ingredients": {
+        "uovo": {
+          "grams_per_unit": 50.0
+        },
+        "albume": {
+          "grams_per_unit": 50.0
+        }
+      },
+      "note": "Product-policy equivalence for planning: 50 g whole egg or 50 g egg white = 1 egg-equivalent unit. This is a scheduling rule, not a clinical conversion."
+    },
+    "cheese_dairy": {
+      "max_meals_per_window": 4,
+      "max_meals_per_day": 1,
+      "included_codes": [
+        "feta",
+        "fiocchi_latte",
+        "grana",
+        "mozzarella",
+        "primosale",
+        "ricotta",
+        "robiola"
+      ],
+      "excluded_codes": [
+        "latte_ps",
+        "yogurt_bianco",
+        "kefir"
+      ],
+      "counting_rule": "One occurrence per meal, regardless of how many included dairy ingredients are present."
+    },
+    "pasta_rice": {
+      "min_meals_per_window": 5,
+      "qualifying_primary_carb_families": [
+        "pasta",
+        "rice"
+      ],
+      "pasta_codes": [
+        "pasta",
+        "pasta_integrale"
+      ],
+      "rice_codes": [
+        "riso_basmati",
+        "riso_integrale",
+        "riso_jasmine"
+      ],
+      "excluded_examples": [
+        "gallette_riso",
+        "noodles_riso"
+      ],
+      "counting_rule": "Counts only when pasta or plain rice is the classified primary carbohydrate source of the meal."
+    },
+    "plant_protein_main": {
+      "min_meals_per_window": 3,
+      "eligible_meal_types": [
+        "Pranzo",
+        "Cena",
+        "Brunch",
+        "Pasto preturno"
+      ],
+      "qualifying_group": "legumes",
+      "legume_codes": [
+        "borlotti",
+        "cannellini",
+        "ceci",
+        "fave",
+        "hummus",
+        "lenticchie",
+        "lupini",
+        "piselli"
+      ],
+      "min_group_protein_g": 6.0,
+      "min_group_share_of_recognized_protein": 0.5,
+      "min_legume_base_quantity_g": 70.0,
+      "note": "A legume is considered the main protein only when it is quantitatively substantial and supplies at least half of the protein contributed by recognized protein-source ingredients."
+    }
+  },
+  "classification": {
+    "protein_groups": {
+      "legumes": [
+        "borlotti",
+        "cannellini",
+        "ceci",
+        "fave",
+        "hummus",
+        "lenticchie",
+        "lupini",
+        "piselli"
+      ],
+      "eggs": [
+        "uovo",
+        "albume"
+      ],
+      "cheese": [
+        "feta",
+        "fiocchi_latte",
+        "grana",
+        "mozzarella",
+        "primosale",
+        "ricotta",
+        "robiola"
+      ],
+      "milk_yogurt": [
+        "latte_ps",
+        "yogurt_bianco",
+        "kefir"
+      ],
+      "fish": [
+        "branzino",
+        "calamaro",
+        "cozze",
+        "gamberi",
+        "merluzzo",
+        "nasello",
+        "orata",
+        "polpo",
+        "salmone",
+        "sardine",
+        "sgombro",
+        "sogliola",
+        "tonno_naturale",
+        "trota"
+      ],
+      "poultry": [
+        "pollo",
+        "tacchino"
+      ],
+      "red_meat": [
+        "manzo_magro",
+        "maiale_filetto",
+        "coniglio"
+      ],
+      "cold_cuts": [
+        "bresaola",
+        "fesa_affettata",
+        "prosciutto_cotto",
+        "prosciutto_crudo",
+        "tacchino_affettato"
+      ],
+      "nuts_seeds": [
+        "burro_arachidi",
+        "mandorle",
+        "nocciole",
+        "noci",
+        "pistacchi",
+        "semi_zucca",
+        "sesamo"
+      ]
+    },
+    "carb_groups": {
+      "pasta": [
+        "pasta",
+        "pasta_integrale"
+      ],
+      "rice": [
+        "riso_basmati",
+        "riso_integrale",
+        "riso_jasmine"
+      ],
+      "potato": [
+        "patata",
+        "patata_dolce",
+        "gnocchi"
+      ],
+      "bread": [
+        "pane_bianco",
+        "pane_integrale",
+        "pane_segale",
+        "piadina",
+        "tortilla"
+      ],
+      "other_grains": [
+        "avena",
+        "cornflakes",
+        "couscous",
+        "couscous_integrale",
+        "farro",
+        "grano_saraceno",
+        "noodles_riso",
+        "orzo",
+        "polenta",
+        "semolino"
+      ],
+      "crackers_rusks_cakes": [
+        "crackers",
+        "crackers_integrali",
+        "fette_bianche",
+        "fette_integrali",
+        "gallette_riso"
+      ]
+    },
+    "primary_source": {
+      "minimum_share_of_recognized_group_contribution": 0.4,
+      "minimum_protein_g": 4.0,
+      "minimum_carbohydrate_g": 8.0
+    }
+  },
+  "soft_constraints": {
+    "recipe_repeat": {
+      "lookback_days": 7,
+      "high_severity_gap_days": 2,
+      "target": "Avoid repeating the same recipe family inside 7 days where practical; repeats within 2 days are high-priority review items."
+    },
+    "egg_daily_spread": {
+      "max_equivalent_units_per_day_before_warning": 2.0,
+      "note": "The weekly cap remains the hard rule; days above 2 equivalents are highlighted for curation/spreading."
+    },
+    "primary_protein_concentration": {
+      "max_share_in_main_meals_per_window": 0.4,
+      "minimum_occurrences_to_warn": 3
+    },
+    "pasta_rice_balance": {
+      "min_pasta_primary_meals_per_window": 2,
+      "min_rice_primary_meals_per_window": 2,
+      "severity": "warning",
+      "note": "The combined minimum of 5 is hard. This soft rule prevents satisfying it almost exclusively with rice."
+    },
+    "ingredient_concentration": {
+      "max_meal_occurrences_per_window": 4,
+      "minimum_distinct_days": 3,
+      "excluded_codes": [
+        "olio",
+        "passata",
+        "miele",
+        "marmellata",
+        "farina00",
+        "pangrattato",
+        "salsa_soia",
+        "pasta",
+        "pasta_integrale",
+        "riso_basmati",
+        "riso_integrale",
+        "riso_jasmine"
+      ]
+    },
+    "seasonality": {
+      "severity": "warning",
+      "fresh_ingredient_months": {
+        "arancia": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "barbabietola": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "bietola": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "broccoli": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "cachi": [
+          10,
+          11,
+          12
+        ],
+        "carciofo": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "cavoletti": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "cavolfiore": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "cavolo_cappuccio": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "cavolo_nero": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "cetriolo": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "cicoria": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "fagiolini": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fico": [
+          7,
+          8,
+          9
+        ],
+        "finocchio": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "funghi": [
+          9,
+          10,
+          11
+        ],
+        "kiwi": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "mandarino": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "mela": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "melagrana": [
+          9,
+          10,
+          11,
+          12,
+          1
+        ],
+        "melanzana": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "pera": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "pomodoro": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "pompelmo": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "porro": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "prugna": [
+          7,
+          8,
+          9
+        ],
+        "radicchio": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "rapa": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "sedano_rapa": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "spinaci": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "uva": [
+          8,
+          9,
+          10
+        ],
+        "verza": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "zucca": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "zucchina": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "explicitly_year_round_or_exempt": [
+        "banana",
+        "carota",
+        "cipolla",
+        "frutti_bosco",
+        "indivia",
+        "lattuga",
+        "mais",
+        "patata",
+        "patata_dolce",
+        "sedano"
+      ],
+      "note": "Seasonality is a curation signal for fresh produce in the Italian context. Preserved, frozen, imported or explicitly year-round ingredients are not hard failures."
+    }
+  },
+  "energy_diagnostics": {
+    "mode": "report_only_phase_a",
+    "reference_kcal_by_day_type": {
+      "D1": 1612,
+      "D2": 1709,
+      "D3": 1467,
+      "D4": 1614,
+      "D5": 1626
+    },
+    "note": "Phase A reports energy deltas but does not declare a hard tolerance. V6 planner acceptance will use the user-selected target and tolerance across the 800-2600 kcal test range."
+  }
+}

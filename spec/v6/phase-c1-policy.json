@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-c1.1",
+  "name": "TataDiet V6 Phase C.1 - diversity and purchase reuse policy",
+  "intent": "Increase real ingredient diversity without creating wasteful one-off purchases. Preserve all Phase A/C hard and soft dietary gates.",
+  "explicit_exclusions": [
+    "tofu",
+    "tempeh",
+    "seitan"
+  ],
+  "principles": {
+    "fixed_recipe_portions_only": true,
+    "prefer_existing_simple_ingredients": true,
+    "do_not_create_singleton_specialty_ingredients": true,
+    "reuse_same_purchase_in_different_recipes": true,
+    "do_not_trade_one_monoculture_for_another": true,
+    "seasonality_remains_binding_for_curation": true
+  },
+  "global_variety_targets": {
+    "max_recipe_family_occurrences_180d": 12,
+    "max_banana_meals": 55,
+    "max_carrot_meals": 55,
+    "max_spinach_meals": 55,
+    "max_pumpkin_meals": 45,
+    "max_hummus_meals": 25,
+    "max_salmon_meals": 28,
+    "max_bresaola_meals": 16,
+    "max_sliced_turkey_meals": 16,
+    "max_peanut_butter_meals": 32,
+    "max_chickpea_plus_hummus_share_of_legume_meals": 0.4,
+    "max_top3_fruit_share": 0.48,
+    "max_top3_vegetable_share": 0.36,
+    "max_tuna_meals": 32,
+    "max_fresh_turkey_meals": 45,
+    "max_lupin_meals": 30
+  },
+  "rotation_activation_targets": {
+    "minimum_occurrences_180d": 6,
+    "ingredient_codes": [
+      "barbabietola",
+      "castagna",
+      "cavoletti",
+      "cicoria",
+      "cozze",
+      "fave",
+      "gnocchi",
+      "indivia",
+      "mais",
+      "patata_dolce",
+      "polpo",
+      "rapa",
+      "sardine",
+      "semi_zucca",
+      "tortilla",
+      "trota"
+    ]
+  },
+  "purchase_reuse": {
+    "reuse_horizon_days": 4,
+    "minimum_share_of_occurrences_with_neighbor_in_horizon": 0.55,
+    "full_portion_minimums_g": {
+      "fresh_meat_or_fish_in_main_meal": 90,
+      "cold_cut_if_used": 35
+    },
+    "package_sensitive_dairy": {
+      "policy": "Do not keep isolated small uses. Either cluster the same cheese within 4 days or remove the occurrence from the curated rotation.",
+      "codes": [
+        "mozzarella",
+        "ricotta",
+        "robiola",
+        "primosale",
+        "feta",
+        "fiocchi_latte",
+        "grana"
+      ]
+    },
+    "package_sensitive_dairy_targets": {
+      "mozzarella": {
+        "max_isolated_occurrences": 0
+      },
+      "feta": {
+        "max_isolated_occurrences": 0
+      },
+      "fiocchi_latte": {
+        "max_isolated_occurrences": 0
+      },
+      "grana": {
+        "max_isolated_occurrences": 0
+      },
+      "primosale": {
+        "max_isolated_occurrences": 0
+      },
+      "ricotta": {
+        "max_isolated_occurrences": 0
+      },
+      "robiola": {
+        "max_isolated_occurrences": 0
+      }
+    },
+    "batch_reuse_preference_codes": [
+      "barbabietola",
+      "cavoletti",
+      "cicoria",
+      "indivia",
+      "rapa",
+      "gnocchi",
+      "tortilla",
+      "mais"
+    ],
+    "storage_flexible_codes": [
+      "borlotti",
+      "cannellini",
+      "castagna",
+      "couscous",
+      "cozze",
+      "crackers",
+      "farro",
+      "fave",
+      "gallette_riso",
+      "lenticchie",
+      "lupini",
+      "orzo",
+      "pasta",
+      "pasta_integrale",
+      "patata_dolce",
+      "piselli",
+      "polenta",
+      "polpo",
+      "riso_basmati",
+      "riso_integrale",
+      "riso_jasmine",
+      "sardine",
+      "semi_zucca",
+      "sgombro",
+      "tonno_naturale",
+      "trota"
+    ]
+  },
+  "cold_cut_policy": {
+    "direction": "reduce",
+    "note": "Cold cuts must not become the default replacement for cheese. Prefer fruit/seeds, milk-yogurt-kefir, legumes, and a rotating mix of fish or other simple foods."
+  },
+  "dairy_policy": {
+    "direction": "reduce_and_cluster",
+    "note": "Milk, yogurt and kefir remain excluded from the cheese/dairy hard cap. Cheese uses should be less frequent and purchase-aware."
+  },
+  "diversity_groups": {
+    "fruit_codes": [
+      "arancia",
+      "banana",
+      "cachi",
+      "fico",
+      "frutti_bosco",
+      "kiwi",
+      "mandarino",
+      "mela",
+      "melagrana",
+      "pera",
+      "pompelmo",
+      "prugna",
+      "uva"
+    ],
+    "legume_codes": [
+      "hummus",
+      "ceci",
+      "lenticchie",
+      "cannellini",
+      "borlotti",
+      "piselli",
+      "fave",
+      "lupini"
+    ],
+    "fresh_animal_protein_codes": [
+      "pollo",
+      "tacchino",
+      "manzo_magro",
+      "maiale_filetto",
+      "coniglio",
+      "branzino",
+      "calamaro",
+      "cozze",
+      "gamberi",
+      "merluzzo",
+      "nasello",
+      "orata",
+      "polpo",
+      "salmone",
+      "sardine",
+      "sgombro",
+      "sogliola",
+      "trota"
+    ]
+  }
+}

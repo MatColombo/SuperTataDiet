@@ -1,0 +1,46 @@
+{
+  "chickpea_plus_hummus_limit": 0.4,
+  "chickpea_plus_hummus_share": 0.2866,
+  "fruit_limit": 0.48,
+  "fruit_top3": [
+    [
+      "banana",
+      55
+    ],
+    [
+      "pera",
+      51
+    ],
+    [
+      "mela",
+      34
+    ]
+  ],
+  "fruit_top3_share": 0.4682,
+  "legume_counts": {
+    "borlotti": 14,
+    "cannellini": 32,
+    "ceci": 21,
+    "fave": 6,
+    "hummus": 24,
+    "lenticchie": 19,
+    "lupini": 30,
+    "piselli": 11
+  },
+  "vegetable_limit": 0.36,
+  "vegetable_top3": [
+    [
+      "carota",
+      52
+    ],
+    [
+      "spinaci",
+      51
+    ],
+    [
+      "radicchio",
+      42
+    ]
+  ],
+  "vegetable_top3_share": 0.3085
+}

@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "phase": "V6-G",
+  "policy_version": "6.0.0-phase-g.1",
+  "checks": {
+    "base_c2_byte_identity": true,
+    "indexeddb_v2_diary_store": true,
+    "diary_in_backup": true,
+    "diary_page": true,
+    "traffic_light_ux": true,
+    "manual_meals": true,
+    "daily_comment": true,
+    "rolling_7_30_summary": true,
+    "offline_assets": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "phase": "V6-H",
+  "release": "6.0.0",
+  "automated_release_gate": "passed",
+  "gates": {
+    "build": "pass",
+    "c2_baseline": "pass",
+    "phase_d": "pass",
+    "phase_e": "pass",
+    "phase_f": "pass",
+    "phase_g": "pass",
+    "phase_h": "pass",
+    "stress_96_undo_redo": "pass",
+    "static_site_validation": "pass"
+  },
+  "site_validation": {
+    "html_files": 593,
+    "links_checked": 51895,
+    "errors": 0,
+    "warnings": 0,
+    "offline_assets": 668,
+    "offline_bytes": 19614770
+  },
+  "stress": {
+    "operations": 96,
+    "elapsed_ms": 2846.7,
+    "full_undo": true,
+    "full_redo": true
+  },
+  "planner": {
+    "indexMs": 9.7,
+    "matrixMedianMs": 298,
+    "matrixP95Ms": 543,
+    "matrixMaxMs": 543
+  },
+  "baseline": {
+    "ingredients": 131,
+    "recipe_families": 556,
+    "recipe_versions": 797,
+    "days": 180,
+    "meals": 864
+  },
+  "browser_smoke": "not-run-no-deploy-url"
+}

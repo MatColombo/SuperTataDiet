@@ -1,0 +1,29 @@
+{
+  "phase": "V6-F",
+  "policy_version": "6.0.0-phase-f.1",
+  "recipe_converter": {
+    "mode": "read-only",
+    "equal_energy": true,
+    "default_greedy_results": 12,
+    "free_search_includes_energy_only": true,
+    "show_nutrition_delta": ["energyKcal", "proteinG", "carbohydrateG", "fatG", "fiberG"],
+    "writes_recipe_or_plan": false
+  },
+  "recipe_picker": {
+    "search_fields": ["recipe_title", "cuisine", "meal_type", "tags", "ingredient_name", "ingredient_alias"],
+    "show_top_ingredient_names": 3,
+    "immediate_check": ["rolling_7d_constraints", "day_energy_tolerance"],
+    "final_check": "full_v6_plan_validation",
+    "block_noncompliant_replacements": true
+  },
+  "servings": {
+    "manual_recipe_portion_multiplier": 1,
+    "editable_in_composer": false
+  },
+  "future_navigation": {
+    "today_offsets_days": [1, 3, 7],
+    "manager_offsets_days": [1, 3, 7, 14],
+    "date_picker": true,
+    "destination": "day_composer"
+  }
+}

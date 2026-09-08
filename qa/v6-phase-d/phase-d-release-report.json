@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "phase": "V6-D",
+  "policy_version": "6.0.0-phase-d.1",
+  "checks": {
+    "policy_contract": true,
+    "manifest_extension": true,
+    "published_policy_bundle": true,
+    "published_runtime_modules": true,
+    "baseline_c2_preserved": true,
+    "service_worker_assets": true
+  },
+  "core_performance": {
+    "rank_2000_calls_ms": 798,
+    "average_call_ms": 0.399
+  }
+}

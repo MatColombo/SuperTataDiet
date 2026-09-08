@@ -1,0 +1,63 @@
+{
+  "policy_version": "6.0.0",
+  "release": "TataDiet V6.0.0",
+  "status": "release",
+  "baseline": {
+    "dataset_version": "tatadiet-base-v2",
+    "ingredients_sha256": "1765f980c824b1d11b44155ac813a5b285ce57e527c0a9ace088468f24e84a1b",
+    "recipes_sha256": "535376cdea1d2508aa53a64c4bdf99a59cadbfd5644a5a3becd9f4fef87aa237",
+    "plan_sha256": "9a155f1bf900f55e83ad5c569d3529eba96c021fa503f14fa9a0becf9210428d",
+    "days": 180,
+    "meals": 864,
+    "recipe_families": 556,
+    "recipe_versions": 797,
+    "ingredients": 131
+  },
+  "release_contract": {
+    "fixed_recipe_servings": true,
+    "energy_target_kcal": [
+      800,
+      2600
+    ],
+    "default_energy_tolerance_pct": 0.05,
+    "rolling_7d": {
+      "egg_equivalent_max": 6,
+      "counted_dairy_portions": 3,
+      "counted_dairy_types_min": 2,
+      "counted_dairy_per_day_max": 1,
+      "avocado_portions": 2,
+      "plant_protein_main_min": 3,
+      "pasta_rice_primary_min": 5
+    },
+    "ingredient_converter": "read-only equal-energy with compatibility ranking and nutrient deltas",
+    "diary": "separate local-first history with frozen planned snapshot and 7/30-day summaries"
+  },
+  "storage": {
+    "database_name": "tatadiet-v5",
+    "database_name_note": "Legacy technical identifier intentionally retained to avoid an implicit local-data reset.",
+    "database_version": 2,
+    "schema_version": 2,
+    "backup_schema_version": 2,
+    "app_version": "6.0.0"
+  },
+  "release_gates": [
+    "C2 curated baseline regression",
+    "D ingredient-intelligence and constraint regression",
+    "E planner 800-2600 kcal matrix, infeasibility, determinism and multi-day planning",
+    "F converter/search/replacement/static UX regression",
+    "G diary core/store/persistence regression",
+    "96-operation undo/redo structural stress",
+    "full static-site validation",
+    "release version/offline/backup coherence"
+  ],
+  "browser_validation": {
+    "local_environment": "blocked-by-administrator",
+    "required_post_deploy_smoke": [
+      "ingredient converter",
+      "ingredient-aware replacement picker",
+      "future-date shortcuts",
+      "diary logging/persistence",
+      "PWA install/update/offline"
+    ]
+  }
+}

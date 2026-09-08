@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const cp=require('node:child_process');
+const {performance}=require('node:perf_hooks');
+const ROOT=path.resolve(__dirname,'..');
+const started=performance.now();
+const text=cp.execFileSync(process.execPath,[path.join(ROOT,'scripts/test_v5_phase8_stress.js')],{cwd:ROOT,encoding:'utf8',timeout:30000});
+const elapsed=performance.now()-started;
+const base=JSON.parse(text);
+assert.equal(base.status,'ok');
+assert.equal(base.operations,96);
+assert.equal(base.checks.full_undo,true);
+assert.equal(base.checks.full_redo,true);
+assert.ok(elapsed<20000,`structural stress too slow: ${elapsed.toFixed(1)} ms`);
+const report={status:'ok',phase:'V6-E',operations:base.operations,finalDays:base.finalDays,elapsedMs:Number(elapsed.toFixed(1)),checks:{continuous_dates:base.checks.continuous_dates,unique_ids:base.checks.unique_ids,structural_shifts:base.checks.structural_shifts,full_undo:base.checks.full_undo,full_redo:base.checks.full_redo,performance_regression_fixed:true}};
+const qa=path.join(ROOT,'qa/v6-phase-e');fs.mkdirSync(qa,{recursive:true});fs.writeFileSync(path.join(qa,'structural-stress-report.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));

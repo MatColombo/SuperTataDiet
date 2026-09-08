@@ -1,0 +1,125 @@
+﻿ingredient_code,ingredient_name,category,meal_occurrences,distinct_days,total_base_quantity,base_unit
+olio,olio extravergine di oliva,Condimenti e dispensa,363,180,2431.0,g
+pane_bianco,pane bianco comune,"Cereali, pane e derivati",75,72,3559.0,g
+pasta,pasta secca,"Cereali, pane e derivati",74,74,4890.0,g
+crackers,crackers classici,"Cereali, pane e derivati",71,63,1321.0,g
+latte_ps,latte parzialmente scremato,Latticini e uova,68,61,13280.0,ml
+yogurt_bianco,yogurt bianco naturale,Latticini e uova,64,56,7775.0,g
+kefir,kefir naturale,Latticini e uova,58,58,8880.0,ml
+avocado,avocado fresco,Ortofrutta,52,52,3900.0,g
+riso_basmati,riso basmati secco,"Cereali, pane e derivati",50,47,2775.0,g
+spinaci,spinaci,Ortofrutta,48,42,6010.0,g
+carota,carote,Ortofrutta,46,42,6360.0,g
+polenta,farina di mais per polenta,"Cereali, pane e derivati",46,45,2860.0,g
+patata,patate,"Cereali, pane e derivati",45,44,10255.0,g
+tacchino,petto di tacchino,Carne e affettati,45,44,5545.0,g
+zucca,zucca,Ortofrutta,42,41,7130.0,g
+pollo,petto di pollo,Carne e affettati,40,39,4775.0,g
+pera,pera,Ortofrutta,40,37,5000.0,g
+manzo_magro,manzo magro,Carne e affettati,40,39,5110.0,g
+banana,banana,Ortofrutta,40,37,3810.0,g
+pane_integrale,pane integrale,"Cereali, pane e derivati",38,34,2670.0,g
+gallette_riso,gallette di riso,"Cereali, pane e derivati",37,37,836.0,g
+avena,fiocchi d'avena,"Cereali, pane e derivati",36,36,1263.0,g
+radicchio,radicchio,Ortofrutta,35,35,4180.0,g
+semi_zucca,semi di zucca,Frutta secca e semi,34,32,322.0,g
+cavolfiore,cavolfiore,Ortofrutta,34,32,4540.0,g
+fette_bianche,fette biscottate classiche,"Cereali, pane e derivati",30,27,751.0,g
+couscous,couscous di semola secco,"Cereali, pane e derivati",30,29,2260.0,g
+tonno_naturale,tonno al naturale sgocciolato,Pesce,29,28,2330.0,g
+broccoli,broccoli,Ortofrutta,29,27,4350.0,g
+finocchio,finocchi,Ortofrutta,29,26,4220.0,g
+melagrana,chicchi di melagrana,Ortofrutta,28,27,2540.0,g
+maiale_filetto,filetto di maiale,Carne e affettati,28,28,3680.0,g
+cannellini,cannellini cotti e sgocciolati,Legumi e conserve,27,24,1790.0,g
+nocciole,nocciole,Frutta secca e semi,27,26,231.0,g
+kiwi,kiwi,Ortofrutta,27,26,3240.0,g
+mela,mela,Ortofrutta,26,26,3290.0,g
+salmone,salmone,Pesce,26,26,3010.0,g
+lupini,lupini scolati,Legumi e conserve,25,25,1415.0,g
+grana,Grana Padano o Parmigiano,Latticini e uova,25,25,625.0,g
+mandorle,mandorle,Frutta secca e semi,24,24,160.0,g
+riso_jasmine,riso jasmine secco,"Cereali, pane e derivati",24,24,1395.0,g
+cornflakes,fiocchi di mais semplici,"Cereali, pane e derivati",22,21,769.0,g
+indivia,indivia,Ortofrutta,22,18,1970.0,g
+carciofo,carciofi,Ortofrutta,22,20,2720.0,g
+ceci,ceci cotti e sgocciolati,Legumi e conserve,21,21,1655.0,g
+tortilla,tortilla di frumento,"Cereali, pane e derivati",21,19,760.0,g
+uovo,uovo intero,Latticini e uova,20,17,1330.0,g
+mandarino,mandarini o clementine,Ortofrutta,20,20,2650.0,g
+patata_dolce,patata dolce,"Cereali, pane e derivati",19,18,2560.0,g
+burro_arachidi,burro di arachidi 100%,Frutta secca e semi,19,19,320.0,g
+mais,mais dolce sgocciolato,Ortofrutta,19,18,1170.0,g
+bietola,bietole,Ortofrutta,19,17,2810.0,g
+lenticchie,lenticchie cotte e sgocciolate,Legumi e conserve,19,19,1425.0,g
+salsa_soia,salsa di soia delicata,Condimenti e dispensa,19,19,104.0,g
+pane_segale,pane di segale,"Cereali, pane e derivati",18,18,840.0,g
+farro,farro secco,"Cereali, pane e derivati",17,17,1415.0,g
+castagna,castagne arrostite,Frutta secca e semi,17,16,960.0,g
+gnocchi,gnocchi di patate,"Cereali, pane e derivati",16,15,3220.0,g
+merluzzo,merluzzo,Pesce,16,16,2230.0,g
+arancia,arancia,Ortofrutta,16,14,2120.0,g
+coniglio,coniglio disossato,Carne e affettati,14,14,1860.0,g
+borlotti,borlotti cotti e sgocciolati,Legumi e conserve,14,14,1000.0,g
+cavoletti,cavoletti di Bruxelles,Ortofrutta,14,11,1830.0,g
+tacchino_affettato,fesa di tacchino a fette,Carne e affettati,13,13,555.0,g
+marmellata,confettura di frutta,Condimenti e dispensa,13,13,200.0,g
+hummus,hummus semplice senza spezie piccanti,Legumi e conserve,13,12,505.0,g
+semolino,semolino di frumento,"Cereali, pane e derivati",13,13,620.0,g
+orzo,orzo perlato secco,"Cereali, pane e derivati",12,11,875.0,g
+bresaola,bresaola,Carne e affettati,12,12,385.0,g
+pompelmo,pompelmo,Ortofrutta,12,10,1510.0,g
+barbabietola,barbabietola,Ortofrutta,11,11,1590.0,g
+zucchina,zucchine,Ortofrutta,11,10,1840.0,g
+piselli,piselli cotti,Legumi e conserve,11,11,1265.0,g
+cavolo_nero,cavolo nero,Ortofrutta,11,11,1430.0,g
+ricotta,ricotta vaccina,Latticini e uova,10,10,1250.0,g
+funghi,funghi,Ortofrutta,10,10,1620.0,g
+pangrattato,pangrattato,"Cereali, pane e derivati",10,10,123.0,g
+cavolo_cappuccio,cavolo cappuccio,Ortofrutta,10,9,1500.0,g
+primosale,formaggio primosale,Latticini e uova,10,10,800.0,g
+riso_integrale,riso integrale secco,"Cereali, pane e derivati",9,9,505.0,g
+miele,miele,Condimenti e dispensa,9,9,49.0,g
+gamberi,gamberi,Pesce,9,9,900.0,g
+pistacchi,pistacchi non salati,Frutta secca e semi,9,9,120.0,g
+robiola,robiola,Latticini e uova,8,8,400.0,g
+albume,albume,Latticini e uova,8,8,640.0,g
+mozzarella,mozzarella vaccina,Latticini e uova,8,8,500.0,g
+sardine,sardine,Pesce,8,8,570.0,g
+passata,passata di pomodoro,Condimenti e dispensa,8,8,880.0,g
+feta,feta,Latticini e uova,8,8,600.0,g
+sgombro,sgombro,Pesce,8,8,620.0,g
+fiocchi_latte,fiocchi di latte,Latticini e uova,8,8,800.0,g
+cachi,cachi,Ortofrutta,8,8,940.0,g
+noci,noci,Frutta secca e semi,8,8,54.0,g
+trota,trota,Pesce,7,7,900.0,g
+nasello,nasello,Pesce,7,7,1050.0,g
+cicoria,cicoria,Ortofrutta,7,5,830.0,g
+orata,orata,Pesce,6,6,960.0,g
+polpo,polpo,Pesce,6,6,1000.0,g
+cozze,"cozze, parte edibile",Pesce,6,6,1220.0,g
+sogliola,sogliola,Pesce,6,6,1080.0,g
+fave,fave cotte,Legumi e conserve,6,6,495.0,g
+noodles_riso,spaghetti di riso secchi,"Cereali, pane e derivati",6,6,330.0,g
+rapa,rape,Ortofrutta,6,6,900.0,g
+pomodoro,pomodori,Ortofrutta,5,5,850.0,g
+lattuga,lattuga,Ortofrutta,5,5,900.0,g
+branzino,branzino,Pesce,5,5,780.0,g
+porro,porro,Ortofrutta,5,5,500.0,g
+fagiolini,fagiolini,Ortofrutta,4,4,560.0,g
+fico,fichi freschi,Ortofrutta,4,4,470.0,g
+uva,uva,Ortofrutta,4,4,460.0,g
+sesamo,semi di sesamo,Frutta secca e semi,4,4,12.0,g
+frutti_bosco,"frutti di bosco, anche surgelati",Ortofrutta,4,4,400.0,g
+sedano_rapa,sedano rapa,Ortofrutta,4,4,600.0,g
+latte_cocco_light,latte di cocco light,Condimenti e dispensa,3,3,150.0,ml
+fette_integrali,fette biscottate integrali,"Cereali, pane e derivati",3,3,105.0,g
+grano_saraceno,grano saraceno secco,"Cereali, pane e derivati",3,3,180.0,g
+pasta_integrale,pasta integrale secca,"Cereali, pane e derivati",3,3,180.0,g
+verza,verza,Ortofrutta,3,3,450.0,g
+crackers_integrali,crackers integrali,"Cereali, pane e derivati",2,2,70.0,g
+prugna,prugne fresche,Ortofrutta,2,2,300.0,g
+melanzana,melanzane,Ortofrutta,2,2,300.0,g
+calamaro,calamaro,Pesce,1,1,110.0,g
+cetriolo,cetriolo senza buccia e semi,Ortofrutta,1,1,80.0,g
+couscous_integrale,couscous integrale secco,"Cereali, pane e derivati",1,1,60.0,g

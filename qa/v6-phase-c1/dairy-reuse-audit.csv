@@ -1,0 +1,8 @@
+﻿ingredient_code,ingredient_name,occurrences,distinct_days,total_quantity_g,isolated_occurrences,isolated_days,status
+mozzarella,mozzarella vaccina,0,0,0,0,,OK
+ricotta,ricotta vaccina,12,12,545.0,0,,OK
+robiola,robiola,5,5,175.0,0,,OK
+primosale,formaggio primosale,0,0,0,0,,OK
+feta,feta,0,0,0,0,,OK
+fiocchi_latte,fiocchi di latte,0,0,0,0,,OK
+grana,Grana Padano o Parmigiano,0,0,0,0,,OK

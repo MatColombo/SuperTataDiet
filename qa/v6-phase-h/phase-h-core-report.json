@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "phase": "V6-H",
+  "checks": {
+    "core_api_surface": true,
+    "equal_energy_converter": true,
+    "nutrition_delta": true,
+    "diary_adherence_semantics": true
+  }
+}

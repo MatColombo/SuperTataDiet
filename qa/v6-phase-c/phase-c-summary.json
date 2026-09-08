@@ -1,0 +1,165 @@
+{
+  "before_after": {
+    "phase_a_hard_failure_counts": {
+      "cheese_dairy_day": 117,
+      "cheese_dairy_window": 174,
+      "egg_equivalent": 167,
+      "pasta_rice": 49,
+      "plant_protein_main": 174
+    },
+    "phase_a_off_season": 39,
+    "phase_a_recipe_repeats_7d": 216,
+    "phase_c_hard_failure_counts": {},
+    "phase_c_off_season": 0,
+    "phase_c_recipe_repeats_7d": 0
+  },
+  "catalog": {
+    "phase_c_targeted_recipes": 15,
+    "recipe_families": 405,
+    "recipe_families_used": 198,
+    "recipe_versions": 646
+  },
+  "compliance": {
+    "hard_violations": 0,
+    "max_energy_delta_pct": 4.78,
+    "median_energy_delta_pct": 0.42,
+    "off_season_occurrences": 0,
+    "recipe_repeats_within_7d": 0,
+    "soft_warning_counts": {}
+  },
+  "curation": {
+    "changed_days": 179,
+    "changed_meals": 709,
+    "days": 180,
+    "meals": 864,
+    "preserved_meals": 155
+  },
+  "dataset_version": "tatadiet-base-v2",
+  "global_variety": {
+    "families_over_15_occurrences": 12,
+    "max_family_occurrences_180d": 20,
+    "top_10_families": [
+      {
+        "distinct_days": 20,
+        "median_gap_days": 8,
+        "minimum_gap_days": 8,
+        "occurrences": 20,
+        "recipe_id": "base:recipe:crackers-classici-con-hummus-delicato",
+        "title": "Crackers classici con hummus delicato"
+      },
+      {
+        "distinct_days": 19,
+        "median_gap_days": 9.0,
+        "minimum_gap_days": 8,
+        "occurrences": 19,
+        "recipe_id": "base:recipe:mini-panino-bianco-con-bresaola",
+        "title": "Mini panino bianco con bresaola"
+      },
+      {
+        "distinct_days": 18,
+        "median_gap_days": 10,
+        "minimum_gap_days": 8,
+        "occurrences": 18,
+        "recipe_id": "base:recipe:kefir-con-fette-classiche-e-confettura",
+        "title": "Kefir con fette classiche e confettura"
+      },
+      {
+        "distinct_days": 18,
+        "median_gap_days": 10,
+        "minimum_gap_days": 8,
+        "occurrences": 18,
+        "recipe_id": "base:recipe:kefir-e-fette-classiche",
+        "title": "Kefir e fette classiche"
+      },
+      {
+        "distinct_days": 18,
+        "median_gap_days": 10,
+        "minimum_gap_days": 8,
+        "occurrences": 18,
+        "recipe_id": "base:recipe:piccola-porzione-di-lupini-e-frutta",
+        "title": "Piccola porzione di lupini e frutta"
+      },
+      {
+        "distinct_days": 17,
+        "median_gap_days": 10.0,
+        "minimum_gap_days": 8,
+        "occurrences": 17,
+        "recipe_id": "base:recipe:v6-fette-integrali-con-burro-di-arachidi-e-confettura",
+        "title": "Fette integrali con burro di arachidi e confettura"
+      },
+      {
+        "distinct_days": 17,
+        "median_gap_days": 9.5,
+        "minimum_gap_days": 8,
+        "occurrences": 17,
+        "recipe_id": "base:recipe:frutta-e-mandorle",
+        "title": "Frutta e mandorle"
+      },
+      {
+        "distinct_days": 17,
+        "median_gap_days": 9.5,
+        "minimum_gap_days": 8,
+        "occurrences": 17,
+        "recipe_id": "base:recipe:frutta-e-nocciole",
+        "title": "Frutta e nocciole"
+      },
+      {
+        "distinct_days": 17,
+        "median_gap_days": 10.5,
+        "minimum_gap_days": 8,
+        "occurrences": 17,
+        "recipe_id": "base:recipe:kefir-e-frutta",
+        "title": "Kefir e frutta"
+      },
+      {
+        "distinct_days": 17,
+        "median_gap_days": 9.5,
+        "minimum_gap_days": 8,
+        "occurrences": 17,
+        "recipe_id": "base:recipe:latte-e-gallette-di-riso",
+        "title": "Latte e gallette di riso"
+      }
+    ]
+  },
+  "phase": "V6-C",
+  "rolling_7d": {
+    "all_windows_compliant": true,
+    "cheese_dairy": {
+      "day_limit": 1,
+      "days_failed": 0,
+      "max_meals_in_single_day": 1,
+      "max_meals_per_7d": 4,
+      "mean_meals_per_7d": 2.45,
+      "median_meals_per_7d": 3.0,
+      "min_meals_per_7d": 0,
+      "window_limit": 4,
+      "windows_failed": 0
+    },
+    "egg_equivalent": {
+      "limit": 6.0,
+      "max_in_single_day": 2.0,
+      "max_per_7d": 4.6,
+      "mean_per_7d": 1.56,
+      "median_per_7d": 1.6,
+      "min_per_7d": 0.0,
+      "windows_failed": 0
+    },
+    "failure_counts": {},
+    "pasta_rice": {
+      "max_meals_per_7d": 7,
+      "mean_meals_per_7d": 6.2,
+      "median_meals_per_7d": 6.0,
+      "min_meals_per_7d": 5,
+      "minimum": 5,
+      "windows_failed": 0
+    },
+    "plant_protein_main": {
+      "max_meals_per_7d": 3,
+      "mean_meals_per_7d": 3,
+      "median_meals_per_7d": 3.0,
+      "min_meals_per_7d": 3,
+      "minimum": 3,
+      "windows_failed": 0
+    }
+  }
+}

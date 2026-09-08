@@ -1,0 +1,9 @@
+﻿ingredient_code,ingredient_name,occurrences,paired_within_4d,paired_share,target_share,status
+barbabietola,barbabietola,11,7,0.6364,0.55,OK
+cavoletti,cavoletti di Bruxelles,14,11,0.7857,0.55,OK
+cicoria,cicoria,7,4,0.5714,0.55,OK
+indivia,indivia,26,23,0.8846,0.55,OK
+rapa,rape,6,6,1.0,0.55,OK
+gnocchi,gnocchi di patate,16,16,1.0,0.55,OK
+tortilla,tortilla di frumento,22,20,0.9091,0.55,OK
+mais,mais dolce sgocciolato,15,13,0.8667,0.55,OK

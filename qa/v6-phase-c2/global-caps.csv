@@ -1,0 +1,13 @@
+﻿ingredient_code,observed,limit,status
+banana,40,55,OK
+carota,46,55,OK
+spinaci,48,55,OK
+zucca,42,45,OK
+hummus,13,25,OK
+salmone,26,28,OK
+bresaola,12,16,OK
+tacchino_affettato,13,16,OK
+burro_arachidi,19,32,OK
+tonno_naturale,29,32,OK
+tacchino,45,45,OK
+lupini,25,30,OK

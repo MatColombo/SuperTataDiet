@@ -1,0 +1,1826 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-c2.1",
+  "name": "TataDiet V6 Phase C.2 dairy and avocado recipe tranche",
+  "intent": "Simple fixed portions to implement the rolling dairy and avocado requirements with purchase-aware quantities.",
+  "constraints": {
+    "fixed_serving": 1.0,
+    "forbidden_ingredients": [
+      "tofu",
+      "tempeh",
+      "seitan"
+    ],
+    "avocado_portion_g": 75
+  },
+  "recipes": [
+    {
+      "title": "Ricotta semplice",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Ricotta con crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Ricotta con pane bianco",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Ricotta con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Robiola semplice",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "robiola",
+          "quantity": 50
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "robiola",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Robiola con crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "robiola",
+          "quantity": 50
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "robiola",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Robiola con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "robiola",
+          "quantity": 50
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "robiola",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mozzarella semplice",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "mozzarella",
+          "quantity": 62.5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "mozzarella",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mozzarella con crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "mozzarella",
+          "quantity": 62.5
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "mozzarella",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mozzarella con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "mozzarella",
+          "quantity": 62.5
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "mozzarella",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Feta semplice",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "feta",
+          "quantity": 75
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "feta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Feta con crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "feta",
+          "quantity": 75
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "feta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Feta con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "feta",
+          "quantity": 75
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "feta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Fiocchi di latte con crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "fiocchi_latte",
+          "quantity": 100
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "fiocchi_latte",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Fiocchi di latte con pane bianco",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "fiocchi_latte",
+          "quantity": 100
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "fiocchi_latte",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Fiocchi di latte con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "fiocchi_latte",
+          "quantity": 100
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "fiocchi_latte",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale semplice",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale con pane bianco",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale con galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana e crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "crackers",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana e pane bianco",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 20
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana e gallette di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 15
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana e fette biscottate",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "fette_bianche",
+          "quantity": 15
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Avocado al naturale",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e crackers",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "crackers",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e pane bianco",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 10
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e galletta di riso",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e mais",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "mais",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e semi di zucca",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 5
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e fette biscottate",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "fette_bianche",
+          "quantity": 8
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e crackers croccanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "crackers",
+          "quantity": 15
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado e pane tostato",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 20
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Ricotta con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Ricotta con crackers abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "crackers",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Robiola con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "robiola",
+          "quantity": 50
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "robiola",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mozzarella con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "mozzarella",
+          "quantity": 62.5
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "mozzarella",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Feta con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "feta",
+          "quantity": 75
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "feta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Fiocchi di latte con crackers abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "fiocchi_latte",
+          "quantity": 100
+        },
+        {
+          "code": "crackers",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "fiocchi_latte",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale con crackers abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        },
+        {
+          "code": "crackers",
+          "quantity": 30
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana con crackers abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "crackers",
+          "quantity": 45
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Avocado con pane abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 40
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado con crackers abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "crackers",
+          "quantity": 25
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Ricotta con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "ricotta",
+          "quantity": 125
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 35
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "ricotta",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Robiola con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "robiola",
+          "quantity": 50
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 35
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "robiola",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Mozzarella con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "mozzarella",
+          "quantity": 62.5
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 35
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "mozzarella",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Fiocchi di latte con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "fiocchi_latte",
+          "quantity": 100
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 35
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "fiocchi_latte",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Primosale con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "primosale",
+          "quantity": 80
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 35
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "primosale",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Avocado con tortilla intera piccola",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "tortilla",
+          "quantity": 20
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado con mais abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "mais",
+          "quantity": 60
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado con semi di zucca abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "semi_zucca",
+          "quantity": 15
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Avocado con fette biscottate abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "avocado",
+          "quantity": 75
+        },
+        {
+          "code": "fette_bianche",
+          "quantity": 25
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "avocado_snack",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Limone facoltativo"
+    },
+    {
+      "title": "Grana con fette biscottate abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "fette_bianche",
+          "quantity": 45
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana con gallette abbondanti",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "gallette_riso",
+          "quantity": 47
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    },
+    {
+      "title": "Grana con pane molto abbondante",
+      "meal_types": [
+        "Colazione",
+        "Spuntino",
+        "Spuntino notturno",
+        "Mini-pasto pre-sonno"
+      ],
+      "ingredients": [
+        {
+          "code": "grana",
+          "quantity": 25
+        },
+        {
+          "code": "pane_bianco",
+          "quantity": 70
+        }
+      ],
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "role": "dairy_snack",
+      "dairy_type": "grana",
+      "method": "snack",
+      "cuisine": "Italiana",
+      "prep_minutes": 3,
+      "spices": "Nessuna"
+    }
+  ]
+}

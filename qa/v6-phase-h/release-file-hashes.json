@@ -1,0 +1,12 @@
+{
+  "release": "6.0.0",
+  "sha256": {
+    "v5_data/base/base-dataset-manifest.json": "46e7cf21c63ec5ce009aaada960c762329bbf7b7b87ee2cef7bd17bdc3b22e4e",
+    "spec/v6/phase-h-policy.json": "82a8683f8cc706d74f9b32b82a389aafa7af855dcee6396ff56b5b6ed6a3f044",
+    "static/assets/js/v5-db.js": "3b89d5a0587268c9f5f630ed5706720a659ca994638b9e3ea41cedfefbc9d369",
+    "static/assets/js/v5-backup.js": "38c890b99e8f1f44b801a9155236a65cf3f5a1ba67d735a3d298e92e0d7103a0",
+    "static/service-worker.js": "5ff9c05b3cf10c7e3062231c52f0c7a3fdf1729bcb6e146078fa2ef5eb02e9d1",
+    "docs/data/build-meta.json": "d2471991bff356c30eb65547d39364ba2878cf30da93ff45d7015d163fed3436",
+    "docs/data/offline-assets.json": "be7453cf125b759b54161866ef57ef7ff3454bb634e539ea78fbac5d8f0dce46"
+  }
+}

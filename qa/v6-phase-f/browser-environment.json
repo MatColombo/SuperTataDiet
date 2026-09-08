@@ -1,0 +1,7 @@
+{
+  "status": "blocked_environment",
+  "browser": "/usr/bin/chromium",
+  "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "scope": "HTTP navigation including localhost/127.0.0.1/container IP",
+  "impact": "Phase F browser smoke cannot be executed locally; static, JS and Python gates remain executable. Run scripts/test_v6_phase_f_browser.py against the deployed site in an environment without this browser policy."
+}

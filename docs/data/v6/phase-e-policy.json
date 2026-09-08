@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-e.1",
+  "name": "TataDiet V6 Phase E - constraint-aware planner",
+  "intent": "Generate fixed-serving menus that respect an explicit daily energy target and the Phase A/C1/C2 quality contract without silent overrides.",
+  "energy": {
+    "target_min_kcal": 800,
+    "target_max_kcal": 2600,
+    "default_tolerance_pct": 0.05,
+    "max_tolerance_pct": 0.2,
+    "energy_bin_kcal": 20,
+    "hard_acceptance": true,
+    "infeasible_is_explicit": true
+  },
+  "slots": {
+    "optional_families": [
+      "snack"
+    ],
+    "allow_optional_slot_skipping": true,
+    "never_skip_locked_meals": true,
+    "never_skip_main_families": [
+      "breakfast",
+      "brunch",
+      "lunch",
+      "dinner",
+      "preturno"
+    ]
+  },
+  "search": {
+    "max_candidates_per_slot": 52,
+    "max_states_per_bucket": 3,
+    "max_finalists": 220,
+    "recipe_repeat_hard_lookback_days": 7,
+    "preserve_daily_quota_signature_when_input_is_valid": true,
+    "require_no_new_soft_warnings": true,
+    "require_no_new_global_variety_violations": true,
+    "deterministic_tie_breaking": true,
+    "max_beam_states": 1200
+  },
+  "scoring": {
+    "slot_compatibility_weight": 1.0,
+    "slot_energy_weight": 38,
+    "day_energy_weight": 120,
+    "ingredient_reuse_bonus": 8,
+    "underused_recipe_bonus": 10,
+    "underused_primary_protein_bonus": 8,
+    "current_recipe_penalty": 3,
+    "skip_snack_penalty": 10
+  },
+  "purchase_reuse": {
+    "fresh_dairy_isolation_is_hard": true,
+    "avocado_isolation_is_hard": true,
+    "batch_reuse_is_soft": true
+  },
+  "planner_contract": {
+    "fixed_recipe_servings": true,
+    "portion_multiplier": 1.0,
+    "ingredient_conversion_is_read_only": true,
+    "preserve_phase_a_hard_constraints": true,
+    "preserve_phase_c1_diversity_gates": true,
+    "preserve_phase_c2_dairy_avocado_contract": true,
+    "respect_user_never_and_max_per_7d_preferences": true,
+    "no_silent_constraint_override": true
+  }
+}

@@ -1,0 +1,45 @@
+﻿protein_group,ingredient_code,ingredient_name,meal_occurrences,distinct_days
+cheese,ricotta,ricotta vaccina,12,12
+cheese,robiola,robiola,5,5
+cold_cuts,bresaola,bresaola,16,16
+cold_cuts,tacchino_affettato,fesa di tacchino a fette,16,16
+cold_cuts,prosciutto_cotto,prosciutto cotto sgrassato,1,1
+eggs,uovo,uovo intero,24,21
+eggs,albume,albume,8,8
+fish,tonno_naturale,tonno al naturale sgocciolato,32,31
+fish,salmone,salmone,26,26
+fish,merluzzo,merluzzo,16,16
+fish,sardine,sardine,12,12
+fish,sgombro,sgombro,11,11
+fish,gamberi,gamberi,9,9
+fish,nasello,nasello,7,7
+fish,trota,trota,7,7
+fish,cozze,"cozze, parte edibile",6,6
+fish,orata,orata,6,6
+fish,polpo,polpo,6,6
+fish,sogliola,sogliola,6,6
+fish,branzino,branzino,5,5
+fish,calamaro,calamaro,1,1
+legumes,cannellini,cannellini cotti e sgocciolati,32,29
+legumes,lupini,lupini scolati,30,30
+legumes,hummus,hummus semplice senza spezie piccanti,24,23
+legumes,ceci,ceci cotti e sgocciolati,21,21
+legumes,lenticchie,lenticchie cotte e sgocciolate,19,19
+legumes,borlotti,borlotti cotti e sgocciolati,14,14
+legumes,piselli,piselli cotti,11,11
+legumes,fave,fave cotte,6,6
+milk_yogurt,latte_ps,latte parzialmente scremato,85,77
+milk_yogurt,kefir,kefir naturale,82,76
+milk_yogurt,yogurt_bianco,yogurt bianco naturale,82,71
+nuts_seeds,nocciole,nocciole,38,35
+nuts_seeds,burro_arachidi,burro di arachidi 100%,32,32
+nuts_seeds,semi_zucca,semi di zucca,31,28
+nuts_seeds,mandorle,mandorle,28,28
+nuts_seeds,pistacchi,pistacchi non salati,13,13
+nuts_seeds,noci,noci,9,9
+nuts_seeds,sesamo,semi di sesamo,4,4
+poultry,tacchino,petto di tacchino,45,44
+poultry,pollo,petto di pollo,40,39
+red_meat,manzo_magro,manzo magro,40,39
+red_meat,maiale_filetto,filetto di maiale,27,27
+red_meat,coniglio,coniglio disossato,14,14

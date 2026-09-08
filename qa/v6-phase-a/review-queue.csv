@@ -1,0 +1,181 @@
+﻿global_day,month,cycle,variant,day_in_variant,day_type,review_score,direct_hard_failures,direct_soft_warnings,hard_windows_touching,hard_kinds_touching,recipe_repeat_warnings,high_recipe_repeat_warnings,off_season_occurrences,egg_equivalent_units,dairy_meals,pasta_rice_primary_meals,plant_protein_main_meals,energy_kcal
+9,Settembre,1,2,4,D4,258,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",1,0,0,3.6,2,1,0,1621.1
+66,Novembre,3,2,1,D1,258,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",1,1,1,0.0,2,0,0,1608.5
+153,Febbraio,6,1,3,D3,257,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",1,0,1,5.2,2,0,0,1471.0
+147,Gennaio,5,6,2,D2,256,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,2,3.6,4,0,0,1713.5
+51,Ottobre,2,5,1,D1,255,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",4,0,0,6.2,2,1,0,1615.6
+69,Novembre,3,2,4,D4,254,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",1,0,0,3.6,2,0,0,1624.1
+151,Febbraio,6,1,1,D1,254,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",1,0,0,6.8,2,0,0,1602.3
+11,Settembre,1,3,1,D1,252,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",3,0,0,0.0,2,1,0,1621.4
+12,Settembre,1,3,2,D2,252,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",3,0,0,1.0,3,0,0,1709.3
+152,Febbraio,6,1,2,D2,252,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",2,0,1,0.0,4,0,0,1711.4
+146,Gennaio,5,6,1,D1,250,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",2,1,0,2.0,5,0,0,1615.5
+52,Ottobre,2,5,2,D2,249,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",2,0,0,5.6,4,0,0,1724.6
+145,Gennaio,5,5,5,D5,249,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,1,9.6,2,0,0,1624.8
+65,Novembre,3,1,5,D5,247,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",0,0,0,1.0,2,0,0,1606.1
+111,Dicembre,4,5,1,D1,247,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",4,0,0,5.2,3,1,0,1611.3
+141,Gennaio,5,5,1,D1,247,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",4,0,0,5.2,2,1,0,1613.6
+171,Febbraio,6,5,1,D1,247,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",4,0,0,3.6,3,1,0,1619.2
+16,Settembre,1,4,1,D1,246,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",2,1,0,3.2,5,0,0,1612.1
+56,Ottobre,2,6,1,D1,246,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",2,1,0,2.6,3,0,0,1606.1
+131,Gennaio,5,3,1,D1,245,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",3,0,3,2.0,4,2,0,1606.7
+142,Gennaio,5,5,2,D2,245,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",2,0,0,4.6,3,0,0,1721.8
+143,Gennaio,5,5,3,D3,245,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",1,0,1,6.2,2,1,0,1458.9
+172,Febbraio,6,5,2,D2,245,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",2,0,0,3.6,2,0,0,1714.5
+174,Febbraio,6,5,4,D4,245,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,1,1.6,3,0,0,1553.4
+64,Novembre,3,1,4,D4,243,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",0,0,0,2.0,2,2,0,1587.9
+82,Novembre,3,5,2,D2,243,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",2,0,2,3.6,4,0,0,1714.8
+155,Febbraio,6,1,5,D5,243,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",0,0,0,0.0,2,1,0,1625.3
+15,Settembre,1,3,5,D5,242,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",1,0,0,8.0,3,1,0,1624.0
+55,Ottobre,2,5,5,D5,242,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",1,0,0,3.6,2,1,0,1617.1
+61,Novembre,3,1,1,D1,242,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",0,0,1,6.8,3,1,0,1606.0
+62,Novembre,3,1,2,D2,241,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",2,0,0,0.0,2,0,0,1677.4
+112,Dicembre,4,5,2,D2,241,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",2,0,0,3.6,2,0,0,1712.7
+85,Novembre,3,5,5,D5,240,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,2,3.6,2,1,0,1613.8
+14,Settembre,1,3,4,D4,238,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,0,2.0,4,1,0,1605.5
+54,Ottobre,2,5,4,D4,238,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,0,0.0,3,0,0,1624.5
+149,Gennaio,5,6,4,D4,238,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,0,1.0,3,2,0,1581.2
+173,Febbraio,6,5,3,D3,238,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,0,1.6,3,1,0,1469.5
+17,Settembre,1,4,2,D2,237,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",2,0,0,3.2,5,2,0,1704.9
+115,Dicembre,4,5,5,D5,237,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,1,5.6,2,1,0,1625.3
+71,Novembre,3,3,1,D1,236,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""pasta_rice"": 4, ""plant_protein_main"": 7}",3,0,0,1.0,2,1,0,1605.8
+161,Febbraio,6,3,1,D1,236,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",3,0,0,0.0,2,1,0,1592.4
+162,Febbraio,6,3,2,D2,235,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",3,0,1,0.0,4,1,0,1704.3
+57,Ottobre,2,6,2,D2,234,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,3.6,2,1,0,1712.1
+83,Novembre,3,5,3,D3,234,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,3.2,2,1,0,1463.6
+86,Novembre,3,6,1,D1,234,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",2,1,0,2.0,3,1,0,1613.9
+87,Novembre,3,6,2,D2,234,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,4.6,3,0,0,1703.1
+144,Gennaio,5,5,4,D4,234,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",1,0,0,0.0,3,2,0,1611.7
+176,Febbraio,6,6,1,D1,232,"[""cheese_dairy_day""]","[""egg_daily_spread""]",5,"{""cheese_dairy_window"": 5, ""egg_equivalent"": 5, ""pasta_rice"": 5, ""plant_protein_main"": 5}",2,1,0,3.6,4,0,0,1619.6
+114,Dicembre,4,5,4,D4,230,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,2.0,2,0,0,1613.6
+128,Gennaio,5,2,3,D3,230,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,1.6,2,0,0,1465.5
+21,Settembre,1,5,1,D1,227,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",4,0,0,7.6,3,1,0,1620.4
+49,Ottobre,2,4,4,D4,227,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",0,0,0,2.0,2,0,0,1614.2
+81,Novembre,3,5,1,D1,227,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",4,0,0,3.6,4,1,0,1618.6
+26,Settembre,1,6,1,D1,226,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,1,0,7.6,3,0,0,1611.6
+46,Ottobre,2,4,1,D1,226,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,1,0,3.2,4,1,0,1612.2
+59,Ottobre,2,6,4,D4,226,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,2.0,5,1,0,1623.3
+84,Novembre,3,5,4,D4,226,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,1.0,2,1,0,1563.4
+116,Dicembre,4,6,1,D1,226,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,1,0,4.2,2,1,0,1577.8
+134,Gennaio,5,3,4,D4,226,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,0.0,3,0,0,1622.7
+136,Gennaio,5,4,1,D1,226,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,1,0,4.2,2,1,0,1612.5
+170,Febbraio,6,4,5,D5,223,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",0,0,0,1.6,2,1,0,1640.7
+109,Dicembre,4,4,4,D4,222,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""pasta_rice"": 2, ""plant_protein_main"": 7}",0,0,1,1.6,3,0,0,1608.3
+22,Settembre,1,5,2,D2,221,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,4.6,3,0,0,1704.6
+39,Ottobre,2,2,4,D4,221,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,3.6,2,1,0,1623.9
+44,Ottobre,2,3,4,D4,221,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,5.2,3,1,0,1618.5
+47,Ottobre,2,4,2,D2,221,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,5.2,4,2,0,1702.5
+94,Dicembre,4,1,4,D4,221,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,2,5.0,2,1,0,1625.0
+23,Settembre,1,5,3,D3,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,5.6,2,1,0,1458.8
+25,Settembre,1,5,5,D5,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,3.6,3,1,0,1611.2
+34,Ottobre,2,1,4,D4,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,1,3.6,2,2,0,1620.5
+58,Ottobre,2,6,3,D3,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,3.2,2,2,0,1529.9
+74,Novembre,3,3,4,D4,218,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,0.0,2,1,0,1621.4
+117,Dicembre,4,6,2,D2,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,5.6,5,0,0,1712.3
+121,Gennaio,5,1,1,D1,218,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,6.2,3,1,0,1619.2
+166,Febbraio,6,4,1,D1,218,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,1,0,2.0,3,1,1,1546.6
+41,Ottobre,2,3,1,D1,216,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",3,0,0,0.0,3,2,0,1562.8
+42,Ottobre,2,3,2,D2,216,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",3,0,0,0.0,2,1,0,1705.4
+97,Dicembre,4,2,2,D2,216,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,1,0.0,3,1,0,1706.1
+31,Ottobre,2,1,1,D1,215,"[""cheese_dairy_day""]","[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,6.8,2,1,0,1608.6
+108,Dicembre,4,4,3,D3,214,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 4, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,1.6,2,1,0,1458.9
+5,Settembre,1,1,5,D5,213,"[""cheese_dairy_day""]",[],5,"{""cheese_dairy_window"": 5, ""egg_equivalent"": 5, ""pasta_rice"": 5, ""plant_protein_main"": 5}",0,0,0,0.0,2,0,0,1609.1
+32,Ottobre,2,1,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,0.0,4,0,0,1711.5
+37,Ottobre,2,2,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,1.0,3,0,0,1703.1
+92,Dicembre,4,1,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,0.0,2,1,0,1700.5
+119,Dicembre,4,6,4,D4,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,0.0,4,1,0,1603.6
+122,Gennaio,5,1,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,0.0,3,0,0,1711.6
+125,Gennaio,5,1,5,D5,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,2,0.0,3,1,0,1614.0
+137,Gennaio,5,4,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,2.0,3,2,0,1712.4
+167,Febbraio,6,4,2,D2,213,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",2,0,0,1.0,5,2,0,1712.7
+77,Novembre,3,4,2,D2,212,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 6, ""plant_protein_main"": 7}",2,0,1,1.0,5,2,0,1697.6
+24,Settembre,1,5,4,D4,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,1.6,2,1,0,1608.0
+43,Ottobre,2,3,3,D3,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,1.6,2,1,0,1475.6
+45,Ottobre,2,3,5,D5,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,1.6,2,1,0,1586.7
+76,Novembre,3,4,1,D1,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""plant_protein_main"": 7}",2,1,0,0.0,3,1,1,1608.1
+89,Novembre,3,6,4,D4,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,0.0,3,2,0,1547.0
+135,Gennaio,5,3,5,D5,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,0.0,3,1,0,1620.0
+165,Febbraio,6,3,5,D5,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,0.0,4,1,0,1624.2
+169,Febbraio,6,4,4,D4,210,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,1,0.0,2,2,0,1585.9
+101,Dicembre,4,3,1,D1,208,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""plant_protein_main"": 7}",3,0,0,2.0,2,1,0,1615.2
+19,Settembre,1,4,4,D4,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,1.0,2,1,0,1565.9
+35,Ottobre,2,1,5,D5,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.0,3,1,0,1620.2
+40,Ottobre,2,2,5,D5,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.0,2,1,0,1642.9
+79,Novembre,3,4,4,D4,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.0,3,2,0,1611.3
+120,Dicembre,4,6,5,D5,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,1.6,2,1,0,1640.1
+124,Gennaio,5,1,4,D4,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.6,3,1,0,1618.1
+139,Gennaio,5,4,4,D4,207,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.0,2,1,0,1608.9
+177,Febbraio,6,6,2,D2,207,"[""cheese_dairy_day""]","[""egg_daily_spread""]",4,"{""cheese_dairy_window"": 4, ""egg_equivalent"": 4, ""pasta_rice"": 4, ""plant_protein_main"": 4}",1,0,0,3.6,2,1,0,1710.1
+102,Dicembre,4,3,2,D2,204,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 4, ""plant_protein_main"": 7}",3,0,0,1.0,3,1,0,1700.1
+75,Novembre,3,3,5,D5,202,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""plant_protein_main"": 7}",1,0,0,0.0,4,1,0,1571.9
+106,Dicembre,4,4,1,D1,198,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 2, ""plant_protein_main"": 7}",2,1,0,0.0,3,2,1,1535.7
+107,Dicembre,4,4,2,D2,197,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 3, ""plant_protein_main"": 7}",2,0,0,0.0,3,2,0,1702.1
+4,Settembre,1,1,4,D4,196,"[""cheese_dairy_day""]",[],4,"{""cheese_dairy_window"": 4, ""egg_equivalent"": 4, ""pasta_rice"": 4, ""plant_protein_main"": 4}",0,0,0,0.0,3,1,0,1632.6
+104,Dicembre,4,3,4,D4,190,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 2, ""plant_protein_main"": 7}",1,0,0,0.0,2,1,0,1620.8
+105,Dicembre,4,3,5,D5,190,"[""cheese_dairy_day""]",[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 2, ""plant_protein_main"": 7}",1,0,0,0.0,3,2,0,1607.5
+8,Settembre,1,2,3,D3,178,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",1,0,0,5.6,1,0,0,1463.7
+68,Novembre,3,2,3,D3,178,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",1,0,0,3.2,0,0,0,1469.7
+156,Febbraio,6,2,1,D1,175,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",1,1,0,0.0,1,0,0,1617.6
+7,Settembre,1,2,2,D2,173,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",2,0,0,2.0,1,2,0,1710.8
+67,Novembre,3,2,2,D2,173,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",2,0,0,2.0,1,0,0,1601.9
+159,Febbraio,6,2,4,D4,172,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,2,8.6,1,0,0,1621.2
+13,Settembre,1,3,3,D3,170,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,0,4.2,1,0,0,1454.7
+63,Novembre,3,1,3,D3,170,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,0,6.8,1,0,0,1466.6
+157,Febbraio,6,2,2,D2,169,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",2,0,0,0.0,1,1,0,1627.7
+10,Settembre,1,2,5,D5,167,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 7, ""plant_protein_main"": 7}",0,0,0,1.6,0,0,0,1650.5
+53,Ottobre,2,5,3,D3,166,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 4, ""plant_protein_main"": 7}",1,0,0,2.2,1,1,0,1466.6
+179,Febbraio,6,6,4,D4,165,"[""cheese_dairy_day""]",[],2,"{""cheese_dairy_window"": 2, ""egg_equivalent"": 2, ""pasta_rice"": 2, ""plant_protein_main"": 2}",1,0,0,2.0,3,1,0,1618.4
+154,Febbraio,6,1,4,D4,163,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 6, ""plant_protein_main"": 7}",0,0,0,0.0,1,1,0,1543.6
+2,Settembre,1,1,2,D2,162,"[""cheese_dairy_day""]",[],2,"{""cheese_dairy_window"": 2, ""egg_equivalent"": 2, ""pasta_rice"": 2, ""plant_protein_main"": 2}",0,0,0,2.0,2,0,0,1707.7
+148,Gennaio,5,6,3,D3,162,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,0,1.6,1,0,0,1468.8
+158,Febbraio,6,2,3,D3,162,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",1,0,0,1.6,1,1,0,1459.2
+88,Novembre,3,6,3,D3,160,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,2,7.2,1,0,0,1474.0
+150,Gennaio,5,6,5,D5,159,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 5, ""plant_protein_main"": 7}",0,0,0,1.6,0,1,0,1645.0
+6,Settembre,1,2,1,D1,158,[],[],6,"{""cheese_dairy_window"": 6, ""egg_equivalent"": 6, ""pasta_rice"": 6, ""plant_protein_main"": 6}",1,1,0,1.0,0,0,0,1612.4
+113,Dicembre,4,5,3,D3,158,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,6.4,1,2,0,1459.3
+129,Gennaio,5,2,4,D4,158,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,5.6,1,1,0,1624.3
+175,Febbraio,6,5,5,D5,157,[],"[""egg_daily_spread""]",6,"{""cheese_dairy_window"": 6, ""egg_equivalent"": 6, ""pasta_rice"": 5, ""plant_protein_main"": 6}",1,0,0,5.2,1,0,0,1623.6
+132,Gennaio,5,3,2,D2,156,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",3,0,0,2.0,1,1,0,1611.7
+70,Novembre,3,2,5,D5,155,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 6, ""pasta_rice"": 5, ""plant_protein_main"": 7}",0,0,0,0.0,0,1,0,1647.0
+1,Settembre,1,1,1,D1,153,"[""cheese_dairy_day""]","[""egg_daily_spread""]",1,"{""cheese_dairy_window"": 1, ""egg_equivalent"": 1, ""pasta_rice"": 1, ""plant_protein_main"": 1}",0,0,0,6.8,4,0,0,1618.6
+72,Novembre,3,3,2,D2,152,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""pasta_rice"": 3, ""plant_protein_main"": 7}",3,0,0,2.0,1,1,0,1709.7
+50,Ottobre,2,4,5,D5,151,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1630.1
+160,Febbraio,6,2,5,D5,151,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 3, ""plant_protein_main"": 7}",0,0,0,0.0,1,0,0,1625.8
+133,Gennaio,5,3,3,D3,150,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,1.6,0,0,0,1465.9
+127,Gennaio,5,2,2,D2,149,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",2,0,0,0.0,1,0,0,1647.4
+60,Ottobre,2,6,5,D5,147,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1641.0
+130,Gennaio,5,2,5,D5,147,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 2, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1639.2
+18,Settembre,1,4,3,D3,146,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,1.6,1,0,0,1469.1
+48,Ottobre,2,4,3,D3,146,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",1,0,0,1.6,1,1,0,1475.9
+110,Dicembre,4,4,5,D5,143,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 6, ""pasta_rice"": 2, ""plant_protein_main"": 7}",0,0,0,0.0,1,0,0,1640.4
+140,Gennaio,5,4,5,D5,143,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""pasta_rice"": 1, ""plant_protein_main"": 7}",0,0,0,0.0,0,0,0,1639.9
+73,Novembre,3,3,3,D3,142,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 5, ""pasta_rice"": 2, ""plant_protein_main"": 7}",1,0,0,1.6,1,0,0,1450.1
+78,Novembre,3,4,3,D3,141,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,4.2,1,1,0,1446.5
+99,Dicembre,4,2,4,D4,141,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,5.6,1,1,0,1613.6
+138,Gennaio,5,4,3,D3,141,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,5.6,1,0,0,1468.5
+164,Febbraio,6,3,4,D4,141,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,1,5.6,1,1,0,1622.4
+27,Settembre,1,6,2,D2,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,3.6,1,1,0,1711.4
+28,Settembre,1,6,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,4.8,1,1,0,1464.4
+29,Settembre,1,6,4,D4,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,4.2,1,2,0,1613.6
+33,Ottobre,2,1,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,6.8,1,1,0,1470.2
+91,Dicembre,4,1,1,D1,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,6.8,1,1,0,1615.2
+93,Dicembre,4,1,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,6.8,0,1,0,1467.5
+98,Dicembre,4,2,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,3.2,1,1,0,1471.8
+118,Dicembre,4,6,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,2.2,0,1,0,1475.5
+123,Gennaio,5,1,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,6.8,1,1,0,1471.8
+126,Gennaio,5,2,1,D1,138,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,1,1,0.0,1,2,0,1595.1
+163,Febbraio,6,3,3,D3,138,[],"[""egg_daily_spread""]",7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,3.2,1,1,0,1475.4
+36,Ottobre,2,2,1,D1,135,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,1,0,2.0,1,2,0,1602.9
+96,Dicembre,4,2,1,D1,135,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,1,0,0.0,1,1,0,1573.4
+38,Ottobre,2,2,3,D3,130,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,0.6,1,1,0,1466.5
+168,Febbraio,6,4,3,D3,130,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",1,0,0,0.6,1,1,0,1462.7
+20,Settembre,1,4,5,D5,127,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,1.6,0,1,0,1673.7
+30,Settembre,1,6,5,D5,127,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1647.4
+80,Novembre,3,4,5,D5,127,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1640.6
+90,Novembre,3,6,5,D5,127,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,0.0,0,0,0,1631.2
+95,Dicembre,4,1,5,D5,127,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 7, ""plant_protein_main"": 7}",0,0,0,2.0,1,1,0,1535.4
+100,Dicembre,4,2,5,D5,123,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 6, ""plant_protein_main"": 7}",0,0,0,1.6,1,0,0,1639.0
+103,Dicembre,4,3,3,D3,114,[],[],7,"{""cheese_dairy_window"": 7, ""egg_equivalent"": 3, ""plant_protein_main"": 7}",1,0,0,0.0,1,1,0,1464.6
+3,Settembre,1,1,3,D3,107,[],"[""egg_daily_spread""]",3,"{""cheese_dairy_window"": 3, ""egg_equivalent"": 3, ""pasta_rice"": 3, ""plant_protein_main"": 3}",0,0,0,8.4,0,0,0,1457.8
+178,Febbraio,6,6,3,D3,102,[],[],3,"{""cheese_dairy_window"": 3, ""egg_equivalent"": 3, ""pasta_rice"": 3, ""plant_protein_main"": 3}",1,0,0,1.6,1,1,0,1464.2
+180,Febbraio,6,6,5,D5,65,[],[],1,"{""cheese_dairy_window"": 1, ""egg_equivalent"": 1, ""pasta_rice"": 1, ""plant_protein_main"": 1}",0,0,0,1.6,1,0,0,1684.4

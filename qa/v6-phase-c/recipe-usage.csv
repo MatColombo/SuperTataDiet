@@ -1,0 +1,199 @@
+﻿recipe_id,title,occurrences,distinct_days,minimum_gap_days,median_gap_days
+base:recipe:crackers-classici-con-hummus-delicato,Crackers classici con hummus delicato,20,20,8,8
+base:recipe:mini-panino-bianco-con-bresaola,Mini panino bianco con bresaola,19,19,8,9.0
+base:recipe:kefir-con-fette-classiche-e-confettura,Kefir con fette classiche e confettura,18,18,8,10
+base:recipe:kefir-e-fette-classiche,Kefir e fette classiche,18,18,8,10
+base:recipe:piccola-porzione-di-lupini-e-frutta,Piccola porzione di lupini e frutta,18,18,8,10
+base:recipe:v6-fette-integrali-con-burro-di-arachidi-e-confettura,Fette integrali con burro di arachidi e confettura,17,17,8,10.0
+base:recipe:frutta-e-mandorle,Frutta e mandorle,17,17,8,9.5
+base:recipe:frutta-e-nocciole,Frutta e nocciole,17,17,8,9.5
+base:recipe:kefir-e-frutta,Kefir e frutta,17,17,8,10.5
+base:recipe:latte-e-gallette-di-riso,Latte e gallette di riso,17,17,8,9.5
+base:recipe:v6-pane-integrale-con-hummus-e-spinaci,Pane integrale con hummus e spinaci,16,16,8,10
+base:recipe:v6-yogurt-con-frutti-di-bosco-e-nocciole,Yogurt con frutti di bosco e nocciole,16,16,8,10
+base:recipe:latte-e-frutta,Latte e frutta,15,15,8,11.5
+base:recipe:v6-mini-panino-con-tacchino-e-spinaci,Mini panino con tacchino e spinaci,15,15,8,11.0
+base:recipe:kefir-piccolo,Kefir piccolo,13,13,10,10.0
+base:recipe:v6-crackers-integrali-con-hummus-e-carote,Crackers integrali con hummus e carote,12,12,10,15
+base:recipe:latte-corn-flakes-e-frutta,"Latte, corn flakes e frutta",12,12,8,11
+base:recipe:mini-panino-con-tacchino-a-fette,Mini panino con tacchino a fette,12,12,8,15
+base:recipe:yogurt-bianco-e-banana,Yogurt bianco e banana,12,12,8,11
+base:recipe:v6-gallette-di-riso-con-burro-di-arachidi-e-banana,Gallette di riso con burro di arachidi e banana,11,11,8,14.0
+base:recipe:v6-kefir-con-banana-e-pistacchi,Kefir con banana e pistacchi,11,11,9,13.5
+base:recipe:v6-mini-panino-con-bresaola-e-carote,Mini panino con bresaola e carote,11,11,8,11.0
+base:recipe:frutta-in-porzione-piccola,Frutta in porzione piccola,10,10,9,10
+base:recipe:v6c-brunch-completo-con-pane-integrale-salmone-e-radicchio,"Brunch completo con pane integrale, salmone e radicchio",9,9,10,13.0
+base:recipe:v6-pane-di-segale-burro-di-arachidi-e-pera,"Pane di segale, burro di arachidi e pera",9,9,8,14.0
+base:recipe:banana-e-latte,Banana e latte,8,8,9,14
+base:recipe:v6c-brunch-completo-con-polenta-manzo-e-broccoli,"Brunch completo con polenta, manzo e broccoli",8,8,10,15
+base:recipe:v6-couscous-con-pollo-e-carote,Couscous con pollo e carote,8,8,9,14
+base:recipe:v6-pane-integrale-burro-di-arachidi-e-banana,"Pane integrale, burro di arachidi e banana",8,8,10,16
+base:recipe:v6-patate-con-salmone-e-finocchi,Patate con salmone e finocchi,8,8,8,12
+base:recipe:v6-polenta-con-merluzzo-e-cavolo-nero,Polenta con merluzzo e cavolo nero,8,8,11,16
+base:recipe:semolino-al-latte-con-frutta,Semolino al latte con frutta,8,8,8,18
+base:recipe:v6-yogurt-con-avena-e-pera,Yogurt con avena e pera,8,8,8,17
+base:recipe:v6-couscous-con-gamberi-e-broccoli,Couscous con gamberi e broccoli,7,7,9,23.0
+base:recipe:v6-pasta-e-lenticchie-con-carote,Pasta e lenticchie con carote,7,7,10,25.0
+base:recipe:pollo-con-patate-e-spinaci,Pollo con patate e spinaci,7,7,10,24.0
+base:recipe:v6-riso-basmati-con-ceci-e-carote,Riso basmati con ceci e carote,7,7,14,35.0
+base:recipe:yogurt-bianco-corn-flakes-e-frutta,"Yogurt bianco, corn flakes e frutta",7,7,8,20.0
+base:recipe:budino-di-riso-casalingo-e-frutta,Budino di riso casalingo e frutta,6,6,11,20
+base:recipe:couscous-marocchino-delicato-con-tacchino-e-finocchi,Couscous marocchino delicato con tacchino e finocchi,6,6,10,22
+base:recipe:v6-farro-con-tonno-e-radicchio,Farro con tonno e radicchio,6,6,9,16
+base:recipe:manzo-magro-con-polenta-e-carote,Manzo magro con polenta e carote,6,6,11,35
+base:recipe:v6-orzo-con-tacchino-e-zucca,Orzo con tacchino e zucca,6,6,10,22
+base:recipe:v6-pasta-e-ceci-con-zucca,Pasta e ceci con zucca,6,6,10,31
+base:recipe:porridge-piccolo-con-frutta-cotta,Porridge piccolo con frutta cotta,6,6,15,23
+base:recipe:primosale-e-gallette-di-riso,Primosale e gallette di riso,6,6,21,22
+base:recipe:v6-riso-jasmine-con-ceci-e-zucca,Riso jasmine con ceci e zucca,6,6,14,14
+base:recipe:sogliola-con-riso-e-lattuga,Sogliola con riso e lattuga,6,6,14,25
+base:recipe:uovo-sodo-e-crackers,Uovo sodo e crackers,6,6,11,22
+base:recipe:yogurt-bianco-corn-flakes-e-banana,"Yogurt bianco, corn flakes e banana",6,6,15,20
+base:recipe:coniglio-con-riso-basmati-e-finocchi,Coniglio con riso basmati e finocchi,5,5,14,15.5
+base:recipe:crackers-e-ricotta,Crackers e ricotta,5,5,17,32.0
+base:recipe:filetto-di-maiale-con-polenta-e-carote,Filetto di maiale con polenta e carote,5,5,13,27.5
+base:recipe:mini-piadina-con-tacchino-e-robiola,Mini piadina con tacchino e robiola,5,5,28,34.0
+base:recipe:orata-con-patate-e-bietole,Orata con patate e bietole,5,5,9,28.5
+base:recipe:v6-pane-integrale-con-pollo-e-zucca-arrosto,Pane integrale con pollo e zucca arrosto,5,5,15,40.0
+base:recipe:v6-pasta-e-ceci-con-broccoli,Pasta e ceci con broccoli,5,5,14,31.5
+base:recipe:v6-pasta-e-ceci-con-finocchi,Pasta e ceci con finocchi,5,5,18,24.5
+base:recipe:piadina-mini-con-ricotta,Piadina mini con ricotta,5,5,16,24.5
+base:recipe:riso-teriyaki-delicato-con-tacchino-e-carciofi,Riso teriyaki delicato con tacchino e carciofi,5,5,10,14.0
+base:recipe:salmone-nordico-con-patate-e-cavolfiore,Salmone nordico con patate e cavolfiore,5,5,11,31.5
+base:recipe:uova-strapazzate-pane-bianco-e-frutta,"Uova strapazzate, pane bianco e frutta",5,5,28,35.5
+base:recipe:v6-yogurt-con-avena-e-mela,Yogurt con avena e mela,5,5,15,24.0
+base:recipe:v6c-brunch-completo-con-couscous-salmone-e-zucca,"Brunch completo con couscous, salmone e zucca",4,4,8,40
+base:recipe:v6c-brunch-completo-con-couscous-tacchino-e-spinaci,"Brunch completo con couscous, tacchino e spinaci",4,4,27,28
+base:recipe:v6c-brunch-completo-con-farro-manzo-e-radicchio,"Brunch completo con farro, manzo e radicchio",4,4,15,20
+base:recipe:v6c-brunch-completo-con-patate-manzo-e-cavolfiore,"Brunch completo con patate, manzo e cavolfiore",4,4,10,20
+base:recipe:colazione-leggera-con-latte-e-fette-classiche,Colazione leggera con latte e fette classiche,4,4,14,45
+base:recipe:fette-biscottate-con-robiola-e-miele,Fette biscottate con robiola e miele,4,4,28,37
+base:recipe:filetto-di-maiale-con-patate-e-spinaci,Filetto di maiale con patate e spinaci,4,4,14,39
+base:recipe:gallette-di-riso-e-ricotta,Gallette di riso e ricotta,4,4,10,60
+base:recipe:manzo-magro-con-pane-bianco-e-cavolfiore,Manzo magro con pane bianco e cavolfiore,4,4,28,40
+base:recipe:noodles-di-riso-con-pollo-e-finocchi,Noodles di riso con pollo e finocchi,4,4,16,21
+base:recipe:pancake-di-farina-00-e-ricotta,Pancake di farina 00 e ricotta,4,4,28,37
+base:recipe:pane-bianco-e-uovo-sodo,Pane bianco e uovo sodo,4,4,22,38
+base:recipe:pane-di-segale-robiola-e-pera,"Pane di segale, robiola e pera",4,4,28,62
+base:recipe:v6-pasta-al-ragu-leggero-di-manzo,Pasta al ragù leggero di manzo,4,4,14,28
+base:recipe:v6-pasta-con-salmone-e-porro,Pasta con salmone e porro,4,4,35,35
+base:recipe:v6-pasta-e-lenticchie-con-passata-e-spinaci,Pasta e lenticchie con passata e spinaci,4,4,10,17
+base:recipe:toast-bianco-con-ricotta-e-confettura,Toast bianco con ricotta e confettura,4,4,28,34
+base:recipe:bowl-coreana-delicata-con-manzo-riso-e-broccoli,"Bowl coreana delicata con manzo, riso e broccoli",3,3,35,35.0
+base:recipe:v6c-brunch-completo-con-couscous-pollo-e-carote,"Brunch completo con couscous, pollo e carote",3,3,35,72.5
+base:recipe:brunch-kofte-di-tacchino-delicati-con-riso-e-radicchio,Brunch: Kofte di tacchino delicati con riso e radicchio,3,3,45,57.5
+base:recipe:brunch-riso-teriyaki-delicato-con-tacchino-e-carciofi,Brunch: Riso teriyaki delicato con tacchino e carciofi,3,3,10,17.5
+base:recipe:couscous-marocchino-delicato-con-tacchino-e-bietole,Couscous marocchino delicato con tacchino e bietole,3,3,30,50.0
+base:recipe:curry-bianco-molto-delicato-di-pollo-e-zucca,Curry bianco molto delicato di pollo e zucca,3,3,32,79.0
+base:recipe:filetto-di-maiale-con-polenta-e-zucca,Filetto di maiale con polenta e zucca,3,3,44,65.0
+base:recipe:frutta-e-fiocchi-di-latte-su-gallette,Frutta e fiocchi di latte su gallette,3,3,65,67.5
+base:recipe:v6-grano-saraceno-con-manzo-e-funghi,Grano saraceno con manzo e funghi,3,3,10,10.0
+base:recipe:manzo-magro-con-pane-bianco-e-carote,Manzo magro con pane bianco e carote,3,3,38,40.0
+base:recipe:nasello-con-pane-bianco-e-radicchio,Nasello con pane bianco e radicchio,3,3,23,53.0
+base:recipe:v6-pasta-con-nasello-e-zucca,Pasta con nasello e zucca,3,3,14,28.0
+base:recipe:v6-pasta-e-borlotti-con-verza,Pasta e borlotti con verza,3,3,10,38.5
+base:recipe:v6-pasta-e-cannellini-con-cavolfiore,Pasta e cannellini con cavolfiore,3,3,32,33.5
+base:recipe:v6-pasta-e-piselli-con-porro,Pasta e piselli con porro,3,3,18,24.5
+base:recipe:v6-pasta-integrale-con-lupini-e-zucca,Pasta integrale con lupini e zucca,3,3,14,44.0
+base:recipe:pollo-con-patate-e-carciofi,Pollo con patate e carciofi,3,3,25,26.0
+base:recipe:ricotta-e-frutta,Ricotta e frutta,3,3,27,43.5
+base:recipe:tacchino-con-pane-bianco-e-zucca,Tacchino con pane bianco e zucca,3,3,58,68.0
+base:recipe:v6-yogurt-kiwi-e-noci,"Yogurt, kiwi e noci",3,3,22,40.0
+base:recipe:branzino-con-polenta-e-finocchi,Branzino con polenta e finocchi,2,2,40,40
+base:recipe:branzino-con-polenta-e-zucchine,Branzino con polenta e zucchine,2,2,25,25
+base:recipe:v6c-brunch-completo-con-farro-tonno-e-spinaci,"Brunch completo con farro, tonno e spinaci",2,2,70,70
+base:recipe:v6c-brunch-completo-con-orzo-tacchino-e-zucca,"Brunch completo con orzo, tacchino e zucca",2,2,70,70
+base:recipe:v6c-brunch-completo-con-polenta-merluzzo-e-cavolo-nero,"Brunch completo con polenta, merluzzo e cavolo nero",2,2,57,57
+base:recipe:coniglio-con-riso-basmati-e-bietole,Coniglio con riso basmati e bietole,2,2,112,112
+base:recipe:crackers-e-primosale,Crackers e primosale,2,2,130,130
+base:recipe:filetto-di-maiale-con-polenta-e-sedano-rapa,Filetto di maiale con polenta e sedano rapa,2,2,25,25
+base:recipe:french-toast-delicato-con-frutta,French toast delicato con frutta,2,2,31,31
+base:recipe:frutta-e-grana,Frutta e Grana,2,2,103,103
+base:recipe:v6-kefir-con-avena-e-mela,Kefir con avena e mela,2,2,10,10
+base:recipe:kofte-di-tacchino-delicati-con-riso-e-carote,Kofte di tacchino delicati con riso e carote,2,2,35,35
+base:recipe:manzo-magro-con-pane-bianco-e-zucchine,Manzo magro con pane bianco e zucchine,2,2,30,30
+base:recipe:merluzzo-con-patate-e-cavolfiore,Merluzzo con patate e cavolfiore,2,2,34,34
+base:recipe:omelette-alla-feta-con-pane-bianco,Omelette alla feta con pane bianco,2,2,65,65
+base:recipe:orata-con-patate-e-carote,Orata con patate e carote,2,2,21,21
+base:recipe:v6-pasta-con-gamberi-e-zucchine,Pasta con gamberi e zucchine,2,2,28,28
+base:recipe:v6-pasta-con-pollo-e-broccoli,Pasta con pollo e broccoli,2,2,70,70
+base:recipe:v6-pasta-con-pollo-e-radicchio,Pasta con pollo e radicchio,2,2,42,42
+base:recipe:v6-pasta-con-sgombro-e-cavolo-cappuccio,Pasta con sgombro e cavolo cappuccio,2,2,21,21
+base:recipe:v6-pasta-e-cannellini-con-carciofi,Pasta e cannellini con carciofi,2,2,84,84
+base:recipe:v6-pasta-e-cannellini-con-spinaci,Pasta e cannellini con spinaci,2,2,56,56
+base:recipe:v6-pasta-e-fave-con-carciofi,Pasta e fave con carciofi,2,2,17,17
+base:recipe:v6-pasta-e-lenticchie-con-cavolo-nero,Pasta e lenticchie con cavolo nero,2,2,35,35
+base:recipe:v6-pasta-e-piselli-con-spinaci,Pasta e piselli con spinaci,2,2,38,38
+base:recipe:v6-pasta-integrale-con-hummus-carote-e-spinaci,"Pasta integrale con hummus, carote e spinaci",2,2,112,112
+base:recipe:pollo-con-patate-e-funghi,Pollo con patate e funghi,2,2,35,35
+base:recipe:pollo-con-polenta-e-zucca,Pollo con polenta e zucca,2,2,147,147
+base:recipe:pollo-con-riso-basmati-e-finocchi,Pollo con riso basmati e finocchi,2,2,10,10
+base:recipe:v6-riso-basmati-con-lenticchie-e-broccoli,Riso basmati con lenticchie e broccoli,2,2,14,14
+base:recipe:v6-riso-basmati-con-piselli-e-zucca,Riso basmati con piselli e zucca,2,2,63,63
+base:recipe:v6-riso-jasmine-con-cannellini-e-cavolfiore,Riso jasmine con cannellini e cavolfiore,2,2,42,42
+base:recipe:v6-riso-jasmine-con-lupini-e-carote,Riso jasmine con lupini e carote,2,2,56,56
+base:recipe:v6-riso-jasmine-con-piselli-e-carciofi,Riso jasmine con piselli e carciofi,2,2,70,70
+base:recipe:riso-teriyaki-delicato-con-tacchino-e-melanzane,Riso teriyaki delicato con tacchino e melanzane,2,2,28,28
+base:recipe:salmone-con-polenta-e-carciofi,Salmone con polenta e carciofi,2,2,107,107
+base:recipe:salmone-con-polenta-e-funghi,Salmone con polenta e funghi,2,2,45,45
+base:recipe:tacchino-con-riso-basmati-e-bietole,Tacchino con riso basmati e bietole,2,2,47,47
+base:recipe:trota-con-riso-e-broccoli,Trota con riso e broccoli,2,2,24,24
+base:recipe:v6-yogurt-banana-e-mandorle,"Yogurt, banana e mandorle",2,2,56,56
+base:recipe:bowl-coreana-delicata-con-manzo-riso-e-carote,"Bowl coreana delicata con manzo, riso e carote",1,1,,
+base:recipe:v6c-bowl-di-yogurt-avena-mela-e-crema-di-arachidi,"Bowl di yogurt, avena, mela e crema di arachidi",1,1,,
+base:recipe:branzino-con-polenta-e-zucca,Branzino con polenta e zucca,1,1,,
+base:recipe:v6c-brunch-completo-con-farro-tonno-e-fagiolini,"Brunch completo con farro, tonno e fagiolini",1,1,,
+base:recipe:v6c-brunch-completo-con-orzo-salmone-e-finocchi,"Brunch completo con orzo, salmone e finocchi",1,1,,
+base:recipe:v6c-brunch-completo-con-patate-pollo-e-spinaci,"Brunch completo con patate, pollo e spinaci",1,1,,
+base:recipe:brunch-couscous-marocchino-delicato-con-tacchino-e-finocchi,Brunch: Couscous marocchino delicato con tacchino e finocchi,1,1,,
+base:recipe:brunch-noodles-di-riso-con-pollo-e-finocchi,Brunch: Noodles di riso con pollo e finocchi,1,1,,
+base:recipe:brunch-salmone-nordico-con-patate-e-cavolfiore,Brunch: Salmone nordico con patate e cavolfiore,1,1,,
+base:recipe:coniglio-con-patate-e-pomodori,Coniglio con patate e pomodori,1,1,,
+base:recipe:coniglio-con-patate-e-spinaci,Coniglio con patate e spinaci,1,1,,
+base:recipe:couscous-marocchino-delicato-con-tacchino-e-fagiolini,Couscous marocchino delicato con tacchino e fagiolini,1,1,,
+base:recipe:filetto-di-maiale-con-polenta-e-zucchine,Filetto di maiale con polenta e zucchine,1,1,,
+base:recipe:jacket-potato-con-tonno-primosale-e-radicchio,"Jacket potato con tonno, primosale e radicchio",1,1,,
+base:recipe:jacket-potato-con-tonno-primosale-e-spinaci,"Jacket potato con tonno, primosale e spinaci",1,1,,
+base:recipe:kofte-di-tacchino-delicati-con-riso-e-bietole,Kofte di tacchino delicati con riso e bietole,1,1,,
+base:recipe:kofte-di-tacchino-delicati-con-riso-e-pomodori,Kofte di tacchino delicati con riso e pomodori,1,1,,
+base:recipe:kofte-di-tacchino-delicati-con-riso-e-radicchio,Kofte di tacchino delicati con riso e radicchio,1,1,,
+base:recipe:kofte-di-tacchino-delicati-con-riso-e-spinaci,Kofte di tacchino delicati con riso e spinaci,1,1,,
+base:recipe:latte-piccolo,Latte piccolo,1,1,,
+base:recipe:v6-latte-avena-e-banana,"Latte, avena e banana",1,1,,
+base:recipe:manzo-magro-con-polenta-e-zucchine,Manzo magro con polenta e zucchine,1,1,,
+base:recipe:merluzzo-con-patate-e-bietole,Merluzzo con patate e bietole,1,1,,
+base:recipe:mini-mozzarella-e-frutta,Mini mozzarella e frutta,1,1,,
+base:recipe:pane-bianco-con-mozzarella-e-pomodoro,Pane bianco con mozzarella e pomodoro,1,1,,
+base:recipe:pane-integrale-primosale-e-frutta,"Pane integrale, primosale e frutta",1,1,,
+base:recipe:v6-pasta-con-branzino-e-zucchine,Pasta con branzino e zucchine,1,1,,
+base:recipe:v6-pasta-con-calamari-e-pomodoro,Pasta con calamari e pomodoro,1,1,,
+base:recipe:v6-pasta-con-merluzzo-e-porro,Pasta con merluzzo e porro,1,1,,
+base:recipe:v6-pasta-con-tacchino-e-carciofi,Pasta con tacchino e carciofi,1,1,,
+base:recipe:v6-pasta-con-tacchino-e-spinaci,Pasta con tacchino e spinaci,1,1,,
+base:recipe:v6-pasta-con-tonno-e-broccoli,Pasta con tonno e broccoli,1,1,,
+base:recipe:v6-pasta-e-borlotti-con-funghi,Pasta e borlotti con funghi,1,1,,
+base:recipe:piadina-con-bresaola-robiola-e-zucca,"Piadina con bresaola, robiola e zucca",1,1,,
+base:recipe:piadina-con-prosciutto-cotto-robiola-e-carciofi,"Piadina con prosciutto cotto, robiola e carciofi",1,1,,
+base:recipe:piadina-con-tacchino-a-fette-primosale-e-carote,"Piadina con tacchino a fette, primosale e carote",1,1,,
+base:recipe:piatto-caldo-con-primosale-pane-bianco-e-finocchi,"Piatto caldo con primosale, pane bianco e finocchi",1,1,,
+base:recipe:poke-tiepido-con-salmone-e-carote,Poke tiepido con salmone e carote,1,1,,
+base:recipe:polpette-svedesi-leggere-con-zucca,Polpette svedesi leggere con zucca,1,1,,
+base:recipe:pranzo-leggero-con-merluzzo-pane-e-finocchi,"Pranzo leggero con merluzzo, pane e finocchi",1,1,,
+base:recipe:pranzo-leggero-con-merluzzo-pane-e-spinaci,"Pranzo leggero con merluzzo, pane e spinaci",1,1,,
+base:recipe:pranzo-leggero-con-merluzzo-riso-e-funghi,"Pranzo leggero con merluzzo, riso e funghi",1,1,,
+base:recipe:pranzo-leggero-con-tacchino-pane-e-spinaci,"Pranzo leggero con tacchino, pane e spinaci",1,1,,
+base:recipe:v6-riso-basmati-con-borlotti-e-spinaci,Riso basmati con borlotti e spinaci,1,1,,
+base:recipe:v6-riso-integrale-con-fave-e-cavolo-cappuccio,Riso integrale con fave e cavolo cappuccio,1,1,,
+base:recipe:v6-riso-integrale-con-lenticchie-e-zucca,Riso integrale con lenticchie e zucca,1,1,,
+base:recipe:riso-teriyaki-delicato-con-tacchino-e-spinaci,Riso teriyaki delicato con tacchino e spinaci,1,1,,
+base:recipe:salmone-con-polenta-e-spinaci,Salmone con polenta e spinaci,1,1,,
+base:recipe:salmone-nordico-con-patate-e-broccoli,Salmone nordico con patate e broccoli,1,1,,
+base:recipe:salmone-nordico-con-patate-e-zucca,Salmone nordico con patate e zucca,1,1,,
+base:recipe:sgombro-con-pane-bianco-e-pomodori,Sgombro con pane bianco e pomodori,1,1,,
+base:recipe:sogliola-con-riso-e-sedano-rapa,Sogliola con riso e sedano rapa,1,1,,
+base:recipe:tacchino-con-pane-bianco-e-cavolfiore,Tacchino con pane bianco e cavolfiore,1,1,,
+base:recipe:tacchino-con-riso-basmati-e-cavolfiore,Tacchino con riso basmati e cavolfiore,1,1,,
+base:recipe:toast-con-prosciutto-cotto-e-mozzarella,Toast con prosciutto cotto e mozzarella,1,1,,
+base:recipe:toast-francese-con-primosale-e-pomodoro,Toast francese con primosale e pomodoro,1,1,,
+base:recipe:trota-con-riso-e-cavolfiore,Trota con riso e cavolfiore,1,1,,
+base:recipe:trota-con-riso-e-zucchine,Trota con riso e zucchine,1,1,,

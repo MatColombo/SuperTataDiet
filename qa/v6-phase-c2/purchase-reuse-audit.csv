@@ -1,0 +1,9 @@
+﻿ingredient_code,occurrences,paired_within_4d,paired_share,target_share,status
+barbabietola,11,7,0.6364,0.55,OK
+cavoletti,14,11,0.7857,0.55,OK
+cicoria,7,4,0.5714,0.55,OK
+indivia,22,19,0.8636,0.55,OK
+rapa,6,6,1.0,0.55,OK
+gnocchi,16,16,1.0,0.55,OK
+tortilla,21,16,0.7619,0.55,OK
+mais,19,14,0.7368,0.55,OK

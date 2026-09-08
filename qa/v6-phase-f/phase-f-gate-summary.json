@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "phase": "V6-F",
+  "execution": "component gates run separately because the aggregate shell exceeded the session wall-clock limit",
+  "checks": {
+    "build_site": true,
+    "phase_c2_regression": true,
+    "phase_d_js": true,
+    "phase_d_python": true,
+    "phase_e_js": true,
+    "phase_e_python": true,
+    "phase_f_js": true,
+    "phase_f_python": true,
+    "phase_e_structural_stress_96_ops": true,
+    "static_site_validation": true
+  },
+  "static_validation": {
+    "html_files": 592,
+    "links_checked": 48265,
+    "errors": 0,
+    "warnings": 0
+  },
+  "browser_smoke": {
+    "status": "blocked_environment",
+    "reason": "Chromium policy returns net::ERR_BLOCKED_BY_ADMINISTRATOR for HTTP navigation in the current development environment",
+    "test_available": "scripts/test_v6_phase_f_browser.py"
+  }
+}

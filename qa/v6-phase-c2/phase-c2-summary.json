@@ -1,0 +1,205 @@
+{
+  "avocado": {
+    "portion_g": 75.0,
+    "portions": 52,
+    "rolling_max": 2,
+    "rolling_min": 2,
+    "total_g": 3900.0
+  },
+  "catalog": {
+    "c2_recipe_families": 56,
+    "ingredients": 131,
+    "recipe_families": 556,
+    "recipe_families_used": 299,
+    "recipe_versions": 797
+  },
+  "curation": {
+    "c2_recipe_occurrences": 129,
+    "changed_days_vs_phase_c1": 133,
+    "changed_meals_vs_phase_c1": 138,
+    "days": 180,
+    "meals": 864,
+    "preserved_meals_vs_phase_c1": 726
+  },
+  "dairy": {
+    "rolling_max": 3,
+    "rolling_min": 3,
+    "rolling_min_distinct_types": 2,
+    "total_portions": 77,
+    "type_counts": {
+      "feta": 8,
+      "fiocchi_latte": 8,
+      "grana": 25,
+      "mozzarella": 8,
+      "primosale": 10,
+      "ricotta": 10,
+      "robiola": 8
+    }
+  },
+  "dataset_version": "tatadiet-base-v2",
+  "distribution": {
+    "chickpea_plus_hummus_limit": 0.4,
+    "chickpea_plus_hummus_share": 0.25,
+    "fruit_limit": 0.48,
+    "fruit_top3": [
+      [
+        "avocado",
+        52
+      ],
+      [
+        "pera",
+        40
+      ],
+      [
+        "banana",
+        40
+      ]
+    ],
+    "fruit_top3_share": 0.4664,
+    "vegetable_limit": 0.36,
+    "vegetable_top3": [
+      [
+        "spinaci",
+        48
+      ],
+      [
+        "carota",
+        46
+      ],
+      [
+        "zucca",
+        42
+      ]
+    ],
+    "vegetable_top3_share": 0.2996
+  },
+  "gates": {
+    "activation_failures": 0,
+    "avocado_bad_portions": 0,
+    "avocado_isolated_occurrences": 0,
+    "avocado_occurrences_180d": 52,
+    "batch_reuse_preference_failures": 0,
+    "c2_recipe_contract_failures": 0,
+    "chickpea_hummus_limit": 0.4,
+    "chickpea_hummus_share": 0.25,
+    "daily_dairy_failures": 0,
+    "dairy_occurrences_180d": 77,
+    "energy_days_outside_5pct": 0,
+    "family_cap": 12,
+    "fresh_dairy_isolated_occurrences": 0,
+    "fresh_dairy_type_min_failures": 0,
+    "fruit_top3_limit": 0.48,
+    "fruit_top3_share": 0.4664,
+    "global_cap_failures": 0,
+    "max_energy_delta_pct": 4.77,
+    "max_recipe_family_occurrences": 12,
+    "off_season_occurrences": 0,
+    "phase_a_hard_violations": 0,
+    "phase_a_soft_warnings": 0,
+    "recipe_repeats_within_7d": 0,
+    "rolling_contract_failures": 0,
+    "vegetable_top3_limit": 0.36,
+    "vegetable_top3_share": 0.2996
+  },
+  "phase": "V6-C2",
+  "policy_version": "6.0.0-phase-c2.1",
+  "status": "ok",
+  "top_recipe_families": [
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 10,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:kefir-piccolo",
+      "title": "Kefir piccolo"
+    },
+    {
+      "distinct_days": 11,
+      "median_gap_days": 10.0,
+      "minimum_gap_days": 8,
+      "occurrences": 11,
+      "recipe_id": "base:recipe:frutta-e-nocciole",
+      "title": "Frutta e nocciole"
+    },
+    {
+      "distinct_days": 10,
+      "median_gap_days": 14,
+      "minimum_gap_days": 8,
+      "occurrences": 10,
+      "recipe_id": "base:recipe:frutta-e-mandorle",
+      "title": "Frutta e mandorle"
+    },
+    {
+      "distinct_days": 10,
+      "median_gap_days": 10,
+      "minimum_gap_days": 9,
+      "occurrences": 10,
+      "recipe_id": "base:recipe:frutta-in-porzione-piccola",
+      "title": "Frutta in porzione piccola"
+    },
+    {
+      "distinct_days": 10,
+      "median_gap_days": 11,
+      "minimum_gap_days": 8,
+      "occurrences": 10,
+      "recipe_id": "base:recipe:latte-e-frutta",
+      "title": "Latte e frutta"
+    },
+    {
+      "distinct_days": 9,
+      "median_gap_days": 11.5,
+      "minimum_gap_days": 8,
+      "occurrences": 9,
+      "recipe_id": "base:recipe:kefir-e-frutta",
+      "title": "Kefir e frutta"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 24,
+      "minimum_gap_days": 10,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:v6c2-avocado-al-naturale",
+      "title": "Avocado al naturale"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 15,
+      "minimum_gap_days": 10,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:v6c-brunch-completo-con-polenta-manzo-e-broccoli",
+      "title": "Brunch completo con polenta, manzo e broccoli"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 11,
+      "minimum_gap_days": 10,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:kefir-con-fette-classiche-e-confettura",
+      "title": "Kefir con fette classiche e confettura"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 15,
+      "minimum_gap_days": 8,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:latte-e-gallette-di-riso",
+      "title": "Latte e gallette di riso"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 22,
+      "minimum_gap_days": 8,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:latte-corn-flakes-e-frutta",
+      "title": "Latte, corn flakes e frutta"
+    },
+    {
+      "distinct_days": 8,
+      "median_gap_days": 17,
+      "minimum_gap_days": 8,
+      "occurrences": 8,
+      "recipe_id": "base:recipe:v6-yogurt-con-avena-e-pera",
+      "title": "Yogurt con avena e pera"
+    }
+  ]
+}

@@ -1,0 +1,574 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-c.1",
+  "name": "TataDiet V6 Phase C targeted curation recipes",
+  "intent": "Colmare il gap energetico dei giorni Smonto con brunch completi a porzione fissa, senza uova/formaggi e senza pasta/riso come carboidrato principale.",
+  "recipes": [
+    {
+      "title": "Brunch completo con couscous, salmone e zucca",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 90
+        },
+        {
+          "code": "salmone",
+          "quantity": 130
+        },
+        {
+          "code": "zucca",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con couscous, pollo e carote",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 100
+        },
+        {
+          "code": "pollo",
+          "quantity": 150
+        },
+        {
+          "code": "carota",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con farro, tonno e spinaci",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 105
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 140
+        },
+        {
+          "code": "spinaci",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con farro, manzo e radicchio",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 100
+        },
+        {
+          "code": "manzo_magro",
+          "quantity": 150
+        },
+        {
+          "code": "radicchio",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con orzo, salmone e finocchi",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "orzo",
+          "quantity": 90
+        },
+        {
+          "code": "salmone",
+          "quantity": 130
+        },
+        {
+          "code": "finocchio",
+          "quantity": 100
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con orzo, tacchino e zucca",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "orzo",
+          "quantity": 100
+        },
+        {
+          "code": "tacchino",
+          "quantity": 150
+        },
+        {
+          "code": "zucca",
+          "quantity": 180
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con polenta, merluzzo e cavolo nero",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 110
+        },
+        {
+          "code": "merluzzo",
+          "quantity": 180
+        },
+        {
+          "code": "cavolo_nero",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con polenta, manzo e broccoli",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "polenta",
+          "quantity": 100
+        },
+        {
+          "code": "manzo_magro",
+          "quantity": 150
+        },
+        {
+          "code": "broccoli",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con pane integrale, salmone e radicchio",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "pane_integrale",
+          "quantity": 140
+        },
+        {
+          "code": "salmone",
+          "quantity": 150
+        },
+        {
+          "code": "radicchio",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 5
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 20,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con patate, pollo e spinaci",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "patata",
+          "quantity": 400
+        },
+        {
+          "code": "pollo",
+          "quantity": 180
+        },
+        {
+          "code": "spinaci",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 15
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con patate, manzo e cavolfiore",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "patata",
+          "quantity": 400
+        },
+        {
+          "code": "manzo_magro",
+          "quantity": 160
+        },
+        {
+          "code": "cavolfiore",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con couscous, tacchino e spinaci",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "couscous",
+          "quantity": 100
+        },
+        {
+          "code": "tacchino",
+          "quantity": 160
+        },
+        {
+          "code": "spinaci",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 12
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Mediterranea",
+      "prep_minutes": 25,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con farro, manzo e spinaci",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 100
+        },
+        {
+          "code": "manzo_magro",
+          "quantity": 150
+        },
+        {
+          "code": "spinaci",
+          "quantity": 150
+        },
+        {
+          "code": "olio",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 30,
+      "season_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Brunch completo con farro, tonno e fagiolini",
+      "role": "curation_brunch",
+      "ingredients": [
+        {
+          "code": "farro",
+          "quantity": 105
+        },
+        {
+          "code": "tonno_naturale",
+          "quantity": 150
+        },
+        {
+          "code": "fagiolini",
+          "quantity": 120
+        },
+        {
+          "code": "olio",
+          "quantity": 14
+        }
+      ],
+      "meal_types": [
+        "Brunch",
+        "Cena"
+      ],
+      "cuisine": "Italiana",
+      "prep_minutes": 25,
+      "season_months": [
+        9,
+        10
+      ],
+      "spices": "Minima: erbe aromatiche facoltative",
+      "method": "main"
+    },
+    {
+      "title": "Bowl di yogurt, avena, mela e crema di arachidi",
+      "role": "curation_breakfast",
+      "ingredients": [
+        {
+          "code": "yogurt_bianco",
+          "quantity": 170
+        },
+        {
+          "code": "avena",
+          "quantity": 35
+        },
+        {
+          "code": "mela",
+          "quantity": 120
+        },
+        {
+          "code": "burro_arachidi",
+          "quantity": 10
+        }
+      ],
+      "meal_types": [
+        "Colazione",
+        "Brunch"
+      ],
+      "cuisine": "Mediterranea",
+      "prep_minutes": 5,
+      "season_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "spices": "Nessuna",
+      "method": "breakfast"
+    }
+  ]
+}

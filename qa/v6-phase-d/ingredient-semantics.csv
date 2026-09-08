@@ -1,0 +1,132 @@
+﻿code,name,category,classId,primaryRole,energyKcal,proteinG,carbohydrateG,fatG,fiberG,basisUnit
+albume,albume,latticini-e-uova,egg,protein,46,10.9,0.7,0.2,0,g
+arancia,arancia,ortofrutta,fruit,produce,47,0.9,12,0.1,2.4,g
+avocado,avocado fresco,ortofrutta,culinary-fat-fruit,fat,238,4.4,1.8,23,3.3,g
+banana,banana,ortofrutta,fruit,produce,89,1.1,22.8,0.3,2.6,g
+barbabietola,barbabietola,ortofrutta,root-bulb-vegetable,produce,43,1.6,10,0.2,2.8,g
+bietola,bietole,ortofrutta,leafy-vegetable,produce,19,1.8,3.7,0.2,1.6,g
+borlotti,borlotti cotti e sgocciolati,legumi-e-conserve,legume,protein,127,9,22.8,0.5,6,g
+branzino,branzino,pesce,lean-white-fish,protein,97,18,0,2.5,0,g
+bresaola,bresaola,carne-e-affettati,cold-cut,protein,151,32,0,2.6,0,g
+broccoli,broccoli,ortofrutta,cruciferous-vegetable,produce,34,2.8,6.6,0.4,2.6,g
+burro_arachidi,burro di arachidi 100%,frutta-secca-e-semi,spread,fat,588,25,20,50,6,g
+cachi,cachi,ortofrutta,fruit,produce,70,0.6,18.6,0.2,3.6,g
+calamaro,calamaro,pesce,seafood,protein,92,16,3,1.4,0,g
+cannellini,cannellini cotti e sgocciolati,legumi-e-conserve,legume,protein,127,8.7,22.8,0.5,6.4,g
+carciofo,carciofi,ortofrutta,other-vegetable,produce,47,3.3,10.5,0.2,5.4,g
+carota,carote,ortofrutta,root-bulb-vegetable,produce,41,0.9,9.6,0.2,2.8,g
+castagna,castagne arrostite,frutta-secca-e-semi,nuts-seeds,fat,200,3,44,1.5,5,g
+cavoletti,cavoletti di Bruxelles,ortofrutta,cruciferous-vegetable,produce,43,3.4,9,0.3,3.8,g
+cavolfiore,cavolfiore,ortofrutta,cruciferous-vegetable,produce,25,1.9,5,0.3,2,g
+cavolo_cappuccio,cavolo cappuccio,ortofrutta,cruciferous-vegetable,produce,25,1.3,5.8,0.1,2.5,g
+cavolo_nero,cavolo nero,ortofrutta,leafy-vegetable,produce,49,4.3,8.8,0.9,3.6,g
+ceci,ceci cotti e sgocciolati,legumi-e-conserve,legume,protein,164,8.9,27,2.6,7.6,g
+cetriolo,cetriolo senza buccia e semi,ortofrutta,summer-fruit-vegetable,produce,15,0.7,3.6,0.1,0.5,g
+melagrana,chicchi di melagrana,ortofrutta,fruit,produce,83,1.7,18.7,1.2,4,g
+cicoria,cicoria,ortofrutta,leafy-vegetable,produce,23,1.7,4.7,0.3,4,g
+cipolla,cipolla,ortofrutta,root-bulb-vegetable,produce,40,1.1,9.3,0.1,1.7,g
+marmellata,confettura di frutta,condimenti-e-dispensa,sweetener,condiment,250,0.3,62,0.1,1,g
+coniglio,coniglio disossato,carne-e-affettati,fresh-rabbit,protein,136,21,0,5,0,g
+couscous,couscous di semola secco,cereali-pane-e-derivati,dry-grain,carbohydrate,360,12,72,1.5,3,g
+couscous_integrale,couscous integrale secco,cereali-pane-e-derivati,dry-grain,carbohydrate,350,13,67,2.5,8,g
+cozze,"cozze, parte edibile",pesce,seafood,protein,86,12,3.7,2.2,0,g
+crackers,crackers classici,cereali-pane-e-derivati,cracker-rusk,carbohydrate,430,9,72,12,3,g
+crackers_integrali,crackers integrali,cereali-pane-e-derivati,cracker-rusk,carbohydrate,430,10,68,13,6,g
+fagiolini,fagiolini,ortofrutta,other-vegetable,produce,31,1.8,7,0.2,3.4,g
+farina00,farina di frumento 00,cereali-pane-e-derivati,flour-breading,carbohydrate,364,10.3,76.3,1,2.7,g
+polenta,farina di mais per polenta,cereali-pane-e-derivati,dry-grain,carbohydrate,360,8,78,1.5,3.5,g
+farro,farro secco,cereali-pane-e-derivati,dry-grain,carbohydrate,340,15,67,2.5,7,g
+fave,fave cotte,legumi-e-conserve,legume,protein,110,7.6,19.7,0.4,5.4,g
+tacchino_affettato,fesa di tacchino a fette,carne-e-affettati,cold-cut,protein,105,20,2,1.5,0,g
+fesa_affettata,fesa di tacchino arrosto,carne-e-affettati,cold-cut,protein,110,20,1,2,0,g
+feta,feta,latticini-e-uova,fresh-cheese,protein,265,14,4,21,0,g
+fette_bianche,fette biscottate classiche,cereali-pane-e-derivati,cracker-rusk,carbohydrate,410,10,76,7,3,g
+fette_integrali,fette biscottate integrali,cereali-pane-e-derivati,cracker-rusk,carbohydrate,400,11,72,8,7,g
+fico,fichi freschi,ortofrutta,fruit,produce,74,0.8,19,0.3,2.9,g
+maiale_filetto,filetto di maiale,carne-e-affettati,fresh-red-meat,protein,143,22,0,5,0,g
+finocchio,finocchi,ortofrutta,root-bulb-vegetable,produce,31,1.2,7.3,0.2,3.1,g
+avena,fiocchi d'avena,cereali-pane-e-derivati,breakfast-cereal,carbohydrate,389,16.9,66.3,6.9,10.6,g
+fiocchi_latte,fiocchi di latte,latticini-e-uova,fresh-cheese,protein,98,11.1,3.4,4.3,0,g
+cornflakes,fiocchi di mais semplici,cereali-pane-e-derivati,breakfast-cereal,carbohydrate,357,7,84,0.4,3,g
+primosale,formaggio primosale,latticini-e-uova,fresh-cheese,protein,270,18,2,21,0,g
+frutti_bosco,"frutti di bosco, anche surgelati",ortofrutta,fruit,produce,50,1,12,0.4,5,g
+funghi,funghi,ortofrutta,other-vegetable,produce,22,3.1,3.3,0.3,1,g
+gallette_riso,gallette di riso,cereali-pane-e-derivati,cracker-rusk,carbohydrate,387,8,81,3,4,g
+gamberi,gamberi,pesce,seafood,protein,99,24,0.2,0.3,0,g
+gnocchi,gnocchi di patate,cereali-pane-e-derivati,potato,carbohydrate,150,3.5,31,1,2,g
+grana,Grana Padano o Parmigiano,latticini-e-uova,aged-cheese,protein,398,33,0,29,0,g
+grano_saraceno,grano saraceno secco,cereali-pane-e-derivati,dry-grain,carbohydrate,343,13,72,3.4,10,g
+hummus,hummus semplice senza spezie piccanti,legumi-e-conserve,legume,protein,166,7.9,14.3,9.6,6,g
+indivia,indivia,ortofrutta,leafy-vegetable,produce,17,1.3,3.4,0.2,3.1,g
+kefir,kefir naturale,latticini-e-uova,milk-yogurt,protein,55,3.5,4.5,2.5,0,ml
+kiwi,kiwi,ortofrutta,fruit,produce,61,1.1,15,0.5,3,g
+latte_cocco_light,latte di cocco light,condimenti-e-dispensa,sauce,condiment,75,0.7,2.5,7,0,ml
+latte_ps,latte parzialmente scremato,latticini-e-uova,milk-yogurt,protein,46,3.3,4.8,1.6,0,ml
+lattuga,lattuga,ortofrutta,leafy-vegetable,produce,15,1.4,2.9,0.2,1.3,g
+lenticchie,lenticchie cotte e sgocciolate,legumi-e-conserve,legume,protein,116,9,20,0.4,8,g
+lupini,lupini scolati,legumi-e-conserve,legume,protein,119,15.6,9.9,2.9,2.8,g
+mais,mais dolce sgocciolato,ortofrutta,other-vegetable,produce,86,3.4,19,1.2,2.7,g
+mandarino,mandarini o clementine,ortofrutta,fruit,produce,53,0.8,13.3,0.3,1.8,g
+mandorle,mandorle,frutta-secca-e-semi,nuts-seeds,fat,579,21.2,21.6,49.9,12.5,g
+manzo_magro,manzo magro,carne-e-affettati,fresh-red-meat,protein,150,22,0,6,0,g
+mela,mela,ortofrutta,fruit,produce,52,0.3,14,0.2,2.4,g
+melanzana,melanzane,ortofrutta,summer-fruit-vegetable,produce,25,1,6,0.2,3,g
+merluzzo,merluzzo,pesce,lean-white-fish,protein,82,18,0,0.7,0,g
+miele,miele,condimenti-e-dispensa,sweetener,condiment,304,0.3,82,0,0,g
+mozzarella,mozzarella vaccina,latticini-e-uova,fresh-cheese,protein,250,18,2,19,0,g
+nasello,nasello,pesce,lean-white-fish,protein,86,19,0,1,0,g
+nocciole,nocciole,frutta-secca-e-semi,nuts-seeds,fat,628,15,17,61,9.7,g
+noci,noci,frutta-secca-e-semi,nuts-seeds,fat,654,15.2,13.7,65.2,6.7,g
+olio,olio extravergine di oliva,condimenti-e-dispensa,cooking-fat,fat,884,0,0,100,0,g
+orata,orata,pesce,lean-white-fish,protein,121,20.7,0,4.1,0,g
+orzo,orzo perlato secco,cereali-pane-e-derivati,dry-grain,carbohydrate,354,12,73,2.3,9,g
+pane_bianco,pane bianco comune,cereali-pane-e-derivati,bread,carbohydrate,265,8.5,49,3.2,2.7,g
+pane_segale,pane di segale,cereali-pane-e-derivati,bread,carbohydrate,259,8.5,48,3.3,5.8,g
+pane_integrale,pane integrale,cereali-pane-e-derivati,bread,carbohydrate,250,9,43,4,6.5,g
+pangrattato,pangrattato,cereali-pane-e-derivati,flour-breading,carbohydrate,351,13,72,4,5,g
+passata,passata di pomodoro,condimenti-e-dispensa,sauce,condiment,35,1.5,6,0.2,1.5,g
+pasta_integrale,pasta integrale secca,cereali-pane-e-derivati,dry-pasta,carbohydrate,350,13,67,2.5,8,g
+pasta,pasta secca,cereali-pane-e-derivati,dry-pasta,carbohydrate,353,12.5,72,1.5,3,g
+patata_dolce,patata dolce,cereali-pane-e-derivati,potato,carbohydrate,86,1.6,20,0.1,3,g
+patata,patate,cereali-pane-e-derivati,potato,carbohydrate,77,2,17,0.1,2.2,g
+pera,pera,ortofrutta,fruit,produce,57,0.4,15,0.1,3.1,g
+pollo,petto di pollo,carne-e-affettati,fresh-poultry,protein,110,23,0,1.5,0,g
+tacchino,petto di tacchino,carne-e-affettati,fresh-poultry,protein,110,24,0,1.2,0,g
+piadina,piadina classica,cereali-pane-e-derivati,bread,carbohydrate,330,8,52,10,2.5,g
+piselli,piselli cotti,legumi-e-conserve,legume,protein,81,5.4,14,0.4,5.7,g
+pistacchi,pistacchi non salati,frutta-secca-e-semi,nuts-seeds,fat,562,20,28,45,10,g
+polpo,polpo,pesce,seafood,protein,82,15,2.2,1,0,g
+pomodoro,pomodori,ortofrutta,summer-fruit-vegetable,produce,18,0.9,3.9,0.2,1.2,g
+pompelmo,pompelmo,ortofrutta,fruit,produce,42,0.8,10.7,0.1,1.6,g
+porro,porro,ortofrutta,root-bulb-vegetable,produce,61,1.5,14.2,0.3,1.8,g
+prosciutto_cotto,prosciutto cotto sgrassato,carne-e-affettati,cold-cut,protein,145,20,1.5,6,0,g
+prosciutto_crudo,prosciutto crudo sgrassato,carne-e-affettati,cold-cut,protein,220,28,0,12,0,g
+prugna,prugne fresche,ortofrutta,fruit,produce,46,0.7,11.4,0.3,1.4,g
+radicchio,radicchio,ortofrutta,leafy-vegetable,produce,23,1.4,4.5,0.3,0.9,g
+rapa,rape,ortofrutta,root-bulb-vegetable,produce,28,0.9,6.4,0.1,1.8,g
+ricotta,ricotta vaccina,latticini-e-uova,fresh-cheese,protein,146,8.8,3.5,10.9,0,g
+riso_basmati,riso basmati secco,cereali-pane-e-derivati,dry-rice,carbohydrate,356,8,78,0.8,1.5,g
+riso_integrale,riso integrale secco,cereali-pane-e-derivati,dry-rice,carbohydrate,360,7.5,76,2.7,3.5,g
+riso_jasmine,riso jasmine secco,cereali-pane-e-derivati,dry-rice,carbohydrate,356,7.5,79,0.7,1,g
+robiola,robiola,latticini-e-uova,fresh-cheese,protein,310,9,3,29,0,g
+salmone,salmone,pesce,fatty-fish,protein,208,20,0,13,0,g
+salsa_soia,salsa di soia delicata,condimenti-e-dispensa,sauce,condiment,53,8,5,0.6,0,g
+sardine,sardine,pesce,fatty-fish,protein,208,25,0,11,0,g
+sedano,sedano,ortofrutta,root-bulb-vegetable,produce,16,0.7,3,0.2,1.6,g
+sedano_rapa,sedano rapa,ortofrutta,root-bulb-vegetable,produce,42,1.5,9.2,0.3,1.8,g
+sesamo,semi di sesamo,frutta-secca-e-semi,nuts-seeds,fat,573,18,23,50,12,g
+semi_zucca,semi di zucca,frutta-secca-e-semi,nuts-seeds,fat,559,30,11,49,6,g
+semolino,semolino di frumento,cereali-pane-e-derivati,dry-grain,carbohydrate,360,12,73,1.2,3.6,g
+sgombro,sgombro,pesce,fatty-fish,protein,205,19,0,14,0,g
+sogliola,sogliola,pesce,lean-white-fish,protein,83,18,0,1.4,0,g
+noodles_riso,spaghetti di riso secchi,cereali-pane-e-derivati,dry-grain,carbohydrate,364,5.8,80,0.6,1,g
+spinaci,spinaci,ortofrutta,leafy-vegetable,produce,23,2.9,3.6,0.4,2.2,g
+tonno_naturale,tonno al naturale sgocciolato,pesce,preserved-fish,protein,116,26,0,1,0,g
+tortilla,tortilla di frumento,cereali-pane-e-derivati,bread,carbohydrate,310,8,52,8,3,g
+trota,trota,pesce,fatty-fish,protein,148,20.5,0,7,0,g
+uovo,uovo intero,latticini-e-uova,egg,protein,143,12.6,0.7,9.5,0,g
+uva,uva,ortofrutta,fruit,produce,69,0.7,18,0.2,0.9,g
+verza,verza,ortofrutta,leafy-vegetable,produce,27,2,6.1,0.1,3.1,g
+yogurt_bianco,yogurt bianco naturale,latticini-e-uova,milk-yogurt,protein,63,4,5,3,0,g
+zucca,zucca,ortofrutta,other-vegetable,produce,26,1,6.5,0.1,0.5,g
+zucchina,zucchine,ortofrutta,summer-fruit-vegetable,produce,17,1.2,3.1,0.3,1,g

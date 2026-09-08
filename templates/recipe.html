@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-header recipe-header">
+  <p class="eyebrow">Ricetta · {{ recipe.occurrence_count }} occorrenze nel piano</p>
+  <h1>{{ recipe.title }}</h1>
+  <div class="meal-tags large">
+    {% for meal_type in recipe.meal_types %}<span>{{ meal_type }}</span>{% endfor %}
+    {% for cuisine in recipe.cuisines %}<span>{{ cuisine }}</span>{% endfor %}
+  </div>
+  <div class="header-actions recipe-personalize-actions">
+    <a class="button primary" href="../studio/index.html?recipe=base:recipe:{{ recipe.slug }}">Duplica nello Studio ricette</a>
+    <a class="button secondary" href="../programma/index.html?recipe=base:recipe:{{ recipe.slug }}">Programma nel calendario</a>
+    <a class="button ghost" href="../studio/index.html">Studio ricette</a>
+  </div>
+</header>
+<div class="nutrition-grid cycle-summary">
+  <div><strong>{{ recipe.avg_kcal|round|int }}</strong><span>kcal medie</span></div>
+  <div><strong>{{ recipe.avg_protein|round(1) }}</strong><span>g proteine</span></div>
+  <div><strong>{{ recipe.avg_carbs|round(1) }}</strong><span>g carboidrati</span></div>
+  <div><strong>{{ recipe.avg_fat|round(1) }}</strong><span>g grassi</span></div>
+  <div><strong>{{ recipe.avg_fiber|round(1) }}</strong><span>g fibra</span></div>
+</div>
+<section class="section-block">
+  <div class="section-heading"><h2>Versioni presenti nel piano</h2></div>
+  <div class="recipe-versions">
+  {% for version in recipe.versions %}
+    <article class="recipe-version">
+      <header><h3>Versione {{ loop.index }}</h3><span>{{ version.kcal|round|int }} kcal · {{ version.prep_minutes }} min</span></header>
+      {% if version.ingredients %}<p>{{ version.ingredients }}</p>{% else %}<p class="muted">Pasto flessibile senza ingredienti prestabiliti.</p>{% endif %}
+      <dl class="prep-grid">
+        <div><dt>Preparabile prima</dt><dd>{{ version.prepare_ahead }}</dd></div>
+        <div><dt>Freddo</dt><dd>{{ version.cold }}</dd></div>
+        <div><dt>Riscaldamento</dt><dd>{{ version.reheat }}</dd></div>
+        <div><dt>Frigo</dt><dd>{{ version.fridge }}</dd></div>
+      </dl>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+
+<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-title="{{ recipe.title|e }}" data-recipe-slug="{{ recipe.slug|e }}">
+  <div class="section-heading converter-heading">
+    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. Le quantità sono indicative e la ricetta non viene modificata.</p></div>
+    <span class="status-pill soft">READ only</span>
+  </div>
+  <div class="converter-loading" data-converter-loading>Caricamento ingredienti della ricetta…</div>
+  <div class="ingredient-converter-app" data-converter-app hidden>
+    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label></div>
+    <div class="ingredient-converter-layout">
+      <aside class="converter-source-panel">
+        <h3>Ingrediente della ricetta</h3>
+        <div class="converter-source-list" data-converter-source-list></div>
+      </aside>
+      <div class="converter-workspace">
+        <div class="converter-source-summary" data-converter-source-summary></div>
+        <label class="converter-search-label">Cerca un ingrediente specifico<input type="search" data-converter-search placeholder="Es. tacchino, patate, mozzarella…" autocomplete="off"></label>
+        <div class="converter-mode-note" data-converter-mode-note></div>
+        <div class="converter-results" data-converter-results></div>
+        <div class="converter-comparison" data-converter-comparison hidden></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-block">
+  <div class="section-heading"><h2>Dove compare</h2></div>
+  <div class="occurrence-list">
+  {% for occurrence in recipe.occurrences %}
+    <a href="../../piano/ciclo-{{ occurrence.cycle }}/variante-{{ occurrence.variant }}/{{ occurrence.d_code|lower }}/index.html#{{ occurrence.anchor }}">
+      <span class="shift-pill {{ occurrence.d_code|lower }}">{{ day_short(occurrence.d_code) }}</span>
+      <span><strong>{{ occurrence.month }} · V{{ occurrence.variant }} · giorno {{ occurrence.global_day }}</strong><small>{{ occurrence.time }} · {{ occurrence.meal_type }}</small></span>
+      <span>Apri →</span>
+    </a>
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}

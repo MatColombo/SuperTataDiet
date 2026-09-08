@@ -1,0 +1,11 @@
+﻿source,sourceQuantity,target,targetQuantity,targetUnit,score,classification,suggestable,sourceKcal,targetKcal,proteinDeltaG,carbohydrateDeltaG,fatDeltaG,fiberDeltaG
+riso_basmati,80,pasta,80.68,g,80.1,compatible,true,284.8,284.8004,3.685,-4.3104,0.5702,1.2204
+riso_basmati,80,patata,369.87,g,48.1,with-differences,false,284.8,284.7999,0.9974,0.4779,-0.2701,6.9371
+pollo,140,tacchino,140,g,100,very-compatible,true,154,154,1.4,0,-0.42,0
+pollo,140,merluzzo,187.8,g,81,compatible,true,154,153.996,1.604,0,-0.7854,0
+salmone,120,sgombro,121.76,g,100,very-compatible,true,249.6,249.608,-0.8656,0,1.4464,0
+ricotta,125,mozzarella,73,g,100,very-compatible,true,182.5,182.5,2.14,-2.915,0.245,0
+ceci,120,cannellini,154.96,g,100,very-compatible,true,196.8,196.7992,2.8015,2.9309,-2.3452,0.7974
+banana,100,mela,171.15,g,100,very-compatible,true,89,88.998,-0.5865,1.161,0.0423,1.5076
+olio,10,avocado,37.14,g,33,energy-only,false,88.4,88.3932,1.6342,0.6685,-1.4578,1.2256
+riso_basmati,80,olio,32.22,g,0,energy-only,false,284.8,284.8248,-6.4,-62.4,31.58,-1.2

@@ -1,0 +1,164 @@
+{
+  "format": "tatadiet-base-manifest",
+  "schema_version": 1,
+  "dataset_version": "tatadiet-base-v2",
+  "phase_version": "6.0.0",
+  "generated_at": "2026-09-08T19:30:00+02:00",
+  "immutable": true,
+  "source": {
+    "xlsx": {
+      "file": "Piano_alimentare_revisionato_6_mesi_fibra_moderata.xlsx",
+      "sha256": "63fa26b530d0b2f26cc8a25abc51147af92f71f96900f62f2f383862602e0450"
+    },
+    "pdf": {
+      "file": "Piano_alimentare_revisionato_6_mesi_fibra_moderata.pdf",
+      "sha256": "1f11622a0506f6190494b0806378a253ab946181b8953bf7d0929c48bca907b7"
+    }
+  },
+  "files": {
+    "ingredients.base.v1.json": {
+      "sha256": "1765f980c824b1d11b44155ac813a5b285ce57e527c0a9ace088468f24e84a1b",
+      "records": 131
+    },
+    "recipes.base.v1.json": {
+      "sha256": "535376cdea1d2508aa53a64c4bdf99a59cadbfd5644a5a3becd9f4fef87aa237",
+      "recipe_families": 556,
+      "recipe_versions": 797
+    },
+    "plan-template.base.v1.json": {
+      "sha256": "9a155f1bf900f55e83ad5c569d3529eba96c021fa503f14fa9a0becf9210428d",
+      "days": 180,
+      "meals": 864
+    }
+  },
+  "invariants": [
+    "Base records are immutable at runtime.",
+    "User edits create user-owned records or occurrence overrides.",
+    "The source workbook is never modified by the web application.",
+    "A base dataset version is referenced by every full backup."
+  ],
+  "extensions": {
+    "v6_phase_b": {
+      "version": "6.0.0-phase-b.1",
+      "source": "spec/v6/phase-b-recipes.json",
+      "source_sha256": "5f72fbe074631f9fe1f519fb372b609b0dc4c3e8043132e70479047aa3d5fc8e",
+      "note": "Catalog-only extension. The 180-day plan template is intentionally unchanged until Phase C."
+    },
+    "v6_phase_c": {
+      "version": "6.0.0-phase-c.1",
+      "source": "spec/v6/phase-c-recipes.json",
+      "source_sha256": "59764f52cf6371a50d9761f0aed80b3fc6a86eb118487c589f6ecddb5aa4d06b",
+      "note": "Targeted fixed-portion recipes added during the one-shot 180-day curation."
+    },
+    "v6_phase_c_curation": {
+      "version": "6.0.0-phase-c.1",
+      "source": "spec/v6/phase-c-curation.json",
+      "source_sha256": "49885e041b4e14ae0a53608894dec64a5651b3b711937de780bc94745a1c49f5",
+      "days_reviewed": 180,
+      "changed_days": 179,
+      "changed_meals": 709,
+      "note": "Explicit one-shot curation of all 180 days; no runtime heuristic is required to reproduce the baseline."
+    },
+    "v6_phase_c1": {
+      "version": "6.0.0-phase-c1.1",
+      "source": "spec/v6/phase-c1-recipes.json",
+      "source_sha256": "fa6cfdf9cd7d29a94c1514ec0025f93699ad44606afe578bf058a4cb6a6df08e",
+      "note": "Fixed-portion diversity and purchase-reuse recipe tranche."
+    },
+    "v6_phase_c1_curation": {
+      "version": "6.0.0-phase-c1.1",
+      "source": "spec/v6/phase-c1-curation.json",
+      "source_sha256": "2467e28e01bf6977eb8dd212d1421aacc784ef1316de8ada7fd58a6b96500b52",
+      "policy_source": "spec/v6/phase-c1-policy.json",
+      "policy_sha256": "2e113e24741a047932424b635ec6f3472f5c717d7aec9254f00e999ee0d5a8b9",
+      "recipe_source": "spec/v6/phase-c1-recipes.json",
+      "recipe_source_sha256": "fa6cfdf9cd7d29a94c1514ec0025f93699ad44606afe578bf058a4cb6a6df08e",
+      "days_reviewed": 180,
+      "changed_days_vs_phase_c": 131,
+      "changed_meals_vs_phase_c": 254,
+      "note": "Frozen C1 editorial curation: increased real diversity, purchase reuse, and anti-monoculture controls while preserving Phase A/C gates."
+    },
+    "v6_phase_c2": {
+      "version": "6.0.0-phase-c2.1",
+      "source": "spec/v6/phase-c2-recipes.json",
+      "source_sha256": "acde749bb056fe609e89011ee0af6dce5dd414fe330db2f0a49e9503041230bc",
+      "note": "Fixed-portion dairy and avocado recipe tranche with purchase-aware quantities."
+    },
+    "v6_phase_c2_curation": {
+      "version": "6.0.0-phase-c2.1",
+      "source": "spec/v6/phase-c2-curation.json",
+      "source_sha256": "c1e7c767860bc55c06b806d3601e23df99cf966478da9ec4c4e10429323d74ee",
+      "policy_source": "spec/v6/phase-c2-policy.json",
+      "policy_sha256": "b7b93a56fea4b5d88a6ee5aa7dcf2b33e1337fd6aa26315cac0ca80d6854b617",
+      "recipe_source": "spec/v6/phase-c2-recipes.json",
+      "recipe_source_sha256": "acde749bb056fe609e89011ee0af6dce5dd414fe330db2f0a49e9503041230bc",
+      "days_reviewed": 180,
+      "changed_days_vs_phase_c1": 133,
+      "changed_meals_vs_phase_c1": 138,
+      "note": "Frozen C2 editorial curation: exactly three counted dairy portions and two 75 g avocado portions per rolling 7 days, with dairy variety and purchase reuse."
+    },
+    "v6_phase_d": {
+      "version": "6.0.0-phase-d.1",
+      "policy_source": "spec/v6/phase-d-policy.json",
+      "policy_sha256": "c8ab2ce0ba868f5e961c8b39550570fd97250b930024ce209b9f9a4dc18b32f5",
+      "runtime_modules": [
+        "static/assets/js/v6-ingredient-intelligence-core.js",
+        "static/assets/js/v6-constraint-core.js",
+        "static/assets/js/v6-intelligence-store.js"
+      ],
+      "note": "Read-only ingredient equal-energy conversion, structured compatibility ranking and reusable V6 rolling-constraint evaluator. Base plan and recipe catalog are unchanged from Phase C.2."
+    },
+    "v6_phase_e": {
+      "version": "6.0.0-phase-e.1",
+      "policy_source": "spec/v6/phase-e-policy.json",
+      "policy_sha256": "51699beff38c20bb03440e62f82d1115e3d599d84e04f64a5255b6c861309ecf",
+      "runtime_modules": [
+        "static/assets/js/v6-planner-core.js",
+        "static/assets/js/v6-planner-store.js"
+      ],
+      "target_kcal_range": [
+        800,
+        2600
+      ],
+      "default_tolerance_pct": 0.05,
+      "note": "Constraint-aware fixed-serving planner. Preserves Phase A/C1/C2 quality gates, exposes explicit infeasibility and supports optional snack omission for low targets. Base ingredients, recipes and curated 180-day plan are unchanged from Phase C.2."
+    },
+    "v6_phase_f": {
+      "version": "6.0.0-phase-f.1",
+      "policy_source": "spec/v6/phase-f-policy.json",
+      "policy_sha256": "1b164e1d25ff409143c8b29f1b717ec622d2bf4f557d207c036d74f677c2b14d",
+      "runtime_modules": [
+        "static/assets/js/v6-recipe-converter.js"
+      ],
+      "modified_runtime_modules": [
+        "static/assets/js/v5-composer-core.js",
+        "static/assets/js/v5-composer.js",
+        "static/assets/js/v5-day-manager.js",
+        "static/assets/js/v5-effective-pages.js"
+      ],
+      "note": "Recipe-view equal-energy ingredient converter (read-only), ingredient-aware/constraint-aware meal replacement, fixed manual servings and rapid future-date planning UX. Base C2 food/content assets remain unchanged."
+    },
+    "v6_phase_g": {
+      "version": "6.0.0-phase-g.1",
+      "policy_source": "spec/v6/phase-g-policy.json",
+      "policy_sha256": "52826ff871538c9891b53e5f814d0b35e59e4097db5e2e0d553a20c4e5303e1d",
+      "runtime_modules": [
+        "static/assets/js/v6-diary-core.js",
+        "static/assets/js/v6-diary-store.js",
+        "static/assets/js/v6-diary.js"
+      ],
+      "modified_runtime_modules": [
+        "static/assets/js/v5-db.js",
+        "static/assets/js/v5-backup.js"
+      ],
+      "page": "diario/index.html",
+      "note": "Local-first diary with meal/day traffic lights, 7/30-day adherence summaries, comments and manual out-of-catalog meals. Diary state is separate from the effective plan and included in backup."
+    },
+    "v6_phase_h": {
+      "version": "6.0.0",
+      "policy_source": "spec/v6/phase-h-policy.json",
+      "policy_sha256": "82a8683f8cc706d74f9b32b82a389aafa7af855dcee6396ff56b5b6ed6a3f044",
+      "note": "Final V6 release gate: integrated A-G regression, 6.0.0 branding/version coherence, offline packaging and release QA. C2 food/content baseline remains byte-identical."
+    }
+  }
+}

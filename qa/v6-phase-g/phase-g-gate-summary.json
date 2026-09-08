@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "phase": "V6-G",
+  "gate": "v6_phase_g.sh",
+  "checks": {
+    "build": "pass",
+    "phase_c2_regression": "pass",
+    "phase_d_regression": "pass",
+    "phase_e_regression": "pass",
+    "phase_f_regression": "pass",
+    "phase_g_core": "pass",
+    "phase_g_store": "pass",
+    "phase_g_static": "pass",
+    "structural_stress_96_undo_redo": "pass",
+    "site_validation": "pass"
+  },
+  "site": {
+    "html_files": 593,
+    "links_resources_fragments_checked": 51895,
+    "errors": 0,
+    "warnings": 0
+  },
+  "browser_smoke": "deferred: managed Chromium blocks local HTTP and file navigation"
+}

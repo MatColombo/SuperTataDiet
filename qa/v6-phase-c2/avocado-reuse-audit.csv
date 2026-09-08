@@ -1,0 +1,53 @@
+﻿global_day,meal_id,meal_type,quantity_g,paired_within_4d,status
+2,base:meal:002:04,Spuntino notturno,75.0,SI,OK
+5,base:meal:005:02,Spuntino,75.0,SI,OK
+9,base:meal:009:02,Spuntino,75.0,SI,OK
+12,base:meal:012:04,Spuntino notturno,75.0,SI,OK
+16,base:meal:016:04,Spuntino,75.0,SI,OK
+19,base:meal:019:02,Spuntino,75.0,SI,OK
+23,base:meal:023:02,Spuntino,75.0,SI,OK
+26,base:meal:026:04,Spuntino,75.0,SI,OK
+30,base:meal:030:01,Colazione,75.0,SI,OK
+33,base:meal:033:02,Spuntino,75.0,SI,OK
+37,base:meal:037:06,Mini-pasto pre-sonno,75.0,SI,OK
+40,base:meal:040:01,Colazione,75.0,SI,OK
+44,base:meal:044:01,Colazione,75.0,SI,OK
+47,base:meal:047:06,Mini-pasto pre-sonno,75.0,SI,OK
+51,base:meal:051:04,Spuntino,75.0,SI,OK
+54,base:meal:054:04,Spuntino,75.0,SI,OK
+58,base:meal:058:02,Spuntino,75.0,SI,OK
+61,base:meal:061:02,Spuntino,75.0,SI,OK
+65,base:meal:065:02,Spuntino,75.0,SI,OK
+68,base:meal:068:02,Spuntino,75.0,SI,OK
+72,base:meal:072:01,Colazione,75.0,SI,OK
+75,base:meal:075:02,Spuntino,75.0,SI,OK
+79,base:meal:079:04,Spuntino,75.0,SI,OK
+82,base:meal:082:05,Spuntino notturno,75.0,SI,OK
+86,base:meal:086:04,Spuntino,75.0,SI,OK
+89,base:meal:089:01,Colazione,75.0,SI,OK
+93,base:meal:093:02,Spuntino,75.0,SI,OK
+96,base:meal:096:02,Spuntino,75.0,SI,OK
+100,base:meal:100:01,Colazione,75.0,SI,OK
+103,base:meal:103:02,Spuntino,75.0,SI,OK
+107,base:meal:107:05,Spuntino notturno,75.0,SI,OK
+110,base:meal:110:01,Colazione,75.0,SI,OK
+114,base:meal:114:02,Spuntino,75.0,SI,OK
+117,base:meal:117:05,Spuntino notturno,75.0,SI,OK
+121,base:meal:121:02,Spuntino,75.0,SI,OK
+124,base:meal:124:01,Colazione,75.0,SI,OK
+128,base:meal:128:02,Spuntino,75.0,SI,OK
+131,base:meal:131:04,Spuntino,75.0,SI,OK
+135,base:meal:135:02,Spuntino,75.0,SI,OK
+138,base:meal:138:02,Spuntino,75.0,SI,OK
+142,base:meal:142:04,Spuntino notturno,75.0,SI,OK
+145,base:meal:145:04,Spuntino,75.0,SI,OK
+149,base:meal:149:04,Spuntino,75.0,SI,OK
+152,base:meal:152:06,Mini-pasto pre-sonno,75.0,SI,OK
+156,base:meal:156:04,Spuntino,75.0,SI,OK
+159,base:meal:159:02,Spuntino,75.0,SI,OK
+163,base:meal:163:02,Spuntino,75.0,SI,OK
+166,base:meal:166:04,Spuntino,75.0,SI,OK
+170,base:meal:170:01,Colazione,75.0,SI,OK
+173,base:meal:173:02,Spuntino,75.0,SI,OK
+177,base:meal:177:06,Mini-pasto pre-sonno,75.0,SI,OK
+180,base:meal:180:01,Colazione,75.0,SI,OK

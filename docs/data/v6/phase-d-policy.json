@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "policy_version": "6.0.0-phase-d.1",
+  "name": "TataDiet V6 Phase D - ingredient intelligence and constraint contract",
+  "intent": "Provide one structured ingredient semantics layer for equal-energy conversion, greedy compatibility ranking and the future V6 planner. Equal kcal is a calculation target, never a claim of nutritional equivalence.",
+  "conversion": {
+    "energy_tolerance_kcal": 0.05,
+    "greedy_min_score": 58,
+    "very_compatible_min_score": 82,
+    "compatible_min_score": 62,
+    "with_differences_min_score": 40,
+    "max_default_results": 12,
+    "allow_energy_only_in_search": true,
+    "allow_energy_only_in_greedy": false,
+    "quantity_plausibility": {
+      "egg": [
+        25,
+        250
+      ],
+      "fresh-cheese": [
+        20,
+        250
+      ],
+      "aged-cheese": [
+        5,
+        80
+      ],
+      "milk-yogurt": [
+        50,
+        500
+      ],
+      "fresh-meat": [
+        50,
+        350
+      ],
+      "cold-cut": [
+        20,
+        150
+      ],
+      "fish": [
+        50,
+        400
+      ],
+      "seafood": [
+        50,
+        450
+      ],
+      "legume": [
+        40,
+        400
+      ],
+      "dry-grain": [
+        15,
+        180
+      ],
+      "bread": [
+        15,
+        250
+      ],
+      "potato": [
+        50,
+        600
+      ],
+      "breakfast-cereal": [
+        10,
+        150
+      ],
+      "cracker-rusk": [
+        10,
+        150
+      ],
+      "vegetable": [
+        30,
+        600
+      ],
+      "fruit": [
+        30,
+        500
+      ],
+      "nuts-seeds": [
+        5,
+        100
+      ],
+      "spread": [
+        5,
+        100
+      ],
+      "cooking-fat": [
+        2,
+        50
+      ],
+      "sweetener": [
+        2,
+        80
+      ],
+      "sauce": [
+        5,
+        200
+      ],
+      "other": [
+        5,
+        600
+      ]
+    }
+  },
+  "semantics": {
+    "classes": {
+      "egg": [
+        "uovo",
+        "albume"
+      ],
+      "fresh-cheese": [
+        "feta",
+        "fiocchi_latte",
+        "mozzarella",
+        "primosale",
+        "ricotta",
+        "robiola"
+      ],
+      "aged-cheese": [
+        "grana"
+      ],
+      "milk-yogurt": [
+        "latte_ps",
+        "yogurt_bianco",
+        "kefir"
+      ],
+      "fresh-poultry": [
+        "pollo",
+        "tacchino"
+      ],
+      "fresh-red-meat": [
+        "manzo_magro",
+        "maiale_filetto"
+      ],
+      "fresh-rabbit": [
+        "coniglio"
+      ],
+      "cold-cut": [
+        "bresaola",
+        "fesa_affettata",
+        "prosciutto_cotto",
+        "prosciutto_crudo",
+        "tacchino_affettato"
+      ],
+      "lean-white-fish": [
+        "branzino",
+        "merluzzo",
+        "nasello",
+        "orata",
+        "sogliola"
+      ],
+      "fatty-fish": [
+        "salmone",
+        "sardine",
+        "sgombro",
+        "trota"
+      ],
+      "seafood": [
+        "calamaro",
+        "cozze",
+        "gamberi",
+        "polpo"
+      ],
+      "preserved-fish": [
+        "tonno_naturale"
+      ],
+      "legume": [
+        "borlotti",
+        "cannellini",
+        "ceci",
+        "fave",
+        "hummus",
+        "lenticchie",
+        "lupini",
+        "piselli"
+      ],
+      "dry-pasta": [
+        "pasta",
+        "pasta_integrale"
+      ],
+      "dry-rice": [
+        "riso_basmati",
+        "riso_integrale",
+        "riso_jasmine"
+      ],
+      "dry-grain": [
+        "couscous",
+        "couscous_integrale",
+        "farro",
+        "grano_saraceno",
+        "noodles_riso",
+        "orzo",
+        "polenta",
+        "semolino"
+      ],
+      "potato": [
+        "patata",
+        "patata_dolce",
+        "gnocchi"
+      ],
+      "bread": [
+        "pane_bianco",
+        "pane_integrale",
+        "pane_segale",
+        "piadina",
+        "tortilla"
+      ],
+      "breakfast-cereal": [
+        "avena",
+        "cornflakes"
+      ],
+      "cracker-rusk": [
+        "crackers",
+        "crackers_integrali",
+        "fette_bianche",
+        "fette_integrali",
+        "gallette_riso"
+      ],
+      "flour-breading": [
+        "farina00",
+        "pangrattato"
+      ],
+      "nuts-seeds": [
+        "mandorle",
+        "nocciole",
+        "noci",
+        "pistacchi",
+        "semi_zucca",
+        "sesamo",
+        "castagna"
+      ],
+      "spread": [
+        "burro_arachidi"
+      ],
+      "cooking-fat": [
+        "olio"
+      ],
+      "sweetener": [
+        "miele",
+        "marmellata"
+      ],
+      "sauce": [
+        "passata",
+        "salsa_soia",
+        "latte_cocco_light"
+      ],
+      "culinary-fat-fruit": [
+        "avocado"
+      ],
+      "fruit": [
+        "arancia",
+        "banana",
+        "cachi",
+        "fico",
+        "frutti_bosco",
+        "kiwi",
+        "mandarino",
+        "mela",
+        "melagrana",
+        "pera",
+        "pompelmo",
+        "prugna",
+        "uva"
+      ],
+      "leafy-vegetable": [
+        "bietola",
+        "cicoria",
+        "indivia",
+        "lattuga",
+        "radicchio",
+        "spinaci",
+        "cavolo_nero",
+        "verza"
+      ],
+      "cruciferous-vegetable": [
+        "broccoli",
+        "cavoletti",
+        "cavolfiore",
+        "cavolo_cappuccio"
+      ],
+      "root-bulb-vegetable": [
+        "barbabietola",
+        "carota",
+        "cipolla",
+        "finocchio",
+        "porro",
+        "rapa",
+        "sedano",
+        "sedano_rapa"
+      ],
+      "summer-fruit-vegetable": [
+        "cetriolo",
+        "melanzana",
+        "pomodoro",
+        "zucchina"
+      ],
+      "other-vegetable": [
+        "carciofo",
+        "fagiolini",
+        "funghi",
+        "mais",
+        "zucca"
+      ]
+    },
+    "primary_roles": {
+      "protein": [
+        "egg",
+        "fresh-cheese",
+        "aged-cheese",
+        "milk-yogurt",
+        "fresh-poultry",
+        "fresh-red-meat",
+        "fresh-rabbit",
+        "cold-cut",
+        "lean-white-fish",
+        "fatty-fish",
+        "seafood",
+        "preserved-fish",
+        "legume"
+      ],
+      "carbohydrate": [
+        "dry-pasta",
+        "dry-rice",
+        "dry-grain",
+        "potato",
+        "bread",
+        "breakfast-cereal",
+        "cracker-rusk",
+        "flour-breading"
+      ],
+      "produce": [
+        "fruit",
+        "leafy-vegetable",
+        "cruciferous-vegetable",
+        "root-bulb-vegetable",
+        "summer-fruit-vegetable",
+        "other-vegetable"
+      ],
+      "fat": [
+        "nuts-seeds",
+        "spread",
+        "cooking-fat",
+        "culinary-fat-fruit"
+      ],
+      "condiment": [
+        "sweetener",
+        "sauce"
+      ]
+    },
+    "compatibility_neighbours": {
+      "egg": [
+        "egg"
+      ],
+      "fresh-cheese": [
+        "fresh-cheese",
+        "aged-cheese"
+      ],
+      "aged-cheese": [
+        "aged-cheese",
+        "fresh-cheese"
+      ],
+      "milk-yogurt": [
+        "milk-yogurt"
+      ],
+      "fresh-poultry": [
+        "fresh-poultry",
+        "fresh-rabbit",
+        "fresh-red-meat",
+        "lean-white-fish"
+      ],
+      "fresh-red-meat": [
+        "fresh-red-meat",
+        "fresh-rabbit",
+        "fresh-poultry"
+      ],
+      "fresh-rabbit": [
+        "fresh-rabbit",
+        "fresh-poultry",
+        "fresh-red-meat"
+      ],
+      "cold-cut": [
+        "cold-cut"
+      ],
+      "lean-white-fish": [
+        "lean-white-fish",
+        "preserved-fish",
+        "seafood",
+        "fresh-poultry"
+      ],
+      "fatty-fish": [
+        "fatty-fish",
+        "lean-white-fish",
+        "preserved-fish"
+      ],
+      "seafood": [
+        "seafood",
+        "lean-white-fish"
+      ],
+      "preserved-fish": [
+        "preserved-fish",
+        "lean-white-fish",
+        "fatty-fish"
+      ],
+      "legume": [
+        "legume"
+      ],
+      "dry-pasta": [
+        "dry-pasta",
+        "dry-rice",
+        "dry-grain"
+      ],
+      "dry-rice": [
+        "dry-rice",
+        "dry-pasta",
+        "dry-grain"
+      ],
+      "dry-grain": [
+        "dry-grain",
+        "dry-pasta",
+        "dry-rice",
+        "potato"
+      ],
+      "potato": [
+        "potato",
+        "dry-grain",
+        "bread"
+      ],
+      "bread": [
+        "bread",
+        "cracker-rusk",
+        "potato"
+      ],
+      "breakfast-cereal": [
+        "breakfast-cereal",
+        "cracker-rusk",
+        "bread"
+      ],
+      "cracker-rusk": [
+        "cracker-rusk",
+        "bread",
+        "breakfast-cereal"
+      ],
+      "flour-breading": [
+        "flour-breading"
+      ],
+      "nuts-seeds": [
+        "nuts-seeds",
+        "spread"
+      ],
+      "spread": [
+        "spread",
+        "nuts-seeds"
+      ],
+      "cooking-fat": [
+        "cooking-fat"
+      ],
+      "culinary-fat-fruit": [
+        "culinary-fat-fruit",
+        "nuts-seeds"
+      ],
+      "fruit": [
+        "fruit"
+      ],
+      "leafy-vegetable": [
+        "leafy-vegetable",
+        "cruciferous-vegetable",
+        "other-vegetable"
+      ],
+      "cruciferous-vegetable": [
+        "cruciferous-vegetable",
+        "leafy-vegetable",
+        "other-vegetable"
+      ],
+      "root-bulb-vegetable": [
+        "root-bulb-vegetable",
+        "other-vegetable"
+      ],
+      "summer-fruit-vegetable": [
+        "summer-fruit-vegetable",
+        "other-vegetable"
+      ],
+      "other-vegetable": [
+        "other-vegetable",
+        "leafy-vegetable",
+        "cruciferous-vegetable",
+        "root-bulb-vegetable",
+        "summer-fruit-vegetable"
+      ],
+      "sweetener": [
+        "sweetener"
+      ],
+      "sauce": [
+        "sauce"
+      ]
+    }
+  },
+  "planner_contract": {
+    "fixed_recipe_servings": true,
+    "ingredient_conversion_is_read_only": true,
+    "rolling_window_days": 7,
+    "preserve_phase_a_hard_constraints": true,
+    "preserve_phase_c1_diversity_gates": true,
+    "preserve_phase_c2_dairy_avocado_contract": true,
+    "no_silent_constraint_override": true
+  }
+}

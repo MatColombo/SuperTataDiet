@@ -1,0 +1,241 @@
+{
+  "catalog": {
+    "c1_recipe_families": 95,
+    "recipe_families": 500,
+    "recipe_families_used": 253,
+    "recipe_versions": 741
+  },
+  "curation": {
+    "c1_recipe_occurrences": 221,
+    "changed_days_vs_phase_c": 131,
+    "changed_meals_vs_phase_c": 254,
+    "days": 180,
+    "meals": 864,
+    "preserved_meals_vs_phase_c": 610
+  },
+  "dataset_version": "tatadiet-base-v2",
+  "distribution": {
+    "chickpea_plus_hummus_limit": 0.4,
+    "chickpea_plus_hummus_share": 0.2866,
+    "fruit_limit": 0.48,
+    "fruit_top3": [
+      [
+        "banana",
+        55
+      ],
+      [
+        "pera",
+        51
+      ],
+      [
+        "mela",
+        34
+      ]
+    ],
+    "fruit_top3_share": 0.4682,
+    "legume_counts": {
+      "borlotti": 14,
+      "cannellini": 32,
+      "ceci": 21,
+      "fave": 6,
+      "hummus": 24,
+      "lenticchie": 19,
+      "lupini": 30,
+      "piselli": 11
+    },
+    "vegetable_limit": 0.36,
+    "vegetable_top3": [
+      [
+        "carota",
+        52
+      ],
+      [
+        "spinaci",
+        51
+      ],
+      [
+        "radicchio",
+        42
+      ]
+    ],
+    "vegetable_top3_share": 0.3085
+  },
+  "gates": {
+    "activation_failures": 0,
+    "batch_reuse_preference_failures": 0,
+    "c1_main_fiber_failures": 0,
+    "chickpea_hummus_limit": 0.4,
+    "chickpea_hummus_share": 0.2866,
+    "energy_days_outside_5pct": 0,
+    "family_cap": 12,
+    "fixed_or_portion_contract_failures": 0,
+    "forbidden_ingredient_hits": 0,
+    "fruit_top3_limit": 0.48,
+    "fruit_top3_share": 0.4682,
+    "global_cap_failures": 0,
+    "isolated_package_sensitive_dairy_occurrences": 0,
+    "max_energy_delta_pct": 4.95,
+    "max_recipe_family_occurrences": 12,
+    "off_season_occurrences": 0,
+    "phase_a_hard_violations": 0,
+    "phase_a_soft_warnings": 0,
+    "recipe_repeats_within_7d": 0,
+    "vegetable_top3_limit": 0.36,
+    "vegetable_top3_share": 0.3085
+  },
+  "phase": "V6-C1",
+  "policy_version": "6.0.0-phase-c1.1",
+  "previous_phase": {
+    "phase_c_max_family_occurrences": 20,
+    "phase_c_recipe_families_used": 198
+  },
+  "slot_diversity": [
+    {
+      "distinct_recipe_families": 17,
+      "meal_type": "Brunch",
+      "meals": 36,
+      "meals_per_family": 2.12
+    },
+    {
+      "distinct_recipe_families": 78,
+      "meal_type": "Cena",
+      "meals": 144,
+      "meals_per_family": 1.85
+    },
+    {
+      "distinct_recipe_families": 41,
+      "meal_type": "Colazione",
+      "meals": 144,
+      "meals_per_family": 3.51
+    },
+    {
+      "distinct_recipe_families": 21,
+      "meal_type": "Mini-pasto pre-sonno",
+      "meals": 36,
+      "meals_per_family": 1.71
+    },
+    {
+      "distinct_recipe_families": 25,
+      "meal_type": "Pasto preturno",
+      "meals": 36,
+      "meals_per_family": 1.44
+    },
+    {
+      "distinct_recipe_families": 81,
+      "meal_type": "Pranzo",
+      "meals": 144,
+      "meals_per_family": 1.78
+    },
+    {
+      "distinct_recipe_families": 58,
+      "meal_type": "Spuntino",
+      "meals": 252,
+      "meals_per_family": 4.34
+    },
+    {
+      "distinct_recipe_families": 32,
+      "meal_type": "Spuntino notturno",
+      "meals": 72,
+      "meals_per_family": 2.25
+    }
+  ],
+  "status": "ok",
+  "top_recipe_families": [
+    {
+      "distinct_days": 12,
+      "median_gap_days": 14,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:frutta-e-mandorle",
+      "title": "Frutta e mandorle"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:frutta-e-nocciole",
+      "title": "Frutta e nocciole"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:kefir-con-fette-classiche-e-confettura",
+      "title": "Kefir con fette classiche e confettura"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:kefir-e-fette-classiche",
+      "title": "Kefir e fette classiche"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:kefir-e-frutta",
+      "title": "Kefir e frutta"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 10,
+      "minimum_gap_days": 10,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:kefir-piccolo",
+      "title": "Kefir piccolo"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 13,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:latte-e-frutta",
+      "title": "Latte e frutta"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 9,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:latte-e-gallette-di-riso",
+      "title": "Latte e gallette di riso"
+    },
+    {
+      "distinct_days": 12,
+      "median_gap_days": 11,
+      "minimum_gap_days": 8,
+      "occurrences": 12,
+      "recipe_id": "base:recipe:v6-yogurt-con-frutti-di-bosco-e-nocciole",
+      "title": "Yogurt con frutti di bosco e nocciole"
+    },
+    {
+      "distinct_days": 11,
+      "median_gap_days": 8.0,
+      "minimum_gap_days": 8,
+      "occurrences": 11,
+      "recipe_id": "base:recipe:crackers-classici-con-hummus-delicato",
+      "title": "Crackers classici con hummus delicato"
+    },
+    {
+      "distinct_days": 10,
+      "median_gap_days": 9,
+      "minimum_gap_days": 8,
+      "occurrences": 10,
+      "recipe_id": "base:recipe:mini-panino-bianco-con-bresaola",
+      "title": "Mini panino bianco con bresaola"
+    },
+    {
+      "distinct_days": 9,
+      "median_gap_days": 10.0,
+      "minimum_gap_days": 9,
+      "occurrences": 9,
+      "recipe_id": "base:recipe:frutta-in-porzione-piccola",
+      "title": "Frutta in porzione piccola"
+    }
+  ]
+}

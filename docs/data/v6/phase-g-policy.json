@@ -1,0 +1,48 @@
+{
+  "policy_version": "6.0.0-phase-g.1",
+  "feature": "diary",
+  "storage": {
+    "database_version": 2,
+    "schema_version": 2,
+    "store": "diaryDays",
+    "record_schema_version": 1,
+    "backup_included": true,
+    "plan_and_diary_are_separate": true
+  },
+  "semantics": {
+    "meal_statuses": {
+      "followed": {"label": "Seguito", "weight": 1.0, "signal": "green"},
+      "partial": {"label": "Modificato", "weight": 0.5, "signal": "yellow"},
+      "not-followed": {"label": "Fuori piano", "weight": 0.0, "signal": "red"},
+      "unlogged": {"label": "Non compilato", "weight": null, "signal": "gray"}
+    },
+    "day_signal": {
+      "gray": "no planned meal has been logged",
+      "yellow": "day is partially logged or complete adherence is between 50% and 84%",
+      "green": "all planned meals are logged and adherence is at least 85%",
+      "red": "all planned meals are logged and adherence is below 50%"
+    },
+    "manual_meals": {
+      "allowed": true,
+      "count_in_adherence_denominator": false,
+      "nutrition_optional": true
+    }
+  },
+  "ux": {
+    "page": "diario/index.html",
+    "quick_status_actions": true,
+    "mark_all_followed": true,
+    "rolling_summaries_days": [7, 30],
+    "month_traffic_light_view": true,
+    "daily_comment": true,
+    "manual_out_of_catalog_meal": true,
+    "planned_meal_actual_details": true,
+    "future_logging": false
+  },
+  "invariants": [
+    "Diary writes never edit the effective plan.",
+    "A manual or extra meal never lowers plan adherence by itself.",
+    "Historical diary entries retain a planned snapshot even if the plan later changes.",
+    "Phase C.2 ingredients, recipes and 180-day plan remain byte-identical."
+  ]
+}
