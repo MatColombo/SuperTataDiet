@@ -8,8 +8,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#FCF8FB",
-  "theme_color": "#7E4D70",
+  "background_color": "#FFF8FC",
+  "theme_color": "#A44778",
   "categories": [
     "health",
     "food",

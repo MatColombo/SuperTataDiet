@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Piano alimentare di sei mesi, navigabile per calendario, cicli, varianti, giorni, ricette, preparazioni e liste della spesa.">
-  <meta name="theme-color" content="#7E4D70">
+  <meta name="theme-color" content="#A44778">
   <meta name="color-scheme" content="light">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,6 +39,8 @@
   <script defer src="../../assets/js/v5-composer-core.js"></script>
   <script defer src="../../assets/js/v5-planning-core.js"></script>
   <script defer src="../../assets/js/v5-composer-store.js"></script>
+  <script defer src="../../assets/js/v5-effective-core.js"></script>
+  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v6-planner-core.js"></script>
   <script defer src="../../assets/js/v6-planner-store.js"></script>
   <script defer src="../../assets/js/v6-diary-core.js"></script>
@@ -49,8 +51,6 @@
   <script defer src="../../assets/js/v5-preferences.js"></script>
   <script defer src="../../assets/js/v5-balance.js"></script>
   <script defer src="../../assets/js/v5-recipe-scheduler.js"></script>
-  <script defer src="../../assets/js/v5-effective-core.js"></script>
-  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v5-effective-pages.js"></script>
   <script defer src="../../assets/js/app.js"></script>
   <script defer src="../../assets/js/calendar.js"></script>
@@ -61,7 +61,7 @@
   <script defer src="../../assets/js/v5-tools.js"></script>
   <script defer src="../../assets/js/pwa.js"></script>
 </head>
-<body data-page="recipe" data-root="../../" data-version="6.0.0">
+<body data-page="recipe" data-root="../../" data-version="6.0.1">
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
 
   <header class="site-header">
@@ -70,7 +70,7 @@
         <img class="brand-mark" src="../../assets/brand/brand-mark.svg" width="48" height="48" alt="">
         <span class="brand-copy">
           <strong>Piano alimentare</strong>
-          <small>turni, pasti e spesa · V6.0.0</small>
+          <small>turni, pasti e spesa · V6.0.1</small>
         </span>
       </a>
 
@@ -111,7 +111,7 @@
 <a href="../../ricette/index.html">Ricette</a>          <span class="crumb-sep" aria-hidden="true">›</span>
 <span aria-current="page">Frittata morbida con patate e zucca</span>    </nav>
 <header class="page-header recipe-header">
-  <p class="eyebrow">Ricetta · 4 occorrenze nel piano</p>
+  <p class="eyebrow">Ricetta · 0 occorrenze nel piano</p>
   <h1>Frittata morbida con patate e zucca</h1>
   <div class="meal-tags large">
 <span>Cena</span><span>Pasto preturno</span><span>Italiana</span>  </div>
@@ -125,15 +125,15 @@
   <div><strong>442</strong><span>kcal medie</span></div>
   <div><strong>28.5</strong><span>g proteine</span></div>
   <div><strong>51.4</strong><span>g carboidrati</span></div>
-  <div><strong>14.1</strong><span>g grassi</span></div>
+  <div><strong>14.0</strong><span>g grassi</span></div>
   <div><strong>4.7</strong><span>g fibra</span></div>
 </div>
 <section class="section-block">
   <div class="section-heading"><h2>Versioni presenti nel piano</h2></div>
   <div class="recipe-versions">
     <article class="recipe-version">
-      <header><h3>Versione 1</h3><span>445 kcal · 30 min</span></header>
-<p>2 uova; albume 80 g; patate 135 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
+      <header><h3>Versione 1</h3><span>445 kcal · 30.0 min</span></header>
+<p>uovo intero 2 piece; albume 80 g; patate 135 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, 1 giorno prima</dd></div>
         <div><dt>Freddo</dt><dd>Accettabile</dd></div>
         <div><dt>Riscaldamento</dt><dd>Sì, delicatamente</dd></div>
@@ -141,8 +141,8 @@
       </dl>
     </article>
     <article class="recipe-version">
-      <header><h3>Versione 2</h3><span>416 kcal · 30 min</span></header>
-<p>2 uova; albume 80 g; patate 115 g; zucca 160 g (ben cotti); pane bianco comune 30 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
+      <header><h3>Versione 2</h3><span>468 kcal · 30.0 min</span></header>
+<p>uovo intero 2 piece; albume 80 g; patate 165 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, 1 giorno prima</dd></div>
         <div><dt>Freddo</dt><dd>Accettabile</dd></div>
         <div><dt>Riscaldamento</dt><dd>Sì, delicatamente</dd></div>
@@ -150,8 +150,8 @@
       </dl>
     </article>
     <article class="recipe-version">
-      <header><h3>Versione 3</h3><span>441 kcal · 30 min</span></header>
-<p>2 uova; albume 80 g; patate 130 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
+      <header><h3>Versione 3</h3><span>416 kcal · 30.0 min</span></header>
+<p>uovo intero 2 piece; albume 80 g; patate 115 g; zucca 160 g (ben cotti); pane bianco comune 30 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, 1 giorno prima</dd></div>
         <div><dt>Freddo</dt><dd>Accettabile</dd></div>
         <div><dt>Riscaldamento</dt><dd>Sì, delicatamente</dd></div>
@@ -159,8 +159,8 @@
       </dl>
     </article>
     <article class="recipe-version">
-      <header><h3>Versione 4</h3><span>468 kcal · 30 min</span></header>
-<p>2 uova; albume 80 g; patate 165 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
+      <header><h3>Versione 4</h3><span>441 kcal · 30.0 min</span></header>
+<p>uovo intero 2 piece; albume 80 g; patate 130 g; zucca 160 g (ben cotti); pane bianco comune 35 g; olio extravergine di oliva 3 g</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, 1 giorno prima</dd></div>
         <div><dt>Freddo</dt><dd>Accettabile</dd></div>
         <div><dt>Riscaldamento</dt><dd>Sì, delicatamente</dd></div>
@@ -170,14 +170,14 @@
   </div>
 </section>
 
-<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-title="Frittata morbida con patate e zucca" data-recipe-slug="frittata-morbida-con-patate-e-zucca">
+<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-id="base:recipe:frittata-morbida-con-patate-e-zucca" data-recipe-title="Frittata morbida con patate e zucca" data-recipe-slug="frittata-morbida-con-patate-e-zucca">
   <div class="section-heading converter-heading">
-    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. Le quantità sono indicative e la ricetta non viene modificata.</p></div>
+    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. <strong>Le alternative avranno quindi le stesse kcal totali per definizione</strong>, ma quantità e profilo nutrizionale possono cambiare.</p></div>
     <span class="status-pill soft">READ only</span>
   </div>
   <div class="converter-loading" data-converter-loading>Caricamento ingredienti della ricetta…</div>
   <div class="ingredient-converter-app" data-converter-app hidden>
-    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label></div>
+    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label><p data-converter-version-info></p></div>
     <div class="ingredient-converter-layout">
       <aside class="converter-source-panel">
         <h3>Ingrediente della ricetta</h3>
@@ -197,26 +197,6 @@
 <section class="section-block">
   <div class="section-heading"><h2>Dove compare</h2></div>
   <div class="occurrence-list">
-    <a href="../../piano/ciclo-1/variante-6/d2/index.html#pasto-1830">
-      <span class="shift-pill d2">N</span>
-      <span><strong>Settembre · V6 · giorno 27</strong><small>18:30 · Pasto preturno</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-2/variante-6/d2/index.html#pasto-1830">
-      <span class="shift-pill d2">N</span>
-      <span><strong>Ottobre · V6 · giorno 57</strong><small>18:30 · Pasto preturno</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-3/variante-5/d5/index.html#pasto-2030">
-      <span class="shift-pill d5">R2</span>
-      <span><strong>Novembre · V5 · giorno 85</strong><small>20:30 · Cena</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-4/variante-1/d1/index.html#pasto-2100">
-      <span class="shift-pill d1">G</span>
-      <span><strong>Dicembre · V1 · giorno 91</strong><small>21:00 · Cena</small></span>
-      <span>Apri →</span>
-    </a>
   </div>
 </section>
   </main>

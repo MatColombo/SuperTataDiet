@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Piano alimentare di sei mesi, navigabile per calendario, cicli, varianti, giorni, ricette, preparazioni e liste della spesa.">
-  <meta name="theme-color" content="#7E4D70">
+  <meta name="theme-color" content="#A44778">
   <meta name="color-scheme" content="light">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,6 +39,8 @@
   <script defer src="../../assets/js/v5-composer-core.js"></script>
   <script defer src="../../assets/js/v5-planning-core.js"></script>
   <script defer src="../../assets/js/v5-composer-store.js"></script>
+  <script defer src="../../assets/js/v5-effective-core.js"></script>
+  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v6-planner-core.js"></script>
   <script defer src="../../assets/js/v6-planner-store.js"></script>
   <script defer src="../../assets/js/v6-diary-core.js"></script>
@@ -49,8 +51,6 @@
   <script defer src="../../assets/js/v5-preferences.js"></script>
   <script defer src="../../assets/js/v5-balance.js"></script>
   <script defer src="../../assets/js/v5-recipe-scheduler.js"></script>
-  <script defer src="../../assets/js/v5-effective-core.js"></script>
-  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v5-effective-pages.js"></script>
   <script defer src="../../assets/js/app.js"></script>
   <script defer src="../../assets/js/calendar.js"></script>
@@ -61,7 +61,7 @@
   <script defer src="../../assets/js/v5-tools.js"></script>
   <script defer src="../../assets/js/pwa.js"></script>
 </head>
-<body data-page="recipe" data-root="../../" data-version="6.0.0">
+<body data-page="recipe" data-root="../../" data-version="6.0.1">
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
 
   <header class="site-header">
@@ -70,7 +70,7 @@
         <img class="brand-mark" src="../../assets/brand/brand-mark.svg" width="48" height="48" alt="">
         <span class="brand-copy">
           <strong>Piano alimentare</strong>
-          <small>turni, pasti e spesa · V6.0.0</small>
+          <small>turni, pasti e spesa · V6.0.1</small>
         </span>
       </a>
 
@@ -111,7 +111,7 @@
 <a href="../../ricette/index.html">Ricette</a>          <span class="crumb-sep" aria-hidden="true">›</span>
 <span aria-current="page">Pane bianco e uovo sodo</span>    </nav>
 <header class="page-header recipe-header">
-  <p class="eyebrow">Ricetta · 12 occorrenze nel piano</p>
+  <p class="eyebrow">Ricetta · 4 occorrenze nel piano</p>
   <h1>Pane bianco e uovo sodo</h1>
   <div class="meal-tags large">
 <span>Spuntino</span><span>Spuntino notturno</span><span>Italiana</span>  </div>
@@ -124,7 +124,7 @@
 <div class="nutrition-grid cycle-summary">
   <div><strong>151</strong><span>kcal medie</span></div>
   <div><strong>8.8</strong><span>g proteine</span></div>
-  <div><strong>15.0</strong><span>g carboidrati</span></div>
+  <div><strong>15.1</strong><span>g carboidrati</span></div>
   <div><strong>5.7</strong><span>g grassi</span></div>
   <div><strong>0.8</strong><span>g fibra</span></div>
 </div>
@@ -132,8 +132,8 @@
   <div class="section-heading"><h2>Versioni presenti nel piano</h2></div>
   <div class="recipe-versions">
     <article class="recipe-version">
-      <header><h3>Versione 1</h3><span>151 kcal · 2 min</span></header>
-<p>pane bianco comune 30 g; 1 uovo sodo</p>      <dl class="prep-grid">
+      <header><h3>Versione 1</h3><span>151 kcal · 2.0 min</span></header>
+<p>pane bianco comune 30 g; uovo intero 1 piece (sodo)</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, porzionabile in anticipo</dd></div>
         <div><dt>Freddo</dt><dd>Sì</dd></div>
         <div><dt>Riscaldamento</dt><dd>No</dd></div>
@@ -143,14 +143,14 @@
   </div>
 </section>
 
-<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-title="Pane bianco e uovo sodo" data-recipe-slug="pane-bianco-e-uovo-sodo">
+<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-id="base:recipe:pane-bianco-e-uovo-sodo" data-recipe-title="Pane bianco e uovo sodo" data-recipe-slug="pane-bianco-e-uovo-sodo">
   <div class="section-heading converter-heading">
-    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. Le quantità sono indicative e la ricetta non viene modificata.</p></div>
+    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. <strong>Le alternative avranno quindi le stesse kcal totali per definizione</strong>, ma quantità e profilo nutrizionale possono cambiare.</p></div>
     <span class="status-pill soft">READ only</span>
   </div>
   <div class="converter-loading" data-converter-loading>Caricamento ingredienti della ricetta…</div>
   <div class="ingredient-converter-app" data-converter-app hidden>
-    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label></div>
+    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label><p data-converter-version-info></p></div>
     <div class="ingredient-converter-layout">
       <aside class="converter-source-panel">
         <h3>Ingrediente della ricetta</h3>
@@ -170,14 +170,9 @@
 <section class="section-block">
   <div class="section-heading"><h2>Dove compare</h2></div>
   <div class="occurrence-list">
-    <a href="../../piano/ciclo-1/variante-2/d2/index.html#pasto-0330">
-      <span class="shift-pill d2">N</span>
-      <span><strong>Settembre · V2 · giorno 7</strong><small>03:30 · Spuntino notturno</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-1/variante-3/d3/index.html#pasto-1830">
-      <span class="shift-pill d3">SN</span>
-      <span><strong>Settembre · V3 · giorno 13</strong><small>18:30 · Spuntino</small></span>
+    <a href="../../piano/ciclo-1/variante-5/d5/index.html#pasto-1730">
+      <span class="shift-pill d5">R2</span>
+      <span><strong>Settembre · V5 · giorno 25</strong><small>17:30 · Spuntino</small></span>
       <span>Apri →</span>
     </a>
     <a href="../../piano/ciclo-2/variante-1/d4/index.html#pasto-1730">
@@ -190,44 +185,9 @@
       <span><strong>Novembre · V3 · giorno 72</strong><small>03:30 · Spuntino notturno</small></span>
       <span>Apri →</span>
     </a>
-    <a href="../../piano/ciclo-3/variante-4/d3/index.html#pasto-1830">
-      <span class="shift-pill d3">SN</span>
-      <span><strong>Novembre · V4 · giorno 78</strong><small>18:30 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
     <a href="../../piano/ciclo-4/variante-1/d4/index.html#pasto-1100">
       <span class="shift-pill d4">R1</span>
       <span><strong>Dicembre · V1 · giorno 94</strong><small>11:00 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-4/variante-2/d4/index.html#pasto-1730">
-      <span class="shift-pill d4">R1</span>
-      <span><strong>Dicembre · V2 · giorno 99</strong><small>17:30 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-5/variante-1/d1/index.html#pasto-1730">
-      <span class="shift-pill d1">G</span>
-      <span><strong>Gennaio · V1 · giorno 121</strong><small>17:30 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-5/variante-4/d2/index.html#pasto-0330">
-      <span class="shift-pill d2">N</span>
-      <span><strong>Gennaio · V4 · giorno 137</strong><small>03:30 · Spuntino notturno</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-5/variante-5/d3/index.html#pasto-1830">
-      <span class="shift-pill d3">SN</span>
-      <span><strong>Gennaio · V5 · giorno 143</strong><small>18:30 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-6/variante-2/d4/index.html#pasto-1100">
-      <span class="shift-pill d4">R1</span>
-      <span><strong>Febbraio · V2 · giorno 159</strong><small>11:00 · Spuntino</small></span>
-      <span>Apri →</span>
-    </a>
-    <a href="../../piano/ciclo-6/variante-3/d4/index.html#pasto-1730">
-      <span class="shift-pill d4">R1</span>
-      <span><strong>Febbraio · V3 · giorno 164</strong><small>17:30 · Spuntino</small></span>
       <span>Apri →</span>
     </a>
   </div>

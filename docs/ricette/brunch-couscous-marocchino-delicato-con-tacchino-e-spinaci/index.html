@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Piano alimentare di sei mesi, navigabile per calendario, cicli, varianti, giorni, ricette, preparazioni e liste della spesa.">
-  <meta name="theme-color" content="#7E4D70">
+  <meta name="theme-color" content="#A44778">
   <meta name="color-scheme" content="light">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -39,6 +39,8 @@
   <script defer src="../../assets/js/v5-composer-core.js"></script>
   <script defer src="../../assets/js/v5-planning-core.js"></script>
   <script defer src="../../assets/js/v5-composer-store.js"></script>
+  <script defer src="../../assets/js/v5-effective-core.js"></script>
+  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v6-planner-core.js"></script>
   <script defer src="../../assets/js/v6-planner-store.js"></script>
   <script defer src="../../assets/js/v6-diary-core.js"></script>
@@ -49,8 +51,6 @@
   <script defer src="../../assets/js/v5-preferences.js"></script>
   <script defer src="../../assets/js/v5-balance.js"></script>
   <script defer src="../../assets/js/v5-recipe-scheduler.js"></script>
-  <script defer src="../../assets/js/v5-effective-core.js"></script>
-  <script defer src="../../assets/js/v5-effective-store.js"></script>
   <script defer src="../../assets/js/v5-effective-pages.js"></script>
   <script defer src="../../assets/js/app.js"></script>
   <script defer src="../../assets/js/calendar.js"></script>
@@ -61,7 +61,7 @@
   <script defer src="../../assets/js/v5-tools.js"></script>
   <script defer src="../../assets/js/pwa.js"></script>
 </head>
-<body data-page="recipe" data-root="../../" data-version="6.0.0">
+<body data-page="recipe" data-root="../../" data-version="6.0.1">
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
 
   <header class="site-header">
@@ -70,7 +70,7 @@
         <img class="brand-mark" src="../../assets/brand/brand-mark.svg" width="48" height="48" alt="">
         <span class="brand-copy">
           <strong>Piano alimentare</strong>
-          <small>turni, pasti e spesa · V6.0.0</small>
+          <small>turni, pasti e spesa · V6.0.1</small>
         </span>
       </a>
 
@@ -111,7 +111,7 @@
 <a href="../../ricette/index.html">Ricette</a>          <span class="crumb-sep" aria-hidden="true">›</span>
 <span aria-current="page">Brunch: Couscous marocchino delicato con tacchino e spinaci</span>    </nav>
 <header class="page-header recipe-header">
-  <p class="eyebrow">Ricetta · 1 occorrenze nel piano</p>
+  <p class="eyebrow">Ricetta · 0 occorrenze nel piano</p>
   <h1>Brunch: Couscous marocchino delicato con tacchino e spinaci</h1>
   <div class="meal-tags large">
 <span>Brunch</span><span>Marocchina delicata</span>  </div>
@@ -132,7 +132,7 @@
   <div class="section-heading"><h2>Versioni presenti nel piano</h2></div>
   <div class="recipe-versions">
     <article class="recipe-version">
-      <header><h3>Versione 1</h3><span>556 kcal · 25 min</span></header>
+      <header><h3>Versione 1</h3><span>556 kcal · 25.0 min</span></header>
 <p>couscous di semola secco 60 g; petto di tacchino 110 g; spinaci 150 g (ben cotti); broccoli 100 g (ben cotti); olio extravergine di oliva 5 g; banana 120 g</p>      <dl class="prep-grid">
         <div><dt>Preparabile prima</dt><dd>Sì, 1 giorno prima</dd></div>
         <div><dt>Freddo</dt><dd>Buono freddo o a temperatura ambiente</dd></div>
@@ -143,14 +143,14 @@
   </div>
 </section>
 
-<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-title="Brunch: Couscous marocchino delicato con tacchino e spinaci" data-recipe-slug="brunch-couscous-marocchino-delicato-con-tacchino-e-spinaci">
+<section class="section-block ingredient-converter-section" data-v6-recipe-converter data-recipe-id="base:recipe:brunch-couscous-marocchino-delicato-con-tacchino-e-spinaci" data-recipe-title="Brunch: Couscous marocchino delicato con tacchino e spinaci" data-recipe-slug="brunch-couscous-marocchino-delicato-con-tacchino-e-spinaci">
   <div class="section-heading converter-heading">
-    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. Le quantità sono indicative e la ricetta non viene modificata.</p></div>
+    <div><p class="eyebrow">V6 · strumento in sola lettura</p><h2>Convertitore ingredienti</h2><p>Confronta una sostituzione a parità di kcal. <strong>Le alternative avranno quindi le stesse kcal totali per definizione</strong>, ma quantità e profilo nutrizionale possono cambiare.</p></div>
     <span class="status-pill soft">READ only</span>
   </div>
   <div class="converter-loading" data-converter-loading>Caricamento ingredienti della ricetta…</div>
   <div class="ingredient-converter-app" data-converter-app hidden>
-    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label></div>
+    <div class="converter-version-row" data-converter-version-row hidden><label>Versione ricetta<select data-converter-version></select></label><p data-converter-version-info></p></div>
     <div class="ingredient-converter-layout">
       <aside class="converter-source-panel">
         <h3>Ingrediente della ricetta</h3>
@@ -170,11 +170,6 @@
 <section class="section-block">
   <div class="section-heading"><h2>Dove compare</h2></div>
   <div class="occurrence-list">
-    <a href="../../piano/ciclo-5/variante-6/d3/index.html#pasto-1500">
-      <span class="shift-pill d3">SN</span>
-      <span><strong>Gennaio · V6 · giorno 148</strong><small>15:00 · Brunch</small></span>
-      <span>Apri →</span>
-    </a>
   </div>
 </section>
   </main>

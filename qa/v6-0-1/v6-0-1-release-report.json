@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "release": "6.0.1",
+  "checks": {
+    "baseline_c2_byte_identity": true,
+    "diary_dependency_order": true,
+    "converter_version_refresh_contract": true,
+    "converter_density_display": true,
+    "future_day_read_navigation": true,
+    "catalog_sync_for_existing_indexeddb": true,
+    "recipe_references_resolve": true,
+    "recipe_static_pages": 556,
+    "curated_meals_checked": 864,
+    "pastel_supercharged_branding": true
+  }
+}

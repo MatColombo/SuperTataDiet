@@ -6,7 +6,7 @@
   "use strict";
   const FORMAT = "tatadiet-backup";
   const SCHEMA_VERSION = 2;
-  const APP_VERSION = "6.0.0";
+  const APP_VERSION = "6.0.1";
   const dataKeys = ["ingredients", "ingredientRevisions", "recipes", "recipeVersions", "planInstances", "calendarDays", "operations", "shoppingChecklists", "diaryDays", "settings"];
 
   function canonical(value) {

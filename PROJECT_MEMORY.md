@@ -2,13 +2,13 @@
 
 ## Stato corrente
 
-- Versione stabile: **5.2.1**
-- Data release: **2 settembre 2026**
+- Versione stabile: **6.0.1**
+- Data release: **9 settembre 2026**
 - Distribuzione: sito statico/PWA da `docs/`, compatibile con GitHub Pages project site
 - Persistenza: IndexedDB `tatadiet-v5`
-- DB version: 1
-- Schema domain/backup: 1
-- Dataset base: `tatadiet-base-v1`
+- DB version: 2
+- Schema domain/backup: 2
+- Dataset base: `tatadiet-base-v2`
 - Fonte autorevole: `source_data/Piano_alimentare_revisionato_6_mesi_fibra_moderata.xlsx`
 
 ## Conteggi base
@@ -18,9 +18,9 @@
 36 varianti
 180 giorni base
 864 pasti/spuntini base
-306 famiglie ricetta
-547 versioni ricetta base
-130 ingredienti base
+556 famiglie ricetta
+797 versioni ricetta base
+131 ingredienti base
 ```
 
 I conteggi HTML/QA correnti sono prodotti da `./v5_2.sh`; la regressione generale è in `qa/v5.2/` e la patch mirata in `qa/v5.2.1/`.
@@ -439,3 +439,12 @@ Completata l'8 settembre 2026. La V6 è congelata come release `6.0.0`; il basel
 Gate finale `./v6_phase_h.sh`: rebuild + regressioni C.2/D/E/F/G/H + stress 96 operazioni full undo/redo + validazione sito. Ultimo run: 593 HTML, 51.895 riferimenti, 0 errori/0 warning; stress ~2,8 s. Service worker/offline includono convertitore, Diario e policy F/G/H; manifest PWA espone shortcut Diario.
 
 Il browser Chromium gestito nell'ambiente blocca HTTP/file con `ERR_BLOCKED_BY_ADMINISTRATOR`; senza un URL di deploy non è stato possibile eseguire un vero smoke visuale/E2E. Gli script deploy F/H e `qa/v6-phase-h/manual-review.csv` sono inclusi come verifica post-deploy esplicita. La release automatizzata/statica è PASS.
+
+
+### Patch V6.0.1 — correzioni post-release (9 settembre 2026)
+
+V6.0.1 mantiene byte-identico il baseline alimentare C.2 e corregge cinque problemi osservati nel collaudo reale. Il Diario caricava i moduli prima di `v5-effective-core/store`; l'ordine script è ora corretto. `v5-db.initialize()` esegue `ensureBaseCatalogCurrent()` per riallineare un IndexedDB proveniente dalle build intermedie C/C1/C2 al catalogo base autorevole senza cancellare record personali.
+
+La build delle pagine ricetta usa ora `v5_data/base/recipes.base.v1.json` e genera tutte le 556 famiglie V6; tutti gli 864 pasti del piano risolvono sia `recipe_id` sia `recipe_version_id`. Il convertitore usa `data-recipe-id` come identificatore primario, aggiorna esplicitamente versione/ingredienti/alternative al cambio versione e mostra nelle card la densità energetica invece delle kcal totali, che a parità energetica sono intenzionalmente uguali.
+
+Calendario e scorciatoie future aprono `/oggi/?date=...` come vista read-only; `Gestisci`/`Modifica i pasti` restano azioni esplicite. Refresh visuale V6.0.1: palette pastello più ricca, card cromatiche e nuovo marchio `TataDiet Supercharged` con cuore/fulmine; favicon e icone PWA rigenerate.

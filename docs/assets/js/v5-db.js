@@ -8,10 +8,11 @@
   const DB_NAME = "tatadiet-v5";
   const DB_VERSION = 2;
   const SCHEMA_VERSION = 2;
-  const APP_VERSION = "6.0.0";
+  const APP_VERSION = "6.0.1";
   const STABLE_MIGRATION_VERSION = 5;
   const CONTENT_MIGRATION_VERSION = 3;
-  const RECIPE_CONTENT_MIGRATION_VERSION = 4;
+  const RECIPE_CONTENT_MIGRATION_VERSION = 5;
+  const BASE_CATALOG_SYNC_VERSION = 1;
   const STORE_SPECS = {
     meta: { keyPath: "key" },
     settings: { keyPath: "key" },
@@ -326,6 +327,42 @@
     return { seeded: true, datasetId: manifest.dataset_version, ingredients: ingredients.length, recipes: recipes.length, recipeVersions: recipeVersions.length };
   }
 
+  async function ensureBaseCatalogCurrent(fetcher) {
+    const fetchJson = fetcher || defaultFetchJson;
+    const [manifest, ingredientsFile, recipesFile] = await Promise.all([
+      fetchJson("data/v5/base-dataset-manifest.json"),
+      fetchJson("data/v5/ingredients.base.v1.json"),
+      fetchJson("data/v5/recipes.base.v1.json"),
+    ]);
+    const fingerprint = [manifest?.dataset_version || "", manifest?.files?.["ingredients.base.v1.json"]?.sha256 || "", manifest?.files?.["recipes.base.v1.json"]?.sha256 || ""].join("|");
+    const marker = await get("meta", "baseCatalogFingerprint");
+    const syncVersion = await get("meta", "baseCatalogSyncVersion");
+    if (marker?.value === fingerprint && Number(syncVersion?.value || 0) >= BASE_CATALOG_SYNC_VERSION) {
+      return { synced: false, fingerprint, version: Number(syncVersion.value) };
+    }
+    const ingredients = ingredientsFile.ingredients.map(mapBaseIngredient);
+    const ingredientRevisions = ingredientsFile.ingredients.map(mapBaseIngredientRevision);
+    const families = recipesFile.recipe_families.map(mapBaseRecipe);
+    const familyById = new Map(recipesFile.recipe_families.map((row) => [row.id, row]));
+    const versions = recipesFile.recipe_versions.map((row) => mapBaseRecipeVersion(row, familyById.get(row.recipe_id)));
+    const now = new Date().toISOString();
+    const database = await openDatabase();
+    try {
+      const tx = database.transaction(["ingredients", "ingredientRevisions", "recipes", "recipeVersions", "meta"], "readwrite");
+      ingredients.forEach((row) => tx.objectStore("ingredients").put(row));
+      ingredientRevisions.forEach((row) => tx.objectStore("ingredientRevisions").put(row));
+      families.forEach((row) => tx.objectStore("recipes").put(row));
+      versions.forEach((row) => tx.objectStore("recipeVersions").put(row));
+      const meta = tx.objectStore("meta");
+      meta.put({ key: "baseDatasetId", value: manifest.dataset_version, updatedAt: now });
+      meta.put({ key: "baseCatalogFingerprint", value: fingerprint, updatedAt: now });
+      meta.put({ key: "baseCatalogSyncVersion", value: BASE_CATALOG_SYNC_VERSION, updatedAt: now });
+      meta.put({ key: "baseCatalogSyncedAt", value: now, updatedAt: now });
+      await transactionPromise(tx);
+    } finally { database.close(); }
+    return { synced: true, fingerprint, version: BASE_CATALOG_SYNC_VERSION, ingredients: ingredients.length, recipes: families.length, recipeVersions: versions.length };
+  }
+
   async function migrateV4(storage) {
     const marker = await get("meta", "v4MigrationCompletedAt");
     if (marker) return { migrated: false, alreadyDone: true };
@@ -448,13 +485,14 @@
   async function initialize(options = {}) {
     await openDatabase().then((db) => db.close());
     const seed = await seedBaseDataset(options.fetchJson);
+    const baseCatalogSync = await ensureBaseCatalogCurrent(options.fetchJson);
     const migration = await migrateV4(options.storage);
     const phase3Shape = await ensurePhase3IngredientShape();
     const phase4Shape = await ensurePhase4RecipeShape(options.fetchJson);
     const stableRelease = await ensureStableRelease();
     await put("meta", { key: "lastInitializedAt", value: new Date().toISOString() });
-    return { seed, migration, phase3Shape, phase4Shape, stableRelease, counts: await counts() };
+    return { seed, baseCatalogSync, migration, phase3Shape, phase4Shape, stableRelease, counts: await counts() };
   }
 
-  return { DB_NAME, DB_VERSION, SCHEMA_VERSION, APP_VERSION, STABLE_MIGRATION_VERSION, CONTENT_MIGRATION_VERSION, RECIPE_CONTENT_MIGRATION_VERSION, STORE_SPECS, personalStores, backupStores, openDatabase, get, getAll, put, bulkPut, clearStores, counts, setSetting, getSetting, allSettingsObject, seedBaseDataset, migrateV4, ensurePhase3IngredientShape, ensurePhase4RecipeShape, ensureStableRelease, initialize, normalize };
+  return { DB_NAME, DB_VERSION, SCHEMA_VERSION, APP_VERSION, STABLE_MIGRATION_VERSION, CONTENT_MIGRATION_VERSION, RECIPE_CONTENT_MIGRATION_VERSION, BASE_CATALOG_SYNC_VERSION, STORE_SPECS, personalStores, backupStores, openDatabase, get, getAll, put, bulkPut, clearStores, counts, setSetting, getSetting, allSettingsObject, seedBaseDataset, ensureBaseCatalogCurrent, migrateV4, ensurePhase3IngredientShape, ensurePhase4RecipeShape, ensureStableRelease, initialize, normalize };
 });

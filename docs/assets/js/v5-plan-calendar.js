@@ -12,7 +12,7 @@
       const code=el.querySelector(".calendar-shift-code");if(code)code.textContent=dayTypes?dayTypes.short(d.dayType):d.dayType;
       const name=el.querySelector(".calendar-shift-name");if(name)name.textContent=dayTypes?dayTypes.label(d.dayType):(d.shift?.name||d.dayType);
       const flags=el.querySelector(".calendar-cell-flags");if(flags&&changed&&!flags.querySelector(".effective-flag")){const span=document.createElement("span");span.className="calendar-flag effective-flag";span.title="Giornata personalizzata";span.textContent="✎";flags.prepend(span);}
-      if(el.tagName==="A"){const url=state.stateUrl("calendario/gestisci/index.html",planBundle.plan.startDate,{focus:d.date});el.href=url.href;}
+      if(el.tagName==="A"){const url=state.stateUrl("oggi/index.html",planBundle.plan.startDate,{date:d.date});el.href=url.href;}
     });
     const banner=document.querySelector("[data-effective-calendar-banner]");if(banner){const changed=planBundle.days.filter(d=>d.source!=="base"||d.adherenceStatus!=="planned").length;banner.hidden=changed===0;const count=banner.querySelector("[data-effective-calendar-count]");if(count)count.textContent=String(changed);const link=banner.querySelector("a");if(link)link.href=state.stateUrl("calendario/gestisci/index.html",planBundle.plan.startDate,{focus:new URLSearchParams(location.search).get("focus")||undefined}).href;}
   }

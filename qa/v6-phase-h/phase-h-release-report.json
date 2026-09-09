@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "phase": "V6-H",
-  "release": "6.0.0",
+  "release": "6.0.1",
   "checks": {
     "release_version_coherent": true,
     "baseline_c2_byte_identity": true,

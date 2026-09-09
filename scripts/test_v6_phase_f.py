@@ -25,7 +25,7 @@ def main():
     assert sha('docs/data/v6/phase-f-policy.json')==sha('spec/v6/phase-f-policy.json')
     assert sha('docs/assets/js/v6-recipe-converter.js')==sha('static/assets/js/v6-recipe-converter.js')
     recipes=[p for p in (ROOT/'docs/ricette').glob('*/index.html') if p.parent.name not in {'studio','programma'}]
-    assert len(recipes)==306,len(recipes)
+    assert len(recipes)==556,len(recipes)
     assert all('data-v6-recipe-converter' in p.read_text(encoding='utf-8') for p in recipes)
     sample=(ROOT/'docs/ricette/banana-e-latte/index.html').read_text(encoding='utf-8')
     assert 'v6-recipe-converter.js' in sample and 'READ only' in sample

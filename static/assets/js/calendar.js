@@ -157,6 +157,8 @@
     });
   };
 
+  const readDayHref = (date, start) => stateUrl("oggi/index.html", start, { date }).href;
+
   const dayHref = (day, start, focus, anchor) => {
     const url = stateUrl(day.path, start, focus ? { focus } : {});
     if (anchor) url.hash = anchor;
@@ -171,7 +173,7 @@
       link.href = stateUrl("oggi/index.html", start).href;
     });
     document.querySelectorAll("[data-plan-editor-link]").forEach((link) => {
-      link.href = stateUrl("calendario/modifica/index.html", start, { focus: focus || core.todayISO() }).href;
+      link.href = stateUrl("calendario/gestisci/index.html", start, { focus: focus || core.todayISO() }).href;
     });
     document.querySelectorAll("[data-prep-link]").forEach((link) => {
       link.href = stateUrl("preparazioni/index.html", start, focus ? { date: focus } : {}).href;
@@ -323,7 +325,7 @@
         const labels = [core.formatLong(date), uiCode, uiLabel, `Ciclo ${day.cycle}`, `Variante ${day.variant}`];
         if (day.flexible) labels.push("pasto flessibile");
         if (tails.length) labels.push(`prosecuzione Notte alle ${tails.map((item) => item.time).join(" e ")}`);
-        const href = dayHref(day, start, date);
+        const href = readDayHref(date, start);
         return `
           <a class="${classes.join(" ")}" data-calendar-date="${date}" href="${escapeHtml(href)}" aria-label="${escapeHtml(labels.join(", "))}">
             <span class="calendar-cell-top"><span class="calendar-date-number">${dateNumber}</span><b class="calendar-shift-code">${escapeHtml(uiCode)}</b></span>
@@ -348,7 +350,7 @@
           const date = core.addDays(start, day.global_day - 1);
           const tails = core.eventsOnDate(data.days, start, date).filter((event) => event.is_tail);
           return `
-            <a class="cycle-mini-day ${day.d_code.toLowerCase()}${date === today ? " is-today" : ""}" href="${escapeHtml(dayHref(day, start, date))}" title="${escapeHtml(`${core.formatLong(date)} · ${dayTypes?dayTypes.short(day.d_code):day.d_code} · ${dayTypes?dayTypes.label(day.d_code):day.shift_name}`)}">
+            <a class="cycle-mini-day ${day.d_code.toLowerCase()}${date === today ? " is-today" : ""}" href="${escapeHtml(readDayHref(date, start))}" title="${escapeHtml(`${core.formatLong(date)} · ${dayTypes?dayTypes.short(day.d_code):day.d_code} · ${dayTypes?dayTypes.label(day.d_code):day.shift_name}`)}">
               <span>${escapeHtml(core.formatShort(date))}</span>
               <b>${escapeHtml(dayTypes?dayTypes.short(day.d_code):day.d_code)}</b>
               <i>${day.flexible ? "F" : ""}${tails.length ? "+" : ""}</i>
@@ -455,6 +457,10 @@
     const actualToday = core.todayISO();
     const requested = currentParams().get("date");
     const selectedDate = core.isValidISO(requested) ? requested : actualToday;
+    const pageTitle = document.querySelector("[data-day-view-title]");
+    const pageEyebrow = document.querySelector("[data-day-view-eyebrow]");
+    if (pageTitle) pageTitle.textContent = selectedDate === actualToday ? "Oggi" : "Giornata";
+    if (pageEyebrow) pageEyebrow.textContent = `Versione V${document.body?.dataset.version || "6.0.1"} · ${selectedDate === actualToday ? "piano alimentare di oggi" : "consultazione giornata"}`;
     const inRange = core.diffDays(range.start, selectedDate) >= 0 && core.diffDays(selectedDate, range.end) >= 0;
     const focus = core.clampDate(selectedDate, range.start, range.end);
     setCommonStateLinks(start, focus);

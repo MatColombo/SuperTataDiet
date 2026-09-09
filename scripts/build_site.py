@@ -28,7 +28,10 @@ SOURCE_XLSX = ROOT / "source_data" / "Piano_alimentare_revisionato_6_mesi_fibra_
 SOURCE_PDF = ROOT / "source_data" / "Piano_alimentare_revisionato_6_mesi_fibra_moderata.pdf"
 DOWNLOAD_XLSX = DOCS / "downloads" / SOURCE_XLSX.name
 DOWNLOAD_PDF = DOCS / "downloads" / "Piano_alimentare_revisionato_6_mesi_fibra_moderata.pdf"
-VERSION = "6.0.0"
+BASE_INGREDIENTS_JSON = ROOT / "v5_data" / "base" / "ingredients.base.v1.json"
+BASE_RECIPES_JSON = ROOT / "v5_data" / "base" / "recipes.base.v1.json"
+BASE_PLAN_JSON = ROOT / "v5_data" / "base" / "plan-template.base.v1.json"
+VERSION = "6.0.1"
 
 MONTH_SHEETS = [
     (1, "M1 Settembre"),
@@ -406,6 +409,96 @@ def parse_plan(workbook, monthly_summary: list[dict[str, Any]]) -> tuple[list[di
     return cycles, days, recipes
 
 
+def load_v6_recipe_catalog() -> dict[str, dict[str, Any]]:
+    """Build recipe-page/search contexts from the authoritative V6 base catalog."""
+    ingredients_file = json.loads(BASE_INGREDIENTS_JSON.read_text(encoding="utf-8"))
+    recipes_file = json.loads(BASE_RECIPES_JSON.read_text(encoding="utf-8"))
+    plan_file = json.loads(BASE_PLAN_JSON.read_text(encoding="utf-8"))
+    ingredient_by_id = {row["id"]: row for row in ingredients_file.get("ingredients", [])}
+    family_by_id = {row["id"]: row for row in recipes_file.get("recipe_families", [])}
+    versions_by_recipe: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in recipes_file.get("recipe_versions", []):
+        versions_by_recipe[row["recipe_id"]].append(row)
+    occurrences_by_recipe: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for day in plan_file.get("days", []):
+        for meal in day.get("meals", []):
+            occurrences_by_recipe[meal.get("recipe_id")].append({
+                "cycle": day.get("cycle"), "month": day.get("month"), "variant": day.get("variant"),
+                "global_day": day.get("base_global_day"), "d_code": day.get("day_type"),
+                "time": meal.get("time"), "meal_type": meal.get("meal_type"), "anchor": meal.get("source_anchor") or meal.get("id"),
+            })
+
+    def nutrition(v: dict[str, Any]) -> dict[str, float]:
+        n = (v.get("nutrition") or {}).get("values_per_serving") or {}
+        return {
+            "kcal": as_float(n.get("energy_kcal")), "protein": as_float(n.get("protein_g")),
+            "carbs": as_float(n.get("carbohydrate_g")), "fat": as_float(n.get("fat_g")), "fiber": as_float(n.get("fiber_g")),
+        }
+
+    def ingredient_text(v: dict[str, Any]) -> str:
+        parts = []
+        for line in v.get("ingredient_lines", []):
+            ing = ingredient_by_id.get(line.get("ingredient_id"), {})
+            name = ing.get("name") or line.get("label") or line.get("ingredient_code") or "ingrediente"
+            qty = line.get("quantity") if line.get("quantity") is not None else line.get("base_quantity")
+            unit = line.get("unit") or line.get("base_unit") or "g"
+            prep = str(line.get("preparation_note") or "").strip()
+            text = f"{name} {format_quantity(qty)} {unit}" if qty is not None else str(name)
+            if prep:
+                text += f" ({prep})"
+            parts.append(text)
+        return "; ".join(parts) or str(v.get("source_ingredient_text") or "")
+
+    out: dict[str, dict[str, Any]] = {}
+    for family in family_by_id.values():
+        raw_versions = sorted(versions_by_recipe.get(family["id"], []), key=lambda v: (as_float(v.get("revision")), str(v.get("id"))))
+        if not raw_versions:
+            continue
+        versions = []
+        for index, raw in enumerate(raw_versions, start=1):
+            n = nutrition(raw)
+            mp = raw.get("meal_prep") or {}
+            versions.append({
+                "id": raw.get("id"), "index": index, "ingredients": ingredient_text(raw), **n,
+                "prep_minutes": as_float(raw.get("prep_minutes")),
+                "prepare_ahead": str(mp.get("prepare_ahead") or "Non specificato"),
+                "cold": str(mp.get("cold") or "Non specificato"),
+                "reheat": str(mp.get("reheat") or "Non specificato"),
+                "fridge": str(mp.get("fridge") or "Non specificato"),
+                "cuisine": str(raw.get("cuisine") or (family.get("cuisines") or ["Non specificata"])[0]),
+                "spices": str(raw.get("spices") or "Nessuna"),
+                "source_occurrence_count": int(raw.get("curated_occurrence_count") or raw.get("source_occurrence_count") or 0),
+            })
+        occurrences = occurrences_by_recipe.get(family["id"], [])
+        meal_types = list(family.get("meal_types") or [])
+        cuisines = list(family.get("cuisines") or sorted({v["cuisine"] for v in versions}))
+        if not cuisines:
+            cuisines = ["Non specificata"]
+        sample = versions[0]["ingredients"] or "Pasto flessibile"
+        ahead = any(positive_option(v["prepare_ahead"]) for v in versions)
+        cold_ok = any(positive_option(v["cold"]) for v in versions)
+        reheat_ok = any(positive_option(v["reheat"]) for v in versions)
+        fridge_days = max((parse_fridge_days(v["fridge"]) for v in versions), default=0)
+        all_ingredient_text = " ".join(v["ingredients"] for v in versions if v["ingredients"])
+        avg_values = {key: mean([as_float(v[key]) for v in versions]) for key in ("kcal", "protein", "carbs", "fat", "fiber", "prep_minutes")}
+        slug = family.get("slug") or str(family["id"]).replace("base:recipe:", "")
+        out[slug] = {
+            "id": family["id"], "title": family.get("title") or slug, "slug": slug,
+            "description": family.get("description") or "", "meal_types": meal_types,
+            "meal_types_lower": " ".join(x.lower() for x in meal_types), "cuisines": cuisines,
+            "cuisines_lower": " ".join(x.lower() for x in cuisines), "primary_meal": meal_types[0] if meal_types else "Pasto",
+            "primary_cuisine": cuisines[0], "occurrence_count": len(occurrences),
+            "avg_kcal": avg_values["kcal"], "avg_protein": avg_values["protein"], "avg_carbs": avg_values["carbs"],
+            "avg_fat": avg_values["fat"], "avg_fiber": avg_values["fiber"], "avg_prep": avg_values["prep_minutes"],
+            "min_prep": min((v["prep_minutes"] for v in versions), default=0), "max_prep": max((v["prep_minutes"] for v in versions), default=0),
+            "ahead": ahead, "cold_ok": cold_ok, "reheat_ok": reheat_ok, "max_fridge_days": fridge_days,
+            "sample_ingredients": sample,
+            "search_text": " ".join([family.get("title") or "", family.get("description") or "", all_ingredient_text, *meal_types, *cuisines]).lower(),
+            "versions": versions, "occurrences": occurrences,
+        }
+    return out
+
+
 def parse_shopping(workbook) -> tuple[dict[tuple[int, int], list[dict[str, Any]]], dict[int, list[dict[str, Any]]]]:
     variant_groups: dict[tuple[int, int], list[dict[str, Any]]] = defaultdict(list)
     ws = workbook["Spesa per variante"]
@@ -670,7 +763,8 @@ def main() -> None:
 
     workbook = load_workbook(SOURCE_XLSX, data_only=True, read_only=True)
     monthly_summary, overall_summary = parse_summary(workbook)
-    cycles, days, recipes = parse_plan(workbook, monthly_summary)
+    cycles, days, legacy_recipes = parse_plan(workbook, monthly_summary)
+    recipes = load_v6_recipe_catalog()
     shopping_variants, shopping_cycles = parse_shopping(workbook)
     ingredient_days, ingredient_catalog = parse_ingredient_details(workbook)
     rounding_rules = infer_rounding_rules(shopping_variants, shopping_cycles, ingredient_catalog)
@@ -909,7 +1003,7 @@ def main() -> None:
         "Resolver unico del piano effettivo V5 per Home, Oggi, preparazioni, spesa, ricerca ed export ICS",
         "Release 5.1.0: nuova nomenclatura e colori dei turni, Mattino/Pomeriggio, Gestisci giornata e preferenze alimentari locali",
         "Release 5.2.1: correzione recupero calendario personale e vista Oggi più compatta",
-        "Release 6.0.0: baseline alimentare curato V6, planner a vincoli, convertitore ingredienti, ricerca avanzata e Diario locale",
+        "Release 6.0.1: fix Diario, catalogo ricette V6 completo, consultazione future read-only e restyling pastello",
     ]
     todo = [
         "Smoke visuale/interattivo post-deploy su desktop e mobile (convertitore, picker, Diario)",

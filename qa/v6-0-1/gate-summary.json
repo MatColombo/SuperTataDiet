@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "release": "6.0.1",
+  "regressions": [
+    "C2",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "fixes": {
+    "baseline_c2_byte_identity": true,
+    "diary_dependency_order": true,
+    "converter_version_refresh_contract": true,
+    "converter_density_display": true,
+    "future_day_read_navigation": true,
+    "catalog_sync_for_existing_indexeddb": true,
+    "recipe_references_resolve": true,
+    "recipe_static_pages": 556,
+    "curated_meals_checked": 864,
+    "pastel_supercharged_branding": true
+  },
+  "stress": {
+    "operations": 96,
+    "elapsedMs": 2846.7,
+    "fullUndo": true,
+    "fullRedo": true
+  },
+  "staticValidation": {
+    "htmlFiles": 843,
+    "linksChecked": 72395,
+    "errors": 0,
+    "warnings": 0
+  },
+  "browserE2E": "not-run-local-policy-blocks-browser-navigation"
+}

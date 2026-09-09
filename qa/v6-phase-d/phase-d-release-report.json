@@ -11,7 +11,7 @@
     "service_worker_assets": true
   },
   "core_performance": {
-    "rank_2000_calls_ms": 798,
-    "average_call_ms": 0.399
+    "rank_2000_calls_ms": 759.7,
+    "average_call_ms": 0.3798
   }
 }

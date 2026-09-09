@@ -1,6 +1,20 @@
-# TataDiet 6.0.0
+# TataDiet 6.0.1
 
-TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.0** introduce il baseline alimentare curato sui 180 giorni, planner a vincoli con porzioni fisse, convertitore ingredienti a parità di kcal, ricerca pasti per ingrediente, navigazione rapida alle date future e Diario locale.
+TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.1** è una release correttiva della V6: ripristina il Diario, completa la risoluzione delle ricette V6, corregge il convertitore versioni, rende le date future consultabili in sola lettura e introduce il refresh grafico pastello “Supercharged”.
+
+## V6.0.1
+
+Correzioni principali:
+
+- Diario: ordine dipendenze corretto, niente più blocco su “Caricamento diario…”;
+- catalogo locale: sincronizzazione automatica dei record base V6 già installati, senza cancellare dati personali;
+- pagine ricetta: build dal catalogo V6 completo, **556 famiglie / 797 versioni**;
+- convertitore: selezione versione affidabile tramite recipe ID esatto, refresh visibile e alternative mostrate come grammi equivalenti + densità kcal/100 g;
+- date future: calendario e scorciatoie aprono la vista di lettura della giornata; la modifica resta un'azione esplicita;
+- grafica: palette pastello più ricca e nuovo logo TataDiet Supercharged;
+- baseline alimentare C.2 invariato byte-per-byte.
+
+Per il dettaglio vedere `V6_0_1_RELEASE_NOTES.md`.
 
 ## V6.0.0
 
