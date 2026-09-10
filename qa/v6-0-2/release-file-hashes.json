@@ -1,0 +1,15 @@
+{
+  "static/assets/js/v6-planner-store.js": "4c84d8cf3920b77d9e0bd15fd032e92c57e2e4b53eeb1eb4e81d7d398f9eace8",
+  "static/assets/js/v5-day-manager.js": "9295c885ccb0b1d0a575e66794f61e168717fe2f720bdce59b5fc28570aa1b54",
+  "static/assets/js/v5-composer.js": "86fb0fe9eae2dccea7c219a6e722ef4332c5b268fc9e402efde1017b9dd3b2bb",
+  "static/assets/js/v5-balance.js": "0973191e95f8f9443c5afd341d49000fd52af07e1edae25557b6c6c5c11d1c32",
+  "static/assets/js/v5-recipe-scheduler.js": "7e4fc1f6c71a5dd4a9cd96e935a4939307b942ee1f2172a4bfca38a8fffae01b",
+  "static/assets/css/styles.css": "f3391720853c80b5a572b5a1bf127a7a6d6e5a90954a8d455a893a05729031b1",
+  "templates/day_manager.html": "a78ab45e78a3c95c94ab4784e49f9ac58ae4ee43162ea474cf44a3fe9439a651",
+  "templates/day_composer.html": "a0e515e45804947d03d2ea7ed47633bf3cbe50cb529e2350c7196dbdf34a722f",
+  "scripts/test_v6_0_2.py": "b309fa89aa12dad3275d52ea09ca08d43512bd2069464ae1a5a6627bc02d6f08",
+  "scripts/test_v6_0_2.js": "f76f6d8b3907f5842313b03cabaec8a8b59909f3eb1d92004784a7ed8d978709",
+  "v5_data/base/ingredients.base.v1.json": "1765f980c824b1d11b44155ac813a5b285ce57e527c0a9ace088468f24e84a1b",
+  "v5_data/base/recipes.base.v1.json": "535376cdea1d2508aa53a64c4bdf99a59cadbfd5644a5a3becd9f4fef87aa237",
+  "v5_data/base/plan-template.base.v1.json": "9a155f1bf900f55e83ad5c569d3529eba96c021fa503f14fa9a0becf9210428d"
+}

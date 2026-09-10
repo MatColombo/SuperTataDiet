@@ -7,8 +7,8 @@
     "converter_on_all_recipe_pages": true,
     "read_only_converter": true,
     "ingredient_and_alias_search": true,
-    "rolling_energy_picker_guard": true,
-    "full_plan_commit_guard": true,
+    "rolling_energy_picker_warning": true,
+    "manual_commit_warning_only": true,
     "fixed_manual_serving": true,
     "future_shortcuts": true,
     "service_worker_assets": true

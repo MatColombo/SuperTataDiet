@@ -1893,3 +1893,16 @@ body {
 .converter-version-row p { margin:0; color:var(--brand-strong); font-size:.78rem; font-weight:800; }
 
 .page-header h1::after { content:""; display:inline-block; width:.42em; height:.42em; margin-left:.25em; border-radius:50%; background:linear-gradient(135deg,var(--accent),#f2cf72); vertical-align:.12em; box-shadow:.46em -.16em 0 -.11em #76b8aa,.18em -.48em 0 -.15em #8e79c6; opacity:.88; }
+
+
+/* V6.0.2 · manual edits are warning-only + Oggi clipping fix */
+.recipe-pick-card.is-v6-warning{background:linear-gradient(135deg,#fff,#fff7e7);border-color:#e9cca2;cursor:pointer;opacity:1}
+.recipe-pick-card.is-v6-warning:hover{border-color:#d8a35d;background:#fffaf0}
+.manual-warning-box{margin-top:.8rem;padding:.8rem .9rem;border:1px solid #e8c98e;border-radius:14px;background:linear-gradient(135deg,#fff9ea,#fff);color:#6f542c}
+.manual-warning-box strong,.manual-warning-box span{display:block}.manual-warning-box ul{margin:.45rem 0 0;padding-left:1.15rem}.manual-warning-box li{margin:.18rem 0}.manual-warning-box small{display:block;margin-top:.4rem;color:var(--muted)}
+.manual-warning-box.is-clear{border-color:#b9ddcf;background:linear-gradient(135deg,#eefaf6,#fff);color:#3f6f60}
+.today-shift-hero{display:grid;grid-template-columns:max-content minmax(0,1fr) max-content;align-items:center;column-gap:.85rem;overflow:visible}
+.today-shift-hero .shift-code.large{width:auto;min-width:54px;max-width:none;overflow:visible;white-space:nowrap;justify-self:start}
+.today-shift-copy{min-width:0;overflow:visible;padding-right:.2rem}.today-shift-copy h2,.today-shift-date,.today-shift-hours{max-width:100%;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere}
+.today-shift-actions{grid-column:3;margin-left:0;justify-self:end}
+@media(max-width:760px){.today-shift-hero{grid-template-columns:max-content minmax(0,1fr);align-items:start}.today-shift-actions{grid-column:2;justify-self:start}.today-shift-copy{padding-right:0}}

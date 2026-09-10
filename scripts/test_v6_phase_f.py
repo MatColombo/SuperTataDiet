@@ -44,12 +44,13 @@ def main():
     assert 'data-today-plan-date' in today and 'data-today-plan-go' in today
     assert 'data-add-portion value="1" readonly' in composer_html
     assert 'data-meal-portion' in composer and 'Porzione fissa' in composer
-    assert 'is-v6-blocked' in manager and 'is-v6-blocked' in composer
+    assert 'is-v6-warning' in manager and 'is-v6-warning' in composer
+    assert 'aria-disabled="true"' not in manager and 'aria-disabled="true"' not in composer
     offline=load('docs/data/offline-assets.json')
     assert 'data/v6/phase-f-policy.json' in offline['assets'] and 'assets/js/v6-recipe-converter.js' in offline['assets']
     report={'status':'ok','phase':'V6-F','policy_version':policy['policy_version'],'checks':{
       'base_c2_byte_identity':True,'converter_on_all_recipe_pages':True,'read_only_converter':True,'ingredient_and_alias_search':True,
-      'rolling_energy_picker_guard':True,'full_plan_commit_guard':True,'fixed_manual_serving':True,'future_shortcuts':True,'service_worker_assets':True}}
+      'rolling_energy_picker_warning':True,'manual_commit_warning_only':True,'fixed_manual_serving':True,'future_shortcuts':True,'service_worker_assets':True}}
     out=ROOT/'qa/v6-phase-f/phase-f-release-report.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "release": "6.0.2",
+  "checks": {
+    "baseline_c2_byte_identity": true,
+    "day_manager_manual_save_warning_only": true,
+    "meal_replacement_warning_only": true,
+    "batch_manual_tools_warning_only": true,
+    "automatic_planner_still_strict": true,
+    "warning_reasons_human_readable": true,
+    "today_shift_card_no_clipping_contract": true
+  }
+}

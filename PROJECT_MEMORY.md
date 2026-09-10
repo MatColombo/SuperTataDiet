@@ -2,7 +2,7 @@
 
 ## Stato corrente
 
-- Versione stabile: **6.0.1**
+- Versione stabile: **6.0.2**
 - Data release: **9 settembre 2026**
 - Distribuzione: sito statico/PWA da `docs/`, compatibile con GitHub Pages project site
 - Persistenza: IndexedDB `tatadiet-v5`
@@ -448,3 +448,8 @@ V6.0.1 mantiene byte-identico il baseline alimentare C.2 e corregge cinque probl
 La build delle pagine ricetta usa ora `v5_data/base/recipes.base.v1.json` e genera tutte le 556 famiglie V6; tutti gli 864 pasti del piano risolvono sia `recipe_id` sia `recipe_version_id`. Il convertitore usa `data-recipe-id` come identificatore primario, aggiorna esplicitamente versione/ingredienti/alternative al cambio versione e mostra nelle card la densità energetica invece delle kcal totali, che a parità energetica sono intenzionalmente uguali.
 
 Calendario e scorciatoie future aprono `/oggi/?date=...` come vista read-only; `Gestisci`/`Modifica i pasti` restano azioni esplicite. Refresh visuale V6.0.1: palette pastello più ricca, card cromatiche e nuovo marchio `TataDiet Supercharged` con cuore/fulmine; favicon e icone PWA rigenerate.
+
+
+### Patch V6.0.2 — libertà delle modifiche manuali (9 settembre 2026)
+
+Le azioni manuali dell'utente non sono più bloccate dai constraint V6. Gestisci giornata, sostituzione/aggiunta pasto, riequilibrio selezionato e pianificazione manuale di ricette salvano sempre se lo stato dati è strutturalmente valido; l'evaluator V6 viene usato solo per warning motivati. Le proposte automatiche del planner continuano invece a richiedere piena conformità V6 e porzioni fisse. La card Oggi usa una griglia esplicita badge/copia/azioni per evitare clipping del testo del tipo giornata.

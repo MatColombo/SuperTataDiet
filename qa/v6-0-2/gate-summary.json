@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "release": "6.0.2",
+  "counts": {
+    "cycles": 6,
+    "variants": 36,
+    "days": 180,
+    "meals": 864,
+    "recipes": 556
+  },
+  "manual_edit_policy": "warning-only",
+  "automatic_planner_policy": "constraint-enforced",
+  "site_validation": {
+    "html_files": 593,
+    "links_checked": 51895,
+    "errors": 0,
+    "warnings": 0
+  },
+  "stress": {
+    "operations": 96,
+    "full_undo": true,
+    "full_redo": true
+  },
+  "baseline_c2_byte_identity": true
+}

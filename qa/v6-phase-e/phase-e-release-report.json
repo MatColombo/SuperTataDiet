@@ -14,9 +14,9 @@
     "service_worker_assets": true
   },
   "performance": {
-    "indexMs": 12.32,
-    "matrixMedianMs": 301,
-    "matrixP95Ms": 450,
-    "matrixMaxMs": 450
+    "indexMs": 10.61,
+    "matrixMedianMs": 255,
+    "matrixP95Ms": 483,
+    "matrixMaxMs": 483
   }
 }

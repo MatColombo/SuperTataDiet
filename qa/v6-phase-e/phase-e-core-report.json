@@ -21,10 +21,10 @@
     "no_silent_constraint_override": true
   },
   "performance": {
-    "indexMs": 10.42,
-    "matrixMedianMs": 288,
-    "matrixP95Ms": 473,
-    "matrixMaxMs": 473
+    "indexMs": 10.61,
+    "matrixMedianMs": 255,
+    "matrixP95Ms": 483,
+    "matrixMaxMs": 483
   },
   "infeasibleExample": {
     "dayIndex": 1,

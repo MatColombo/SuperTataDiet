@@ -8,7 +8,7 @@
   const DB_NAME = "tatadiet-v5";
   const DB_VERSION = 2;
   const SCHEMA_VERSION = 2;
-  const APP_VERSION = "6.0.1";
+  const APP_VERSION = "6.0.2";
   const STABLE_MIGRATION_VERSION = 5;
   const CONTENT_MIGRATION_VERSION = 3;
   const RECIPE_CONTENT_MIGRATION_VERSION = 5;

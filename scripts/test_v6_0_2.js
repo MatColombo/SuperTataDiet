@@ -1,0 +1,13 @@
+'use strict';
+const assert=require('node:assert/strict');
+const store=require('../static/assets/js/v6-planner-store.js');
+assert.match(store.describeIssue({kind:'egg_equivalent',observed:7.2,limit:6}),/Uova\/albume/);
+assert.match(store.describeIssue({kind:'counted_dairy_min',observed:2,limit:3}),/latticini/i);
+const before={rolling:{hard:[],soft:[]},global:{violations:[]},reuse:[]};
+const after={rolling:{hard:[{kind:'avocado_min',scope:'window',startIndex:1,endIndex:7}],soft:[{kind:'seasonality',scope:'meal',dayIndex:3,mealIndex:1,ingredientCode:'zucchina'}]},global:{violations:[]},reuse:[]};
+const warnings=store.manualWarnings(after,before,{energyOk:false,energyKcal:1800,target:1600});
+assert.equal(warnings.length,3);
+assert.ok(warnings.some(x=>/avocado/i.test(x)));
+assert.ok(warnings.some(x=>/fuori dalla stagionalità/i.test(x)));
+assert.ok(warnings.some(x=>/Energia giornaliera/i.test(x)));
+console.log(JSON.stringify({status:'ok',checks:{warning_formatter:true,energy_warning:true}},null,2));

@@ -31,7 +31,7 @@ DOWNLOAD_PDF = DOCS / "downloads" / "Piano_alimentare_revisionato_6_mesi_fibra_m
 BASE_INGREDIENTS_JSON = ROOT / "v5_data" / "base" / "ingredients.base.v1.json"
 BASE_RECIPES_JSON = ROOT / "v5_data" / "base" / "recipes.base.v1.json"
 BASE_PLAN_JSON = ROOT / "v5_data" / "base" / "plan-template.base.v1.json"
-VERSION = "6.0.1"
+VERSION = "6.0.2"
 
 MONTH_SHEETS = [
     (1, "M1 Settembre"),
@@ -1003,7 +1003,7 @@ def main() -> None:
         "Resolver unico del piano effettivo V5 per Home, Oggi, preparazioni, spesa, ricerca ed export ICS",
         "Release 5.1.0: nuova nomenclatura e colori dei turni, Mattino/Pomeriggio, Gestisci giornata e preferenze alimentari locali",
         "Release 5.2.1: correzione recupero calendario personale e vista Oggi più compatta",
-        "Release 6.0.1: fix Diario, catalogo ricette V6 completo, consultazione future read-only e restyling pastello",
+        "Release 6.0.2: modifiche manuali sempre libere con warning motivati e fix layout Oggi",
     ]
     todo = [
         "Smoke visuale/interattivo post-deploy su desktop e mobile (convertitore, picker, Diario)",

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <header class="page-header manager-hero">
-  <div><p class="eyebrow">V6.0.1 · gestione rapida</p><h1>Gestisci giornata</h1><p>Seleziona una data, cambia il tipo di giornata e decidi nello stesso posto cosa fare con il menu. Le modifiche restano in bozza fino alla conferma finale.</p></div>
+  <div><p class="eyebrow">V6.0.2 · gestione rapida</p><h1>Gestisci giornata</h1><p>Seleziona una data, cambia il tipo di giornata e decidi nello stesso posto cosa fare con il menu. Le modifiche restano in bozza fino alla conferma finale.</p></div>
   <a class="button ghost compact" href="../modifica/index.html" data-manager-advanced-link>Gestione avanzata</a>
 </header>
 <div class="dynamic-loading" data-manager-loading>Caricamento del piano personale…</div>
@@ -68,7 +68,7 @@
 </section>
 
 <dialog class="recipe-picker-dialog" data-manager-picker>
-  <div class="recipe-picker-shell"><header><div><p class="eyebrow">Sostituisci piatto</p><h2 data-manager-picker-title>Scegli una ricetta</h2></div><button class="icon-button" type="button" data-manager-picker-close aria-label="Chiudi">×</button></header><div class="picker-filters"><label>Cerca<input type="search" data-manager-picker-search placeholder="Nome ricetta o ingrediente…"></label></div><div class="picker-constraint-note">I risultati includono gli ingredienti. Le ricette che rompono i vincoli V6 della finestra corrente sono bloccate.</div><div class="recipe-picker-results" data-manager-picker-results></div></div>
+  <div class="recipe-picker-shell"><header><div><p class="eyebrow">Sostituisci piatto</p><h2 data-manager-picker-title>Scegli una ricetta</h2></div><button class="icon-button" type="button" data-manager-picker-close aria-label="Chiudi">×</button></header><div class="picker-filters"><label>Cerca<input type="search" data-manager-picker-search placeholder="Nome ricetta o ingrediente…"></label></div><div class="picker-constraint-note">I risultati includono gli ingredienti. I controlli V6 sono informativi: puoi scegliere qualsiasi ricetta; eventuali scostamenti vengono spiegati come avvisi.</div><div class="recipe-picker-results" data-manager-picker-results></div></div>
 </dialog>
 <dialog class="plan-impact-dialog" data-manager-final-dialog>
   <div class="impact-dialog-card"><p class="eyebrow">Conferma finale</p><h2>Applica le modifiche?</h2><div data-manager-final-copy></div><div class="dialog-actions"><button class="button ghost" type="button" data-manager-final-cancel>Annulla</button><button class="button primary" type="button" data-manager-final-apply>Applica al piano</button></div></div>

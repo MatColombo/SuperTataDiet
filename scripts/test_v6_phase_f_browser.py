@@ -77,7 +77,7 @@ with sync_playwright() as p:
     ok('ingredient search returns recipes', cards.count()>=1, f'count={cards.count()}')
     picker_text=page.locator('[data-picker-results]').inner_text()
     ok('picker exposes ingredients', 'Contiene:' in picker_text, picker_text[:500])
-    ok('picker exposes V6 window status', ('7gg OK' in picker_text) or ('Vincolo hard' in picker_text) or ('Warning V6' in picker_text) or ('Fuori kcal' in picker_text))
+    ok('picker exposes V6 advisory status', ('Nessun nuovo avviso' in picker_text) or ('avviso' in picker_text.lower()) or ('Scelta manuale libera' in picker_text))
     page.screenshot(path=str(QA/'composer-picker-desktop.png'), full_page=True)
     page.locator('[data-picker-close]').click()
 
