@@ -453,9 +453,17 @@ Calendario e scorciatoie future aprono `/oggi/?date=...` come vista read-only; `
 ### Patch V6.0.2 — libertà delle modifiche manuali (9 settembre 2026)
 
 Le azioni manuali dell'utente non sono più bloccate dai constraint V6. Gestisci giornata, sostituzione/aggiunta pasto, riequilibrio selezionato e pianificazione manuale di ricette salvano sempre se lo stato dati è strutturalmente valido; l'evaluator V6 viene usato solo per warning motivati. Le proposte automatiche del planner continuano invece a richiedere piena conformità V6 e porzioni fisse. La card Oggi usa una griglia esplicita badge/copia/azioni per evitare clipping del testo del tipo giornata.
-## V6.0.3 corrective release
 
-- Night-shift meal tails are owned by the D2 source day and are now normalized in `v5-plan-core.js`: inserting/entering D2 materializes missing `dayOffset=1` meals; leaving/removing D2 removes them; structural shifts move source and tail together.
-- Backup UX is full-backup-only: legacy V4 preference JSON UI removed; merge/partial import modes are no longer exposed. Restore replaces personal plan/calendar/diary/personal recipes+ingredients/settings/shopping checks while preserving base V6 catalog and creating a rollback checkpoint.
-- Release version: 6.0.3. Baseline C.2 files remain byte-identical.
+## V6.0.3 corrective release (23 settembre 2026)
 
+- Coda dei turni notte normalizzata nel core: gli slot `dayOffset=1` vengono creati/rimossi con il giorno D2 sorgente.
+- Backup UI semplificata a un solo flusso full restore con rollback; rimosso il legacy V4 dalla UI.
+- Baseline C.2 invariato.
+
+## V6.0.4 — savestate restore (23 settembre 2026)
+
+Il restore dei backup full è stato reso realmente portabile su dispositivi vergini. Root cause del bug reale: `planStartDate` e `activePlanInstanceId` erano correttamente nel backup/IndexedDB, ma le pagine calendario risolvevano ancora la data iniziale da `localStorage` (`diet-plan:start-date:v2`). Dopo import su browser pulito il piano esisteva ma la UI appariva non configurata.
+
+Correzioni: il restore sincronizza il bridge browser; `db.initialize()` lo autoripara; i nuovi backup schema 2 includono `savestate.activePlanInstanceId`, `savestate.planStartDate` e le chiavi browser `diet-plan*`; vecchi backup 6.0.2/6.0.3 restano compatibili. L'import normalizza gli stati `active` duplicati e valida i riferimenti piano↔giornate. `activeBundle()` riconcilia eventuali duplicati residui; `ensureActive()` preferisce il piano più recente per la stessa start date.
+
+Il backup reale `tatadiet-backup-full-2026-09-22.json` è stato testato come fixture esterna: 180 giorni del piano effettivo, 11 giornate personalizzate, un solo piano attivo dopo restore, bridge `2026-09-14` ripristinato e modifica post-import persistente. Il file personale non viene incluso nella release.

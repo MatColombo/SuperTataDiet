@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "release": "6.0.4",
+  "checks": {
+    "version_coherent": true,
+    "savestate_metadata": true,
+    "client_bridge": true,
+    "single_active_plan_reconciliation": true,
+    "referential_preview_validation": true,
+    "browser_state_capture": true,
+    "baseline_c2_byte_identity": true
+  }
+}

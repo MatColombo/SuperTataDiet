@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const VERSION = document.body?.dataset.version || "6.0.3";
+  const VERSION = document.body?.dataset.version || "6.0.4";
   const root = document.body?.dataset.root || "";
   const rootUrl = new URL(root || "./", window.location.href);
   const supportsSW = "serviceWorker" in navigator;

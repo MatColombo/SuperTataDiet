@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "release": "6.0.4",
+  "checks": {
+    "old_backup_compatible": true,
+    "localstorage_bridge": true,
+    "single_active_plan": true,
+    "active_bundle_populated": true,
+    "post_restore_edit_persists": true,
+    "browser_savestate_roundtrip": true,
+    "uploaded_fixture": true
+  },
+  "reports": [
+    {
+      "label": "synthetic-6.0.2",
+      "days": 1,
+      "activePlans": 1,
+      "customizedDays": null,
+      "shoppingStateRestored": null,
+      "clientState": {
+        "synced": true,
+        "planStartDate": "2026-09-14",
+        "keys": 1
+      }
+    },
+    {
+      "label": "synthetic-6.0.4-client-state",
+      "days": 1,
+      "activePlans": null,
+      "customizedDays": null,
+      "shoppingStateRestored": true,
+      "clientState": null
+    },
+    {
+      "label": "uploaded-user-backup",
+      "days": 180,
+      "activePlans": 1,
+      "customizedDays": 11,
+      "shoppingStateRestored": null,
+      "clientState": {
+        "synced": true,
+        "planStartDate": "2026-09-14",
+        "keys": 1
+      }
+    }
+  ]
+}

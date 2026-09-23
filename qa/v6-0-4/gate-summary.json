@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "release": "6.0.4",
+  "checks": {
+    "version_coherent": true,
+    "savestate_metadata": true,
+    "client_bridge": true,
+    "single_active_plan_reconciliation": true,
+    "referential_preview_validation": true,
+    "browser_state_capture": true,
+    "baseline_c2_byte_identity": true,
+    "uploaded_backup_real_fixture": true,
+    "uploaded_backup_days": 180,
+    "uploaded_backup_customized_days": 11,
+    "site_errors": 0,
+    "site_warnings": 0
+  },
+  "site": {
+    "html_files": 843,
+    "links_checked": 72393,
+    "errors": [],
+    "warnings": []
+  }
+}

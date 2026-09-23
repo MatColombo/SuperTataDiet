@@ -24,23 +24,23 @@ def main():
     for name,digest in expected.items():
         assert sha('v5_data/base/'+name)==digest,name
         assert sha('docs/data/v5/'+name)==digest,'published '+name
-    assert load('docs/data/build-meta.json')['version']=='6.0.3'
+    assert load('docs/data/build-meta.json')['version']=='6.0.4'
     assert sha('docs/data/v6/phase-h-policy.json')==sha('spec/v6/phase-h-policy.json')
     assert sha('docs/data/v5/base-dataset-manifest.json')==sha('v5_data/base/base-dataset-manifest.json')
     build=text('scripts/build_site.py'); validator=text('scripts/validate_site.py')
-    assert 'VERSION = "6.0.3"' in build and 'VERSION = "6.0.3"' in validator
+    assert 'VERSION = "6.0.4"' in build and 'VERSION = "6.0.4"' in validator
     db=text('static/assets/js/v5-db.js'); backup=text('static/assets/js/v5-backup.js'); pwa=text('static/assets/js/pwa.js')
-    assert 'const APP_VERSION = "6.0.3";' in db
-    assert 'const APP_VERSION = "6.0.3";' in backup
+    assert 'const APP_VERSION = "6.0.4";' in db
+    assert 'const APP_VERSION = "6.0.4";' in backup
     assert 'const DB_VERSION = 2;' in db and 'const SCHEMA_VERSION = 2;' in db
     assert 'const DB_NAME = "tatadiet-v5";' in db
     assert 'const SCHEMA_VERSION = 2;' in backup
-    assert '|| "6.0.3"' in pwa
+    assert '|| "6.0.4"' in pwa
     for rel in ['templates/base.html','templates/home.html','templates/preferences.html','templates/day_manager.html','templates/recipe_scheduler.html','templates/shopping_range.html']:
         assert 'V5.2.1' not in text(rel),rel
     home=text('docs/index.html'); today=text('docs/oggi/index.html')
-    assert 'data-version="6.0.3"' in home and 'V6.0.3' in home
-    assert 'data-version="6.0.3"' in today
+    assert 'data-version="6.0.4"' in home and 'V6.0.4' in home
+    assert 'data-version="6.0.4"' in today
     webmanifest=load('docs/manifest.webmanifest')
     assert any(x.get('url')=='diario/index.html' for x in webmanifest.get('shortcuts',[]))
     sw=text('docs/service-worker.js')
@@ -56,7 +56,7 @@ def main():
     ]
     for rel in prior:
         assert load(rel).get('status')=='ok',rel
-    report={'status':'ok','phase':'V6-H','release':'6.0.3','checks':{
+    report={'status':'ok','phase':'V6-H','release':'6.0.4','checks':{
       'release_version_coherent':True,'baseline_c2_byte_identity':True,'manifest_h_extension':True,
       'published_h_policy':True,'indexeddb_schema_v2':True,'backup_schema_v2':True,'legacy_db_name_retained':True,
       'user_facing_branding_v6':True,'offline_core_v6_complete':True,'diary_pwa_shortcut':True,'prior_phase_reports_green':True}}

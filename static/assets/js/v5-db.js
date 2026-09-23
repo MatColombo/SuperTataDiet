@@ -8,7 +8,7 @@
   const DB_NAME = "tatadiet-v5";
   const DB_VERSION = 2;
   const SCHEMA_VERSION = 2;
-  const APP_VERSION = "6.0.3";
+  const APP_VERSION = "6.0.4";
   const STABLE_MIGRATION_VERSION = 5;
   const CONTENT_MIGRATION_VERSION = 3;
   const RECIPE_CONTENT_MIGRATION_VERSION = 5;
@@ -482,6 +482,20 @@
     return { migrated: true, version: STABLE_MIGRATION_VERSION, appVersion: APP_VERSION };
   }
 
+
+  async function syncPlanStartBridge(storage) {
+    const startDate = await getSetting("planStartDate");
+    const source = storage || globalThis.localStorage;
+    try {
+      if (!source) return { synced: false, planStartDate: startDate || null };
+      if (/^\d{4}-\d{2}-\d{2}$/.test(startDate || "")) source.setItem("diet-plan:start-date:v2", startDate);
+      else source.removeItem("diet-plan:start-date:v2");
+      return { synced: true, planStartDate: startDate || null };
+    } catch (error) {
+      return { synced: false, planStartDate: startDate || null, reason: error?.message || "storage-error" };
+    }
+  }
+
   async function initialize(options = {}) {
     await openDatabase().then((db) => db.close());
     const seed = await seedBaseDataset(options.fetchJson);
@@ -490,9 +504,10 @@
     const phase3Shape = await ensurePhase3IngredientShape();
     const phase4Shape = await ensurePhase4RecipeShape(options.fetchJson);
     const stableRelease = await ensureStableRelease();
+    const clientBridge = await syncPlanStartBridge(options.storage);
     await put("meta", { key: "lastInitializedAt", value: new Date().toISOString() });
-    return { seed, baseCatalogSync, migration, phase3Shape, phase4Shape, stableRelease, counts: await counts() };
+    return { seed, baseCatalogSync, migration, phase3Shape, phase4Shape, stableRelease, clientBridge, counts: await counts() };
   }
 
-  return { DB_NAME, DB_VERSION, SCHEMA_VERSION, APP_VERSION, STABLE_MIGRATION_VERSION, CONTENT_MIGRATION_VERSION, RECIPE_CONTENT_MIGRATION_VERSION, BASE_CATALOG_SYNC_VERSION, STORE_SPECS, personalStores, backupStores, openDatabase, get, getAll, put, bulkPut, clearStores, counts, setSetting, getSetting, allSettingsObject, seedBaseDataset, ensureBaseCatalogCurrent, migrateV4, ensurePhase3IngredientShape, ensurePhase4RecipeShape, ensureStableRelease, initialize, normalize };
+  return { DB_NAME, DB_VERSION, SCHEMA_VERSION, APP_VERSION, STABLE_MIGRATION_VERSION, CONTENT_MIGRATION_VERSION, RECIPE_CONTENT_MIGRATION_VERSION, BASE_CATALOG_SYNC_VERSION, STORE_SPECS, personalStores, backupStores, openDatabase, get, getAll, put, bulkPut, clearStores, counts, setSetting, getSetting, allSettingsObject, seedBaseDataset, ensureBaseCatalogCurrent, migrateV4, ensurePhase3IngredientShape, ensurePhase4RecipeShape, ensureStableRelease, syncPlanStartBridge, initialize, normalize };
 });

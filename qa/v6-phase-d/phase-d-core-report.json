@@ -20,8 +20,8 @@
     "avocado_guard": true
   },
   "performance": {
-    "rank_2000_calls_ms": 635.2,
-    "average_call_ms": 0.3176
+    "rank_2000_calls_ms": 744.9,
+    "average_call_ms": 0.3724
   },
   "baseline": {
     "days": 180,

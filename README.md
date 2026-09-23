@@ -1,20 +1,21 @@
-# TataDiet 6.0.3
+# TataDiet 6.0.4
 
-TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.3** corregge la coerenza dei pasti che proseguono oltre mezzanotte nei turni notte e semplifica il backup/ripristino: un solo formato completo, nessuna sezione legacy, ripristino esplicito e annullabile.
+TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.4** corregge il ripristino dei backup completi su browser o dispositivi vergini: il backup torna a comportarsi come un vero savestate.
 
-## V6.0.3
+## V6.0.4
 
 Correzioni principali:
 
-- Diario: ordine dipendenze corretto, niente più blocco su “Caricamento diario…”;
-- catalogo locale: sincronizzazione automatica dei record base V6 già installati, senza cancellare dati personali;
-- pagine ricetta: build dal catalogo V6 completo, **556 famiglie / 797 versioni**;
-- convertitore: selezione versione affidabile tramite recipe ID esatto, refresh visibile e alternative mostrate come grammi equivalenti + densità kcal/100 g;
-- date future: calendario e scorciatoie aprono la vista di lettura della giornata; la modifica resta un'azione esplicita;
-- grafica: palette pastello più ricca e nuovo logo TataDiet Supercharged;
-- baseline alimentare C.2 invariato byte-per-byte.
+- il restore ripristina immediatamente anche il bridge browser della data iniziale (`diet-plan:start-date:v2`), non soltanto IndexedDB;
+- i nuovi backup dichiarano esplicitamente `activePlanInstanceId` e `planStartDate` nella sezione `savestate`;
+- le chiavi browser TataDiet (`diet-plan*`), incluse le spunte della spesa locali, entrano nei nuovi savestate;
+- i backup full 6.0.2/6.0.3 restano importabili senza conversione manuale;
+- se un vecchio backup contiene più piani marcati `active`, viene mantenuto attivo quello indicato nelle impostazioni e gli altri vengono archiviati;
+- il preview valida i riferimenti tra piani e giornate prima di importare;
+- `db.initialize()` autoripara il bridge browser usando le impostazioni IndexedDB;
+- regressione eseguita direttamente sul backup del 22 settembre: 180 giorni ripristinati, 11 giornate personalizzate mantenute e modifica post-import persistente.
 
-Per il dettaglio vedere `V6_0_1_RELEASE_NOTES.md`.
+Per il dettaglio vedere `V6_0_4_RELEASE_NOTES.md`.
 
 ## V6.0.0
 

@@ -460,7 +460,7 @@
     const pageTitle = document.querySelector("[data-day-view-title]");
     const pageEyebrow = document.querySelector("[data-day-view-eyebrow]");
     if (pageTitle) pageTitle.textContent = selectedDate === actualToday ? "Oggi" : "Giornata";
-    if (pageEyebrow) pageEyebrow.textContent = `Versione V${document.body?.dataset.version || "6.0.3"} · ${selectedDate === actualToday ? "piano alimentare di oggi" : "consultazione giornata"}`;
+    if (pageEyebrow) pageEyebrow.textContent = `Versione V${document.body?.dataset.version || "6.0.4"} · ${selectedDate === actualToday ? "piano alimentare di oggi" : "consultazione giornata"}`;
     const inRange = core.diffDays(range.start, selectedDate) >= 0 && core.diffDays(selectedDate, range.end) >= 0;
     const focus = core.clampDate(selectedDate, range.start, range.end);
     setCommonStateLinks(start, focus);

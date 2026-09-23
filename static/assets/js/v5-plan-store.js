@@ -7,10 +7,14 @@
   function deps(){if(!dbApi||!core) throw new Error("Moduli piano V5 non inizializzati");}
   function txDone(tx){return new Promise((resolve,reject)=>{tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error||new Error("Transazione non riuscita"));tx.onabort=()=>reject(tx.error||new Error("Transazione annullata"));});}
   async function bundle(planId){deps();const plan=await dbApi.get("planInstances",planId);if(!plan)return null;const days=(await dbApi.getAll("calendarDays")).filter(d=>d.planInstanceId===planId);return {plan,days:core.sortDays(days)};}
+  async function reconcileActivePlan(plans, activeId){
+    if(!activeId)return; const changes=(plans||[]).filter(p=>(p.id===activeId&&p.status!=="active")||(p.id!==activeId&&p.status==="active"));
+    for(const plan of changes){plan.status=plan.id===activeId?"active":"archived";plan.updatedAt=plan.updatedAt||new Date().toISOString();await dbApi.put("planInstances",plan);}
+  }
   async function activeBundle(){
     deps();
     const id=await dbApi.getSetting("activePlanInstanceId");
-    if(id){const current=await bundle(id);if(current)return current;}
+    if(id){const current=await bundle(id);if(current){const plans=await dbApi.getAll("planInstances");await reconcileActivePlan(plans,id);return bundle(id);}}
     const plans=await dbApi.getAll("planInstances");
     if(!plans.length)return null;
     const configuredStart=await dbApi.getSetting("planStartDate");
@@ -24,7 +28,7 @@
   async function writeNew(plan,days){const db=await dbApi.openDatabase();try{const tx=db.transaction(["planInstances","calendarDays","settings"],"readwrite");tx.objectStore("planInstances").put(plan);days.forEach(d=>tx.objectStore("calendarDays").put(d));tx.objectStore("settings").put({key:"activePlanInstanceId",value:plan.id,source:"phase5",updatedAt:new Date().toISOString()});await txDone(tx);}finally{db.close();}}
   async function ensureActive(startDate,template,datasetId="tatadiet-base-v2"){
     deps();let current=await activeBundle();if(current?.plan?.startDate===startDate)return {...current,created:false};
-    const all=await dbApi.getAll("planInstances");const same=all.find(p=>p.startDate===startDate);if(same){const now=new Date().toISOString();if(current?.plan&&current.plan.id!==same.id){current.plan.status="archived";current.plan.updatedAt=now;await dbApi.put("planInstances",current.plan);}same.status="active";same.updatedAt=now;await dbApi.put("planInstances",same);await dbApi.setSetting("activePlanInstanceId",same.id,"phase5");return {...await bundle(same.id),created:false,reactivated:true};}
+    const all=await dbApi.getAll("planInstances");const same=[...all].filter(p=>p.startDate===startDate).sort((a,b)=>String(b.updatedAt||b.createdAt||"").localeCompare(String(a.updatedAt||a.createdAt||"")))[0];if(same){const now=new Date().toISOString();if(current?.plan&&current.plan.id!==same.id){current.plan.status="archived";current.plan.updatedAt=now;await dbApi.put("planInstances",current.plan);}same.status="active";same.updatedAt=now;await dbApi.put("planInstances",same);await dbApi.setSetting("activePlanInstanceId",same.id,"phase5");return {...await bundle(same.id),created:false,reactivated:true};}
     const made=core.buildPlan(template,startDate,datasetId);if(current?.plan){current.plan.status="archived";current.plan.updatedAt=new Date().toISOString();await dbApi.put("planInstances",current.plan);}await writeNew(made.plan,made.days);return {...made,created:true};
   }
   async function preview(action,params,template){const current=await activeBundle();if(!current)throw new Error("Nessun piano personale attivo");return core.applyAction(current.plan,current.days,action,params,template);}

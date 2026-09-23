@@ -6,8 +6,9 @@
   "use strict";
   const FORMAT = "tatadiet-backup";
   const SCHEMA_VERSION = 2;
-  const APP_VERSION = "6.0.3";
+  const APP_VERSION = "6.0.4";
   const dataKeys = ["ingredients", "ingredientRevisions", "recipes", "recipeVersions", "planInstances", "calendarDays", "operations", "shoppingChecklists", "diaryDays", "settings"];
+  const START_STORAGE_KEY = "diet-plan:start-date:v2";
 
   function canonical(value) {
     if (Array.isArray(value)) return `[${value.map(canonical).join(",")}]`;
@@ -51,11 +52,86 @@
     return data;
   }
 
+  function newestPlan(plans) {
+    return [...(plans || [])].sort((a, b) => String(b.updatedAt || b.createdAt || "").localeCompare(String(a.updatedAt || a.createdAt || "")))[0] || null;
+  }
+
+  function resolveSavestate(backup) {
+    const plans = backup?.data?.planInstances || [];
+    const settings = backup?.data?.settings || {};
+    const requestedId = backup?.savestate?.activePlanInstanceId || settings.activePlanInstanceId || null;
+    const requested = requestedId ? plans.find((plan) => plan.id === requestedId) : null;
+    const activeCandidates = plans.filter((plan) => plan.status === "active");
+    const selected = requested || newestPlan(activeCandidates) || newestPlan(plans);
+    return {
+      activePlanInstanceId: selected?.id || null,
+      planStartDate: backup?.savestate?.planStartDate || settings.planStartDate || selected?.startDate || null,
+      selectedPlan: selected || null,
+      requestedId,
+      activeCandidates,
+    };
+  }
+
+  function normalizedPlanRecords(records, activePlanInstanceId) {
+    return (records || []).map((row) => {
+      const copy = structuredClone(row);
+      if (!activePlanInstanceId) return copy;
+      if (copy.id === activePlanInstanceId) copy.status = "active";
+      else if (copy.status === "active") copy.status = "archived";
+      return copy;
+    });
+  }
+
+  function restoredSettings(backup, savestate) {
+    const settings = { ...(backup?.data?.settings || {}) };
+    if (savestate.activePlanInstanceId) settings.activePlanInstanceId = savestate.activePlanInstanceId;
+    if (savestate.planStartDate) settings.planStartDate = savestate.planStartDate;
+    return settings;
+  }
+
+  function collectClientState(storage = globalThis.localStorage) {
+    const local = {};
+    try {
+      if (!storage) return { localStorage: local };
+      for (let index = 0; index < storage.length; index += 1) {
+        const key = storage.key(index);
+        if (key && key.startsWith("diet-plan")) local[key] = storage.getItem(key);
+      }
+    } catch { /* storage may be unavailable */ }
+    return { localStorage: local };
+  }
+
+  function syncClientState(settings, savestate = {}, storage = globalThis.localStorage) {
+    const start = settings?.planStartDate;
+    try {
+      if (!storage) return { synced: false, reason: "storage-unavailable", planStartDate: start || null, keys: 0 };
+      const savedLocal = savestate?.localStorage;
+      if (savedLocal && typeof savedLocal === "object") {
+        const toRemove = [];
+        for (let index = 0; index < storage.length; index += 1) { const key = storage.key(index); if (key && key.startsWith("diet-plan")) toRemove.push(key); }
+        toRemove.forEach((key) => storage.removeItem(key));
+        Object.entries(savedLocal).forEach(([key, value]) => { if (key.startsWith("diet-plan") && value !== null && value !== undefined) storage.setItem(key, String(value)); });
+      }
+      if (/^\d{4}-\d{2}-\d{2}$/.test(start || "")) storage.setItem(START_STORAGE_KEY, start);
+      else storage.removeItem(START_STORAGE_KEY);
+      return { synced: true, planStartDate: start || null, keys: savedLocal && typeof savedLocal === "object" ? Object.keys(savedLocal).length : 1 };
+    } catch (error) {
+      return { synced: false, reason: error?.message || "storage-error", planStartDate: start || null, keys: 0 };
+    }
+  }
+
   async function createBackup(mode = "full") {
     if (!["full", "recipes", "calendar", "settings"].includes(mode)) throw new Error("Modalità backup non valida");
+    const data = await collect(mode);
+    const temporary = { data };
+    const state = resolveSavestate(temporary);
+    if (data.planInstances?.length && state.activePlanInstanceId) data.planInstances = normalizedPlanRecords(data.planInstances, state.activePlanInstanceId);
+    if (state.activePlanInstanceId) data.settings.activePlanInstanceId = state.activePlanInstanceId;
+    if (state.planStartDate) data.settings.planStartDate = state.planStartDate;
     const envelope = {
       recordType: "backup", format: FORMAT, schemaVersion: SCHEMA_VERSION, appVersion: APP_VERSION,
-      exportedAt: new Date().toISOString(), baseDataset: await baseInfo(), mode, data: await collect(mode),
+      exportedAt: new Date().toISOString(), baseDataset: await baseInfo(), mode, data,
+      savestate: { activePlanInstanceId: state.activePlanInstanceId, planStartDate: state.planStartDate, ...collectClientState() },
       integrity: { algorithm: "sha256", digest: "" },
     };
     envelope.integrity.digest = await sha256(canonical({ ...envelope, integrity: { algorithm: "sha256", digest: "" } }));
@@ -92,6 +168,17 @@
     if (backup.baseDataset.id !== currentBase.id || backup.baseDataset.sourceSha256 !== currentBase.sourceSha256) errors.push("Il backup usa un dataset base incompatibile con questa installazione.");
     const warnings = [];
     if (backup.appVersion && backup.appVersion !== APP_VERSION) warnings.push(`Backup creato con TataDiet ${backup.appVersion}; lo schema ${SCHEMA_VERSION} è compatibile con TataDiet ${APP_VERSION}.`);
+    const savestate = resolveSavestate(backup);
+    const planIds = new Set((backup.data.planInstances || []).map((plan) => plan.id));
+    const dayIds = new Map((backup.data.calendarDays || []).map((day) => [day.id, day]));
+    if (savestate.requestedId && !planIds.has(savestate.requestedId)) errors.push("Il piano attivo indicato dal backup non è presente nei dati del calendario.");
+    for (const day of backup.data.calendarDays || []) if (!planIds.has(day.planInstanceId)) errors.push(`Giornata ${day.id} collegata a un piano inesistente.`);
+    for (const plan of backup.data.planInstances || []) {
+      const missing = (plan.dayIds || []).filter((id) => !dayIds.has(id) || dayIds.get(id)?.planInstanceId !== plan.id);
+      if (missing.length) errors.push(`Piano ${plan.id}: ${missing.length} giornate referenziate mancanti o incoerenti.`);
+    }
+    if (savestate.activeCandidates.length > 1) warnings.push(`Il backup contiene ${savestate.activeCandidates.length} piani marcati attivi. Verrà ripristinato come unico piano attivo ${savestate.activePlanInstanceId || "quello più recente"}.`);
+    if (backup.data.planInstances?.length && !savestate.activePlanInstanceId) errors.push("Impossibile determinare il piano attivo del savestate.");
     const conflicts = [];
     for (const store of ["ingredients", "ingredientRevisions", "recipes", "recipeVersions", "planInstances", "calendarDays", "operations", "diaryDays"]) {
       for (const row of backup.data[store] || []) {
@@ -101,7 +188,7 @@
     }
     const counts = Object.fromEntries(dataKeys.map((key) => [key, key === "settings" ? Object.keys(backup.data.settings || {}).length : (backup.data[key] || []).length]));
     if (conflicts.length) warnings.push("Sono presenti record con lo stesso ID ma contenuto diverso.");
-    return { valid: !errors.length, errors, warnings, conflicts, counts, integrity, mode: backup.mode, exportedAt: backup.exportedAt };
+    return { valid: !errors.length, errors, warnings, conflicts, counts, integrity, mode: backup.mode, exportedAt: backup.exportedAt, savestate: { activePlanInstanceId: savestate.activePlanInstanceId, planStartDate: savestate.planStartDate } };
   }
 
   async function snapshotCurrent() {
@@ -153,6 +240,9 @@
     if (!["replace", "merge", "recipes", "calendar", "settings"].includes(mode)) throw new Error("Modalità di import non valida");
     const safetyBackup = await snapshotCurrent();
     const prepared = await prepareImportRecords(backup, mode);
+    const savestate = resolveSavestate(backup);
+    const settingsToRestore = restoredSettings(backup, savestate);
+    if (["replace", "calendar", "merge"].includes(mode) && prepared.records.planInstances) prepared.records.planInstances = normalizedPlanRecords(prepared.records.planInstances, savestate.activePlanInstanceId);
     const allStores = ["meta", "settings", "ingredients", "ingredientRevisions", "recipes", "recipeVersions", "planInstances", "calendarDays", "operations", "shoppingChecklists", "diaryDays"];
     const currentPersonal = {};
     for (const store of ["ingredients", "ingredientRevisions", "recipes", "recipeVersions"]) currentPersonal[store] = (await dbApi.getAll(store)).filter(isPersonal);
@@ -176,13 +266,22 @@
       for (const store of prepared.allowed) prepared.records[store].forEach((row) => tx.objectStore(store).put(row));
       if (["replace", "merge", "settings"].includes(mode)) {
         if (mode === "replace" || mode === "settings") tx.objectStore("settings").clear();
-        Object.entries(backup.data.settings || {}).forEach(([key, value]) => tx.objectStore("settings").put({ key, value, source: "import", updatedAt: now }));
+        Object.entries(settingsToRestore).forEach(([key, value]) => tx.objectStore("settings").put({ key, value, source: "import", updatedAt: now }));
       }
       tx.objectStore("meta").put({ key: "lastImportAt", value: now });
       tx.objectStore("meta").put({ key: "lastImportMode", value: mode });
       await new Promise((resolve, reject) => { tx.oncomplete = resolve; tx.onerror = () => reject(tx.error); tx.onabort = () => reject(tx.error); });
     } finally { db.close(); }
-    return { imported: Object.fromEntries(prepared.allowed.map((store) => [store, prepared.records[store].length])), remappedIds: prepared.idMap.size, safetyBackup, report };
+    const clientState = syncClientState(settingsToRestore, backup.savestate || {});
+    return {
+      imported: Object.fromEntries(prepared.allowed.map((store) => [store, prepared.records[store].length])),
+      remappedIds: prepared.idMap.size,
+      safetyBackup,
+      report,
+      activePlanInstanceId: savestate.activePlanInstanceId,
+      planStartDate: savestate.planStartDate,
+      clientState,
+    };
   }
 
   async function rollbackLastImport() {
@@ -203,5 +302,5 @@
     return `tatadiet-backup-${mode}-${new Date().toISOString().slice(0, 10)}.json`;
   }
 
-  return { FORMAT, SCHEMA_VERSION, APP_VERSION, canonical, sha256, createBackup, validateShape, verifyIntegrity, preview, importBackup, rollbackLastImport, parseFile, filename, collect, baseInfo };
+  return { FORMAT, SCHEMA_VERSION, APP_VERSION, START_STORAGE_KEY, canonical, sha256, createBackup, validateShape, verifyIntegrity, preview, importBackup, rollbackLastImport, parseFile, filename, collect, baseInfo, resolveSavestate, collectClientState, syncClientState };
 });

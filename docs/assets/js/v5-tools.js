@@ -51,6 +51,7 @@
     host.innerHTML = `
       <div class="import-preview-head"><div><p class="eyebrow">Backup selezionato</p><h3>${report.valid ? "File verificato" : "File non importabile"}</h3></div><span class="status-pill ${report.valid ? "success" : "danger"}">${report.valid ? "Integrità OK" : "Errore"}</span></div>
       <p>TataDiet ${state.escapeHtml(payload.appVersion || "?")} · esportato ${state.escapeHtml(payload.exportedAt || "data sconosciuta")}</p>
+      ${report.savestate?.planStartDate ? `<p><strong>Savestate calendario:</strong> dal ${state.escapeHtml(report.savestate.planStartDate)} · piano attivo ${state.escapeHtml(report.savestate.activePlanInstanceId || "non indicato")}</p>` : ""}
       ${counts ? `<ul class="compact-count-list">${counts}</ul>` : "<p>Il file non contiene dati personali.</p>"}
       ${warnings ? `<div class="import-warning">${warnings}</div>` : ""}
       ${errors ? `<div class="import-errors">${errors}</div>` : ""}
@@ -81,11 +82,12 @@
     if (!ok) return;
     status("Ripristino del backup in corso…", "neutral");
     const result = await backup.importBackup(pendingBackup, "replace");
+    if (result.planStartDate) state.storeStart(result.planStartDate);
     await initialize();
     $("[data-rollback-import]").hidden = false;
     $("[data-import-actions]").hidden = true;
     pendingBackup = null;
-    status(`Backup ripristinato. ${formatCounts(result.imported)}. Le altre pagine useranno subito i dati ripristinati.`);
+    status(`Savestate ripristinato. ${formatCounts(result.imported)}. Piano attivo dal ${result.planStartDate || "?"}; calendario e modifiche sono disponibili subito nelle altre pagine.`);
   }
 
   async function rollback() {
