@@ -1,8 +1,8 @@
-# TataDiet 6.0.2
+# TataDiet 6.0.3
 
-TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.2** mantiene i fix 6.0.1 e rende tutte le modifiche manuali libere: i controlli V6 diventano warning motivati, mentre i vincoli restano obbligatori soltanto per le proposte automatiche del planner. Corregge inoltre il clipping della card Oggi.
+TataDiet è una PWA statica e local-first per gestire un piano alimentare su turni. **V6.0.3** corregge la coerenza dei pasti che proseguono oltre mezzanotte nei turni notte e semplifica il backup/ripristino: un solo formato completo, nessuna sezione legacy, ripristino esplicito e annullabile.
 
-## V6.0.2
+## V6.0.3
 
 Correzioni principali:
 

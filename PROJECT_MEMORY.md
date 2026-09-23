@@ -453,3 +453,9 @@ Calendario e scorciatoie future aprono `/oggi/?date=...` come vista read-only; `
 ### Patch V6.0.2 — libertà delle modifiche manuali (9 settembre 2026)
 
 Le azioni manuali dell'utente non sono più bloccate dai constraint V6. Gestisci giornata, sostituzione/aggiunta pasto, riequilibrio selezionato e pianificazione manuale di ricette salvano sempre se lo stato dati è strutturalmente valido; l'evaluator V6 viene usato solo per warning motivati. Le proposte automatiche del planner continuano invece a richiedere piena conformità V6 e porzioni fisse. La card Oggi usa una griglia esplicita badge/copia/azioni per evitare clipping del testo del tipo giornata.
+## V6.0.3 corrective release
+
+- Night-shift meal tails are owned by the D2 source day and are now normalized in `v5-plan-core.js`: inserting/entering D2 materializes missing `dayOffset=1` meals; leaving/removing D2 removes them; structural shifts move source and tail together.
+- Backup UX is full-backup-only: legacy V4 preference JSON UI removed; merge/partial import modes are no longer exposed. Restore replaces personal plan/calendar/diary/personal recipes+ingredients/settings/shopping checks while preserving base V6 catalog and creating a rollback checkpoint.
+- Release version: 6.0.3. Baseline C.2 files remain byte-identical.
+

@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "release": "6.0.3",
+  "checks": {
+    "version_coherent": true,
+    "night_tail_core": true,
+    "single_backup_restore_ui": true,
+    "legacy_preferences_removed": true,
+    "baseline_c2_byte_identity": true
+  }
+}

@@ -62,23 +62,44 @@
     if(plan.dayIds?.length!==sorted.length) errors.push("dayIds non coerente");
     return {valid:errors.length===0,errors};
   }
-  function insertedDay(plan,date,index,type,params,now){
+  function templateDayOfType(template,type,index=0){
+    const rows=(template?.days||[]).filter(d=>d.day_type===type);
+    if(!rows.length)return null;
+    return [...rows].sort((a,b)=>Math.abs(Number(a.base_global_day||1)-1-index)-Math.abs(Number(b.base_global_day||1)-1-index))[0];
+  }
+  function templateMeals(base,dayId,{tailOnly=false}={}){
+    return (base?.meals||[]).filter(m=>!tailOnly||Number(m.day_offset||0)>0).map((m,i)=>mealOccurrence(m,dayId,i));
+  }
+  function seedNightTail(day,template,index,{fullIfEmpty=false}={}){
+    if(day?.dayType!=="D2")return day;
+    const base=templateDayOfType(template,"D2",index);
+    if(!base)return day;
+    const out=clone(day), existing=new Set((out.meals||[]).map(m=>`${Number(m.dayOffset||0)}|${m.time}|${m.mealType}`));
+    const wanted=templateMeals(base,out.id,{tailOnly:!fullIfEmpty||Boolean(out.meals?.length)});
+    wanted.forEach(m=>{const key=`${Number(m.dayOffset||0)}|${m.time}|${m.mealType}`;if(!existing.has(key)){m.id=safeId(`${out.id}:meal`);m.source="copied";out.meals.push(m);existing.add(key);}});
+    out.meals.sort((a,b)=>(Number(a.dayOffset||0)*1440+(Number(String(a.time).slice(0,2))||0)*60+(Number(String(a.time).slice(3,5))||0))-(Number(b.dayOffset||0)*1440+(Number(String(b.time).slice(0,2))||0)*60+(Number(String(b.time).slice(3,5))||0)));
+    return out;
+  }
+  function dropOvernightTail(day){const out=clone(day);out.meals=(out.meals||[]).filter(m=>Number(m.dayOffset||0)===0);return out;}
+  function insertedDay(plan,date,index,type,params,now,template=null){
     const id=safeId(`${plan.id}:inserted`); let shift;
     if(type==="CUSTOM") shift=customShift(params.customShift||{}); else shift=defaultShift(type||"FREE");
-    return {recordType:"calendarDay",id,planInstanceId:plan.id,date,sequenceIndex:index,dayType:type||"FREE",source:"inserted",adherenceStatus:(type==="FREE"||type==="OFF")?"not-applicable":"planned",baseDayRef:null,shift,meals:[],notes:params.notes||null,createdAt:now,updatedAt:now};
+    let day={recordType:"calendarDay",id,planInstanceId:plan.id,date,sequenceIndex:index,dayType:type||"FREE",source:"inserted",adherenceStatus:(type==="FREE"||type==="OFF")?"not-applicable":"planned",baseDayRef:null,shift,meals:[],notes:params.notes||null,createdAt:now,updatedAt:now};
+    if(type==="D2")day=seedNightTail(day,template,index,{fullIfEmpty:true});
+    return day;
   }
   function applyAction(planInput,daysInput,action,params={},template=null,now=new Date().toISOString()){
     const plan=clone(planInput); const originalDays=sortDays(daysInput); let days=originalDays; const targetDate=params.date; const target=targetDate?byDate(days,targetDate):null;
     const beforeStats=stats(plan,days); const kind=action;
     const requireTarget=()=>{if(!target) throw new Error("Giornata non trovata nel piano effettivo.");};
     if(action==="mark-adherence") { requireTarget(); if(!ADHERENCE.includes(params.status)) throw new Error("Stato di aderenza non valido"); target.adherenceStatus=params.status; target.updatedAt=now; }
-    else if(action==="replace-day-type") { requireTarget(); const type=params.dayType; if(!["D1","D2","D3","D4","D5","M","P","CUSTOM","OFF"].includes(type)) throw new Error("Tipo giorno non valido"); target.dayType=type; target.shift=type==="CUSTOM"?customShift(params.customShift||{}):defaultShift(type); target.source="replaced"; target.adherenceStatus="planned"; target.updatedAt=now; }
+    else if(action==="replace-day-type") { requireTarget(); const type=params.dayType; if(!["D1","D2","D3","D4","D5","M","P","CUSTOM","OFF"].includes(type)) throw new Error("Tipo giorno non valido"); const wasNight=target.dayType==="D2"; target.dayType=type; target.shift=type==="CUSTOM"?customShift(params.customShift||{}):defaultShift(type); if(wasNight&&type!=="D2"){const cleaned=dropOvernightTail(target);target.meals=cleaned.meals;} else if(!wasNight&&type==="D2"){const seeded=seedNightTail(target,template,target.sequenceIndex,{fullIfEmpty:false});target.meals=seeded.meals;} target.source="replaced"; target.adherenceStatus="planned"; target.updatedAt=now; }
     else if(action==="leave-day-free") { requireTarget(); target.dayType="FREE"; target.shift=defaultShift("FREE"); target.source="replaced"; target.adherenceStatus="not-applicable"; target.meals=[]; target.updatedAt=now; }
     else if(action==="insert-day" || action==="postpone-sequence") {
       const index=target ? target.sequenceIndex : (params.date===core.addDays(days.at(-1).date,1)?days.length:-1); if(index<0) throw new Error("Data di inserimento fuori piano");
       const type=action==="postpone-sequence"?"FREE":(params.dayType||"FREE");
       days.forEach(d=>{if(d.sequenceIndex>=index){d.sequenceIndex+=1;d.date=core.addDays(d.date,1);d.updatedAt=now;}});
-      days.push(insertedDay(plan,targetDate,index,type,params,now)); days=normalizeSequence(days);
+      days.push(insertedDay(plan,targetDate,index,type,params,now,template)); days=normalizeSequence(days);
     }
     else if(action==="remove-day") { requireTarget(); if(days.length<=1) throw new Error("Non è possibile rimuovere l'unica giornata"); const idx=target.sequenceIndex; days=days.filter(d=>d.id!==target.id); days.forEach(d=>{if(d.sequenceIndex>idx){d.sequenceIndex-=1;d.date=core.addDays(d.date,-1);d.updatedAt=now;}}); days=normalizeSequence(days); }
     else if(action==="restore-day") { requireTarget(); if(!target.baseDayRef) throw new Error("La giornata inserita non ha un'origine base da ripristinare"); if(!template) throw new Error("Template base non disponibile"); const base=(template.days||[]).find(d=>d.id===target.baseDayRef); if(!base) throw new Error("Giornata base non trovata"); const restored=dayFromTemplate(base,plan.id,target.date,target.sequenceIndex,now); restored.id=target.id; restored.createdAt=target.createdAt; const pos=days.findIndex(d=>d.id===target.id); days[pos]=restored; }
@@ -108,5 +129,5 @@
     const outPlan=clone(patch.plan||plan); const outDays=sortDays([...map.values()]); outPlan.dayIds=outDays.map(d=>d.id); return {plan:outPlan,days:outDays};
   }
   function operationRecord(planId,kind,patch,now=new Date().toISOString()){ return {recordType:"operationRecord",id:safeId("usr:operation"),planInstanceId:planId,kind,targetIds:patch.targetIds.length?patch.targetIds:[planId],before:patch.before,after:patch.after,createdAt:now,undoneAt:null}; }
-  return {DAY_TYPES,ADHERENCE,DEFAULT_SHIFTS,defaultShift,customShift,buildPlan,stats,validateState,applyAction,diffPatch,applyPatch,operationRecord,byDate,sortDays};
+  return {DAY_TYPES,ADHERENCE,DEFAULT_SHIFTS,defaultShift,customShift,templateDayOfType,seedNightTail,dropOvernightTail,buildPlan,stats,validateState,applyAction,diffPatch,applyPatch,operationRecord,byDate,sortDays};
 });
